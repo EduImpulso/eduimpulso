@@ -1,4 +1,4 @@
-## Projeto de Orientação Profissional.
+## Projeto EduImpulso
 
 Este repositório é dedicado ao **Time 4 de SP1 - Tema Educação (ODS4) - RecodePró**.
 
