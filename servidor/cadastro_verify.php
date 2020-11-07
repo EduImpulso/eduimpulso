@@ -28,7 +28,7 @@
                 $sql = "insert into usuarios (usuario, senha, email) values ('$usuario', '$senha', '$email')";
                 $result = $conn->query($sql);
                 echo"<script>alert('Dados cadastrados')</script>";
-                echo"<script>location.href = 'index.php'</script>";
+                echo"<script>location.href = '../index.php'</script>";
             } else {
                 echo"<script>alert('E-mail já cadastrado')</script>";
             }
@@ -36,4 +36,4 @@
             echo"<script>alert('Insira um e-mail válido')</script>";
         }
     }
-    echo"<script>location.href = 'cadastro.php'</script>";
+    echo"<script>location.href = '../cadastro.php'</script>";

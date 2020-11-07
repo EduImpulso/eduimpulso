@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    background-color:#8A2BE2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    
+}
+
+.logo{
+    float: left;
+    width:70%;
+    text-align: right;
+}
+    
+.conteudo{
+    float:left;
+    margin: 100px;
+    min-height: 500px;
+   
+
+}
+.justificado{
+    text-align: justify;
+    margin: 30px;
+    font-size: 14px;
+}
+.lado{
+    float: left;
+    width:40%;
+    padding: 1%;
+    color: gray;
+    font-size: 15px;
+    
+
+}
+.titulo{
+    font-size: 20px;
+   /*color:blue;*/
+    margin: 10px;
+}
+
+  
+   .rodape{
+	border-top:2px solid #000000;/*#ffd988;*/
+	float:left;
+	width:98%;
+	height:56px;
+	text-align:right;
+    padding:1%;
+}
+h1{
+    margin: 14px;
+}
+.div100{
+    float: left;
+    width: 98%;
+    padding: 3%;
+
+}
+.div50{
+    float: left;
+    width: 48%;
+    padding: 1%; 
+}
+.menucur{
+    float: left;
+    width: 100%;
+    border-top:2px solid #FFCC33;
+
+}
+.centraliza{
+	margin-left:auto;
+	margin-right:auto;
+	min-width:760px;
+	max-width:1024px;
+}
+
+.inside{
+	float:left;
+	width:100%;
+	min-height:460px;
+	background:#FFFFFF;
+    /*background-image:url(../img/bg.jpg);*/
+   margin: 70px 80px 70px 35px;
+}
+

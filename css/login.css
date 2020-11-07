@@ -6,7 +6,7 @@ main {
     align-items: center;
     width: 100vw;
     height: 74vh;
-    background-color:#5C1F98;
+    background-color:#8b1cda;
 }
 
 /* LAYOUT LOGIN/CADASTRO */
@@ -45,7 +45,7 @@ main {
     text-align: center;
     width: 38vw;
     height: 5vh;
-    background-color:#5C1F98;
+    background-color:#8b1cda;
     color: white;
     border: none;
     border-radius: 0.8vh;
@@ -68,7 +68,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5C1F98;
+    background-color::#8b1cda;
     width: 50vw;
     height: 70vh;
 }
