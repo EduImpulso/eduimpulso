@@ -16,6 +16,11 @@ Nosso projeto visa auxiliar as pessoas a tomarem as melhores decisões para sua 
 
 > Senha: Recode#Squad4
 
+#### Gmail:
+> E-mail: squad4.recodepro@gmail.com
+
+> Senha: Recode#Squad04
+
 ---
 
 ### Entregas 06|11 : 
