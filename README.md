@@ -8,6 +8,9 @@ Nosso projeto visa auxiliar as pessoas a tomarem as melhores decisões para sua 
 
 ### Links das ferramentas que estamos utilizando:
 
+### LinkTree (concentra todos as ferramentas):
+> https://linktr.ee/eduimpulso
+
 ### Github (códigos): 
 > https://github.com/Time-4-SP-Educacao/eduimpulso
 
@@ -16,7 +19,7 @@ Nosso projeto visa auxiliar as pessoas a tomarem as melhores decisões para sua 
 
 #### Trello (controle de atividades e responsáveis) - a atualizar link:
 
-> https://trello.com/b/thnV1YYQ/recodeloja-virtual
+> https://trello.com/b/GyRm5DRH/eduimpulso-planejamento-m%C3%A9todo-%C3%A1gil
 
 ### Servidor (hospedagem do site): 
 > http://eduimpulso.great-site.net/
