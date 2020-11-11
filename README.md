@@ -54,7 +54,7 @@ https://studio.youtube.com/channel/UC8w4rCQo8Qu0-EHX-xVQsDw/videos/upload?filter
 
 ---
 
-São membros desta equipe.
+### São membros desta equipe:
 
 * Flavio - *slides, pesquisas e lógica do teste de inteligêncuas*
 * Gustavo - *video e front*
@@ -65,4 +65,4 @@ São membros desta equipe.
 
 > Lembrando que todos estão livres para trabalhar em conjunto, à vontade!
 
-> Este é apenas um rabisco com as funções principais de cada membro.
+> Este é apenas um rabisco com as funções principais de cada membro. O detalhamento será concentrado no Trello!
