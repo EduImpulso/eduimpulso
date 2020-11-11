@@ -1,6 +1,6 @@
 ## Projeto EduImpulso
 
-Este repositório é dedicado ao **Time 4 de SP1 - Tema Educação (ODS4) - RecodePró**.
+Este repositório é dedicado ao **Time 4 de SP1 - Tema Educação (ODS4) - RECODEpro**.
 
 Nosso projeto visa auxiliar as pessoas a tomarem as melhores decisões para sua carreira profissional. Podendo ter mais clareza em decisões  importantes como **qual carreira seguir**.
 
