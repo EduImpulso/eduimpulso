@@ -59,7 +59,7 @@ https://studio.youtube.com/channel/UC8w4rCQo8Qu0-EHX-xVQsDw/videos/upload?filter
 
 ### São membros desta equipe:
 
-* Flavio - *slides, pesquisas e lógica do teste de inteligêncuas*
+* Flavio - *slides, pesquisas e lógica do teste de inteligências*
 * Gustavo - *video e front*
 * Luzia - *telas e front*
 * Nathalia - *front*
