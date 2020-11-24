@@ -27,7 +27,7 @@
 
 <body style="background-color:  #d7d1dbd7;">
 
-<?php require_once('./navbar\footer/menuLogado.html')?>
+<?php require_once('./nav/menu.html')?>
 
 <div class="container">
 
