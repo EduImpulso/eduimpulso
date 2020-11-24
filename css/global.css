@@ -1,6 +1,3 @@
-/*:root {
-    font-size: 62.5%;
-}*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
@@ -9,76 +6,25 @@
     box-sizing: border-box;
 }
 
+
 /* MENU BAR */
 
-nav{
-    display: flex;
-    width: 100vw;
-    height: 13vh;
+nav a{
+    /* font-weight: bold; */
+    color:white !important;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-family:'Bebas Neue', cursive;
 }
 
-/* LOGO MENU */
-.logoMenu{
-    display: flex;
+nav li{
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
-    background-color:  #8b1cda;
-    width: 25vw;
 }
-.logoMenu img{
-    padding: 0;
-    margin: 0;
-    width: 18vw;
-    height: 9vh;
-}
-/* LINKS MENU */
 
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#8b1cda;
-    width: 75vw;
-}
-.menu a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.3vh;
-    font-weight: 500px;
-    padding: 0.7vh;
-    margin: 0vw 1vw 0vw 2vw;
-    letter-spacing: 0.06vw;
-    text-decoration: none;
-    color: #ffffffe1;
-    font-family: 'Bebas Neue', cursive;
-}
-.entrarRegistrar p{ 
-    background-color: #ffffffe1 ;
-    padding: 1.2vh 2.5vw;
-    border-radius: 1vh;
-    margin-left: 15vw;
-    /* box-shadow: 0vh 0vh 2vh 0.2vh #363636; */
-    color:  #080808e1;
-    font-family: 'Bebas Neue', cursive;
-}    
-
-/* FOOTER BAR */
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100vw;
-    height: 13vh;
-    bottom: 0%;
-    color:#ffffffe1;
-    font-family: 'Bebas Neue', cursive;
-    background-color:#8b1cda;
-}
-footer P{
-    color:#ffffffe1;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2.3vh;
+.dropBar{
+    text-align: center !important;
+    background-color:#8b1cdab4 !important;
+    color: black !important;
 }
