@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <?php
-    $servername = "sql201.epizy.com";
-    $username = "epiz_27138143";
-    $password = "uLkhpaWxeBRh";
-    $database = "epiz_27138143_eduimpulso";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "recode_eduimpulso_teste";
 
     $conn = mysqli_connect($servername, $username, $password, $database);
     if (!$conn) {
