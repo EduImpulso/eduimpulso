@@ -1,40 +1,13 @@
+<?php require_once('./servidor/conection.php') ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
-    <link rel="shortcut icon" href="./imgs/fav.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>Blog - EduImpulso</title>
+    <?php require_once('./nav/head.html') ?>
 </head>
-<style>
-    /* MENU DESKTOP */
-    @media(max-width: 1000px) {
-        .desktop {
-            display: none !important;
-        }
-    }
-
-    /* MENU DEVICE */
-    @media(min-width: 1000px) {
-        .phone {
-            display: none !important;
-        }
-    }
-
-    body {
-        font-family: 'Ubuntu', sans-serif;
-    }
-</style>
 
 <body style="background-color: #e9e7e7">
-
-
-    <?php require_once('./servidor/conection.php') ?>
 
     <?php require_once('./nav/menu.html') ?>
 
@@ -79,11 +52,11 @@
                 <div class="col-12 col-sm-12 col-lg-3 my-5 mx-4 p-0" style="background-color:#ffffff; box-shadow: 4px 4px 2px black;">
                     <div>
                         <h3 class="text-center m-2" style="color: #8B1CDA;">Algum dia volto a escola?</h3>
-                        <p class="text-center m-1" style="color: #252525">Alunos do Ensino Médio<br/>contam do temor por 2021.</p>
+                        <p class="text-center m-1" style="color: #252525">Alunos do Ensino Médio<br />contam do temor por 2021.</p>
                     </div>
                     <div>
-                    <a href="https://educacao.uol.com.br/noticias/2020/12/09/algum-dia-volto-a-escola-alunos-do-ensino-medio-falam-de-temor-por-2021.htm" target="_blank"><img class="img-fluid" src="./imgs/Blog - Enem Digital.jpg" alt="" style="height: 450px;"></a>
-                    
+                        <a href="https://educacao.uol.com.br/noticias/2020/12/09/algum-dia-volto-a-escola-alunos-do-ensino-medio-falam-de-temor-por-2021.htm" target="_blank"><img class="img-fluid" src="./imgs/Blog - Enem Digital.jpg" alt="" style="height: 450px;"></a>
+
                     </div>
                 </div>
 

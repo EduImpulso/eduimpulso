@@ -1,62 +1,51 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>Menu</title>
+<body>
 
     <style>
+        /* Responsividade */
         /* MENU DESKTOP */
         @media(max-width: 1000px) {
-            .desktop {
+            #desktop {
                 display: none !important;
             }
         }
 
         /* MENU DEVICE */
         @media(min-width: 1000px) {
-            .phone {
+            #phone {
                 display: none !important;
             }
         }
-    </style>
-</head>
 
-<body>
+    </style>
 
     <!-- MENU DESKTOP -->
-    <nav class="desktop nav d-flex align-items-center bg-dark" style="height: 15vh; box-shadow: 2px 2px 10px black; border: #a25fd1;">
+    <nav class="nav d-flex align-items-center bg-dark" id="desktop"
+        style="height: 10vh; box-shadow: 2px 2px 10px black; border: #a25fd1; position: relative;">
         <!-- Logo do site -->
         <a class="col-md-3 col-lg-3 d-flex align-items-center justify-content-left" href="../eduimpulso/index.php"
             style="height: 100% !important;">
-            <img class="ml-4" src="./imgs/EduImpumso.png" width="250vw"
-                alt="logo EduImpulso">
+            <img class="ml-4" src="./imgs/EduImpumso.png" width="150vw" alt="logo EduImpulso">
         </a>
         <div class="row col-md-9 col-lg-9 align-items-center justify-content-end" id="conteudoNavbarSuportado">
             <a class=" text-white text-center col-lg-2 d-flex align-items-center justify-content-center"
-                style="font-size: 20px; font-family: 'Ubuntu', sans-serif;" href="../eduimpulso/quem_somos.php?">QUEM SOMOS?</a>
+                style="font-size: 10px;" href="../eduimpulso/quem_somos.php?">QUEM SOMOS?</a>
 
             <a class=" text-white text-center col-lg-2 d-flex align-items-center justify-content-center"
-                style="font-size: 20px; font-family: 'Ubuntu', sans-serif;" href="../eduimpulso/blog.php">BLOG</a>
+                style="font-size: 10px;" href="../eduimpulso/blog.php">BLOG</a>
 
             <a class=" text-white text-center col-lg-2 d-flex align-items-center justify-content-center"
-                style="font-size: 20px; font-family: 'Ubuntu', sans-serif;" href="../eduimpulso/fale_conosco.php">CONTATO</a>
-            <button class="btn btn-light" style="height: 5vh; border-radius: 100px; font-family: 'Ubuntu', sans-serif;" type="submit">ENTRAR/REGISTRAR</button>
+                style="font-size: 10px;" href="../eduimpulso/fale_conosco.php">CONTATO</a>
+            <button class="btn btn-light" style="height: 5vh; font-size: 10px; border-radius: 100px;"
+                type="submit">ENTRAR/REGISTRAR</button>
         </div>
     </nav>
     <!-- /MENU DESKTOP -->
 
     <!-- MENU DEVICE -->
-    <nav class="phone row navbar navbar-light bg-dark p-4" style="vertical-align: center; justify-content: center; ">
+    <nav class="row navbar navbar-light bg-dark p-4" id="phone" style="vertical-align: center; justify-content: center; ">
         <!-- Logo do site -->
         <a class="col-6 col-sm-6 col-md-6 col-lg-6 d-flex align-items-center justify-content-left" href="#">
-            <img class="img-fluid" src="./imgs/EduImpumso.png"
-                width="250vw" alt="logo EduImpulso">
+            <img class="img-fluid" src="./imgs/EduImpumso.png" width="250vw" alt="logo EduImpulso">
         </a>
 
         <!-- Botão DropDown logado - responsividade -->
@@ -90,4 +79,5 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,35 +1,13 @@
+<?php require_once('./servidor/conection.php') ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
-    <link rel="shortcut icon" href="./imgs/fav.ico" type="image/x-icon">
-    <title>Cadastre-se - EdulImpulso</title>
+    <?php require_once('./nav/head.html') ?>
 </head>
-<style>
-    /* MENU DESKTOP */
-    @media(max-width: 1000px) {
-        .desktop {
-            display: none !important;
-        }
-    }
-
-    /* MENU DEVICE */
-    @media(min-width: 1000px) {
-        .phone {
-            display: none !important;
-        }
-    }
-</style>
 
 <body style="background-color: #e9e7e7">
-
-
-    <?php require_once('./servidor/conection.php') ?>
 
     <?php require_once('./nav/menu.html') ?>
 
@@ -42,7 +20,7 @@
     </div>
     <div class="container-fluid d-flex justify-content-center align-items-center">
 
-    
+
         <div class="container-fluid row mb-5">
 
 
@@ -57,6 +35,10 @@
                     <div class="form-group">
                         <label for="nome" style="color: white;" style="font-family: 'Rubik', sans-serif;">Nome Completo</label>
                         <input type="email" name="nome" class="form-control" style="background-color: rgb(223, 223, 223);" placeholder="digite aqui">
+                    </div>
+                    <div class="form-group">
+                        <label for="apelido" style="color: white;" style="font-family: 'Rubik', sans-serif;">Apelido</label>
+                        <input type="text" name="apelido" class="form-control" style="background-color: rgb(223, 223, 223);" placeholder="digite aqui">
                     </div>
                     <div class="form-group">
                         <label for="email" style="color: white;" style="font-family: 'Rubik', sans-serif;">Endereço de email</label>
@@ -82,7 +64,7 @@
                         <label for="instituição_ensino" style="color: white;" style="font-family: 'Rubik', sans-serif;">Instituição de Ensino</label>
                         <input type="text" name="instituição_ensino" class="form-control" style="background-color: rgb(223, 223, 223);" placeholder="digite aqui">
                         <div class="mt-1 p-2 d-flex justify-content-around">
-                            <div class="mx-3"> 
+                            <div class="mx-3">
                                 <label for="data_inicio_curso" style="color: white;" style="font-family: 'Rubik', sans-serif;">Inicio do curso</label>
                                 <input type="date" name="data_inicio_curso" class="form-control" style="background-color: rgb(223, 223, 223);" placeholder="digite aqui">
                             </div>

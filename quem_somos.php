@@ -2,38 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" href=".\css\bootstrap-css/bootstrap.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/login.css"> -->
-    <link rel="shortcut icon" href="./imgs/fav.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>Quem somos</title>
-
-    <style>
-        /* MENU DESKTOP */
-        @media(max-width: 1000px) {
-            .desktop {
-                display: none !important;
-            }
-        }
-
-        /* MENU DEVICE */
-        @media(min-width: 1000px) {
-            .phone {
-                display: none !important;
-            }
-
-            .phone {
-                display: none !important;
-            }
-
-        }
-
-        @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-    </style>
+    <?php require_once('./nav/head.html') ?>
 </head>
 
 <body style="background-color: #a25fd1;">
@@ -70,9 +39,9 @@
             </div>
 
 
-            <div class="col-lg-12 col-xl-12" style="background-color: #e4e4e4; height:100vh; border: 3px solid black;">
+            <div class="col-lg-12 col-xl-12" style="background-color: #e4e4e4; height:100vh;">
 
-                <div class="embed-responsive embed-responsive-16by9 my-4 mx-auto shadow d-flex justify-content-center align-content-center" style="width: 70%; border: 3px solid black;">
+                <div class="embed-responsive embed-responsive-16by9 my-4 mx-auto shadow d-flex justify-content-center align-content-center" style="width: 80%;">
                     <iframe width="1280" height="720" src="https://www.youtube.com/embed/UvKwbgv-kmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>

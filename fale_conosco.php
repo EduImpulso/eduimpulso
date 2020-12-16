@@ -2,27 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <title>Fale conosco - EdulImpulso</title>
-
-    <style>
-        @media(max-width:993px) {
-            .desktop {
-                display: none !important;
-
-            }
-        }
-
-        @media(min-width:993px) {
-            .phone {
-                display: none !important;
-            }
-        }
-    </style>
-
+    <?php require_once('./nav/head.html') ?>    
 </head>
 
 <body style="background-color: #d7d1dbd7;">
@@ -86,11 +66,7 @@
 
 <!-- FOOTER -->
 
-<footer class="container-fluid bg-dark font-weight-bold" style="height: 10.4vh; font-size: 110%;">
-    <div class="container text-center d-flex align-items-center justify-content-center" style="height: 100%; font-family: 'Rubik', sans-serif;">
-        ©2020 - Recode Pró - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
+<?php require_once('./nav/footer.html')?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
