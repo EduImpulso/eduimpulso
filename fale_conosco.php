@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <title>Fale conosco</title>
+    <title>Fale conosco - EdulImpulso</title>
 
     <style>
         @media(max-width:993px) {
@@ -25,7 +25,7 @@
 
 </head>
 
-<body style="background-color:  #d7d1dbd7;">
+<body style="background-color: #d7d1dbd7;">
 
 <?php require_once('./nav/menu.html')?>
 
@@ -45,7 +45,7 @@
 
             <div class="col-sm-12 col-md-10 col-lg-8">
 
-                <p class="lead"> Envia-nos uma mensagem teremos o maior prazer em atendê-lo!</p>
+                <p class="lead"> Envie sua mensagem teremos o maior prazer em atendê-lo!</p>
 
 
                 <form>
