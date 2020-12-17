@@ -24,8 +24,8 @@ require_once('./servidor/conection.php')
         </div>
 
     </div>
-    <div class="row d-flex justify-content-center align-items-center my-5" style="">
-        <div class="m-auto p-3 col-12 col-md-12 col-lg-12 col-xl-4" style="border-radius: 5px; background-color: #983ADB; ">
+    <div class="d-flex justify-content-center align-items-center my-5" style="">
+        <div class="m-auto p-3   col-12 col-md-12 col-lg-12 col-xl-4" style="border-radius: 5px; background-color: #983ADB; ">
             <h1 class="text-center pb-4" style="color: white;">LOGIN</h1>
             <form>
                 <div class="form-group">

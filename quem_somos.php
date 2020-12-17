@@ -12,8 +12,8 @@
     <main class="container-fluid" style="background-color: #a25fd1;">
 
         <div class=" d-flex align-items-center justify-content-center pt-5">
-            <div class="text-center" style="">
-                <h1 class="text-light" style="font-weight: 400; text-shadow: 2px 2px 2px black; font-size: 3.5vw;font-family: 'Ubuntu', sans-serif;">Quem somos</h1>
+            <div class="col-12 text-center">
+                <h1 class="display-4"><img class="mx-3" src="./imgs/quem_somos.png" width="100" class="img-fluid">QUEM SOMOS</h1>
             </div>
         </div>
         <div class="row">
