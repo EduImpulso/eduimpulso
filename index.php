@@ -19,8 +19,12 @@ require_once('./servidor/conection.php')
 
         <div class="container d-flex align-items-center p-5" style="height:100%;">
 
-            <h1 class="p-4" style="font-weight: bold;text-shadow: 2px 2px 15px black; border-radius:10px; background-color:rgba(255, 255, 255, 0.4);">MIRE O OLHAR NO<br /> SEU FUTURO!</h1>
-
+            <h1 class="p-4" style="font-weight: bold;text-shadow: 2px 2px 15px black; border-radius:10px; background-color:rgba(255, 255, 255, 0.4);">
+            MIRE O OLHAR NO<br />
+            SEU FUTURO!<br />
+            <a class="form-text " href="./quem_somos.php" style="font-size: 12px; color: #212529;">Nos conheça melhor <img width="12" src="./imgs/index/seta-direita.svg"/></a>
+            </h1>
+            
         </div>
 
     </div>
