@@ -2,8 +2,9 @@
 <html lang="pt-br">
 
 <head>
+<?php require_once('./nav/head.html') ?>
     <span id='topo'></span>
-    <?php require_once('./nav/head.html') ?>
+
 </head>
 
 <body style="background-color: #a25fd1;">

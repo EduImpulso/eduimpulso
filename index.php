@@ -15,7 +15,7 @@ require_once('./servidor/conection.php')
 
     <!-- BODY  border: 2px solid black; -->
 
-    <div class="container-fluid" width="100%" id="desktop" style="background-image: url(./imgs/capa-home.jpg); width:100%; height: 100%; background-size: cover;">
+    <div class="container-fluid" width="100%" id="desktop" style="background-image: url(./imgs/index/capa-home.jpg); width:100%; height: 100%; background-size: cover;">
 
         <div class="container d-flex align-items-center p-5" style="height:100%;">
 
@@ -48,7 +48,7 @@ require_once('./servidor/conection.php')
             </form>
         </div>
         <div class="col-12 col-md-12 col-lg-12 col-xl-6  d-flex justify-content-center" >
-            <img src="./imgs/capa-home-login.jpg" width="80%"  alt="">
+            <img src="./imgs/index/capa-home-login.jpg" width="80%"  alt="">
         </div>
     </div>
 
