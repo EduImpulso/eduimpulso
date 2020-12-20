@@ -1,5 +1,5 @@
 <?php
-    require_once('./servidor/conection.php')
+    require_once('./backend/conection.php')
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,14 +16,14 @@
     <main>
 
         <div class="cadastroCard">
-            <form method="POST" action="./servidor/cadastro_verify.php" onsubmit="validate(event)">
+            <form method="POST" action="./backend/cadastro_verify.php" onsubmit="validate(event)">
                 <h1>Cadastre-se</h1>
                 <input type="text" id="name" name="nome" placeholder="Digite seu nome" required>
                 <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                 <input type="password" id="password" name="password1" placeholder="Digite uma senha" required>
                 <input type="password" id="password" name="password2" placeholder="Confrime sua senha" required>
                 <button id="submit" type="submit">Cadastre-se</button>
-                <a href="login.php">Já possui o cadastro? Realize o login</a>
+                <a href="index.php">Já possui o cadastro? Realize o login</a>
             </form>
         </div>
 
