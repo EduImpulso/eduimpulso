@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Importação de CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
-    <link rel="stylesheet" type="text/css" href="./css/cursos.css">
-    <link rel="stylesheet" type="text/css" href="./css/listas_curso.css">
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
-    <link rel="stylesheet" type="text/css" href="./css/teste_carreiras.css">
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+
 
     <!-- Importação de BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/global.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./imgs/Icones/FAVICON_PNG.png" type="image/x-icon">
@@ -23,38 +18,55 @@
     <!-- Titulo da pagina -->
     <title>EduImpulso - Orientação profissional</title>
 </head>
+<!-- style: border 3px solid; -->
 
 <body>
     <header>
         <nav class="menuBar navbar navbar-expand-lg bg-purple p-3">
+
             <a class="navbar-brand" href="/">
-                <img
-                    src={logo}
-                    height="40"
-                    class="d-inline-block align-top"
-                    alt="EduImpulso"
-                    loading="lazy"
-                />
+                <img src="../imgs/Icones/logo_eduimpulso.svg" height="40" alt="EduImpulso" loading="lazy" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class=" nav-item mx-3">
-                        <a class="nav-link text-white" href="/sobre">Quem Somos?</a>
+
+            <div class="btn-group" id="phone">
+                <button type="button" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent; border: none; width: 50px;">
+                  <img class="img-fluid" src="../imgs/Icones/btn-menu.svg " alt=" ">
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button">Tipos de Inteligências</button>
+                    <button class="dropdown-item" type="button">Carreiras</button>
+                    <button class="dropdown-item" type="button">Cursinhos Preparatórios</button>
+                    <button class="dropdown-item" type="button">Grana Curta</button>
+                    <button class="dropdown-item" type="button">Fale Conosco</button>
+                    <button class="dropdown-item" type="button">Acessar</button>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="divItensMenu d-flex justify-content-around navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="tamanhoFonteMenu nav-link text-white" href="/blog ">Tipos de Inteligências</a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="/blog">Blog</a>
+                    <li class="nav-item ">
+                        <a class="tamanhoFonteMenu nav-link text-white" href="/blog ">Carreiras</a>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="/contato">Contato</a>
+                    <li class="nav-item ">
+                        <a class="tamanhoFonteMenu nav-link text-white" href="/blog ">Cursinhos Preparatórios</a>
                     </li>
-                    <li class="nav-item mx-3 d-flex align-items-center ">
-                        <button class="btn btn-light menuButton" type="submit">ENTRAR/REGISTRAR</button>
+                    <li class="nav-item ">
+                        <a class="tamanhoFonteMenu nav-link text-white" href="/contato ">Grana Curta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="tamanhoFonteMenu nav-link text-white" href="/contato ">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item mx-1 d-flex align-items-center ">
+                        <button class="tamanhoFonteMenu menuButton btn btn-light d-flex align-items-center" type="submit ">Acessar</button>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="whiteBar"></div>
+        <div class="whiteBar "></div>
     </header>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>

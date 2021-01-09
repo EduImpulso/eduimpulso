@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 74vh;
-    background-color:#8b1cda;
+    background-color: #8b1cda;
 }
 
+
 /* LAYOUT LOGIN/CADASTRO */
+
 .loginCard {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50vw;
     height: 60vh;
-    background-color:#ffffffe1;
+    background-color: #ffffffe1;
     border-radius: 5vh 0vh 0vh 5vh;
 }
 
@@ -29,7 +30,7 @@ main {
     color: #252525;
 }
 
-.loginCard input{
+.loginCard input {
     text-align: center;
     font-size: 1.6vh;
     display: block;
@@ -39,13 +40,14 @@ main {
     border-radius: 0.8vh;
     border: none;
 }
-.loginCard button{
+
+.loginCard button {
     display: block;
     font-size: 2.5vh;
     text-align: center;
     width: 38vw;
     height: 5vh;
-    background-color:#8b1cda;
+    background-color: #8b1cda;
     color: white;
     border: none;
     border-radius: 0.8vh;
@@ -60,18 +62,20 @@ main {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0.5vh auto 0vh;
-} 
+}
+
 
 /* BANNER LOGIN */
 
-.bannerCard{
+.bannerCard {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color::#8b1cda;
+    background-color: #8b1cda;
     width: 50vw;
     height: 70vh;
 }
-.bannerCard img{
+
+.bannerCard img {
     height: 70vh;
 }
