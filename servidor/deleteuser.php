@@ -12,4 +12,6 @@
     if ($data){
         session_destroy();
         echo "<script>alert('Conta deletada'); location.href = '../index.php'</script>";
+    } else {
+        echo "<script>alert('Erro ao deletar a conta. Contate o suporte'); location.href = '../index.php'</script>";
     }

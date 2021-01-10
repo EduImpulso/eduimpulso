@@ -110,15 +110,15 @@
             }
         }
 
-        public static function editUser($id, $name, $username, $scholling, $gender, $email, $password)
+        public static function editUser($id, $name, $username, $scholling, $gender, $email)
         {
             $conn = Connection::getDb();
-            $stmt = $conn->prepare("UPDATE usuarios SET name='$name', username='$username', scholling='$scholling', gender='$gender', email='$email', password='$password' WHERE id_user=$id");
+            $stmt = $conn->prepare("UPDATE usuarios SET name='$name', username='$username', scholling='$scholling', gender='$gender', email='$email' WHERE id_user=$id");
             $stmt-> execute();
             if ($stmt->rowCount() > 0) {
-                echo "<script>alert('Dados alterados'); location.href = '../index.html'</script>";
+                return true;
             } else {
-                echo"<script>alert('Erro ao editar informações'); location.href = '../index.html'</script>";
+                return false;
             }
 
         }
