@@ -40,7 +40,7 @@
                             $email = $dados[3];
                             $scholling = $dados[4];
                             $gender = $dados[5];
-                            $password = $dados[6];
+                            $password = md5($dados[6]);
                             $user = new User($name, $username, $born, $scholling, $gender, $email, $password);
                             if ($user) {
                                 echo"<script>alert('Cadastro concluído'); location.href = '../index.html'</script>";

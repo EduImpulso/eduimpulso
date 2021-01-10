@@ -136,6 +136,19 @@
             
         }
 
+        public static function login($email, $password)
+        {
+            $conn = Connection::getDb();
+            $stmt = $conn->prepare("SELECT * FROM usuarios where email='$email' and password='$password'");
+            $stmt-> execute();
+            if ($stmt->rowCount() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+            
+        }
+
         public static function deleteUser($username)
         {
             $conn = Connection::getDb();
