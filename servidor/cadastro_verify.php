@@ -33,7 +33,6 @@
                         if ($user){
                             echo"<script>alert('Username já cadastrado'); location.href = '../cadastro.php'</script>";
                         } else {
-                            echo "cheguei aqui";
                             $name = $dados[0];
                             $username = $dados[1];
                             $born= $dados[2];

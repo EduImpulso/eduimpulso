@@ -136,6 +136,15 @@
             
         }
 
+        public static function getInfo($email)
+        {
+            $conn = Connection::getDb();
+            $stmt = $conn->prepare("SELECT * FROM usuarios where email='$email'");
+            $stmt-> execute();
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+            
+        }
+
         public static function login($email, $password)
         {
             $conn = Connection::getDb();

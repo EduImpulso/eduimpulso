@@ -1,8 +1,7 @@
 <?php
-
     require_once('./Models/User.php');
 
-    session_start();
+    
     if (isset($_POST['email']) && isset($_POST['password'])) {
         $email = $_POST['email'];
         $password = md5($_POST['password']);
@@ -11,9 +10,12 @@
             echo "<script>alert('Senha e/ou e-mail inválido')
                     location.href='index.php'</script>";
         } else {
-            $_SESSION['nome'] = $user[0][1];
-            $_SESSION['senha'] = $user[0][2];
-            $_SESSION['email'] = $user[0][3];       
+            session_start();
+            $user = User::getInfo($email);
+            $_SESSION['id_user'] = $user['id_user'];
+            $_SESSION['username'] = $user['username'];
+            $_SESSION['name'] = $user['name'];       
+            print_r($user);
             print_r($_SESSION);
         }
     } else {
