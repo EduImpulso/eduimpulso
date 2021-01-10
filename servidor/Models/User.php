@@ -158,17 +158,17 @@
             
         }
 
-        public static function deleteUser($username)
+        public static function deleteUser($id)
         {
             $conn = Connection::getDb();
-            $stmt = $conn->prepare("DELETE FROM usuarios where username='$username'");
+            $stmt = $conn->prepare("DELETE FROM usuarios where id_user='$id'");
             $stmt-> execute();
-            $stmt = $conn->prepare("SELECT * FROM usuarios where username='$username'");
+            $stmt = $conn->prepare("SELECT * FROM usuarios where id_user='$id'");
             $stmt-> execute();
             if ($stmt->rowCount() > 0) {
-                echo "<script>alert('Erro ao deletar dados'); location.href = '../index.html'</script>";
+                return false;
             } else {
-                echo "<script>alert('Dados excluídos'); location.href = '../index.html'</script>";
+                return true;
             }
             
         }
