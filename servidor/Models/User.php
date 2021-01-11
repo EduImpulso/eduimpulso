@@ -122,6 +122,19 @@
             }
 
         }
+
+        public static function editPass($id, $password)
+        {
+            $conn = Connection::getDb();
+            $stmt = $conn->prepare("UPDATE usuarios SET password = '$password' WHERE id_user=$id");
+            $stmt-> execute();
+            if ($stmt->rowCount() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+
+        }
         
         public static function getUser($username)
         {

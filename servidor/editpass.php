@@ -6,16 +6,12 @@
         exit;
     }
     $id = $_SESSION['id_user'];
-    $name = $_SESSION['name'];
-    $username = $_SESSION['username'];
-    $scholling = $_SESSION['scholling'];
-    $gender = $_SESSION['gender'];
-    $email = $_SESSION['email'];
+    $password = $_SESSION['password'];
     
-    $data = User::editUser($id, $name, $username, $scholling, $gender, $email);
+    $data = User::editPass($id, $password);
     if ($data){
         session_destroy();
-        echo "<script>alert('Dados alterados'); location.href = '../index.html'</script>";
+        echo "<script>alert('Senha alterada'); location.href = '../index.html'</script>";
     } else {
         echo"<script>alert('Erro ao editar informações'); location.href = '../index.html'</script>";
     }   
