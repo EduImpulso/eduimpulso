@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Importação de CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-
-
-    <!-- Importação de BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./imgs/Icones/FAVICON_PNG.png" type="image/x-icon">
-
-    <!-- Titulo da pagina -->
-    <title>EduImpulso - Orientação profissional</title>
-</head>
-
-</header>
 <?php
 //require_once('./servidor/Conection.php');
 require_once('./nav/menu.html');
