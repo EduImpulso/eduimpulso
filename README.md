@@ -26,8 +26,7 @@ Nosso projeto visa auxiliar as pessoas a tomarem as melhores decisões para sua 
 * Flavio - *slides, pesquisas e lógica do teste de inteligências*
 * Gustavo - *video e front*
 * Luzia - *telas e front*
-* Nathalia - *front*
-* Nathally - *back* 
+* Nathally - *back e database* 
 * Wilson - *front*
 
 > Lembrando que todos estão livres para trabalhar em conjunto, à vontade!

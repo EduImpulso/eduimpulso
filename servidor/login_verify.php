@@ -1,20 +1,23 @@
 <?php
-    session_start();
-    require_once('conection.php');
+    require_once('./Models/User.php');
+
+    
     if (isset($_POST['email']) && isset($_POST['password'])) {
         $email = $_POST['email'];
         $password = md5($_POST['password']);
-        $sql = "select * from usuarios where email = '$email' and senha = '$password';";
-        $result = $conn->query($sql);
-        $user = mysqli_fetch_all($result);
-        if ($result->num_rows == 0){
-            echo "<script>alert('Senha e/ou e-mail inválido')
+        $user = User::login($email, $password);
+        if (!$user){
+            echo "<script>alert('Senha e/ou e-mail inválido');
                     location.href='index.php'</script>";
         } else {
-            $_SESSION['nome'] = $user[0][1];
-            $_SESSION['senha'] = $user[0][2];
-            $_SESSION['email'] = $user[0][3];       
-            header('Location: ../lista_curso.php');
+            session_start();
+            $user = User::getInfo($email);
+            $_SESSION['id_user'] = $user['id_user'];
+            $_SESSION['username'] = $user['username'];
+            $_SESSION['name'] = $user['name'];
+            $_SESSION['born_date'] = $user['born_date'];
+            $_SESSION['email'] = $user['email'];  
+            header('Location: ../perfil.php');
         }
     } else {
         header('Location: ../index.php');
