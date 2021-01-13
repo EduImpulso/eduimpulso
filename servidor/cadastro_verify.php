@@ -42,7 +42,7 @@
                             $password = md5($dados[6]);
                             $user = new User($name, $username, $born, $scholling, $gender, $email, $password);
                             if ($user) {
-                                echo"<script>alert('Cadastro concluído'); location.href = '../index.html'</script>";
+                                echo"<script>alert('Cadastro concluído'); location.href = '../login.php'</script>";
                             } else {
                                 echo"<script>alert('Erro ao cadastrar'); location.href = '../cadastro.php'</script>";
                             }
