@@ -1,52 +1,29 @@
-<!doctype html>
-<html lang="pt-br">
+<?php
+//require_once('./servidor/Conection.php');
+require_once('./nav/menu.html');
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.css">
-    <title>Fale conosco</title>
-
-    <style>
-        @media(max-width:993px) {
-            .desktop {
-                display: none !important;
-
-            }
-        }
-
-        @media(min-width:993px) {
-            .phone {
-                display: none !important;
-            }
-        }
-    </style>
-
-</head>
-
-<body style="background-color:  #d7d1dbd7;">
-
-<?php require_once('./navbar\footer/menuLogado.html')?>
-
-<div class="container">
+<div class="container-fluid">
 
     <div class="row">
-        <div class="col-12 text-center my-4">
-            <h1 class="display-4"><img src="./imgs/fale_conosco.png" width="100" class="img-fluid">Fale Conosco</h1>
+        <div class="col-12 text-center mt-4">
+            <h1 class="">fale conosco</h1>
         </div>
     </div>
 
-    <div class="jumbotron text-white" style="background-color: #8b1cdad7; box-shadow: 2px 2px 10px black;">
+    <div class="row d-flex align-items-center justify-content-center p-3">
 
-        <!--alinhamento -->
+        <div class="col-12 col-lg-6 m-auto pb-3">
+            <img src="./imgs/fale_conosco/contato.jpg" class="img-fluid border" style="" alt="">
+        </div>
 
-        <div class="row justify-content-center mb-5">
+        <div class="cardContato p-1 text-white col-12 col-lg-6 rounded" ">
 
-            <div class="col-sm-12 col-md-10 col-lg-8">
+            <!--alinhamento -->
 
-                <p class="lead"> Envia-nos uma mensagem teremos o maior prazer em atendê-lo!</p>
+            <div class="justify-content-center my-1 p-2">
 
+                <p class="text-center"> Envia-nos uma mensagem teremos o maior prazer em atendê-lo!</p>
 
                 <form>
                     <div class="form-row">
@@ -79,28 +56,18 @@
             </div>
 
         </div>
-
     </div>
 
 </div>
 
-<!-- FOOTER -->
-
-<footer class="container-fluid bg-dark font-weight-bold" style="height: 10.4vh; font-size: 110%;">
-    <div class="container text-center d-flex align-items-center justify-content-center" style="height: 100%; font-family: 'Rubik', sans-serif;">
-        ©2020 - Recode Pró - ORIENTAÇÃO PROFISSIONAL
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<footer className="container-fluid bg-purple text-light d-flex justify-content-center">
+    <div className="footerBar d-flex align-items-center">
+        ©2020 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-
-</body>
 </html>
