@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Ubuntu', sans-serif !important; */
     font-family: 'Ubuntu', sans-serif !important;
 }
 
@@ -72,7 +71,7 @@ main {
     align-items: center;
     width: 100vw;
     height: 74vh;
-    background-color: #8b1cda;
+    background-color: white;
 }
 
 
@@ -150,7 +149,7 @@ main {
 
 body {
     margin: 0px;
-    background-color: #8A2BE2;
+    background-color: white;
     font-size: 12px;
     color: black;
 }
@@ -255,16 +254,6 @@ h1 {
 
 
 /* LOGIN */
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 74vh;
-    background-color: #8b1cda;
-}
-
 
 /* LAYOUT LOGIN/CADASTRO */
 
@@ -495,8 +484,31 @@ footer .footerBar {
 
 /* Page Index (index.jsx) */
 
-.divPitch {
-    width: 80%;
+.containerCards{
+    height: 55vh;
+}
+.divCard{
+    background-color: hsla(275, 100%, 67%, 0.827);
+    height: 90%;
+    border-radius: 10px;
+}
+.imgCard{
+    width: 30%;
+}
+.tituloCard{
+    height:45%;
+}
+.btnCardMini{
+    background-color: rgba(0, 0, 0, 0);
+    width:40%;
+    border: 3px solid white;
+    color: white;
+}
+.btnCard{
+    background-color: rgba(0, 0, 0, 0);
+    width:80%;
+    border: 3px solid white;
+    color: white;
 }
 
 
@@ -615,27 +627,6 @@ img.displayed-teoria {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
-
-
-/* VERSÃO PHP/BOOTSTRAP */
-
-
-/* scrollbar */
-
-body::-webkit-scrollbar {
-    background-color: #6108a0;
-    width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #818181;
-    border-radius: 5px;
-}
-
-body::-webkit-scrollbar-track {
-    border-radius: 5px;
-}
-
 
 /* Backgorund-Purple (padrão) */
 
@@ -809,7 +800,7 @@ img.displayed-teoria {
     margin-right: auto;
 }
 
-/* QUIZ     STYLES */
+/* QUIZ STYLES */
 
 .quiz{
     color: purple;

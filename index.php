@@ -17,34 +17,34 @@ require_once('./nav/menu.html');
 
 
 
-<div class="contaner-fluid d-flex align-items-center justify-content-around px-4 my-4" style="height: 55vh;">
+<div class="containerCards contaner-fluid d-flex align-items-center justify-content-around px-4 my-4">
 
-    <div class="col-12 col-lg-3 d-flex flex-column justify-content-around border shadow" style="background-color: hsla(275, 100%, 67%, 0.827); height: 90%; border-radius: 10px;">
+    <div class="divCard col-12 col-lg-3 d-flex flex-column justify-content-around border shadow">
         <div class="d-flex justify-content-center">
-            <img src="./imgs/index/cardLogin.png" class="img-fluid my-2" style="width: 30%;" alt="">
+            <img src="./imgs/index/cardLogin.png" class="imgCard img-fluid my-2" alt="">
         </div>
-        <h5 class="text-center my-auto" style="height:45%;">Realize seu login ou cadastre-se por aqui! <br /> Assim você terá acesso a nosso teste e a outras informações! </h5>
+        <h5 class="tituloCard text-center my-auto">Realize seu login ou cadastre-se por aqui! <br /> Assim você terá acesso a nosso teste e a outras informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btn btn-danger" style="background-color: rgba(0, 0, 0, 0); width:40%; border: 3px solid white; color: white;"> login </button>
-            <button class="btn btn-danger" style="background-color: rgba(0, 0, 0, 0); width:40%; border: 3px solid white; color: white;"> cadastro </button>
+            <button class="btnCardMini btn btn-danger"> login </button>
+            <button class="btnCardMini btn btn-danger"> cadastro </button>
         </div>
     </div>
-    <div class="col-12 col-lg-3 d-flex flex-column justify-content-around border shadow" style="background-color: hsla(275, 56%, 67%, 0.827); height: 90%; border-radius: 10px;">
+    <div class="divCard col-12 col-lg-3 d-flex flex-column justify-content-around border shadow">
         <div class="d-flex justify-content-center">
-            <img src="./imgs/index/cardContato.png" class="img-fluid my-2" style="width: 30%;" alt="">
+            <img src="./imgs/index/cardContato.png" class="imgCard img-fluid my-2">
         </div>
-        <h5 class="text-center my-auto" style="height:45%;">Entre em contato! <br /> Fale conosco para tirar dúvidas e obter mais informações! </h5>
+        <h5 class="tituloCard text-center my-auto">Entre em contato! <br /> Fale conosco para tirar dúvidas e obter mais informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btn btn-danger" style="background-color: rgba(0, 0, 0, 0); width:80%; border: 3px solid white; color: white;"> contato </button>
+            <button class="btnCard btn btn-danger"> contato </button>
         </div>
     </div>
-    <div class="col-12 col-lg-3 d-flex flex-column justify-content-around border shadow" style="background-color: hsla(275, 100%, 67%, 0.827); height: 90%; border-radius: 10px;">
+    <div class="divCard col-12 col-lg-3 d-flex flex-column justify-content-around border shadow">
         <div class="d-flex justify-content-center">
-            <img src="./imgs/index/cardNoticias.png" class="img-fluid my-2" style="width: 30%;" alt="">
+            <img src="./imgs/index/cardNoticias.png" class="imgCard img-fluid my-2">
         </div>
-        <h5 class="text-center my-auto" style="height:45%;">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
+        <h5 class="tituloCard text-center my-auto">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btn btn-danger" style="background-color: rgba(0, 0, 0, 0); width:80%; border: 3px solid white; color: white;"> noticias </button>
+            <button class="btnCard btn btn-danger"> noticias </button>
         </div>
     </div>
 

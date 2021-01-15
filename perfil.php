@@ -3,11 +3,11 @@
 require_once('./nav/menu.html');
 ?>
 
-<main class="d-flex justify-content-center align-items-center my-5 p-5">
+<main class="container-fluid d-flex justify-content-center align-items-center my-5 p-5">
     <div class="row p-3">
 
-        <div class="col-lg-6">
-            <div class="col-lg-12 py-2" style="background-color: hsla(0, 0%, 100%, 0.5); border-radius: 20px;">
+        <div class="col-12 col-lg-6">
+            <div class="col-lg-12 py-2" style="background-color: hsla(275, 46%, 64%, 0.562); border-radius: 20px; ">
                 <form onSubmit="">
                     <div class="input-group my-3 col-lg-12 d-flex align-items-center">
                         <div class="input-group-prepend">
@@ -39,7 +39,7 @@ require_once('./nav/menu.html');
             </div>
         </div>
 
-        <div class="col-lg-6 my-3 p-5 d-flex align-items-center justify-content-center" style="background-color:rgb(37, 37, 37, 0.5)">
+        <div class="col-12 col-lg-6 my-3 p-5 d-flex align-items-center justify-content-center" style="background-color:rgb(37, 37, 37, 0.5)">
 
             <div class=" d-block alert alert-danger" role="alert">
                 Cuidado! ao remover a conta, não poderá ser recuperada!
@@ -64,8 +64,6 @@ require_once('./nav/menu.html');
     </div>
 
 </main>
-
-
 
 <?php
 //require_once('./servidor/Conection.php');
