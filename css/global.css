@@ -313,7 +313,6 @@ h1 {
 
 .bannerHome {
     background-image: url(../imgs/index/capa-home-redux.png);
-    width: 100%;
     height: 100%;
     background-size: cover;
 }
@@ -484,12 +483,9 @@ footer .footerBar {
 
 /* Page Index (index.jsx) */
 
-.containerCards{
-    height: 55vh;
-}
 .divCard{
     background-color: hsla(275, 100%, 67%, 0.827);
-    height: 90%;
+    height: 45vh;
     border-radius: 10px;
 }
 .imgCard{
@@ -633,14 +629,6 @@ img.displayed-teoria {
 .bg-purple {
     background-color: #8220c6;
 }
-
-
-/* Arredondamento de bordas (padrão) */
-
-.borderRadius {
-    border-radius: 10px;
-}
-
 
 /* Botão Padrão */
 

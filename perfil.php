@@ -3,10 +3,10 @@
 require_once('./nav/menu.html');
 ?>
 
-<main class="container-fluid d-flex justify-content-center align-items-center my-5 p-5">
-    <div class="row p-3">
+<main class="container-fluid d-flex justify-content-center align-items-center my-5">
+    <div class="row d-flex justify-content-center">
 
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-5">
             <div class="col-lg-12 py-2" style="background-color: hsla(275, 46%, 64%, 0.562); border-radius: 20px; ">
                 <form onSubmit="">
                     <div class="input-group my-3 col-lg-12 d-flex align-items-center">
@@ -38,10 +38,10 @@ require_once('./nav/menu.html');
                 </form>
             </div>
         </div>
+        <div id="phone" style="height:20px;"></div>
+        <div class="row col-12 col-lg-5 p-3 d-flex justify-content-around my-3 mx-3" style="background-color:rgb(37, 37, 37, 0.5);">
 
-        <div class="col-12 col-lg-6 my-3 p-5 d-flex align-items-center justify-content-center" style="background-color:rgb(37, 37, 37, 0.5)">
-
-            <div class=" d-block alert alert-danger" role="alert">
+            <div class="col-12 col-lg-6 my-auto d-block alert alert-danger mx-2 text-center d-flex align-items-center h-50" role="alert">
                 Cuidado! ao remover a conta, não poderá ser recuperada!
             </div>
             <!-- { alert &&
@@ -51,28 +51,26 @@ require_once('./nav/menu.html');
                 </button>
             </div>
             } -->
-            <form onSubmit="">
+            <form onSubmit="" class="col-12 col-lg-5 h-50 p-3 mx-2 my-auto d-flex flex-column align-items-center justify-content-around border shadow text-center">
                 <fieldset disabled>
-                    <div class="mb-3">
+                    <div class="mb-1 w-100">
                         <label for="disabledTextInput" class="form-label">Disabled input</label>
                         <input type="text" id="disabledTextInput" class="form-control" name="username" placeholder="Disabled input" defaultValue="username" />
                     </div>
                 </fieldset>
-                <button class="d-block btn btn-danger" style="width: 100%">Remover a conta</button>
+                <button class="d-block btn btn-danger w-100">Remover a conta</button>
             </form>
         </div>
     </div>
 
 </main>
 
-<?php
-//require_once('./servidor/Conection.php');
-require_once('./nav/footer.html');
-?>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
+<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
+    <div class="footerBar d-flex align-items-center">
+        ©2020 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
+    </div>
+</footer>
 
 </html>
