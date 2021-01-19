@@ -23,7 +23,7 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Realize seu login ou cadastre-se por aqui! <br /> Assim você terá acesso a nosso teste e a outras informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <a href="#login" class="btnCardMini btn btn-danger"> login </a href=>
+            <a href="./login.php" class="btnCardMini btn btn-danger"> login </a href=>
             <a href="./cadastro.php" class="btnCardMini btn btn-danger"> cadastro </a href=>
         </div>
     </div>
