@@ -100,7 +100,7 @@ require_once('./nav/menu.html');
 
 <footer class="container-fluid bg-purple text-light d-flex justify-content-center">
     <div class="footerBar d-flex align-items-center">
-        ©2020 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
+        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
     </div>
 </footer>
 

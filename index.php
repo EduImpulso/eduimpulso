@@ -16,8 +16,6 @@ require_once('./nav/menu.html');
 
 </div>
 
-
-
 <div class="row contaner-fluid d-flex align-items-center justify-content-around px-4 my-4">
 
     <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -81,7 +79,7 @@ require_once('./nav/menu.html');
 
 <footer class="container-fluid bg-purple text-light d-flex justify-content-center">
     <div class="footerBar d-flex align-items-center">
-        ©2020 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
+        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
     </div>
 </footer>
 
