@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/blog-nubank/wp-content/themes/nubankv2/quiz/favicon.png"> <!-- ATUALIZAR O FAVICON! -->  
-    <link rel="stylesheet" href="./css/quizstyles.css">
-    <!-- <style type="text/css"></style> -->
-    <title>Quiz - Qual o meu tipo de inteligência?</title>
-    
-</head>
-<body>
+<?php
+session_start();
+if(!isset($_SESSION['id_user'])){
+    header("Location: index.php");
+    exit;
+}
+require_once('./nav/menu.html');
+?>
     <div class="container-fluid" >
         <h1>QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐 </h1> 
         <h1.subtitulo>Escolha a frase com a qual vc mais se identifica! </h1.subtitulo>
@@ -489,5 +485,6 @@ function shuffle(array){
 
 
 </script>    
-</body>
-</html>
+<?php
+require_once('./nav/footer.html');
+?>

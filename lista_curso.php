@@ -1,11 +1,10 @@
 <?php
-    session_start();
-    require_once('./servidor/conection.php');
-    if(!isset($_SESSION['nome'])){
-        header("Location: index.php");
-        exit;
-    }
-    
+session_start();
+if(!isset($_SESSION['nome'])){
+    header("Location: cadastro.php");
+    exit;
+}
+require_once('./nav/menu.html');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

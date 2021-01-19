@@ -8,7 +8,7 @@
         $user = User::login($email, $password);
         if (!$user){
             echo "<script>alert('Senha e/ou e-mail inválido');
-                    location.href='index.php'</script>";
+                    location.href='../index.php'</script>";
         } else {
             session_start();
             $user = User::getInfo($email);
@@ -16,7 +16,7 @@
             $_SESSION['username'] = $user['username'];
             $_SESSION['name'] = $user['name'];
             $_SESSION['born_date'] = $user['born_date'];
-            $_SESSION['email'] = $user['email'];  
+            $_SESSION['email'] = $user['email'];
             header('Location: ../perfil.php');
         }
     } else {

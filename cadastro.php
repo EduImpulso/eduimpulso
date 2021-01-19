@@ -16,7 +16,7 @@ require_once('./nav/menu.html');
 
         <div class="form m-auto p-4 my-4 col-12 col-md-12 col-lg-12 col-xl-5">
 
-            <form method="post" action="./servidor/login_verify.php">
+            <form method="post" action="./servidor/cadastro_verify.php">
                 <div class="form-group">
                     <label class="my-2 form-label" for="name" style="color: white">Nome completo</label>
                     <input class="form-control has-validation" type="text" id="name" placeholder="Nome Completo" name="name" />
