@@ -16,7 +16,7 @@ require_once('./nav/menu.html');
         <div class="d-flex align-items-center justify-content-center col-lg-12">
           <div
             class="embed-responsive embed-responsive-16by9 my-4 mx-auto shadow d-flex justify-content-center align-content-center"
-            style={{ width: "80%" }}
+            style="width: 60%"
           >
             <iframe
               width="1280"
