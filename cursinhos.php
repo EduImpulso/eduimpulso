@@ -1,4 +1,11 @@
-<?php require_once('./nav/menu.html') ?>
+<?php
+session_start();
+if(!isset($_SESSION['id_user'])){
+    header("Location: index.php");
+    exit;
+}
+require_once('./nav/menu.html');
+?>
 
 <body style="background-color: #a25fd1;">
 

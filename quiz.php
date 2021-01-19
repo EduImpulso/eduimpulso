@@ -1,5 +1,9 @@
 <?php
-//require_once('./servidor/Conection.php');
+session_start();
+if(!isset($_SESSION['id_user'])){
+    header("Location: index.php");
+    exit;
+}
 require_once('./nav/menu.html');
 ?>
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">
