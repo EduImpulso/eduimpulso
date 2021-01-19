@@ -29,22 +29,19 @@ require_once('./nav/menu.html');
           </div>
         </div>
 
-        <p></p>
-        <p></p>
 
         <h1 class="text-center teoriaTitulo1">
           <strong> Quais são os oito tipos de inteligência? </strong>
         </h1>
 
         <p class="text-center teoriaTitulo2">
-          {" "}
           Conheça os oito perfis definidos pela Teoria das Múltiplas
-          Inteligências e aprenda a identificar qual é a sua!{" "}
+          Inteligências e aprenda a identificar qual é a sua!
         </p>
- 
-        <p></p>
-        <hr></hr>
-
+ </div>
+        <p class="linha"></p>
+        <div class="container" class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> LÓGICO MATEMÁTICA </strong>
         </p>
@@ -52,21 +49,20 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-2.png"
-            border="0"
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
           É a habilidade para desenvolver equações, resolver cálculos e resolver
           problemas abstratos. Sua manifestação é uma das que as pessoas
           consideram como inteligência tradicional, especialmente na escola. Ela
-          é típica de quem manda bem em contas, em lógica e em estratégia.{" "}
+          é típica de quem manda bem em contas, em lógica e em estratégia.
         </p>
         </div>
 
@@ -94,12 +90,12 @@ require_once('./nav/menu.html');
           </li>
         </ul>
         </div>
-        
-
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+</div>
+        </div>
+        </div>
+        <p class="linha"></p>
+        <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> LINGUÍSTICA </strong>
         </p>
@@ -107,23 +103,24 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-3.png"
-            border="0"
+
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           Algumas pessoas têm muita facilidade para lidar com palavras. Elas
           possuem um tipo de inteligência que permite analisar informações e
           desenvolver produtos de linguagem escrita e oral, como discursos e
           livros, sempre encontrando o melhor jeito de comunicar grandes ideias.<br/>
           É bastante requisitada (e apreciada) na escola, já que a maioria das
-          provas e exercícios são por escrito.{" "}
+          provas e exercícios são por escrito.
         </p>
         </div>
 
@@ -145,10 +142,10 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+        </div>
+                <p class="linha"></p>
+                <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> MUSICAL </strong>
         </p>
@@ -156,17 +153,19 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-4.png"
-            border="0"
+
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
         </div>
+        </div>
+
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           O nome já entrega: é aquela que permite a uma pessoa produzir,
           recordar e estabelecer sentido em diferentes padrões de som. <br/>
           A sensibilidade musical se manifesta ao ouvir, cantar, compor e tocar
@@ -177,7 +176,7 @@ require_once('./nav/menu.html');
         <div class="container"> 
         <ul class="teoriaCorpo1">
           <li>
-            {" "}
+            
             <strong>Hobbies indicados:</strong> assobiar, cantar, fazer rimas,
             compor, participar de um coral, ouvir música, tocar instrumentos.
           </li>
@@ -193,10 +192,10 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+        </div>
+                <p class="linha"></p>
+                <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> NATURALÍSTICA </strong>
         </p>
@@ -204,17 +203,18 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-5.png"
-            border="0"
+
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
       <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           Típica daqueles que têm uma forte ligação com a natureza e uma
           habilidade incomum para identificar e distinguir animais, plantas,
           formações climáticas e outros elementos do mundo natural. Na escola,
@@ -239,10 +239,10 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+        </div>
+                <p class="linha"></p>
+                <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> CORPORAL-CINESTÉSICA </strong>
         </p>
@@ -250,17 +250,18 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-6.png"
-            border="0"
+
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           É a capacidade de usar o próprio corpo (e seus movimentos) para
           solucionar problemas ou criar produtos. É a mais requisitada, por
           exemplo, nos craques de futebol, nos ginastas, nos bailarinos e nos
@@ -285,28 +286,27 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+</div>
+        <p class="linha"></p>
+        <div class="container">
         <p class="text-center teoriaTitulo2">
           <strong> ESPACIAL </strong>
-        </p>
-
+        <div>
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-7.png"
-            border="0"
+            
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           Tem gente que não sabe se orientar num mapa, não consegue estimar
           medidas e não é capaz de montar um bom look. Por outro lado, os
           mestres dessa inteligência têm uma habilidade extra para reconhecer o
@@ -333,10 +333,10 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+        </div>
+                <p class="linha"></p>
+                <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> INTERPESSOAL </strong>
         </p>
@@ -344,17 +344,18 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-8.png"
-            border="0"
+            
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           Sabe aquele amigo que é o melhor ombro na hora que você precisa
           chorar? Que entende fácil tudo que você está sentindo, sabe te
           consolar e sabe propor soluções para os problemas? Ele é bem
@@ -382,10 +383,10 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
+        </div>
+                <p class="linha"></p>
+                <div class="container">
+        <div>
         <p class="text-center teoriaTitulo2">
           <strong> INTRAPESSOAL </strong>
         </p>
@@ -393,17 +394,17 @@ require_once('./nav/menu.html');
         <div class="displayed">
           <img class="displayed"
             src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-9.png"
-            border="0"
             alt=""
-            width="615"
-            height="360"
+            width="462"
+            height="270"
           >
           </img>
+        </div>
         </div>
 
         <div class="container"> 
         <p class="teoriaCorpo1">
-          {" "}
+          
           É o inverso da interpessoal: o indivíduo usa a inteligência para se
           autoconhecer. São as pessoas com grande grau de autonomia, capazes de
           reconhecer suas próprias intenções, motivações e opiniões. Essa
@@ -430,12 +431,13 @@ require_once('./nav/menu.html');
         </ul>
         </div>
 
-        <p></p>
-        <p></p>
-        <hr></hr>
-
-        <div class="container"> 
-        <h3></h3>
+</div>
+<br />
+<br />
+        <p class="linha"></p>
+        <br /><br />
+        <div class="container">
+        <div class="container textoDestaque"> 
         <h3>Como identifico a minha?</h3>
         <p>
           <em>
@@ -454,7 +456,7 @@ require_once('./nav/menu.html');
             predominante de um indivíduo. Isso iria contra a própria Teoria das
             Inteligências Múltiplas: se ela é múltipla, não dá para medi-la numa
             única escala, como o exame de QI. Seria preciso desenvolver
-            avaliações de desempenho e{" "}
+            avaliações de desempenho e
             <strong>parâmetros para cada uma.</strong> Além disso, Gardner
             ressalta que &#8220;as inteligências devem ser mobilizadas para
             ajudar os indivíduos a aprender, e não como uma forma de
@@ -480,14 +482,14 @@ require_once('./nav/menu.html');
           </p>
           <p>
             Testes podem não medir com precisão as capacidades de cada um, mas
-            um pouco de autorreflexão não faz mal a ninguém.{" "}
+            um pouco de autorreflexão não faz mal a ninguém.
             <strong>Pense nas perguntas abaixo</strong> e compare com as
             descrições dos oito tipos de inteligência para ver qual delas tem
             mais a ver com você:
           </p>
           <ul>
             <li>
-              Que tipos de atividades mais atraem sua atenção? E qual é{" "}
+              Que tipos de atividades mais atraem sua atenção? E qual é
               <span class="textoDestaque">seu</span> nível de aptidão para elas?
             </li>
             <li>Em quais matérias da escola você se sai melhor?</li>
@@ -512,7 +514,7 @@ require_once('./nav/menu.html');
         </h6>
           
         <div class="d-flex align-items-center justify-content-center col-12 p-4">
-          <a class="btn btn-white" href="#topo">
+          <a class="btnTopo button-btnTopo" href="#topo">
             Voltar ao topo
           </a>
         </div>
@@ -520,11 +522,5 @@ require_once('./nav/menu.html');
       </main>
       </script>    
 </body>
-
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
 
 </html>

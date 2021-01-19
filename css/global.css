@@ -872,9 +872,6 @@ img.displayed-teoria {
 .button-quiz:hover{
     background-color:#8A2BE2;
 }
-.button-quiz:hover{
-    background-color:#8A2BE2;
-}
 
 .button-quiz:holder{
     width: 60%;
@@ -911,4 +908,67 @@ clear: both;
 .response p{
     margin: 50px auto;
     font-size: 1.5em;
+}
+/* Page Teoria Multiplas Inteligencias */
+
+.teoriaTitulo1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.teoriaTitulo2 {
+    font-size: 20px;
+}
+
+.teoriaTitulo3 {
+    font-size: 18px;
+}
+
+.teoriaCorpo1 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.teoriaFonte {
+    font-size: 15px;
+    color:rgb(153, 153, 153)
+}
+.linha{
+    width: 80vw;
+    height: 1px;
+    background-color: rgb(37, 37, 37, 0.3);
+}
+.textoDestaque{
+    text-align: justify;
+}
+
+/* Centralizar texto e imagem página Teoria */
+
+.container { 
+    width: 1200px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.btnTopo{
+    width: 20%;
+    background-color:  #9370DB;
+    border-radius: 10px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.25em;
+    padding: 10px 5px;
+    color: white;
+}
+
+.btnTopo:hover{
+    background-color:#8A2BE2;
+    text-decoration: none;
+    color: #818181;
 }
