@@ -136,8 +136,16 @@ require_once('./nav/menu.html');
             jornalismo, literatura, tradução.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Cecília Meirelles, Gabriel
-            García Marquez, William Shakespeare, Tom Wolfe.
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Cec%C3%ADlia_Meireles"  target="_blank">
+            Cecília Meirelles, </a>
+            <a href="https://pt.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez" target="_blank">
+            Gabriel García Marquez, </a>
+            <a href="https://pt.wikipedia.org/wiki/William_Shakespeare" target="_blank">
+            William Shakespeare, </a>
+            <a href="https://pt.wikipedia.org/wiki/Tom_Wolfe" target="_blank">
+            Tom Wolfe. </a>
           </li>
         </ul>
         </div>
@@ -186,8 +194,14 @@ require_once('./nav/menu.html');
             para filmes e peças.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Ludwig van Beethoven, Tom Jobim,
-            Wolfgang Amadeus Mozart.
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Ludwig_van_Beethoven"  target="_blank">
+            Ludwig van Beethoven, </a>
+            <a href="https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Jobim" target="_blank">
+            Tom Jobim, </a>
+            <a href="https://pt.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">
+            Wolfgang Amadeus Mozart. </a>
           </li>
         </ul>
         </div>
@@ -233,8 +247,17 @@ require_once('./nav/menu.html');
             medicina, medicina veterinária, meteorologia.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Charles Darwin, Alexander von
-            Humboldt, Aziz Ab&#8217;Saber, Chico Mendes.
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Charles_Darwin"  target="_blank">
+            Charles Darwin, </a>
+            <a href="https://pt.wikipedia.org/wiki/Alexander_von_Humboldt" target="_blank">
+            Alexander von Humboldt, </a>
+            <a href="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber" target="_blank">
+            Aziz Ab’Saber, </a>
+            <a href="https://pt.wikipedia.org/wiki/Chico_Mendes" target="_blank">
+            Chico Mendes. </a>
+
           </li>
         </ul>
         </div>
@@ -280,8 +303,16 @@ require_once('./nav/menu.html');
             dramáticas, artes plásticas, educação física, esportes.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>
-            <span>Lionel Messi, Marta, Meryl Streep, Michael Phelps.</span>
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Lionel_Messi"  target="_blank">
+            Lionel Messi, </a>
+            <a href="https://pt.wikipedia.org/wiki/Marta_(futebolista)" target="_blank">
+            Marta, </a>
+            <a href="https://pt.wikipedia.org/wiki/Meryl_Streep" target="_blank">
+            Meryl Streep, </a>
+            <a href="https://pt.wikipedia.org/wiki/Michael_Phelps" target="_blank">
+            Michael Phelps. </a>
           </li>
         </ul>
         </div>
@@ -327,8 +358,17 @@ require_once('./nav/menu.html');
             engenharia.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Coco Chanel, Oscar Niemeyer,
-            Pablo Picasso, Santos Dumont.
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Coco_Chanel"  target="_blank">
+            Coco Chanel,, </a>
+            <a href="https://pt.wikipedia.org/wiki/Oscar_Niemeyer"  target="_blank">
+            Oscar Niemeyer, </a>
+            <a href="https://pt.wikipedia.org/wiki/Pablo_Picasso" target="_blank">
+            Pablo Picasso, </a>
+            <a href="https://pt.wikipedia.org/wiki/Santos_Dumont" target="_blank">
+            Santos Dumont. </a>
+
           </li>
         </ul>
         </div>
@@ -377,8 +417,18 @@ require_once('./nav/menu.html');
             vendas.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Winston Churchill, Mahatma
-            Gandhi, Marília Gabriela, Papa Francisco.
+
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Winston_Churchill"  target="_blank">
+            Winston Churchill, </a>
+            <a href="https://pt.wikipedia.org/wiki/Mahatma_Gandhi"  target="_blank">
+            Mahatma Gandhi, </a>
+            <a href="https://pt.wikipedia.org/wiki/Mar%C3%ADlia_Gabriela" target="_blank">
+            Marília Gabriela, </a>
+            <a href="https://pt.wikipedia.org/wiki/Papa_Francisco" target="_blank">
+            Papa Francisco. </a>
+
           </li>
         </ul>
         </div>
@@ -425,8 +475,16 @@ require_once('./nav/menu.html');
             psicologia, teologia.
           </li>
           <li>
-            <strong>Gênios desse tipo: </strong>Ernest Hemingway, Machado de
-            Assis, Friedrich Nietzsche, Simone de Beauvoir.
+          <strong>Gênios desse tipo: </strong>
+
+            <a href="https://pt.wikipedia.org/wiki/Ernest_Hemingway"  target="_blank">
+            Ernest Hemingway, </a>
+            <a href="https://pt.wikipedia.org/wiki/Machado_de_Assis"  target="_blank">
+            Machado de Assis, </a>
+            <a href="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche" target="_blank">
+            Friedrich Nietzsche, </a>
+            <a href="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir" target="_blank">
+            Simone de Beauvoir. </a>
           </li>
         </ul>
         </div>
