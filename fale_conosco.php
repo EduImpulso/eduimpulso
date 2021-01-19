@@ -14,10 +14,10 @@ require_once('./nav/menu.html');
     <div class="row d-flex align-items-center justify-content-center p-3">
 
         <div class="col-12 col-lg-6 m-auto pb-3">
-            <img src="./imgs/fale_conosco/contato.jpg" class="img-fluid border" style="" alt="">
+            <img src="./imgs/fale_conosco/contato.jpg" class="img-fluid border" alt="fale conosco">
         </div>
 
-        <div class="cardContato p-1 text-white col-12 col-lg-6 rounded" ">
+        <div class="cardContato p-1 text-white col-12 col-lg-6 rounded">
 
             <!--alinhamento -->
 
@@ -60,12 +60,6 @@ require_once('./nav/menu.html');
 
 </div>
 
-</body>
-
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
-
-</html>
+<?php
+require_once('./nav/footer.html');
+?>

@@ -110,10 +110,10 @@
             }
         }
 
-        public static function editUser($id, $name, $username, $scholling, $gender, $email)
+        public static function editUser($id, $name, $username, $email)
         {
             $conn = Connection::getDb();
-            $stmt = $conn->prepare("UPDATE usuarios SET name='$name', username='$username', scholling='$scholling', gender='$gender', email='$email' WHERE id_user=$id");
+            $stmt = $conn->prepare("UPDATE usuarios SET name='$name', username='$username', email='$email' WHERE id_user=$id");
             $stmt-> execute();
             if ($stmt->rowCount() > 0) {
                 return true;

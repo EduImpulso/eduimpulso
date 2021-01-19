@@ -1,5 +1,4 @@
 <?php
-//require_once('./servidor/Conection.php');
 require_once('./nav/menu.html');
 ?>
 
@@ -24,8 +23,8 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Realize seu login ou cadastre-se por aqui! <br /> Assim você terá acesso a nosso teste e a outras informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btnCardMini btn btn-danger"> login </button>
-            <button class="btnCardMini btn btn-danger"> cadastro </button>
+            <a href="#login" class="btnCardMini btn btn-danger"> login </a href=>
+            <a href="./cadastro.php" class="btnCardMini btn btn-danger"> cadastro </a href=>
         </div>
     </div>
     <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -34,7 +33,7 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Entre em contato! <br /> Fale conosco para tirar dúvidas e obter mais informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btnCard btn btn-danger"> contato </button>
+            <a href="./fale_conosco.php" class="btnCard btn btn-danger"> contato </a>
         </div>
     </div>
     <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -43,14 +42,14 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <button class="btnCard btn btn-danger"> noticias </button>
+            <a href="./noticias.php" class="btnCard btn btn-danger"> noticias </a>
         </div>
     </div>
 
 </div>
 <div class="d-flex justify-content-center align-items-center my-5">
     <div class="borderRadius cardLogin p-3 col-12 col-sm-10 col-xl-4">
-        <h1 class="camposLogin text-white text-center pb-4">LOGIN</h1>
+        <h1 class="camposLogin text-white text-center pb-4" id="login">LOGIN</h1>
         <form method="post" action="./servidor/login_verify.php">
             <div class="form-group">
                 <label class="my-2 form-label" for="e-mail" style="color: white">Digite seu e-mail</label>
@@ -61,7 +60,7 @@ require_once('./nav/menu.html');
                 <input class="imputForm form-control has-validation" type="password" id="password" placeholder="email@email.com" name="password" />
             </div>
 
-            <a class="linkCadastro form-text " href="/cadastro">Cadastre-se aqui!</a>
+            <a class="linkCadastro form-text " href="/cadastro.php">Cadastre-se aqui!</a>
 
             <button class="buttonForm btn mt-3">
                 Enviar

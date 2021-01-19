@@ -19,7 +19,7 @@ require_once('./nav/menu.html');
                 <input class="imputForm form-control has-validation" type="password" id="password" placeholder="senha" name="password" />
             </div>
 
-            <a class="linkCadastro form-text " href="/cadastro">Cadastre-se aqui!</a>
+            <a class="linkCadastro form-text " href="./cadastro.php">Cadastre-se aqui!</a>
 
             <button class="buttonForm btn mt-3">
                 Enviar
@@ -32,12 +32,6 @@ require_once('./nav/menu.html');
 </div>
 </div>
 
-</body>
-
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
-
-</html>
+<?php
+require_once('./nav/footer.html');
+?>
