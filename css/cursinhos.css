@@ -2,19 +2,20 @@
   font-size: 2.2em;
   margin-top: 50px;
   color: #C574FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .text-back {
-  font-size: 2.2em;
-  margin: 0;
+  font-size: 1.5em;
+  margin-top: 5px;
+  color: #C574FF;
+}
+.text-card{
+  text-align: justify ;
 }
 .lead{
   text-align: justify !important;
 }
 .cardCursinhos{
-  background-color:#C6A6D9 !important;
+  border: 3px solid #C6A6D9;
   border-radius: 10px !important;
 }
 .card-container {
@@ -32,12 +33,10 @@
   width: 300px;
   height: 350px;
   transition: all 0.6s ease;
-  border-radius: 20px;
   /* faz o efeito do flip no proprio eixo parecer em 3D */
   transform-style: preserve-3d;
-  border: 3px solid red;
+  border: none !important;
 }
-
 
 .front{
   background:white;
@@ -49,6 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 8px black;
   
   /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
   backface-visibility: hidden;
@@ -59,7 +59,6 @@
   width: 300px;
   height: 350px;
   border-radius: 20px;
-  border: 3px solid red;
   /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
   backface-visibility: hidden;
 }
@@ -70,7 +69,11 @@
   text-align: center;
   
 }
-
+.buttonCard{
+  border: #117A8B 3px solid !important;
+  color: #117A8B;
+  width: 50%;
+}
 /* quando fizer o hover o card dentro do containr flipa */
 .card-container:hover .card {
   transform: rotateY(180deg);
