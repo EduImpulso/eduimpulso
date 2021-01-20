@@ -1,13 +1,8 @@
 <?php
-session_start();
-if(!isset($_SESSION['id_user'])){
-    header("Location: index.php");
-    exit;
-}
 require_once('./nav/menu.html');
 ?>
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">
-    <h1 class="quiz">QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐 </h1> 
+    <h1 class="quiz teoriaTitulo1">QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐 </h1> 
     <h1 class="subtitulo">Escolha a frase com a qual vc mais se identifica! </h1>
     <br/>
     <div class="quiz-area" id="quiz-area">
@@ -21,7 +16,7 @@ require_once('./nav/menu.html');
                     <div class="answer" data-value="4">Acho gráficos e tabelas fáceis de compreender</div> <!-- 4_Espacial-Visual -->
                     <div class="answer" data-value="0">Não me identifico com nenhuma frase 😬</div> <!-- 0_Nada -->
                 </div>
-                <div class="button-holder clearfix">
+                <div class="clearfix">
                     <div class="previous mini button-quiz">Anterior</div><div class="next mini button-quiz">Próximo</div>
                 </div>
             </section>

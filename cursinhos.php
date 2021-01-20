@@ -7,14 +7,12 @@ require_once('./nav/menu.html');
         <div class="row" style="background-color: white;"> 
             <div class="container">
                 <div class="cardCursinhos mt-5 shadow d-flex flex-column align-items-center">
-                        <h1 class="display-4">Cursinhos preparatórios</h1>
+                        <h1 class="display-4 py-4">Cursinhos preparatórios</h1>
                         <div class="linha"></div>
-                        <p class="lead px-5 py-2"> No processo de preparação para conseguir aquela sonhada vaga na Universidade, temos certeza que você já cogitou fazer um cursinho preparatório.
-                        De maneira geral, o cursinho é um curso preparatório para o vestibular. Ele pode ser oferecido por instituições de ensino sob as mais variadas formas, como o curso extensivo, com duração de um ano, o semiextensivo, que leva um semestre para ser concluído e as turmas de maio, modelo intermediário que podem trabalhar exclusivamente com pré-vestibulares ou também com ensino médio, e cursinhos gratuitos, geralmente oferecidos por grupos interessados no trabalho voluntário.
-                          É possível fazer cursinhos nas modalidades presencial e online, sendo esta uma solução cada vez mais procurada em virtude da evolução da tecnologia. 
-                       
-                        Aqui vamos mostrar as principais instituições pagas e gratuitas pra você mergulhar de cabeça nos cursinhos preparatórios e ingressar naquela tão sonhada Universidade :) 
-                        </p>
+                        <p class="lead px-5 pt-3"> No processo de preparação para conseguir aquela sonhada vaga na Universidade, temos certeza que você já cogitou fazer um cursinho preparatório.</p>
+                        <p class="lead px-5">De maneira geral, o cursinho é um curso preparatório para o vestibular. Ele pode ser oferecido por instituições de ensino sob as mais variadas formas, como o curso extensivo, com duração de um ano, o semiextensivo, que leva um semestre para ser concluído e as turmas de maio, modelo intermediário que podem trabalhar exclusivamente com pré-vestibulares ou também com ensino médio, e cursinhos gratuitos, geralmente oferecidos por grupos interessados no trabalho voluntário.</p>
+                        <p class="lead px-5">É possível fazer cursinhos nas modalidades presencial e online, sendo esta uma solução cada vez mais procurada em virtude da evolução da tecnologia. </p>
+                        <p class="lead px-5 pb-4">Aqui vamos mostrar as principais instituições pagas e gratuitas pra você mergulhar de cabeça nos cursinhos preparatórios e ingressar naquela tão sonhada Universidade :) </p>   
                 </div>
             </div>
             <div class="container">

@@ -7,7 +7,7 @@ require_once('./nav/menu.html');
 
     <div class="row">
         <div class="col-12 text-center mt-4">
-            <h1 class="">fale conosco</h1>
+            <h1 class="">Fale conosco</h1>
         </div>
     </div>
 

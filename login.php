@@ -3,7 +3,7 @@
 require_once('./nav/menu.html');
 ?>
 <div class="container-fluid">
-<div class="row d-flex justify-content-center align-items-center my-3">
+<div class="row d-flex justify-content-center align-items-center my-4">
     <div class="col-12 col-sm-12 col-xl-6 d-flex justify-content-center my-4" id="phone">
         <img src="./imgs/index/capa-home-login.jpg" width="95%" alt="login" />
     </div>

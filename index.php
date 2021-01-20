@@ -21,7 +21,7 @@ require_once('./nav/menu.html');
         <div class="d-flex justify-content-center">
             <img src="./imgs/index/cardLogin.png" class="imgCard img-fluid my-2" alt="">
         </div>
-        <h5 class="tituloCard text-center my-auto d-flex align-items-center">Realize seu login ou cadastre-se por aqui! <br /> Assim você terá acesso a nosso teste e a outras informações! </h5>
+        <h5 class="tituloCard text-center my-auto d-flex align-items-center">Faça seu login ou cadastre-se aqui. <br /> Assim vc terá acesso ao nosso quiz e outras informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
             <a href="./login.php" class="btnCardMini btn btn-danger"> login </a href=>
             <a href="./cadastro.php" class="btnCardMini btn btn-danger"> cadastro </a href=>
@@ -31,7 +31,7 @@ require_once('./nav/menu.html');
         <div class="d-flex justify-content-center">
             <img src="./imgs/index/cardContato.png" class="imgCard img-fluid my-2">
         </div>
-        <h5 class="tituloCard text-center my-auto d-flex align-items-center">Entre em contato! <br /> Fale conosco para tirar dúvidas e obter mais informações! </h5>
+        <h5 class="tituloCard text-center my-auto d-flex align-items-center">Fale conosco pra tirar dúvidas e saber mais informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
             <a href="./fale_conosco.php" class="btnCard btn btn-danger"> contato </a>
         </div>
@@ -40,7 +40,7 @@ require_once('./nav/menu.html');
         <div class="d-flex justify-content-center">
             <img src="./imgs/index/cardNoticias.png" class="imgCard img-fluid my-2">
         </div>
-        <h5 class="tituloCard text-center my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
+        <h5 class="tituloCard my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
         <div class="mb-2 d-flex justify-content-around">
             <a href="./noticias.php" class="btnCard btn btn-danger"> noticias </a>
         </div>
@@ -60,7 +60,7 @@ require_once('./nav/menu.html');
                 <input class="imputForm form-control has-validation" type="password" id="password" placeholder="email@email.com" name="password" />
             </div>
 
-            <a class="linkCadastro form-text " href="/cadastro.php">Cadastre-se aqui!</a>
+            <a class="linkCadastro form-text " href="./cadastro.php">Cadastre-se aqui!</a>
 
             <button class="buttonForm btn mt-3">
                 Enviar
