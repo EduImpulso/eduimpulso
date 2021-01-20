@@ -32,7 +32,7 @@ require_once('./nav/menu.html') ?>
                     <div class="border-info text-center">
                         <div class="card-body">
                             <h4>Período: <?php echo $_SESSION['turn']; ?>
-                            <h7 class ="card-subtitle mb-2">Duração: <?php echo $_SESSION['duration']; ?></h4> ?> semestres </h7> 
+                            <h7 class ="card-subtitle mb-2">Duração: <?php echo number_format($_SESSION['duration'], 2, '.', ''); ?></h4> semestres </h7> 
                         </div>
                     </div>
                 </div>
@@ -49,13 +49,10 @@ require_once('./nav/menu.html') ?>
                             <?php
                                 $cep = $_SESSION['cep'];
                                 $json = file_get_contents("https://viacep.com.br/ws/$cep/json");
-                                $data = json_decode($json, true);
-                                foreach ($data as $key => $row){
-                            ?> <p><?php echo($row["logradouro"]+"-"+$row["bairro"]) ?></p>
-                                <p>CEP: <?php echo($row["cep"]+"-"+$row["localidade"]+"("+$row["uf"]+")") ?></p>
-                            <?php
-                                }
+                                $data = json_decode($json);
                             ?>
+                            <p><?php print_r($data->logradouro); ?> - <?php print_r($data->bairro); ?></p>
+                            <p><?php print_r($data->cep); ?> - <?php print_r($data->localidade); ?>(<?php print_r($data->uf); ?>)</p>
                         </div>
                     </div>
                 </div>

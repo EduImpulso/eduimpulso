@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['id_user'])){
-    header("Location: index.php");
+    header("Location: cadastro.php");
     exit;
 }
 require_once('./nav/menu.html');
@@ -12,9 +12,10 @@ require_once('./nav/menu.html');
             $json = file_get_contents("http://localhost/eduimpulso/servidor/apicourses.php");
             $data = json_decode($json, true);
             foreach ($data as $key => $row){
+                $id = $row['id_curso']
         ?>
             <div class="list-group col-12 m-1">
-                <a href="./servidor/course.php?id<?php echo $row["id_curso"];?>" class="list-group-item list-group-item-action">
+                <a href="<?php echo"./servidor/course.php?id=$id"?>" class="list-group-item list-group-item-action">
                     <?php echo $row["nome"];?>
                 </a>
             </div>
