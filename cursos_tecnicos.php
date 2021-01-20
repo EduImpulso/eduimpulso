@@ -74,7 +74,7 @@ height: 50px;
 
 </style>
   
-<?php require_once('./nav/head.html') ?>
+<?php require_once('./nav/menu.html') ?>
     <span id='topo'></span>
 
 </head>
