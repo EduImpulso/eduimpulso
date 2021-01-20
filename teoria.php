@@ -29,32 +29,32 @@ require_once('./nav/menu.html');
           </div>
         </div>
 
+        <div class="container-fluid">
+            <h1 class="text-center teoriaTitulo1">
+              <strong> Quais são os oito tipos de inteligência? </strong>
+            </h1>
 
-        <h1 class="text-center teoriaTitulo1">
-          <strong> Quais são os oito tipos de inteligência? </strong>
-        </h1>
-
-        <p class="text-center teoriaTitulo2">
-          Conheça os oito perfis definidos pela Teoria das Múltiplas
-          Inteligências e aprenda a identificar qual é a sua!
-        </p>
- </div>
+            <p class="text-center teoriaTitulo2">
+              Conheça os oito perfis definidos pela Teoria das Múltiplas
+              Inteligências e aprenda a identificar qual é a sua!
+            </p>
+        </div>
         <p class="linha"></p>
-        <div class="container" class="container">
+        <div class="container">
         <div>
         <p class="text-center teoriaTitulo2">
           <strong> LÓGICO MATEMÁTICA </strong>
         </p>
 
-        <div class="displayed">
-          <img class="displayed"
-            src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-2.png"
-            alt=""
-            width="462"
-            height="270"
-          >
-          </img>
-        </div>
+          <div class="displayed">
+            <img class="displayed"
+              src="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-2.png"
+              alt=""
+              width="462"
+              height="270"
+            >
+            </img>
+          </div>
         </div>
 
         <div class="container"> 
@@ -65,7 +65,7 @@ require_once('./nav/menu.html');
           é típica de quem manda bem em contas, em lógica e em estratégia.
         </p>
         </div>
-
+          
         <div class="container"> 
         <ul class="teoriaCorpo1">
           <li>
@@ -580,6 +580,9 @@ require_once('./nav/menu.html');
       </div>
       </script>    
       </div>
-<?php
+      <?php
 require_once('./nav/footer.html');
 ?>
+</body>
+
+</html>

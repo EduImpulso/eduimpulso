@@ -4,7 +4,7 @@ require_once('./nav/menu.html');
 ?>
 <div class="container-fluid mt-4">
     <div class="col-12 text-center mb-4" id="desktop">
-        <h1 class="display-4">Cadastre-se</h1>
+        <h3><strong>Cadastre-se</strong></h3>
     </div>
     <div class="col-12 text-center mb-4" id="phone">
         <h3>Cadastre-se</h3>
@@ -93,10 +93,9 @@ require_once('./nav/menu.html');
 <body>
 </body>
 
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
+<?php
+require_once('./nav/footer.html');
+?>
+</body>
 
 </html>

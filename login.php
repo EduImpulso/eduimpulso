@@ -31,7 +31,9 @@ require_once('./nav/menu.html');
     </div>
 </div>
 </div>
-
 <?php
 require_once('./nav/footer.html');
 ?>
+</body>
+
+</html>

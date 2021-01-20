@@ -8,11 +8,11 @@
             </div>
             <div class="container">
                 <div class="info-box bordered shadow" >
-                    <div class="header clearfix">
-                        <h1 class="titulo"> POLÍTICA DE PRIVACIDADE </h1>
+                    <div class="clearfix">
+                        <h3 class="titulo"><strong>POLÍTICA DE PRIVACIDADE 📑</strong> </h3>
                     </div>
                     <div class="statics body">
-                        <p class="paragrafo"> última atualização Janeiro 2021 </p>
+                        <p class="paragrafo"> última atualização: 20 de janeiro 2021 </p>
                         <h2 class="heading heading--4">USO DE DADOS</h2>
                         <p class="paragrafo">
                             1. A EduImpulso poderá coletar dados pessoais de Visitantes e/ou Usuários sempre que estes interagirem com a EduImpulso, seja acessando suas plataformas, aplicativos ou ainda ao pedir autorização para acessar seus dados de sites externos (como o Facebook). 
@@ -91,4 +91,9 @@
             </div>
         </div>
     </div>
-<?php require_once('./nav/footer.html') ?>
+    <?php
+require_once('./nav/footer.html');
+?>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 require_once('./nav/menu.html');
 ?>
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">
-    <h1 class="quiz teoriaTitulo1">QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐 </h1> 
+    <h3 class=""><strong>QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐</strong></h3> 
     <h1 class="subtitulo">Escolha a frase com a qual vc mais se identifica! </h1>
     <br/>
     <div class="quiz-area" id="quiz-area">
@@ -472,12 +472,9 @@ function shuffle(array){
 
 
 </script>    
+<?php
+require_once('./nav/footer.html');
+?>
 </body>
-
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
 
 </html>

@@ -5,7 +5,7 @@ require_once('./nav/menu.html');
 
 <div class="mt-4">
     <div class="col-12 text-center">
-        <h5 class="">noticias<img src="./imgs/blog/megaphone.svg" class="img-fluid" alt="" width="50px"></h5>
+        <h3 class="pb-3"><strong>Notícias 📰</strong></h3>
     </div>
 </div>
 
@@ -120,3 +120,6 @@ require_once('./nav/menu.html');
 <?php
 require_once('./nav/footer.html');
 ?>
+</body>
+
+</html>

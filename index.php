@@ -8,7 +8,7 @@ require_once('./nav/menu.html');
     <div class="container d-flex align-items-center p-5">
 
         <h1 class="p-4">
-            MIRE O OLHAR NO<br /> SEU FUTURO!<br />
+            a vaga tá lá<br /> esperando vc! ✌<br />
         </h1>
 
     </div>
@@ -17,14 +17,14 @@ require_once('./nav/menu.html');
 
 <div class="row contaner-fluid d-flex align-items-center justify-content-around px-4 my-4">
 
-    <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
+    <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around shadow">
         <div class="d-flex justify-content-center">
             <img src="./imgs/index/cardLogin.png" class="imgCard img-fluid my-2" alt="">
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Faça seu login ou cadastre-se aqui. <br /> Assim vc terá acesso ao nosso quiz e outras informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <a href="./login.php" class="btnCardMini btn btn-danger"> login </a href=>
-            <a href="./cadastro.php" class="btnCardMini btn btn-danger"> cadastro </a href=>
+            <a href="./login.php" class="btnCardMini"> Login </a href=>
+            <a href="./cadastro.php" class="btnCardMini"> Cadastro </a href=>
         </div>
     </div>
     <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -33,7 +33,7 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard text-center my-auto d-flex align-items-center">Fale conosco pra tirar dúvidas e saber mais informações! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <a href="./fale_conosco.php" class="btnCard btn btn-danger"> contato </a>
+            <a href="./fale_conosco.php" class="btnCard"> Contato </a>
         </div>
     </div>
     <div class="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -42,7 +42,7 @@ require_once('./nav/menu.html');
         </div>
         <h5 class="tituloCard my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
         <div class="mb-2 d-flex justify-content-around">
-            <a href="./noticias.php" class="btnCard btn btn-danger"> noticias </a>
+            <a href="./noticias.php" class="btnCard"> Notícias </a>
         </div>
     </div>
 
@@ -74,12 +74,9 @@ require_once('./nav/menu.html');
 </div>
 </div>
 
+<?php
+require_once('./nav/footer.html');
+?>
 </body>
-
-<footer class="container-fluid bg-purple text-light d-flex justify-content-center">
-    <div class="footerBar d-flex align-items-center">
-        ©2021 - EduImpulso - ORIENTAÇÃO PROFISSIONAL
-    </div>
-</footer>
 
 </html>

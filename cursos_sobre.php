@@ -1,9 +1,9 @@
 <?php require_once('./nav/menu.html') ?>
 
     <div class="container-fluid">
-        <div class ="col-12 text-left mt-5">
+        <div class ="col-12 text-left mt-4">
             <div class="container">
-                <h3 class="display-4" style="color:#a25fd1">Cursos Técnicos</h3>
+                <h3>Cursos Técnicos</h3>
                 <div class="linha my-4 mx-auto"></div>
                 <p class="display-4"> Curso: Automação Industrial </p>
             </div>
@@ -62,5 +62,9 @@
             </p>
         </div>
     </div>
+    <?php
+require_once('./nav/footer.html');
+?>
+</body>
 
- <?php require_once('./nav/footer.html') ?>
+</html>
