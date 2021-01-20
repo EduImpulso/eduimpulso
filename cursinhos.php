@@ -3,7 +3,7 @@ require_once('./nav/menu.html');
 ?>
 
 <body>
-    <div class="container-fluid" style="border:3px solid red">
+    <div class="container-fluid">
         <div class="row" style="background-color: white;"> 
             <div class="container">
                 <div class="cardCursinhos mt-5 shadow d-flex flex-column align-items-center">

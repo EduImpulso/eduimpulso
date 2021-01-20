@@ -4,56 +4,56 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif !important;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Ubuntu', sans-serif !important;
 }
 
 .form-control {
-    display: block;
-    width: 100%;
-    height: calc(2.25rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+display: block;
+width: 100%;
+height: calc(2.25rem + 2px);
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 
 /* MENU BAR */
 
 nav a {
-    /* font-weight: bold; */
-    color: white !important;
-    letter-spacing: 2px;
-    font-size: 2rem;
+/* font-weight: bold; */
+color: white !important;
+letter-spacing: 2px;
+font-size: 2rem;
 }
 
 .tamanhoFonteMenu {
-    font-size: 1rem !important;
-    letter-spacing: 1px;
+font-size: 1rem !important;
+letter-spacing: 1px;
 }
 
 .divItensMenu {
-    width: 100%;
+width: 100%;
 }
 
 nav li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .dropBar {
-    text-align: center !important;
-    background-color: #8b1cdab4 !important;
-    color: black !important;
+text-align: center !important;
+background-color: #8b1cdab4 !important;
+color: black !important;
 }
 
 
@@ -66,190 +66,190 @@ nav li {
 /* CONTEÚDO DA PAGINA */
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 74vh;
-    background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 74vh;
+background-color: white;
 }
 
 
 /* LAYOUT FORM CADASTRO */
 
 .cadastroCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    height: 50vh;
-    background-color: #ffffffe1;
-    border-radius: 0vh 5vh 5vh 0vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50vw;
+height: 50vh;
+background-color: #ffffffe1;
+border-radius: 0vh 5vh 5vh 0vh;
 }
 
 .cadastroCard h1 {
-    text-align: center;
-    font-size: 8vh;
-    letter-spacing: 0.3vw;
-    margin-bottom: 2vh;
-    color: #252525;
+text-align: center;
+font-size: 8vh;
+letter-spacing: 0.3vw;
+margin-bottom: 2vh;
+color: #252525;
 }
 
 .cadastroCard input {
-    text-align: center;
-    font-size: 1.6vh;
-    display: block;
-    width: 38vw;
-    height: 4vh;
-    margin: 1vh auto 0vh;
-    border-radius: 0.8vh;
-    border: none;
+text-align: center;
+font-size: 1.6vh;
+display: block;
+width: 38vw;
+height: 4vh;
+margin: 1vh auto 0vh;
+border-radius: 0.8vh;
+border: none;
 }
 
 .cadastroCard button {
-    display: block;
-    font-size: 2.5vh;
-    text-align: center;
-    width: 38vw;
-    height: 5vh;
-    background-color: #8b1cda;
-    color: white;
-    border: none;
-    border-radius: 0.8vh;
-    margin: 1.5vh auto 0vh;
+display: block;
+font-size: 2.5vh;
+text-align: center;
+width: 38vw;
+height: 5vh;
+background-color: #8b1cda;
+color: white;
+border: none;
+border-radius: 0.8vh;
+margin: 1.5vh auto 0vh;
 }
 
 .cadastroCard a {
-    display: block;
-    width: 38vw;
-    font-size: 1.8vh;
-    color: black;
-    text-decoration: none;
-    margin: 0.5vh auto 0vh;
+display: block;
+width: 38vw;
+font-size: 1.8vh;
+color: black;
+text-decoration: none;
+margin: 0.5vh auto 0vh;
 }
 
 
 /* BANNER CADASTRO */
 
 .bannerCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8b1cda;
-    width: 50vw;
-    height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #8b1cda;
+width: 50vw;
+height: 70vh;
 }
 
 .bannerCard img {
-    height: 70vh;
+height: 70vh;
 }
 
 
 /* CURSOS */
 
 body {
-    margin: 0px;
-    background-color: white;
-    font-size: 12px;
-    color: black;
+margin: 0px;
+background-color: white;
+font-size: 12px;
+color: black;
 }
 
 .logo {
-    float: left;
-    width: 70%;
-    text-align: right;
+float: left;
+width: 70%;
+text-align: right;
 }
 
 .conteudo {
-    float: left;
-    margin: 100px;
-    min-height: 500px;
+float: left;
+margin: 100px;
+min-height: 500px;
 }
 
 .justificado {
-    text-align: justify;
-    margin: 30px;
-    font-size: 14px;
+text-align: justify;
+margin: 30px;
+font-size: 14px;
 }
 
 .lado {
-    float: left;
-    width: 40%;
-    padding: 1%;
-    color: gray;
-    font-size: 15px;
+float: left;
+width: 40%;
+padding: 1%;
+color: gray;
+font-size: 15px;
 }
 
 .titulo {
-    font-size: 20px;
-    /*color:blue;*/
-    margin: 10px;
+font-size: 20px;
+/*color:blue;*/
+margin: 10px;
 }
 
 .rodape {
-    border-top: 2px solid #000000;
-    /*#ffd988;*/
-    float: left;
-    width: 98%;
-    height: 56px;
-    text-align: right;
-    padding: 1%;
+border-top: 2px solid #000000;
+/*#ffd988;*/
+float: left;
+width: 98%;
+height: 56px;
+text-align: right;
+padding: 1%;
 }
 
 h1 {
-    margin: 14px;
+margin: 14px;
 }
 
 .div100 {
-    float: left;
-    width: 98%;
-    padding: 3%;
+float: left;
+width: 98%;
+padding: 3%;
 }
 
 .div50 {
-    float: left;
-    width: 48%;
-    padding: 1%;
+float: left;
+width: 48%;
+padding: 1%;
 }
 
 .menucur {
-    float: left;
-    width: 100%;
-    border-top: 2px solid #FFCC33;
+float: left;
+width: 100%;
+border-top: 2px solid #FFCC33;
 }
 
 .centraliza {
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 760px;
-    max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+min-width: 760px;
+max-width: 1024px;
 }
 
 .inside {
-    float: left;
-    width: 100%;
-    min-height: 460px;
-    background: #FFFFFF;
-    /*background-image:url(../img/bg.jpg);*/
-    margin: 70px 80px 70px 35px;
+float: left;
+width: 100%;
+min-height: 460px;
+background: #FFFFFF;
+/*background-image:url(../img/bg.jpg);*/
+margin: 70px 80px 70px 35px;
 }
 
 
 /* LISTA DE CURSOS */
 
 .container {
-    width: 80%;
-    vertical-align: top;
-    /*   background-color:fuchsia;*/
-    display: inline-block;
+width: 80%;
+vertical-align: top;
+/*   background-color:fuchsia;*/
+display: inline-block;
 }
 
 .box_cursos {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    width: 29%;
-    margin: 12px 0px 0px 32px;
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+width: 29%;
+margin: 12px 0px 0px 32px;
 }
 
 
@@ -258,93 +258,93 @@ h1 {
 /* LAYOUT LOGIN/CADASTRO */
 
 .loginCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    height: 60vh;
-    background-color: #ffffffe1;
-    border-radius: 5vh 0vh 0vh 5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50vw;
+height: 60vh;
+background-color: #ffffffe1;
+border-radius: 5vh 0vh 0vh 5vh;
 }
 
 .loginCard h1 {
-    text-align: center;
-    font-size: 8vh;
-    letter-spacing: 0.3vw;
-    margin-bottom: 2vh;
-    color: #252525;
+text-align: center;
+font-size: 8vh;
+letter-spacing: 0.3vw;
+margin-bottom: 2vh;
+color: #252525;
 }
 
 .loginCard input {
-    text-align: center;
-    font-size: 1.6vh;
-    display: block;
-    width: 38vw;
-    height: 4vh;
-    margin: 1vh auto 0vh;
-    border-radius: 0.8vh;
-    border: none;
+text-align: center;
+font-size: 1.6vh;
+display: block;
+width: 38vw;
+height: 4vh;
+margin: 1vh auto 0vh;
+border-radius: 0.8vh;
+border: none;
 }
 
 .loginCard button {
-    display: block;
-    font-size: 2.5vh;
-    text-align: center;
-    width: 38vw;
-    height: 5vh;
-    background-color: #8b1cda;
-    color: white;
-    border: none;
-    border-radius: 0.8vh;
-    margin: 1.5vh auto 0vh;
+display: block;
+font-size: 2.5vh;
+text-align: center;
+width: 38vw;
+height: 5vh;
+background-color: #8b1cda;
+color: white;
+border: none;
+border-radius: 0.8vh;
+margin: 1.5vh auto 0vh;
 }
 
 .loginCard a {
-    display: block;
-    width: 38vw;
-    font-size: 1.8vh;
-    color: black;
-    text-decoration: none;
-    margin: 0.5vh auto 0vh;
+display: block;
+width: 38vw;
+font-size: 1.8vh;
+color: black;
+text-decoration: none;
+margin: 0.5vh auto 0vh;
 }
 
 
 /* BANNER LOGIN */
 
 .bannerHome {
-    background-image: url(../imgs/index/capa-home-redux.png);
-    height: 100%;
-    background-size: cover;
+background-image: url(../imgs/index/capa-home-redux.png);
+height: 100%;
+background-size: cover;
 }
 
 .bannerHome div {
-    height: 100vh;
+height: 100vh;
 }
 
 .bannerHome div h1 {
-    font-weight: bold;
-    text-shadow: 2px 2px 15px black;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
+font-weight: bold;
+text-shadow: 2px 2px 15px black;
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.4);
 }
 
 .bannerHome div h1 .linkHome {
-    font-size: 15px !important;
-    color: #212529 !important;
+font-size: 15px !important;
+color: #212529 !important;
 }
 
 
 /* LISTA DE CARREIRAS */
 
 .container {
-    text-align: center;
-    /* background-color: aqua;*/
-    margin: 0 auto;
-    width: 70%;
+text-align: center;
+/* background-color: aqua;*/
+margin: 0 auto;
+width: 70%;
 }
 
 h2 {
-    font-size: 20px;
+font-size: 20px;
 }
 
 
@@ -357,178 +357,178 @@ h2 {
 /* scrollbar */
 
 body::-webkit-scrollbar {
-    background-color: #6108a0;
-    width: 8px;
+background-color: #6108a0;
+width: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #818181;
-    border-radius: 5px;
+background-color: #818181;
+border-radius: 5px;
 }
 
 body::-webkit-scrollbar-track {
-    border-radius: 5px;
+border-radius: 5px;
 }
 
 
 /* Backgorund-Purple (padrão) */
 
 .bg-purple {
-    background-color: #9D40E0;
+background-color: #9D40E0;
 }
 
 
 /* Arredondamento de bordas (padrão) */
 
 .borderRadius {
-    border-radius: 10px;
+border-radius: 10px;
 }
 
 
 /* Botão Padrão */
 
 .buttonForm {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0) !important;
-    border: 3px solid white !important;
-    color: white !important;
-    font-weight: bold !important;
+width: 100%;
+background-color: rgba(255, 255, 255, 0) !important;
+border: 3px solid white !important;
+color: white !important;
+font-weight: bold !important;
 }
 
 
 /* Imput Padrão */
 
 .imputFomr {
-    background-color: rgb(223, 223, 223);
+background-color: rgb(223, 223, 223);
 }
 
 .imputFomr::placeholder {
-    font-size: 11px;
+font-size: 11px;
 }
 
 
 /* Borda para teste */
 
 .border {
-    border: 3px solid black !important;
+border: 3px solid black !important;
 }
 
 
 /* Menu Bar (Header.jsx) */
 
 .menuBar {
-    width: 100%;
-    height: 12vh;
-    box-shadow: 2px 2px 10px black;
-    position: fixed;
-    z-index: 1;
+width: 100%;
+height: 12vh;
+box-shadow: 2px 2px 10px black;
+position: fixed;
+z-index: 1;
 }
 
 .menuButton {
-    height: 6vh;
-    font-size: 10px;
-    border-radius: 100px;
+height: 6vh;
+font-size: 10px;
+border-radius: 100px;
 }
 
 .link-button {
-    color: #212529;
-    font-size: 12px;
+color: #212529;
+font-size: 12px;
 }
 
 .whiteBar {
-    height: 12vh;
-    width: 12%;
+height: 12vh;
+width: 12%;
 }
 
 
 /* Footer Bar (Footer.jsx) */
 
 footer {
-    bottom: 0;
-    height: 40px;
+bottom: 0;
+height: 40px;
 }
 
 footer .footerBar {
-    font-size: 15px;
+font-size: 15px;
 }
 
 
 /* Page Login (logiin.jsx) */
 
 .textLogin {
-    color: white;
+color: white;
 }
 
 .teste {
-    border: 3px solid #212529;
+border: 3px solid #212529;
 }
 
 .cardLogin {
-    background-color: #9D40E0;
+background-color: #9D40E0;
 }
 
 .section-login {
-    display: flex;
-    align-items: center;
-    height: 82vh;
+display: flex;
+align-items: center;
+height: 82vh;
 }
 
 .linkCadastro {
-    font-family: 'Rubik', sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-    color: white;
+font-family: 'Rubik', sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: white;
 }
 
 
 /* Page Index (index.jsx) */
 
 .divCard{
-    background-color: hsla(275, 100%, 67%, 0.827);
-    height: 45vh;
-    border-radius: 10px;
+background-color: hsla(275, 100%, 67%, 0.827);
+height: 45vh;
+border-radius: 10px;
 }
 .imgCard{
-    width: 30%;
+width: 30%;
 }
 .tituloCard{
-    height:45%;
+height:45%;
 }
 .btnCardMini{
-    background-color: rgba(0, 0, 0, 0);
-    width:40%;
-    border: 3px solid white;
-    color: white;
+background-color: rgba(0, 0, 0, 0);
+width:40%;
+border: 3px solid white;
+color: white;
 }
 .btnCard{
-    background-color: rgba(0, 0, 0, 0);
-    width:80%;
-    border: 3px solid white;
-    color: white;
+background-color: rgba(0, 0, 0, 0);
+width:80%;
+border: 3px solid white;
+color: white;
 }
 
 
 /* Page Sobre (sobre.jsx) */
 
 .section-sobre {
-    height: 82vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+height: 82vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .cardIntegrantes {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
 .cardFoto {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    box-shadow: -7px -7px 2px #9D40E0;
-    box-shadow: -7px -7px 2px hsla(275, 56%, 67%, 0.827);
+height: 180px;
+width: 180px;
+border-radius: 50%;
+box-shadow: -7px -7px 2px #9D40E0;
+box-shadow: -7px -7px 2px hsla(275, 56%, 67%, 0.827);
 }
 
 
@@ -538,127 +538,127 @@ footer .footerBar {
 /* blogItem */
 
 .titleColor {
-    color: #8B1CDA;
+color: #8B1CDA;
 }
 
 .imgCardBlog {
-    height: 450px;
+height: 450px;
 }
 
 .cardBlog {
-    background-color: #ffffff;
-    box-shadow: 4px 4px 10px black;
+background-color: #ffffff;
+box-shadow: 4px 4px 10px black;
 }
 
 
 /* Page Contato (contato.jsx) */
 
 .cardContato {
-    background-color: rgba(138, 28, 217, 0.902);
-    box-shadow: 2px 2px 10px black;
+background-color: rgba(138, 28, 217, 0.902);
+box-shadow: 2px 2px 10px black;
 }
 
 
 /* Page Cadastro - Imput Instituição de Ensino */
 
 .form {
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px black;
-    background-color: #8b1cdad7;
+border-radius: 10px;
+box-shadow: 2px 2px 2px black;
+background-color: #8b1cdad7;
 }
 
 .borderImputInst {
-    border: 1px solid #999999;
+border: 1px solid #999999;
 }
 
 .imputInst {
-    background-color: rgb(223, 223, 223);
+background-color: rgb(223, 223, 223);
 }
 
 .labelInst {
-    color: white;
+color: white;
 }
 
 .dropsownGenero {
-    background-color: rgb(223, 223, 223);
-    width: 100% !important;
+background-color: rgb(223, 223, 223);
+width: 100% !important;
 }
 
 .dropsownGeneroLabel {
-    color: white;
+color: white;
 }
 
 
 /* Centralizar texto e imagem página Teoria */
 
 .container-teoria {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
 
 img.displayed-teoria {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 /* ANIMAÇÕES */
 
 [data-anime] {
-    opacity: 50;
-    transition: .3s;
+opacity: 50;
+transition: .3s;
 }
 
 [data-anime="left"] {
-    transform: translate3d(-50px, 0, 0);
+transform: translate3d(-50px, 0, 0);
 }
 
 [data-anime="right"] {
-    transform: translate3d(50px, 0, 0);
+transform: translate3d(50px, 0, 0);
 }
 
 [data-anime].animate {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
+opacity: 1;
+transform: translate3d(0px, 0px, 0px);
 }
 
 /* Backgorund-Purple (padrão) */
 
 .bg-purple {
-    background-color: #8220c6;
+background-color: #8220c6;
 }
 
 /* Botão Padrão */
 
 .buttonForm {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    border: 3px solid white;
-    color: white;
-    font-weight: bold;
+width: 100%;
+background-color: rgba(255, 255, 255, 0);
+border: 3px solid white;
+color: white;
+font-weight: bold;
 }
 
 
 /* Imput Padrão */
 
 .imputFomr {
-    background-color: rgb(223, 223, 223);
+background-color: rgb(223, 223, 223);
 }
 
 .imputFomr::placeholder {
-    font-size: 11px;
+font-size: 11px;
 }
 
 
 /* Links Alternativos */
 
 .alternativeLink {
-    font-family: 'Rubik', sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-    color: white;
+font-family: 'Rubik', sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: white;
 }
 
 
@@ -668,58 +668,58 @@ img.displayed-teoria {
 /* MENU DESKTOP */
 
 @media(max-width: 1000px) {
-    #desktop {
-        display: none !important;
-    }
+#desktop {
+    display: none !important;
+}
 }
 
 @media(max-width: 1000px) {
-    .desktop {
-        display: none !important;
-    }
+.desktop {
+    display: none !important;
+}
 }
 
 
 /* MENU DEVICE */
 
 @media(min-width: 1000px) {
-    #phone {
-        display: none !important;
-    }
+#phone {
+    display: none !important;
+}
 }
 
 
 /* Borda para teste */
 
 .border {
-    border: 3px solid black !important;
+border: 3px solid black !important;
 }
 
 
 /* Menu Bar (Header.jsx) */
 
 .menuBar {
-    width: 100%;
-    height: 12vh;
-    box-shadow: 2px 2px 10px black;
-    position: fixed;
-    z-index: 1;
+width: 100%;
+height: 12vh;
+box-shadow: 2px 2px 10px black;
+position: fixed;
+z-index: 1;
 }
 
 .whiteBar {
-    height: 12vh;
-    width: 12%;
+height: 12vh;
+width: 12%;
 }
 
 
 /* Page Index (index.jsx) */
 
 .camposLogin {
-    color: white;
+color: white;
 }
 
 .divPitch {
-    width: 80%;
+width: 80%;
 }
 
 
@@ -732,168 +732,168 @@ img.displayed-teoria {
 /* blogItem */
 
 .titleColor {
-    color: #8B1CDA;
+color: #8B1CDA;
 }
 
 
 /* Page Contato (contato.jsx) */
 
 .contatoCard {
-    background-color: #8b1cdad7;
-    box-shadow: 2px 2px 10px black;
+background-color: #8b1cdad7;
+box-shadow: 2px 2px 10px black;
 }
 
 
 /* Page Cadastro - Imput Instituição de Ensino */
 
 .form {
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px black;
-    background-color: #8b1cdad7;
+border-radius: 10px;
+box-shadow: 2px 2px 2px black;
+background-color: #8b1cdad7;
 }
 
 .borderImputInst {
-    border: 1px solid #999999;
+border: 1px solid #999999;
 }
 
 .imputInst {
-    background-color: rgb(223, 223, 223);
+background-color: rgb(223, 223, 223);
 }
 
 .labelInst {
-    color: white;
+color: white;
 }
 
 .dropsownGenero {
-    background-color: rgb(223, 223, 223);
-    width: 100% !important;
+background-color: rgb(223, 223, 223);
+width: 100% !important;
 }
 
 .dropsownGeneroLabel {
-    color: white;
+color: white;
 }
 
 
 /* Centralizar texto e imagem página Teoria */
 
 .container-teoria {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
 
 img.displayed-teoria {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 /* QUIZ STYLES */
 
 .quiz{
-    color: purple;
-    font-size: 1.5em;
-    font-weight: bold;
+color: purple;
+font-size: 1.5em;
+font-weight: bold;
 }
 
 .subtitulo{
-    color: black;
-    font-size: 1.0em;
+color: black;
+font-size: 1.0em;
 }
 
 
 .info{
-    font-size: 1.25em;
+font-size: 1.25em;
 }
 .quiz-area{
-    width: 47vw;
+width: 47vw;
 }
 .q-n-a{
-    width: 100%;
+width: 100%;
 }
 .question{
-    font-size: 1.25em;
-    text-align: center;
+font-size: 1.25em;
+text-align: center;
 }
 .answers{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .answer{
-    background-color:#9C9C9C;
-    border-radius: 5px;
-    color: white;
-    font-weight: 500;
-    padding: 0.50em;
-    text-align: justify;
-    cursor: pointer;
-    max-width: 100% !important;
-    min-width: 100% !important;
-    font-size: 1.15em;
-    box-shadow: 2px 2px 2px #252525;
-    margin: 7px;
+background-color:#9C9C9C;
+border-radius: 5px;
+color: white;
+font-weight: 500;
+padding: 0.50em;
+text-align: justify;
+cursor: pointer;
+max-width: 100% !important;
+min-width: 100% !important;
+font-size: 1.15em;
+box-shadow: 2px 2px 2px #252525;
+margin: 7px;
 }
 
 .answer:hover{
-    background-color: #9370DB;
+background-color: #9370DB;
 }
 
 .answer.selected{
-    background-color: #8A2BE2;
+background-color: #8A2BE2;
 }
 
 .button-quiz{
-    background-color: #9370DB;
-    color: white;
-    border-radius: 10px;
-    padding: 10px 5px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 1.25em;
-    margin-bottom: 50px;
+background-color: #9370DB;
+color: white;
+border-radius: 10px;
+padding: 10px 5px;
+text-align: center;
+cursor: pointer;
+font-size: 1.25em;
+margin-bottom: 50px;
 }
 
 .next{
-    float: right;
-    width: 30%;
-    background-color:  #9370DB;
-    border-radius: 10px;
+float: right;
+width: 30%;
+background-color:  #9370DB;
+border-radius: 10px;
 }
 
 .previous{
-    float: left;
-    width: 30%;
-    background-color:  #9370DB;
-    border-radius: 10px;
+float: left;
+width: 30%;
+background-color:  #9370DB;
+border-radius: 10px;
 }
 
 .button-quiz:hover{
-    background-color:#8A2BE2;
+background-color:#8A2BE2;
 }
 
 .button-quiz:holder{
-    width: 60%;
-    padding: .5em 0;
-    margin: .5em auto;
+width: 60%;
+padding: .5em 0;
+margin: .5em auto;
 }
 .button-finish{
-    width: 47vw;
-    color: white;
-    font-size: 20px;
-    background-color: #9370DB;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 340px;
-    box-shadow: 2px 2px 2px#212529 ;
-    cursor: pointer;
+width: 47vw;
+color: white;
+font-size: 20px;
+background-color: #9370DB;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 340px;
+box-shadow: 2px 2px 2px#212529 ;
+cursor: pointer;
 }
 .button-finish:hover{
-    background-color:#8A2BE2;
+background-color:#8A2BE2;
 }
 .clearfix{
-    margin-top: 20px;
+margin-top: 20px;
 }
 .clearfix:before,
 .clearfix:after {
@@ -906,154 +906,165 @@ clear: both;
 }
 
 .response p{
-    margin: 50px auto;
-    font-size: 1.5em;
+margin: 50px auto;
+font-size: 1.5em;
 }
 /* Page Teoria Multiplas Inteligencias */
 
 .teoriaTitulo1 {
-    font-size: 30px;
-    margin-top: 50px;
+font-size: 30px;
+margin-top: 50px;
 }
 
 .teoriaTitulo2 {
-    font-size: 20px;
+font-size: 20px;
 }
 
 .teoriaTitulo3 {
-    font-size: 18px;
+font-size: 18px;
 }
 
 .teoriaCorpo1 {
-    font-size: 18px;
-    text-align: justify;
+font-size: 18px;
+text-align: justify;
 }
 
 .teoriaFonte {
-    font-size: 15px;
-    color:rgb(153, 153, 153)
+font-size: 15px;
+color:rgb(153, 153, 153)
 }
 .linha{
-    width: 80vw;
-    height: 1px;
-    background-color: rgb(37, 37, 37, 0.3);
+width: 80vw;
+height: 1px;
+background-color: rgb(37, 37, 37, 0.3);
 }
 .textoDestaque{
-    text-align: justify;
+text-align: justify;
 }
 
 /* Centralizar texto e imagem página Teoria */
 
 .container { 
-    width: 1200px; 
-    margin-left: auto;
-    margin-right: auto; 
+width: 1200px; 
+margin-left: auto;
+margin-right: auto; 
 }
 
 img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+display: block;
+margin-left: auto;
+margin-right: auto; 
 }
 .btnTopo{
-    width: 20%;
-    background-color:  #9370DB;
-    border-radius: 10px;
-    border-radius: 15px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 1.25em;
-    padding: 10px 5px;
-    color: white;
+width: 20%;
+background-color:  #9370DB;
+border-radius: 10px;
+border-radius: 15px;
+text-align: center;
+cursor: pointer;
+font-size: 1.25em;
+padding: 10px 5px;
+color: white;
 }
 
 .btnTopo:hover{
-    background-color:#8A2BE2;
-    text-decoration: none;
-    color: #818181;
+background-color:#8A2BE2;
+text-decoration: none;
+color: #818181;
 }
 
 /* Pagina Cursinhos */
 
 .text-front {
-    font-size: 2.2em;
-    margin-top: 50px;
-    color: #C574FF;
-  }
-  .text-back {
-    font-size: 1.5em;
-    margin-top: 5px;
-    color: #C574FF;
-  }
-  .text-card{
-    text-align: justify ;
-  }
-  .lead{
-    text-align: justify !important;
-  }
-  .cardCursinhos{
-    border: 3px solid #C6A6D9;
-    border-radius: 10px !important;
-  }
-  .card-container {
-    /* é a "distancia relativa" entre o movimento do cartão e o quanto ele se "aproxima" na tela do usuário   */
-    perspective: 900px;
-    display: inline-block;
-  }
-  
-  .card {
-    position: relative;
+font-size: 2.2em;
+margin-top: 50px;
+color: #C574FF;
+}
+.text-back {
+font-size: 1.5em;
+margin-top: 5px;
+color: #C574FF;
+}
+.text-card{
+text-align: justify ;
+}
+.lead{
+text-align: justify !important;
+}
+.cardCursinhos{
+border: 3px solid #C6A6D9;
+border-radius: 10px !important;
+}
+.card-container {
+/* é a "distancia relativa" entre o movimento do cartão e o quanto ele se "aproxima" na tela do usuário   */
+perspective: 900px;
+display: inline-block;
+}
+
+.card {
+position: relative;
+line-height: 20px;
+text-align: center;
+color: #000;
+margin: 30px;
+width: 300px;
+height: 350px;
+transition: all 0.6s ease;
+/* faz o efeito do flip no proprio eixo parecer em 3D */
+transform-style: preserve-3d;
+border: none !important;
+}
+
+.front{
+background:white;
+border: 3px solid #C574FF;
+position: absolute;
+width: 300px;
+height: 350px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px 8px black;
+
+/* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
+backface-visibility: hidden;
+}
+.back {
+background: #C574FF;
+position: absolute;
+width: 300px;
+height: 350px;
+border-radius: 20px;
+/* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
+backface-visibility: hidden;
+}
+
+.back {
+transform: rotateY(180deg);
+background: #fff;
+text-align: center;
+
+}
+.buttonCard{
+border: #117A8B 3px solid !important;
+color: #117A8B;
+width: 50%;
+}
+/* quando fizer o hover o card dentro do containr flipa */
+.card-container:hover .card {
+transform: rotateY(180deg);
+cursor: default;
+}
+
+/* Pagina Cursos Sobre */
+
+.card_sobre{
     line-height: 20px;
     text-align: center;
     color: #000;
     margin: 30px;
     width: 300px;
     height: 350px;
-    transition: all 0.6s ease;
-    /* faz o efeito do flip no proprio eixo parecer em 3D */
-    transform-style: preserve-3d;
-    border: none !important;
-  }
-  
-  .front{
-    background:white;
-    border: 3px solid #C574FF;
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 2px 8px black;
-    
-    /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
-    backface-visibility: hidden;
-  }
-  .back {
-    background: #C574FF;
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    border-radius: 20px;
-    /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
-    backface-visibility: hidden;
-  }
-  
-  .back {
-    transform: rotateY(180deg);
-    background: #fff;
-    text-align: center;
-    
-  }
-  .buttonCard{
-    border: #117A8B 3px solid !important;
-    color: #117A8B;
-    width: 50%;
-  }
-  /* quando fizer o hover o card dentro do containr flipa */
-  .card-container:hover .card {
-    transform: rotateY(180deg);
-    cursor: default;
-  }
-  
+    border
+}
