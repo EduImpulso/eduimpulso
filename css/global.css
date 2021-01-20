@@ -10,6 +10,27 @@ box-sizing: border-box;
 font-family: 'Ubuntu', sans-serif !important;
 }
 
+.creative-commons{
+    font-family:Arial;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+    margin-right: 4px;
+    display: inline-block;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1em;
+   }
+.politicaPriv{
+    text-decoration: none;
+    color: white;
+}
+.politicaPriv:hover{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
 .form-control {
 display: block;
 width: 100%;
@@ -394,7 +415,9 @@ border: 3px solid white !important;
 color: white !important;
 font-weight: bold !important;
 }
-
+.buttonForm:hover{
+    background-color:#8A2BE2 !important;
+    }
 
 /* Imput Padrão */
 
@@ -493,6 +516,8 @@ width: 30%;
 }
 .tituloCard{
 height:45%;
+text-align: center;
+font-size: 16px;
 }
 .btnCardMini{
 background-color: rgba(0, 0, 0, 0);
@@ -894,6 +919,7 @@ background-color:#8A2BE2;
 }
 .clearfix{
 margin-top: 20px;
+width: 100%;
 }
 .clearfix:before,
 .clearfix:after {
@@ -990,6 +1016,7 @@ text-align: justify ;
 }
 .lead{
 text-align: justify !important;
+font-size: 17   px !important;
 }
 .cardCursinhos{
 border: 3px solid #C6A6D9;

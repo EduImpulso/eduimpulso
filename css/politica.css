@@ -1,21 +1,3 @@
-
-
-
-.container{
-    max-width:1200px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left:15px;
-    margin-right: auto;
-    margin-left:auto;
-}
-div{
-    display: block;
-}
-.info-box.bordered {
-border: 1px solid #e6dfcf;
-border-radius: 5px;
-}
 .info-box {
 background: #f9f7f4;
 clear: both;
@@ -47,6 +29,7 @@ padding: 10px 16px;
 color:#575757;
 font-weight: 400;
 margin:16px 0;
+text-align: justify !important;
 }
 p{
 display: block;

@@ -38,10 +38,10 @@ require_once('./nav/menu.html');
                     <input class="form-control has-validation" type="password" id="password2" placeholder="Confirme a senha" name="password2" />
                 </div>
                 <div class="form-group">
-                    <label class="my-2 form-label" for="born" style="color: white">Repita a senha</label>
+                    <label class="my-2 form-label" for="born" style="color: white">Data de nascimento</label>
                     <input class="form-control has-validation" type="date" id="born" placeholder="Confirme a senha" name="born" />
                 </div>
-
+<!-- 
                 <div class="row d-flex justify-content-center">
                     <div class="col-12">
                         <label class="dropsownEscolaridadeLabel my-2">Nível de escolaridade</label>
@@ -60,12 +60,9 @@ require_once('./nav/menu.html');
                         </div>
                     </div>
 
+                </div> -->
 
-
-                </div>
-
-
-                <div class="row d-flex justify-content-center">
+                <!-- <div class="row d-flex justify-content-center">
                     <div class="col-12">
                         <label class="dropsownGeneroLabel my-2">Genero</label>
                         <div class="dropdown">
@@ -82,9 +79,7 @@ require_once('./nav/menu.html');
                         </div>
                     </div>
 
-
-
-                </div>
+                </div> -->
 
                 <button class="buttonForm btn mt-3">
                     Cadastre-se

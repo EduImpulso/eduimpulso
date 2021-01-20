@@ -1,15 +1,15 @@
 <?php
 //require_once('./servidor/Conection.php');
 require_once('./nav/menu.html');
-?>
-      <main class="row">
+?>  <div class="container-fluid">
+      <div class="row">
         <div class="d-flex align-items-center justify-content-center py-4 col-lg-12">
           <div class="text-center">
-            <h1 class="display-6" id="topo">
+            <h3 class="display-5" id="topo">
               <strong>
                 🧐 Teoria das Múltiplas Inteligências: o que é isso?
               </strong>
-            </h1>
+            </h3>
           </div>
         </div>
 
@@ -577,8 +577,9 @@ require_once('./nav/menu.html');
           </a>
         </div>
         </div>
-      </main>
+      </div>
       </script>    
-</body>
-
-</html>
+      </div>
+<?php
+require_once('./nav/footer.html');
+?>
