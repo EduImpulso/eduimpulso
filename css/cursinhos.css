@@ -1,8 +1,22 @@
-  h1, h2 {
+.text-front {
+  font-size: 2.2em;
+  margin-top: 50px;
+  color: #C574FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-back {
   font-size: 2.2em;
   margin: 0;
 }
-
+.lead{
+  text-align: justify !important;
+}
+.cardCursinhos{
+  background-color:#C6A6D9 !important;
+  border-radius: 10px !important;
+}
 .card-container {
   /* é a "distancia relativa" entre o movimento do cartão e o quanto ele se "aproxima" na tela do usuário   */
   perspective: 900px;
@@ -21,16 +35,31 @@
   border-radius: 20px;
   /* faz o efeito do flip no proprio eixo parecer em 3D */
   transform-style: preserve-3d;
+  border: 3px solid red;
 }
 
 
-.front, .back {
-  background: #643B47;
+.front{
+  background:white;
+  border: 3px solid #C574FF;
   position: absolute;
   width: 300px;
   height: 350px;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+  /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
+  backface-visibility: hidden;
+}
+.back {
+  background: #C574FF;
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  border: 3px solid red;
   /* esconde o lado que estiver na parte de traz do card caso não tenha um background no card */
   backface-visibility: hidden;
 }
