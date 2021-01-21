@@ -25,26 +25,26 @@ require_once('./nav/menu.html');
 
                 <p class="text-center"> Envia-nos uma mensagem teremos o maior prazer em atendê-lo!</p>
 
-                <form>
+                <form method="post" action="./servidor/sentmsg.php">
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="inputNome">Digite seu nome</label>
-                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                            <input type="text" class="form-control" name="name" id="inputNome" placeholder="Nome">
                         </div>
 
                         <div class="form-group col-sm-6">
                             <label for="inputEmail">Endereço de E-mail</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                            <input type="email" class="form-control" name="email" id="inputEmail" placeholder="E-mail">
                         </div>
 
                         <div class="form-group col-sm-12">
                             <label for="inputAssunto"> Assunto </label>
-                            <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
+                            <input type="text" class="form-control" name="assunto" id="inputAssunto" placeholder="Assunto">
                         </div>
 
                         <div class="form-group col-sm-12">
                             <label for="formControlTextarea"> Mensagem: </label>
-                            <textarea class="form-control" id="formControlTextatrea" rows="3"></textarea>
+                            <textarea class="form-control" name="msg" id="formControlTextatrea" rows="3"></textarea>
                         </div>
 
                         <button type="submit" class="btn col-sm-12 col-md-12 col-lg-12" style="background-color: rgba(0, 0, 0, 0); border: 3px solid white; color: white;">Enviar</button>
