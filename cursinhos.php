@@ -1,5 +1,5 @@
 <?php
-require_once('./nav/menu.html');
+require_once('./nav/menu.php');
 ?>
 
 <body>

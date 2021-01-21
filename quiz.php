@@ -4,7 +4,7 @@ if(!isset($_SESSION['id_user'])){
     header("Location: cadastro.php");
     exit;
 }
-require_once('./nav/menu.html');
+require_once('./nav/menu.php');
 ?>
 
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">

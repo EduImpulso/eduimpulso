@@ -2,7 +2,7 @@
 
     require_once('./Models/User.php');
 
-    $dados = [$_POST['name'], $_POST['username'], $_POST['born'], $_POST['email'], $_POST['scholling'], $_POST['gender'], $_POST['password1'], $_POST['password2']];
+    $dados = [$_POST['name'], $_POST['username'], $_POST['born'], $_POST['email'], $_POST['password1'], $_POST['password2']];
     if (strlen($dados[0]) < 3 && $dados[1])
     { //name min three chars
         echo"<script>alert('Nome e/ou username deve conter no mínimo três caracteres'); location.href = '../cadastro.php'</script>";

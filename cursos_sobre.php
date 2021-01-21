@@ -4,7 +4,7 @@ if(!isset($_SESSION['id_user'])){
     header("Location: index.php");
     exit;
 }
-require_once('./nav/menu.html') ?>
+require_once('./nav/menu.php') ?>
 
     <div class="container-fluid">
         <div class ="col-12 text-left mt-4">

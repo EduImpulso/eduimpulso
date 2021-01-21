@@ -1,3 +1,5 @@
+<?php
+require_once('./nav/menu.php') ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -65,6 +67,7 @@
                               <a href="./cursinhos.php" class="btnLinkVejaMais dropdown-item">Cursinhos</a>
                               <a href="./noticias.php" class="btnLinkVejaMais dropdown-item">Noticias</a>
                               <a href="./politica.php" class="btnLinkVejaMais dropdown-item">Politica de Privacidade</a>
+                              <a href="./perfil.php" class="btnLinkVejaMais dropdown-item">Perfil</a>
                             </div>
                           </div>
                     </li>
@@ -72,8 +75,8 @@
                         <a class="tamanhoFonteMenu nav-link text-white" href="./fale_conosco.php">Fale conosco</a>
                     </li>
                     <li class="nav-item mx-1 d-flex align-items-center ">
-                        <a href="./login.php" class="tamanhoFonteMenu menuButton btn text-dark btn-light d-flex align-items-center" type="submit ">Acessar</a>
-                    </li>
+                                    <a href="./login.php" class="tamanhoFonteMenu menuButton btn text-dark btn-light d-flex align-items-center" type="submit ">Acessar</a>
+                                </li>
                 </ul>
             </div>
         </nav>

@@ -1,6 +1,6 @@
 <?php
 //require_once('./servidor/Conection.php');
-require_once('./nav/menu.html');
+require_once('./nav/menu.php');
 ?>
 <div class="container-fluid mt-4">
     <div class="col-12 text-center mb-4" id="desktop">

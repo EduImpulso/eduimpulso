@@ -88,20 +88,17 @@
             $this->password = $password;
         }
         
-        public function User($name, $username, $born, $scholling, $gender, $email, $password)
+        public function User($name, $username, $born, $email, $password)
         {
             $this->name = $name;
             $this->username = $username;
             $this->born = $born;
-            $this->scholling = $scholling;
-            $this->gender = $gender;
             $this->email = $email;
             $this->password = $password;
 
             $conn = Connection::getDb();
-            $stmt = $conn->prepare("INSERT INTO usuarios(name, username, born_date, scholling, gender, email, password)
-                                VALUES ('$this->name', '$this->username', '$this->born', '$this->scholling', '$this->gender',
-                                '$this->email', '$this->password')");
+            $stmt = $conn->prepare("INSERT INTO usuarios(name, username, born_date, email, password)
+                                VALUES ('$this->name', '$this->username', '$this->born', '$this->email', '$this->password')");
             $stmt->execute();
             if ($stmt->rowCount() > 0) {
                 return true;

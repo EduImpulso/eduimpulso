@@ -1,4 +1,4 @@
- <?php require_once('./nav/menu.html') ?>
+ <?php require_once('./nav/menu.php') ?>
 
  <body style="background-color: #a25fd1;">
 

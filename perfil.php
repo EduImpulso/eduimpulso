@@ -4,7 +4,7 @@ if(!isset($_SESSION['id_user'])){
     header("Location: index.php");
     exit;
 }
-require_once('./nav/menu.html');
+require_once('./nav/menu.php');
 $id= $_SESSION['id_user'];
 $url = "./servidor/deleteuser.php?id=$id";
 ?>

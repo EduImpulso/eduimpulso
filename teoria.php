@@ -1,6 +1,6 @@
 <?php
 //require_once('./servidor/Conection.php');
-require_once('./nav/menu.html');
+require_once('./nav/menu.php');
 ?>  <div class="container-fluid">
       <div class="row">
         <div class="d-flex align-items-center justify-content-center py-4 col-lg-12">
