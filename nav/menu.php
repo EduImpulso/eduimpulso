@@ -1,5 +1,11 @@
 <?php
-require_once('./nav/menu.php') ?>
+session_start();
+if(!isset($_SESSION['id_user'])){
+    $status = false;
+} else {
+    $status = true;
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -74,9 +80,21 @@ require_once('./nav/menu.php') ?>
                     <li class="nav-item">
                         <a class="tamanhoFonteMenu nav-link text-white" href="./fale_conosco.php">Fale conosco</a>
                     </li>
-                    <li class="nav-item mx-1 d-flex align-items-center ">
-                                    <a href="./login.php" class="tamanhoFonteMenu menuButton btn text-dark btn-light d-flex align-items-center" type="submit ">Acessar</a>
-                                </li>
+                    <?php
+                    if (!$status) {
+                        ?>
+                            <li class="nav-item mx-1 d-flex align-items-center ">
+                                <a href="./login.php" class="tamanhoFonteMenu menuButton btn text-dark btn-light d-flex align-items-center" type="submit ">Acessar</a>
+                            </li>
+                        <?php
+                    } else {
+                        ?>
+                            <li class="nav-item mx-1 d-flex align-items-center ">
+                                <a href="./servidor/logout.php" class="tamanhoFonteMenu menuButton btn text-dark btn-warning d-flex align-items-center" type="submit ">Sair</a>
+                            </li>
+                        <?php
+                    }
+                    ?>
                 </ul>
             </div>
         </nav>

@@ -6,10 +6,10 @@
     if (strlen($dados[0]) < 3 && $dados[1])
     { //name min three chars
         echo"<script>alert('Nome e/ou username deve conter no mínimo três caracteres'); location.href = '../cadastro.php'</script>";
-    } else if (strlen($dados[6]) < 6)
+    } else if (strlen($dados[4]) < 6)
     { //password min six chars
         echo"<script>alert('Senha deve conter no mínimo seis caracteres'); location.href = '../cadastro.php'</script>";
-    } else if ($dados[6] != $dados[7])
+    } else if ($dados[4] != $dados[5])
     { //password as a confirm password
         echo"<script>alert('Senhas digitadas não são iguais'); location.href = '../cadastro.php'</script>";
     } else
@@ -37,10 +37,8 @@
                             $username = $dados[1];
                             $born= $dados[2];
                             $email = $dados[3];
-                            $scholling = $dados[4];
-                            $gender = $dados[5];
-                            $password = md5($dados[6]);
-                            $user = new User($name, $username, $born, $scholling, $gender, $email, $password);
+                            $password = md5($dados[4]);
+                            $user = new User($name, $username, $born, $email, $password);
                             if ($user) {
                                 echo"<script>alert('Cadastro concluído'); location.href = '../login.php'</script>";
                             } else {

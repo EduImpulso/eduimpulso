@@ -1,10 +1,9 @@
 <?php
-session_start();
+require_once('./nav/menu.php');
 if(!isset($_SESSION['id_user'])){
-    header("Location: cadastro.php");
+    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './index.php'</script>";
     exit;
 }
-require_once('./nav/menu.php');
 ?>
 
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">

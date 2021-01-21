@@ -1,10 +1,9 @@
 <?php
-session_start();
+require_once('./nav/menu.php');
 if(!isset($_SESSION['id_user'])){
-    header("Location: index.php");
+    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './index.php'</script>";
     exit;
 }
-require_once('./nav/menu.php');
 $id= $_SESSION['id_user'];
 $url = "./servidor/deleteuser.php?id=$id";
 ?>

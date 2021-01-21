@@ -23,7 +23,7 @@ require_once('./nav/menu.php');
                 </div>
                 <div class="form-group">
                     <label class="my-2 form-label" for="username" style="color: white">Nome de usuário</label>
-                    <input class="form-control has-validation" type="text" id="username" placeholder="Informe seu usuário" name="usuário" />
+                    <input class="form-control has-validation" type="text" id="username" placeholder="Informe seu usuário" name="username" />
                 </div>
                 <div class="form-group">
                     <label class="my-2 form-label" for="email" style="color: white">Informe seu e-mail</label>

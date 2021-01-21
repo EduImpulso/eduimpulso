@@ -23,4 +23,5 @@
         echo "<script>alert('Dados alterados'); location.href = '../perfil.php'</script>";
     } else {
         echo"<script>alert('Erro ao editar informações'); location.href = '../index.php'</script>";
-    }   
+    }
+   
