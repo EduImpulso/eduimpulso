@@ -5,6 +5,8 @@ if(!isset($_SESSION['id_user'])){
     exit;
 }
 require_once('./nav/menu.html');
+$id= $_SESSION['id_user'];
+$url = "./servidor/deleteuser.php?id=$id";
 ?>
 
 <main class="container-fluid d-flex justify-content-center align-items-center my-5">
@@ -42,14 +44,28 @@ require_once('./nav/menu.html');
             <div class="col-12 col-lg-6 my-auto d-block alert alert-danger mx-2 text-center d-flex align-items-center h-50" role="alert">
                 Cuidado! ao remover a conta, não poderá ser recuperada!
             </div>
-            <form method="post" action="./servidor/deleteuser.php" class="col-12 col-lg-5 h-50 p-3 mx-2 my-auto d-flex flex-column align-items-center justify-content-around border shadow text-center">
-                <fieldset disabled hidden>
-                    <div class="mb-1 w-100">
-                        <input type="text" id="disabledTextInput" class="form-control" name="id" placeholder="Disabled input" defaultValue=<?php echo $_SESSION['id_user'] ?> />
-                    </div>
-                </fieldset>
-                <button class="d-block btn btn-danger w-100">Remover a conta</button>
-            </form>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger my-auto" data-toggle="modal" data-target="#staticBackdrop">
+                Remover a conta
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content d-flex m-auto">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Deseja remover a conta?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer m-auto">
+                    <button type="button" class="btn btn-secondary" >Cancelar</button>
+                    <a type="button" href=<?php echo $url; ?> class="btn btn-danger">Deletar conta</a>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
 
