@@ -376,6 +376,14 @@ h2 {
 font-size: 20px;
 }
 
+.btnCarreira{
+color: #000;
+}
+.btnCarreira:hover{
+background-color:  #9370DB !important;
+color: white;
+}
+
 
 /* VERSÃO REACT */
 
