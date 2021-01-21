@@ -478,9 +478,14 @@ function shuffle(array){
 
 
 </script>    
-<?php
-require_once('./nav/footer.html');
-?>
+<footer class="container-fluid bg-purple text-light d-flex justify-content-around">
+        <div class="footerBar d-flex align-items-center">
+            <span class="creative-commons">CC</span>  2021 - EduImpulso - orientação profissional
+        </div>
+        <div class="footerBar d-flex align-items-center">
+           <a class="politicaPriv"href="../politica.php">politica de privacidade</a>
+        </div>
+    </footer>
 </body>
 
 </html>
