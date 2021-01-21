@@ -49,7 +49,7 @@ require_once('./nav/menu.html');
 </div>
 <div class="d-flex justify-content-center align-items-center my-5">
     <div class="borderRadius cardLogin p-3 col-12 col-sm-10 col-xl-4">
-        <h1 class="camposLogin text-white text-center pb-4" id="login">LOGIN</h1>
+        <h1 class="camposLogin text-white text-center pb-4" id="login">login</h1>
         <form method="post" action="./servidor/login_verify.php">
             <div class="form-group">
                 <label class="my-2 form-label" for="e-mail" style="color: white">Digite seu e-mail</label>

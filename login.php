@@ -8,7 +8,7 @@ require_once('./nav/menu.html');
         <img src="./imgs/index/capa-home-login.jpg" width="95%" alt="login" />
     </div>
     <div class="borderRadius cardLogin m-auto p-3 col-11 col-sm-10 col-xl-4">
-        <h1 class="camposLogin text-white text-center pb-4">LOGIN</h1>
+        <h1 class="camposLogin text-white text-center pb-4">login</h1>
         <form method="post" action="./servidor/login_verify.php">
             <div class="form-group">
                 <label class="my-2 form-label" for="e-mail" style="color: white">Digite seu e-mail</label>

@@ -4,7 +4,7 @@ require_once('./nav/menu.html');
 ?>
 <div class="container-fluid mt-4">
     <div class="col-12 text-center mb-4" id="desktop">
-        <h3><strong>Cadastre-se</strong></h3>
+        <h3><strong>Cadastre-se 📋</strong></h3>
     </div>
     <div class="col-12 text-center mb-4" id="phone">
         <h3>Cadastre-se</h3>
@@ -22,12 +22,12 @@ require_once('./nav/menu.html');
                     <input class="form-control has-validation" type="text" id="name" placeholder="Nome Completo" name="name" />
                 </div>
                 <div class="form-group">
-                    <label class="my-2 form-label" for="username" style="color: white">Username</label>
-                    <input class="form-control has-validation" type="text" id="username" placeholder="Informe seu username" name="username" />
+                    <label class="my-2 form-label" for="username" style="color: white">Nome de usuário</label>
+                    <input class="form-control has-validation" type="text" id="username" placeholder="Informe seu usuário" name="usuário" />
                 </div>
                 <div class="form-group">
                     <label class="my-2 form-label" for="email" style="color: white">Informe seu e-mail</label>
-                    <input class="form-control has-validation" type="e-mail" id="email" placeholder="Digite um nome de usuário" name="email" />
+                    <input class="form-control has-validation" type="e-mail" id="email" placeholder="Digite seu e-mail" name="email" />
                 </div>
                 <div class="form-group">
                     <label class="my-2 form-label" for="password1" style="color: white">Digite uma senha</label>
