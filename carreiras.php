@@ -13,7 +13,7 @@ if(!isset($_SESSION['id_user'])){
 <div class="container d-flex justify-content-center align-items-center my-3">
     <div class="row d-flex justify-content-center">
     <?php
-            $json = file_get_contents("http://localhost/eduimpulso/servidor/apicourses.php");
+            $json = file_get_contents("http://localhost/eduimpulso/servidor/apicourses.php"); // Endereço PC Flavio: (alterar este endereço se necessário): ("http://localhost/1_Github_Eduimpulso/0_versao%20final/servidor/apicourses.php");
             $data = json_decode($json, true);
             foreach ($data as $key => $row){
                 $id = $row['id_curso']

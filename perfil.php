@@ -40,8 +40,8 @@ $url = "./servidor/deleteuser.php?id=$id";
         <div id="phone" style="height:20px;"></div>
         <div class="row col-12 col-lg-5 p-3 d-flex justify-content-around my-3 mx-3" style="background-color:rgb(37, 37, 37, 0.5);">
 
-            <div class="col-12 col-lg-6 my-auto d-block alert alert-danger mx-2 text-center d-flex align-items-center h-50" role="alert">
-                Cuidado! ao remover a conta, não poderá ser recuperada!
+            <div class="col-12 col-lg-6 my-auto d-block alert alert-danger mx-2 text-center d-flex align-items-center h-100" role="alert">
+            🚧 Cuidado: ao clicar em remover, a conta não poderá ser recuperada!😲
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-danger my-auto" data-toggle="modal" data-target="#staticBackdrop">
