@@ -143,7 +143,7 @@ require_once('./nav/menu.php');
                             O Cursinho Popular EACH/USP, organização sem fins lucrativos formada por alunos da Escola, o objetivo da entidade é preparar estudantes de baixa renda para o vestibular por meio de aulas, plantões, simulados e palestras gratuitas.
                             </p>
                             <p><strong> Para mais informações sobre o cursinho EACH</strong></p>
-                            <a style="margin-top: 10px;"href="https://www.cursinhoeach.com.br/" class="btn buttonCard mx-auto" target="_blank"> Clique aqui </a>>
+                            <a style="margin-top: 10px;"href="https://www.cursinhoeach.com.br/" class="btn buttonCard mx-auto" target="_blank"> Clique aqui </a>
                         </div>
                     </div>
                 </div>

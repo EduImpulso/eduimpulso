@@ -44,12 +44,16 @@ if(!isset($_SESSION['id_user'])){
                 <button type="button" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent; border: none; width: 30px;">
                   <img class="img-fluid" src="./imgs/Icones/btn-menu.svg " alt="">
                 </button>
-                <div class="dropdown-menu dropdown-menu-right" style="width: 250px;">
-                    <button class="dropdown-item text-center border" type="button">Tipos de Inteligências</button>
-                    <button class="dropdown-item text-center border" type="button">Carreiras</button>
-                    <button class="dropdown-item text-center border" type="button">Cursinhos Preparatórios</button>
-                    <button class="dropdown-item text-center border" type="button">Fale Conosco</button>
-                    <button class="dropdown-item text-center border" style="background-color: #9D40E0;" type="button">Acessar</button>
+                <div class="dropdown-menu dropdown-menu-right" style="width: 300px;">
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./quiz.php" type="button">Quiz</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./teoria.php" type="button">Múltiplas de Inteligências</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./carreiras.php" type="button">Carreiras</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./cursinhos.php" type="button">Cursinhos</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./noticias.php" type="button">Notícias</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./politica.php" type="button">Política</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./perfil.php" type="button">Minha página</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./fale_conosco.php" type="button">Fale Conosco</a>
+                    <a class="dropdown-item text-center border text-dark linkDropdown" href="./login.php" style="background-color: #9D40E0;" type="button">Acessar</a>
                 </div>
             </div>
 
@@ -73,7 +77,7 @@ if(!isset($_SESSION['id_user'])){
                               <a href="./cursinhos.php" class="btnLinkVejaMais dropdown-item">Cursinhos</a>
                               <a href="./noticias.php" class="btnLinkVejaMais dropdown-item">Noticias</a>
                               <a href="./politica.php" class="btnLinkVejaMais dropdown-item">Politica de Privacidade</a>
-                              <a href="./perfil.php" class="btnLinkVejaMais dropdown-item">Perfil</a>
+                              <a href="./perfil.php" class="btnLinkVejaMais dropdown-item">Minha conta</a>
                             </div>
                           </div>
                     </li>
@@ -95,7 +99,7 @@ if(!isset($_SESSION['id_user'])){
                         <?php
                     }
                     ?>
-                </ul>
+                    </ul>
             </div>
         </nav>
         <!-- <div class="whiteBar "></div> -->

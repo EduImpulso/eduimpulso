@@ -1,19 +1,24 @@
 <?php
 require_once('./nav/menu.php');
 if(!isset($_SESSION['id_user'])){
-    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './index.php'</script>";
+    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './cadastro.php'</script>";
     exit;
 }
 ?>
 
 <div class="container-fluid d-flex flex-column align-items-center mt-4 ">
-    <h3 class=""><strong>QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐</strong></h3> 
-    <h1 class="subtitulo">Escolha a frase com a qual vc mais se identifica! </h1>
+    <h3 class="text-center"><strong>QUIZ: Qual o seu principal tipo de inteligência? 🧠🧐</strong></h3> 
+    <h1 class="subtitulo text-center">Escolha a frase com a qual vc mais se identifica! </h1>
     <br/>
     <div class="quiz-area" id="quiz-area">
         <!-- beginning of quiz -->
         <section class="q-n-a">
-                <h3 class="question text-center">🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 1 de 20 -->
+                
+                <h3 class="text-center bolinhasDesktop" id="desktop">🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3><!-- Questão 1 de 20 -->
+                <h3 class="text-center" id="phone" style=" font-size:60%">🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 1 de 20 -->
+                <div class="question"></div>
+                
+                
                 <div class="answers">
                     <div class="answer" data-value="1">Eu gosto de aprender coisas sobre a minha personalidade</div> <!-- 1_Intrapessoal -->
                     <div class="answer" data-value="2">Eu consigo tocar um instrumento musical facilmente</div> <!-- 2_Musical -->
@@ -26,8 +31,10 @@ if(!isset($_SESSION['id_user'])){
                 </div>
             </section>
             <section class="q-n-a">
-    <h3 class="question">🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 2 de 20 -->
-        <div class="answers">
+    <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 2 de 20 -->
+    <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 2 de 20 -->
+    <div class="question"></div>
+    <div class="answers">
             <div class="answer" data-value="1">Eu posso manipular as pessoas se eu quiser</div> <!-- 5_Interpessoal -->
             <div class="answer" data-value="3">Ao falar com alguém, eu fico muito atento às palavras que a pessoa usa</div> <!-- 6_Linguistica -->
             <div class="answer" data-value="3">Eu não gosto de incertezas, eu gosto das coisas bem claras</div> <!-- 7_Lógico-Matemática -->
@@ -40,7 +47,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 3 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 3 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 3 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Sou muito interessado em testes de personalidade e horóscopos</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Música é muito importante para mim</div> <!-- Musical -->
@@ -54,7 +63,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 4 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 4 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 4 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Posso dizer facilmente se alguém gosta de mim ou não</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Eu consigo enganar as pessoas facilmente</div> <!-- Linguistica -->
@@ -68,7 +79,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 5 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 5 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 5 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Prefiro os esportes individuais</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Eu gosto de uma grande variedade de estilos musicais</div> <!-- Musical -->
@@ -82,7 +95,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 6 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 6 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 6 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Sou consciente da linguagem corporal das outras pessoas</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Na escola, um dos meus temas favoritos era língua portuguesa</div> <!-- Linguistica -->
@@ -96,7 +111,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 7 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 7 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 7 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu sempre sei como estou me sentindo</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Gosto de fazer as coisas ouvindo música</div> <!-- Musical -->
@@ -110,7 +127,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 8 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 8 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 8 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu sou bom em acalmar as pessoas quando elas estão discutindo</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Muitas vezes eu converso comigo mesmo em voz alta ou na minha cabeça</div> <!-- Linguistica -->
@@ -124,7 +143,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 9 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 9 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 9 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu costumo escrever ou pensar como foi o meu dia</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Eu sempre sonhei em ser um músico ou cantor</div> <!-- Musical -->
@@ -138,7 +159,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 10 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 10 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 10 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Meus amigos sempre me procuram para apoio emocional e aconselhamento</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Eu adoro ler e tenho vários livros</div> <!-- Linguistica -->
@@ -152,7 +175,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 11 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 11 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 11 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu sou uma pessoa muito sociável e que gosta de estar com outras pessoas</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Acho fácil inventar histórias sobre coisas reais ou da minha imaginação</div> <!-- Linguistica -->
@@ -166,7 +191,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 12 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 12 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 12 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu gosto de ficar sem fazer nada, relaxando por longas horas e pensando na vida</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Eu sempre tenho uma música ou o trecho de uma música na minha cabeça</div> <!-- Musical -->
@@ -180,7 +207,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 13 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 13 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 13 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu me preocupo muito com o que os as pessoas ao meu redor sentem</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Eu gosto de palavras cruzadas, caça-palavras e outros desafios que envolvam palavras</div> <!-- Linguistica -->
@@ -194,7 +223,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 14 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 14 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪⚪</h3> <!-- Questão 14 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu posso prever meus sentimentos e comportamentos com bastante precisão em determinadas situações</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Acho que a música que me atrai é muitas vezes baseada em como eu me sinto emocionalmente naquele momento</div> <!-- Musical -->
@@ -208,7 +239,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪</h3> <!-- Questão 15 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪</h3> <!-- Questão 15 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪⚪</h3> <!-- Questão 15 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu acho fácil falar com pessoas que ainda não conheço</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Acho que é fácil lembrar citações ou frases que vi em algum lugar</div> <!-- Linguistica -->
@@ -222,7 +255,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪</h3> <!-- Questão 16 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪</h3> <!-- Questão 16 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪⚪</h3> <!-- Questão 16 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu estabeleço metas e planos para o futuro</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Eu posso identificar a maioria dos sons sem saber o que está emitindo</div> <!-- Musical -->
@@ -236,7 +271,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪</h3> <!-- Questão 17 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪</h3> <!-- Questão 17 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪⚪</h3> <!-- Questão 17 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Me incomoda muito ver alguém chorar e não ser capaz de ajudar</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Eu gosto de assistir debates e discussões</div> <!-- Linguistica -->
@@ -250,7 +287,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪</h3> <!-- Questão 18 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪</h3> <!-- Questão 18 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪⚪</h3> <!-- Questão 18 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu sou realista sobre os meus pontos fortes e fracos</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Eu adoraria fazer algum curso de música ou de canto</div> <!-- Musical -->
@@ -264,7 +303,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪</h3> <!-- Questão 19 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪</h3> <!-- Questão 19 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣⚪</h3> <!-- Questão 19 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Eu prefiro praticar esportes em equipe</div> <!-- Interpessoal -->
             <div class="answer" data-value="2">Eu tenho facilidade para aprender outro idioma</div> <!-- Linguistica -->
@@ -278,7 +319,9 @@ if(!isset($_SESSION['id_user'])){
     </section>
 
     <section class="q-n-a">
-        <h3 class="question">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣</h3> <!-- Questão 20 de 20 -->
+        <h3 class="text-center bolinhasDesktop" id="desktop">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣</h3> <!-- Questão 20 de 20 -->
+        <h3 class="text-center" id="phone" style=" font-size:60%">🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣🟣</h3> <!-- Questão 20 de 20 -->
+        <div class="question"></div>
         <div class="answers">
             <div class="answer" data-value="1">Gosto muito de passar meu tempo sozinho</div> <!-- Intrapessoal -->
             <div class="answer" data-value="2">Cantar me faz sentir muita felicidade</div> <!-- Musical -->
@@ -290,10 +333,11 @@ if(!isset($_SESSION['id_user'])){
             <div class="previous mini button-quiz">Anterior</div><div class="next mini button-quiz">Próximo</div>
         </div>
     </section>
+
     </div> <!-- end quiz area -->
     <div class="button finish button-finish" style="display: none;">Que rufem os tambores! 🥁🥁🥁 <br/> (clica aqui pra ver o resultado)</div>
-    <div class="response" id="teste" style="display: none;">
-        <div class="missed button" style="display: none;">Procurar onde esqueci de selecionar alguma(s) frase(s) 🔍 </div>
+    <div class="response d-flex flex-column align-items-center" id="teste" style="display: none;margin-bottom: 15px;">
+        <div class="missed button button-finish2" style="display: none;">Procurar onde esqueci de selecionar alguma(s) frase(s) 🔍 </div>
     </div>
     </div>
 <!-- jquery! -->
@@ -466,7 +510,12 @@ function shuffle(array){
             }  
                 $('#quiz-area, .finish').hide();
             }else{
+                let texto = document.createElement('p');
+                document.getElementById('teste').appendChild(texto)
                 message = 'eita, parece que vc esqueceu de selecionar alguma(s) resposta(s) lá atrás!😲 ';
+                let image = document.createElement('img');
+                image.src="https://media.giphy.com/media/nms2xnxztoXvy/giphy.gif";
+                document.getElementById('teste').appendChild(image);
                 $('.missed').show();
             } 
             $('.response p').text(message);
@@ -479,7 +528,7 @@ function shuffle(array){
 </script>    
 <footer class="container-fluid bg-purple text-light d-flex justify-content-around">
         <div class="footerBar d-flex align-items-center">
-            <span class="creative-commons">CC</span>  2021 - EduImpulso - orientação profissional
+            <span class="copyleft">&copy;</span>  2021 - EduImpulso - orientação profissional
         </div>
         <div class="footerBar d-flex align-items-center">
            <a class="politicaPriv"href="../politica.php">politica de privacidade</a>

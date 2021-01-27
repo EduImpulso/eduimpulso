@@ -41,31 +41,28 @@ require_once('./nav/menu.php');
 
         <div class="cardBlog col-12 col-lg-3 my-5 mx-4 p-0">
             <div>
-                <h6 class="titleColor text-center m-2">Diretor do Inep responsável pelo Enem morre de covid-19</h6>
+                <h6 class="titleColor text-center m-2">Professor indiano vence Nobel da Educação e divide U$ 1 milhão com colegas</h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
-                <a href="https://www1.folha.uol.com.br/educacao/2021/01/diretor-responsavel-pelo-enem-morre-de-covid-em-meio-a-pressao-para-adiar-exame.shtml" target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news3.png" alt="" /></a>
+                <a href="https://www.sonoticiaboa.com.br/2020/12/08/professor-indiano-vence-nobel-educacao-e-divide-1-milhao-colegas/" target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news3.png" alt="" /></a>
             </div>
         </div>
         <div class="cardBlog col-12 col-lg-3 my-5 mx-4 p-0">
             <div>
-                <h6 class="titleColor text-center m-2">Universidades federais cobram plano de vacinação contra a Covid-19</h6>
+                <h6 class="titleColor text-center m-2">Jovem com Down é a 1ª professora de Educação Física do Sul</h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
-                <a href="https://www.metropoles.com/brasil/universidades-federais-cobram-plano-de-vacinacao-contra-a-covid-19" target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news4.png" alt="" /></a>
+                <a href="https://www.sonoticiaboa.com.br/2018/08/15/jovem-com-down-1a-professora-educacao-fisica-sul/" target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news4.png" alt="" /></a>
             </div>
         </div>
         <div class="cardBlog col-12 col-lg-3 my-5 mx-4 p-0">
             <div>
                 <h6 class="titleColor text-center m-2">Universidades precisam estimular estudantes a inovar </h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
@@ -80,7 +77,6 @@ require_once('./nav/menu.php');
             <div>
                 <h6 class="titleColor text-center m-2">MEC abre inscrições para seleção de bolsistas ProUni</h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
@@ -91,7 +87,6 @@ require_once('./nav/menu.php');
             <div>
                 <h6 class="titleColor text-center m-2">Aprendizagem retrocede até 4 anos com suspensão de aulas presenciais</h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
@@ -100,13 +95,12 @@ require_once('./nav/menu.php');
         </div>
         <div class="cardBlog col-12 col-lg-3 my-5 mx-4 p-0">
             <div>
-                <h6 class="titleColor text-center m-2">ENEM 2020 - Veja temas que podem cair na redação</h6>
+                <h6 class="titleColor text-center m-2">Professora brasileira sobe para a final do “Nobel de Educação”</h6>
 
-                <p class="text-center m-1">{props.p1}</p>
 
             </div>
             <div>
-                <a href="https://oglobo.globo.com/sociedade/educacao/enem-e-vestibular/enem-2020-veja-10-temas-de-redacao-que-podem-aparecer-na-prova-24825304#:~:text=Por%20isso%2C%20O%20GLOBO%20consultou,cancelamento%20e%20ado%C3%A7%C3%A3o%20no%20Brasil.&text=Em%20geral%2C%20o%20foco%20%C3%A9,%2C%20tecnol%C3%B3gica%2C%20cultural%20ou%20pol%C3%ADtica." target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news1.png" alt="" /></a>
+                <a href="https://www.sonoticiaboa.com.br/2019/03/06/professora-brasileira-sobe-final-nobel-educacao/" target="_blank"><img class="imgCardBlog img-fluid" src="./imgs/blog/news1.png" alt="" /></a>
             </div>
         </div>
 

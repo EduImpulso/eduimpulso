@@ -12,7 +12,7 @@ $url = "./servidor/deleteuser.php?id=$id";
     <div class="row d-flex justify-content-center">
 
         <div class="col-12 col-lg-5">
-            <div class="col-lg-12 py-2" style="background-color: hsla(275, 46%, 64%, 0.562); border-radius: 20px; ">
+            <div class="col-lg-12 py-2" style="background-color:  #4cc9f0; border-radius: 20px; ">
                 <form method="post" action="./servidor/edituser.php">
                     <div class="input-group my-3 col-lg-12 d-flex align-items-center">
                         <div class="input-group-prepend">

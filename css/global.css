@@ -10,19 +10,12 @@ box-sizing: border-box;
 font-family: 'Ubuntu', sans-serif !important;
 }
 
-.creative-commons{
-    font-family:Arial;
-    border: 1px solid rgb(255, 255, 255);
-    box-sizing: border-box;
-    border-radius: 1em;
-    width: 2em;
-    height: 2em;
-    margin-right: 4px;
-    display: inline-block;
-    line-height: 2em;
-    text-align: center;
-    font-size: 1em;
-   }
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+    margin-right: 2px;
+  }
+    
 .politicaPriv{
     text-decoration: none;
     color: white;
@@ -75,6 +68,10 @@ align-items: center;
 text-align: center !important;
 background-color: #8b1cdab4 !important;
 color: black !important;
+}
+
+.linkDropdown{
+    font-size: 20px !important;
 }
 
 .buttonVejaMais{
@@ -815,21 +812,6 @@ width: 100% !important;
 color: white;
 }
 
-
-/* Centralizar texto e imagem página Teoria */
-
-.container-teoria {
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-}
-
-img.displayed-teoria {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
 /* QUIZ STYLES */
 
 .quiz{
@@ -848,13 +830,19 @@ font-size: 1.0em;
 font-size: 1.25em;
 }
 .quiz-area{
-width: 47vw;
-}
+    width: 50%;
+    }
+    
+    @media(max-width: 900px) {
+         .quiz-area{
+            width: 100% !important;
+        }
+    }
 .q-n-a{
 width: 100%;
 }
-.question{
-font-size: 1.25em;
+.bolinhasDesktop{
+font-size: 1.25em !important;
 text-align: center;
 }
 .answers{
@@ -927,7 +915,17 @@ font-size: 20px;
 background-color: #9370DB;
 border-radius: 10px;
 text-align: center;
-margin-bottom: 340px;
+margin-bottom: 15px;
+box-shadow: 2px 2px 2px#212529 ;
+cursor: pointer;
+}
+.button-finish2{
+width: 47vw;
+color: white;
+font-size: 20px;
+background-color: rgb(133, 133, 16);
+border-radius: 10px;
+text-align: center;
 box-shadow: 2px 2px 2px#212529 ;
 cursor: pointer;
 }
@@ -977,7 +975,7 @@ font-size: 15px;
 color:rgb(153, 153, 153)
 }
 .linha{
-width: 80vw;
+width: 80%;
 height: 1px;
 background-color: rgb(37, 37, 37, 0.3);
 }
@@ -997,7 +995,18 @@ img.displayed {
 display: block;
 margin-left: auto;
 margin-right: auto; 
+width:462px;
+height:270px;
 }
+
+@media(max-width: 900px) {
+    .displayed {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}
+
 .btnTopo{
 width: 20%;
 background-color:  #9370DB;

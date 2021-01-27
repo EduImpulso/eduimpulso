@@ -1,7 +1,7 @@
 <?php
 require_once('./nav/menu.php');
 if(!isset($_SESSION['id_user'])){
-    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './index.php'</script>";
+    echo"<script>alert('Faça o login ou cadastre-se para prosseguir'); location.href = './cadastro.php'</script>";
     exit;
 }
 ?>
