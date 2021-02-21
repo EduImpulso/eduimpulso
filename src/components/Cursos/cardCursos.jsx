@@ -15,7 +15,7 @@ const CardCursos = (props) =>{
                 <h1 className =" text-back text-info">{props.h1}</h1>
                 <p className ="text-card">{props.p}</p>
                
-                <a href={props.href} className ="btn buttonCard mx-auto" target ="_blank"></a>
+                <a href={props.href} className ="btn buttonCard mx-auto" target ="_blank">Clique aqui</a>
             </div>
         </div>
         </div>

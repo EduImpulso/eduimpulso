@@ -41,7 +41,8 @@ line-height: 1.5;
 color: #495057;
 background-color: #fff;
 background-clip: padding-box;
-border: 1px solid #ced4da;
+border: 3px solid red;
+/* border: 1px solid #ced4da; */
 border-radius: 0.25rem;
 transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -601,6 +602,12 @@ box-shadow: -7px -7px 2px hsla(275, 56%, 67%, 0.827);
 .titleColor {
 color: #8B1CDA;
 }
+
+.titleColorCards{
+  font-size: 18px;
+  color: #8B1CDA;
+}
+
 
 .imgCardBlog {
 height: 450px;
@@ -1284,7 +1291,7 @@ cursor: pointer;
 }
 
 .imgCardArea{
-height: 650px;
+height: 600px;
 }
 
 .filtro  li{

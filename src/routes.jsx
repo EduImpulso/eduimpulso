@@ -26,7 +26,7 @@ const MainRoutes = () => {
             {!login ? 
                 <Route path="/carreiras" element={<Login/>}/> :
                 <Route path ="/carreiras" element ={<Carreira/>}/> 
-            }
+            }       
             {!login ? 
                 <Route path="/perfil" element={<Login/>}/> :
                 <Route path="/perfil" element={<Perfil/>}/>

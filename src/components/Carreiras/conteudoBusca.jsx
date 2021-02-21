@@ -85,6 +85,7 @@ const Busca = (props) =>{
         <li className="list-group-item" key={curso}>{curso}<br/></li>
     ))}
 </ul>
+<div style={{height:"310px"}}></div>
 </span>
 </div><br/>
 </>

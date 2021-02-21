@@ -37,7 +37,7 @@ const Inteligence = () => {
                     </p>
                 </div>
                 <p className="linha mx-auto"></p>
-                <div className="container-fluid">
+                <div className="container text-justify px-3">
                 <CartInteligence
                     title="LÓGICO MATEMÁTICA" 
                     link="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-2.png" 

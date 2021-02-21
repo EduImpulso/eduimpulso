@@ -12,7 +12,7 @@ const Carreiras = ()=>{
 <>
 <div>
   <div className= "container-fluid">
-      <h1>Cursos Técnicos</h1>
+      <h1 className="my-3 text-center"><strong>Cursos Técnicos</strong></h1>
       <Tabs>
         <div label="Por área">
          <CounteudoA/>

@@ -56,12 +56,14 @@ const Register = () => {
                 <form onSubmit={Register}>
                 <div className="form-group">
                     <label className="my-2 form-label" htmlFor="name" style={{color: 'white'}}>Nome completo</label>
-                    <input className="form-control has-validation" value={name} onChange={(e) =>setName(e.target.value)} type="text" id="name" placeholder="Nome Completo" name="name" />
+                    <input className="form-control has-validation" value={name} onChange={(e) =>setName(e.target.value)}  id="name" placeholder="Nome Completo" name="name" />
                 </div>
                 <div className="form-group">
                     <label className="my-2 form-label" htmlFor="username" style={{color: 'white'}}>Nome de usuário</label>
-                    <input className="form-control has-validation" value={username} onChange={(e) =>setUsername(e.target.value)} type="text" id="username" placeholder="Informe seu usuário" name="usuário" />
+                    <input className="form-control has-validation" value={username} onChange={(e) =>setUsername(e.target.value)} id="username" placeholder="Informe seu usuário" name="usuário" />
                 </div>
+
+                
                 <div className="form-group">
                     <label className="my-2 form-label" htmlFor="email" style={{color: 'white'}}>Informe seu e-mail</label>
                     <input className="form-control has-validation" value={email} onChange={(e) =>setEmail(e.target.value)} type="e-mail" id="email" placeholder="Digite seu e-mail" name="email" />

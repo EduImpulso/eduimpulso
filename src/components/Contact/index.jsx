@@ -44,15 +44,15 @@ const Contact = () => {
                         <div className="form-row">
                             <div className="form-group col-sm-6">
                                 <label htmlFor="inputNome">Digite seu nome</label>
-                                <input type="text" className="form-control" name="name" value={name} onChange={(e)=>{setName(e.target.value)}} name="name" id="inputNome" placeholder="Nome" />
+                                <input className="form-control" name="name" value={name} onChange={(e)=>{setName(e.target.value)}} name="name" id="inputNome" placeholder="Nome" />
                             </div>
                             <div className="form-group col-sm-6">
                                 <label htmlFor="inputEmail">Digite seu e-mail</label>
-                                <input type="email" className="form-control" name="name" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" id="inputEmail" placeholder="e-mail" />
+                                <input className="form-control" name="name" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" id="inputEmail" placeholder="e-mail" />
                             </div>
                             <div className="form-group col-sm-12">
                                 <label htmlFor="inputAssunto"> Assunto </label>
-                                <input type="text" className="form-control" name="name" value={subject} onChange={(e)=>{setSubject(e.target.value)}} name="assunto" id="inputAssunto" placeholder="Assunto" />
+                                <input className="form-control" name="name" value={subject} onChange={(e)=>{setSubject(e.target.value)}} name="assunto" id="inputAssunto" placeholder="Assunto" />
                             </div>
                             <div className="form-group col-sm-12">
                                 <label htmlFor="formControlTextarea"> Mensagem: </label>
