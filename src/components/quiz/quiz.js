@@ -57,7 +57,10 @@ function Quiz() {
 
   return (
     <div className="App">
-      <header className="Header-quiz">
+      <header className="Header-quiz-mobile" id="phone">
+        <div className="Header-title-mobile"><h1 className="h1Quiz-mobile">Qual a sua inteligência predominante? <span>🤓</span></h1></div>
+      </header>
+      <header className="Header-quiz" id="desktop">
         <div className="Header-title"><h1 className="h1Quiz">Qual a sua inteligência predominante? <span>🤓</span></h1></div>
         <div className="Botton-header">
 
@@ -72,7 +75,7 @@ function Quiz() {
 
 
       </header>
-      <Bounce><img className="imgQuiz" src={petrImg} alt="Petr Sticker"/></Bounce>
+      <Bounce><img className="imgQuiz" src={petrImg} alt="Petr Sticker" /></Bounce>
       
       <div className="Quiz">
         {showResult ? (
@@ -87,9 +90,22 @@ function Quiz() {
         ) : (
           <>
             <Fade><div className='question-section'>
-              <div className='question-count'>
+              <div style={{display:"flex", alignItems:"center"}}>
+              <div className='question-count' style={{width: "80%"}}>
                 <span>Questão {currentQuestion + 1}</span>/{questions.length}
               </div>
+              <div className="Botton-header-mobile" id="phone">
+
+                <input type="checkbox" className="checkbox" id="chk" onClick={()=> BGbutton()}/>
+                <label className="label-mobile" for="chk">
+                    <i className="fas fa-moon"></i>
+                    <i className="fas fa-sun"></i>
+                    <div className="ball-mobile"></div>
+                </label>
+                </div>
+                
+              </div>
+
               <div className='question-text'>{questions[currentQuestion].questionText}</div>
             </div></Fade>
             <Fade><div className='answer-section'>
