@@ -1,6 +1,6 @@
 import Login from '../components/Login';
 import { useSelector } from 'react-redux';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
 
     const login = useSelector(state => state.login.status);
@@ -21,8 +21,8 @@ const Home = () => {
                 </div>
                 <h5 className="tituloCard text-center my-auto d-flex align-items-center">Faça seu login ou cadastre-se aqui. <br /> Assim vc terá acesso ao nosso quiz e outras informações! </h5>
                 <div className="mb-2 d-flex justify-content-around">
-                    <a href="./login.php" className="btnCardMini"> Login </a>
-                    <a href="./cadastro.php" className="btnCardMini"> Cadastro </a>
+                    <Link to="/login" className="btnCardMini"> Login </Link>
+                    <Link to="/cadastro" className="btnCardMini"> Cadastro </Link>
                 </div>
                 </div>
                 <div className="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
                 <h5 className="tituloCard text-center my-auto d-flex align-items-center">Fale conosco pra tirar dúvidas e saber mais informações! </h5>
                 <div className="mb-2 d-flex justify-content-around">
-                    <a href="./fale_conosco.php" className="btnCard"> Contato </a>
+                    <Link to="/contato" className="btnCard"> Contato </Link>
                 </div>
                 </div>
                 <div className="divCard col-12 col-lg-3 d-flex my-2 flex-column justify-content-around border shadow">
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
                 <h5 className="tituloCard my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
                 <div className="mb-2 d-flex justify-content-around">
-                    <a href="./noticias.php" className="btnCard"> Notícias </a>
+                    <Link to="/news" className="btnCard"> Notícias </Link>
                 </div>
                 </div>
             </div>
