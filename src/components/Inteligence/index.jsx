@@ -82,7 +82,7 @@ const Inteligence = () => {
                     title="MUSICAL" 
                     link="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-4.png" 
                     txt="O nome já entrega: é aquela que permite a uma pessoa produzir,
-                    recordar e estabelecer sentido em diferentes padrões de som. <br/>
+                    recordar e estabelecer sentido em diferentes padrões de som.
                     A sensibilidade musical se manifesta ao ouvir, cantar, compor e tocar
                     instrumentos."
                     x1="assobiar, cantar, fazer rimas, compor, participar de um coral, ouvir música, tocar instrumentos."
@@ -197,26 +197,6 @@ const Inteligence = () => {
                     g4="Simone de Beauvoir."
                 />
 
-                <CartInteligence
-                    title="INTRAPESSOAL" 
-                    link="https://super.abril.com.br/wp-content/uploads/2018/07/8-inteligencias-9.png" 
-                    txt="É o inverso da interpessoal: o indivíduo usa a inteligência para se
-                    autoconhecer. São as pessoas com grande grau de autonomia, capazes de
-                    reconhecer suas próprias intenções, motivações e opiniões. Essa
-                    autoanálise pode colocá-las em boa posição para refletir sobre a
-                    condição humana, seja por meio de textos filosóficos, seja por meio de
-                    grandes romances."
-                    x1="escrever um diário, meditar, planejar seus objetivos de vida."
-                    x2="filosofia, literatura, psicologia, teologia."
-                    a1="https://pt.wikipedia.org/wiki/Ernest_Hemingway"
-                    g1="Ernest Hemingway, "
-                    a2="https://pt.wikipedia.org/wiki/Machado_de_Assis"
-                    g2="Machado de Assis, "
-                    a3="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche"
-                    g3="Friedrich Nietzsche, "
-                    a4="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
-                    g4="Simone de Beauvoir."
-                />
                 </div>
             
 

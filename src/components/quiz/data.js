@@ -58,7 +58,7 @@ export const questions = [
         answerOptions: [
             { answerText: "Meus livros estão entre as coisas mais preciosas pra mim", petr: "linguística"}, /*frase 19*/
             { answerText: "Eu acho difícil ficar sentado quieto por muito tempo", petr: "cinestésica"}, /*frase 20*/
-            { answerText: "*Eu acredito que quase tudo tem uma explicação racional", petr: "matemática"}, /*frase 21*/
+            { answerText: "Eu acredito que quase tudo tem uma explicação racional", petr: "matemática"}, /*frase 21*/
             { answerText: "Não me identifico com nenhuma frase 😬", petr: "nada"}
         ]
     },
