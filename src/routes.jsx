@@ -23,10 +23,8 @@ const MainRoutes = () => {
             <Route path="/inteligencia" element={<Inteligences/>}/>
             <Route path="/cadastro" element={<Cadastro/>}/>
             <Route path ="/cursinhos" element={<Curso/>}/>
-            {!login ? 
-                <Route path="/carreiras" element={<Login/>}/> :
-                <Route path ="/carreiras" element ={<Carreira/>}/> 
-            }       
+            <Route path ="/carreiras" element ={<Carreira/>}/> 
+                 
             {!login ? 
                 <Route path="/perfil" element={<Login/>}/> :
                 <Route path="/perfil" element={<Perfil/>}/>

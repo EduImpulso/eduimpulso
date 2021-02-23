@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import ParticlesBg from "particles-bg";
 
@@ -10,9 +11,10 @@ import { bounce, fadeIn } from 'react-animations';
 function Quiz() {
   
   const [showBG, setShowBG] = useState("flex");
+  const navigate = useNavigate();
   function BGbutton(){
 
-      if(showBG == "flex"){
+      if(showBG === "flex"){
         setShowBG("none");
         document.getElementById("bgParticle").style.display="none"
       }else{
@@ -49,7 +51,7 @@ function Quiz() {
   };
   
   function refreshPage() {
-    window.location.reload(false);
+    navigate('/quiz');
   }
 
   const Bounce = styled.div`animation: 1s ${keyframes`${bounce}`}`;

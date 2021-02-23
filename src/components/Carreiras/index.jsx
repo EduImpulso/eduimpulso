@@ -4,9 +4,6 @@ import Conteudo from "./conteudo";
 import CounteudoA from "./conteudoArea";
 import Busca from "./conteudoBusca";
 
-
-
-
 const Carreiras = ()=>{
     return(
 <>
