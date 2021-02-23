@@ -32,10 +32,11 @@ const MainRoutes = () => {
             <Route path="/contato" element={<Contato/>}/>
             <Route path="/news" element={<News/>}/>
             <Route path="/privacity" element={<Privacity/>}/>
-            {!login ? 
+            {/* {!login ? 
                 <Route path="/quiz" element={<Login/>}/> :
+
+            } */}
                 <Route path="/quiz" element={<Quiz/>}/>
-            }
             <Route path="*" element={<Home/>}/>
         </Routes>
         )

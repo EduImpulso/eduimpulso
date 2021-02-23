@@ -992,17 +992,16 @@ margin-right: auto;
   }
   
   .h1Quiz {
-    color: rgb(34, 34, 34);
+    color: white;
     text-align: end;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 300;
     margin: 0 0 10px 0; 
   }
   .h1Quiz-mobile {
-    color: rgb(34, 34, 34);
+    color: white;
     text-align: center;
     font-size: 26px;
-    font-weight: 700;
     margin: 10px; 
   }
   
