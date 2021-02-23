@@ -218,7 +218,7 @@ const Inteligence = () => {
                     <p>
                         Testes podem não medir com precisão as capacidades de cada um, mas
                         um pouco de autorreflexão não faz mal a ninguém.
-                        <strong>Pense nas perguntas abaixo</strong> e compare com as
+                        <strong> Pense nas perguntas abaixo</strong> e compare com as
                         descrições dos oito tipos de inteligência para ver qual delas tem
                         mais a ver com você:
                     </p>
