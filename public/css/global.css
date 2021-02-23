@@ -881,11 +881,22 @@ margin-right: auto;
     display: flex;
     /* border: 3px solid red; */
   }
+  .Header-quiz-mobile {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    /* border: 3px solid red; */
+  }
   .Header-title {
     width: 80%;
     text-align: center;
     padding-top: 1em;
     /* border: 3px solid red; */
+  }
+  .Header-title-mobile {
+    width: 100%;
+    text-align: center;
   }
   .Botton-header {
     display: flex;
@@ -893,6 +904,13 @@ margin-right: auto;
     justify-content: center;
     width: 20%;
     padding-top: 1em;
+    /* border: 3px solid red; */
+  }
+  .Botton-header-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
     /* border: 3px solid red; */
   }
 
@@ -928,8 +946,39 @@ margin-right: auto;
     transform: translateX(0px);
     transition: transform 0.1s linear;
   }
+
+
+  .label-mobile {
+    background-color: #111;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 11px;
+    width: 22px;
+    transform: scale(1.5);
+  }
+  
+  .ball-mobile {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 8px;
+    width: 8px;
+    transform: translateX(0px);
+    transition: transform 0.1s linear;
+  }
   
   .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+  }
+  .checkbox:checked + .label-mobile .ball-mobile {
     transform: translateX(24px);
   }
   
@@ -948,6 +997,13 @@ margin-right: auto;
     font-size: 36px;
     font-weight: 700;
     margin: 0 0 10px 0; 
+  }
+  .h1Quiz-mobile {
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px; 
   }
   
   .h2Quiz {
