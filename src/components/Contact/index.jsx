@@ -14,7 +14,7 @@ const Contact = () => {
             assunto: subject,
             email: email
             };
-        const url = "http://localhost:5000/messages";
+        const url = "https://eduimpulso-admin.herokuapp.com/messages";
         fetch(url, { 
             method: "POST",
             headers: {
