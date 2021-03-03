@@ -59,12 +59,12 @@ function Quiz() {
 
   return (
     <div className="App">
-       <header className="Header-quiz-mobile" id="phone">
+      <header className="Header-quiz-mobile" id="phone">
         <div className="Header-title-mobile"><h1 className="h1Quiz-mobile">Qual a sua inteligência predominante? <span>🤓</span></h1></div>
       </header>
       <header className="Header-quiz" id="desktop">
-        <div className="Header-title"><h3 className="h1Quiz"><strong>Qual a sua inteligência predominante?</strong><span>🤓</span></h3></div>
-        {/* <div className="Botton-header">
+        <div className="Header-title"><h1 className="h1Quiz">Qual a sua inteligência predominante? <span>🤓</span></h1></div>
+        <div className="Botton-header">
 
 
           <input type="checkbox" className="checkbox" id="chk" onClick={()=> BGbutton()}/>
@@ -73,7 +73,9 @@ function Quiz() {
               <i className="fas fa-sun"></i>
               <div className="ball"></div>
           </label>
-        </div> */}
+        </div>
+
+
       </header>
       <Bounce><img className="imgQuiz" src={petrImg} alt="Petr Sticker" /></Bounce>
       
@@ -106,7 +108,7 @@ function Quiz() {
                 
               </div>
 
-            <div className='question-text'>{questions[currentQuestion].questionText}</div>
+              <div className='question-text'>{questions[currentQuestion].questionText}</div>
             </div></Fade>
             <Fade><div className='answer-section'>
               {questions[currentQuestion].answerOptions.map((answerOption) => (
@@ -119,17 +121,6 @@ function Quiz() {
       <div id='bgParticle'>
         <ParticlesBg type="circle" bg={true} />
       </div>
-
-
-      {/* <div className="divBotaoDesabilitar">
-        <div style={{display: "flex", justifyContent: "center"}}>
-          <h6 className="botaoDesabilitar">Desabilitar animação fundo de tela</h6>
-        </div>
-        
-        <div style={{display: "flex", justifyContent: "center", width: "100%", border:"3px solid green"}}>
-
-        </div>
-      </div> */}
     </div>
   );
 }

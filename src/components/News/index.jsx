@@ -8,6 +8,9 @@ const News = () => {
                 <div className="col-12 text-center">
                     <h3 className="pb-3"><strong>Notícias 📰</strong></h3>
                 </div>
+                <div className="col-12 text-center">
+                    <h5 className="pb-3" style={{color:"#363636"}}>Não é que o mundo esteja pior, você que não fica sabendo das coisas boas que acontecem!</h5>
+                </div>
             </div>
 
 
@@ -42,13 +45,14 @@ const News = () => {
             <div className="container-fluid">
                 <div className="row d-flex justify-content-center align-items-center">
                 <CartNews src="./imgs/blog/busao.png" h6='Santo André define regras para gratuidade de estudantes no transporte público'href="https://www2.santoandre.sp.gov.br/index.php/noticias/item/9257-santo-andre-define-regras-para-gratuidade-de-estudantes-no-transporte-publico"/>
-                <CartNews src="./imgs/blog/usp.png" h6='USP: Veja como solicitar auxílios para estudantes'href="http://www.puspsc.usp.br/bolsas-e-auxilios/"/>
+                <CartNews src="./imgs/blog/menina-siria.png" h6='Menina síria vence campeonato mundial de matemática'href="https://razoesparaacreditar.com/menina-siria-vence-campeonato-mundial-matematica/"/>
                 <CartNews src='./imgs/blog/professor_indiano.png' h6='Professor indiano vence Nobel da Educação e divide U$ 1 milhão com colegas' href='https://www.sonoticiaboa.com.br/2020/12/08/professor-indiano-vence-nobel-educacao-e-divide-1-milhao-colegas/'/>
                 <CartNews src="./imgs/blog/jovem_down01.png" alt="" h6='Jovem com Down é a 1ª professora de Educação Física do Sul' href='https://www.sonoticiaboa.com.br/2018/08/15/jovem-com-down-1a-professora-educacao-fisica-sul/'/>
                 <CartNews src='./imgs/blog/empreendedorismo.png' h6='Universidades precisam estimular estudantes a inovar' href='https://www.nsctotal.com.br/noticias/na-era-do-empreendedorismo-universidades-precisam-estimular-estudantes-a-inovar'/>
-                <CartNews src='./imgs/blog/bolsistas.png' h6='MEC abre inscrições para seleção de bolsistas ProUni'href="https://agenciabrasil.ebc.com.br/educacao/noticia/2021-01/mec-abre-inscricoes-para-selecao-de-bolsistas-do-prouni"/>
-                <CartNews src="./imgs/blog/aulas-suspensas-868x644.png" h6='Aprendizagem retrocede até 4 anos com suspensão de aulas presenciais'href="https://www.poder360.com.br/educacao/aprendizagem-pode-retroceder-ate-4-anos-sem-aulas-presenciais-diz-estudo/#:~:text=Pesquisa%20da%20FGV%20(Funda%C3%A7%C3%A3o%20Get%C3%BAlio,no%20acesso%20ao%20ensino%20remoto."/>
+                <CartNews src='./imgs/blog/prof-tubarao.png' h6='Professora se veste de tubarão para ensinar matemática' href="https://razoesparaacreditar.com/professora-tubarao-ensinar-matematica/"/>
+                <CartNews src="./imgs/blog/bengala.png" h6='Estudantes de Santos criam sistema sonoro para ajudar deficientes visuais' href="https://razoesparaacreditar.com/estudantes-criam-sistema-sonoro-deficientes-visuais/"/>
                 <CartNews src="./imgs/blog/professora-nobel-educaçao.png" h6='Professora brasileira sobe para a final do “Nobel de Educação”'href="https://www.sonoticiaboa.com.br/2019/03/06/professora-brasileira-sobe-final-nobel-educacao/"/>
+                <CartNews src="./imgs/blog/prof-santos.png" h6='Filha homenageia mãe faxineira usando seu uniforme durante formatura' href="https://razoesparaacreditar.com/filha-homenageia-mae-faxineira-formatura/"/>
                 </div>
 
             </div>

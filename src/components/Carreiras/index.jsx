@@ -9,7 +9,7 @@ const Carreiras = ()=>{
 <>
 <div>
   <div className= "container-fluid">
-      <h1 className="my-3 text-center"><strong>Cursos Técnicos 🎓</strong></h1>
+      <h3 className="my-3 text-center"><strong>Cursos Técnicos 🎓</strong></h3>
       <Tabs>
         <div label="Por área">
          <CounteudoA/>

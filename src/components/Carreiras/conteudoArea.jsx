@@ -8,7 +8,7 @@ const ConteudoA = () =>{
 
 <div className="container-fluid">
 <div className="row d-flex justify-content-center align-items-center">
-<CardConteudoA   src="./imgs/carreiras/artes.png" h5="Artes, Arquitetura,Desing e Moda"/>   
+<CardConteudoA   src="./imgs/carreiras/artes.png" h5="Artes, Arquitetura,Design e Moda"/>   
 <CardConteudoA src="./imgs/carreiras/negocios.png"h5="Negócios"/>
 
 <CardConteudoA src="./imgs/carreiras/educacao.png"h5="Educação"/>

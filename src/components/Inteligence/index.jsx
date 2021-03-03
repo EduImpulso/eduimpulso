@@ -55,6 +55,7 @@ const Inteligence = () => {
                     g3="Stephen Hawkin, "
                     a4="https://pt.wikipedia.org/wiki/Mark_Zuckerberg"
                     g4="Mark Zuckerberg."
+                    l="https://br.psicologia-online.com/inteligencia-logico-matematica-caracteristicas-exemplos-e-atividades-222.html"
                 />
                     
                 <CartInteligence
@@ -76,6 +77,7 @@ const Inteligence = () => {
                     g3="William Shakespeare, "
                     a4="https://pt.wikipedia.org/wiki/Tom_Wolfe"
                     g4="Tom Wolfe."
+                    l="https://br.psicologia-online.com/inteligencia-linguistica-caracteristicas-e-atividades-para-melhora-la-223.html"
                 />
 
                 <CartInteligence
@@ -95,6 +97,7 @@ const Inteligence = () => {
                     g3="Wolfgang Amadeus Mozart. "
                     a4=""
                     g4=""
+                    l="https://br.psicologia-online.com/inteligencia-musical-o-que-e-caracteristicas-e-atividades-224.html"
                 />
 
                 <CartInteligence
@@ -114,6 +117,7 @@ const Inteligence = () => {
                     g3="Chico Mendes, "
                     a4="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
                     g4="Aziz Ab’Saber."
+                    l="https://br.psicologia-online.com/inteligencia-naturalista-o-que-e-exemplos-e-atividades-297.html"
                 />
 
                 <CartInteligence
@@ -133,6 +137,7 @@ const Inteligence = () => {
                     g3="Meryl Streep, "
                     a4="https://pt.wikipedia.org/wiki/Michael_Phelps"
                     g4="Michael Phelps."
+                    l="https://br.psicologia-online.com/inteligencia-corporal-cinestesica-o-que-e-caracteristicas-e-como-melhora-la-221.html"
                 />
 
                 <CartInteligence
@@ -153,6 +158,7 @@ const Inteligence = () => {
                     g3="Pablo Picasso, "
                     a4="https://pt.wikipedia.org/wiki/Santos_Dumont"
                     g4="Santos Dumont."
+                    l="https://br.psicologia-online.com/inteligencia-espacial-visual-caracteristicas-exemplos-e-atividades-269.html"
                 />
 
                 <CartInteligence
@@ -174,6 +180,7 @@ const Inteligence = () => {
                     g3="Marília Gabriela, "
                     a4="https://pt.wikipedia.org/wiki/Papa_Francisco"
                     g4="Papa Francisco."
+                    l="https://br.psicologia-online.com/inteligencia-interpessoal-o-que-e-exemplos-e-atividades-209.html"
                 />
 
                 <CartInteligence
@@ -195,6 +202,7 @@ const Inteligence = () => {
                     g3="Friedrich Nietzsche, "
                     a4="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
                     g4="Simone de Beauvoir."
+                    l="https://br.psicologia-online.com/inteligencia-intrapessoal-o-que-e-exemplos-e-atividades-para-melhora-la-208.html"
                 />
 
                 </div>
@@ -252,7 +260,7 @@ const Inteligence = () => {
 
 
                 <div className="d-flex align-items-center justify-content-center col-12 p-4">
-                    <a className="btnTopo button-btnTopo col-12 col-lg-4" href="#topo">
+                    <a className="btnTopo btn col-12 col-lg-4" href="#topo">
                         Voltar ao topo
                     </a>
                 </div>

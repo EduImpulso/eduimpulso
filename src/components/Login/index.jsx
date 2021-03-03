@@ -60,6 +60,7 @@ const Login = () => {
                 <img src="./imgs/index/capa-home-login.jpg" width="95%" alt="login" />
             </div>
         </div>
+        <div style={{width:"100%", height: "65px"}}></div>
         </div>
         // #4CC9F0
     )

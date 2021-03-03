@@ -12,7 +12,9 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <>
+    <header style={{position:"fixed", minWidth:"100%", zIndex:"10"}}>
+      
       <nav className="menuBar navbar navbar-expand-lg bg-purple p-3">
         <Link className="navbar-brand" to="/">
           <img
@@ -169,6 +171,8 @@ const Header = () => {
         </div>
       </nav>
     </header>
+    <div style={{Width:"100%", height:"12vh", backgroundColor:"red"}}></div>
+    </>
   );
 }
 

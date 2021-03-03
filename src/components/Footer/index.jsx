@@ -1,11 +1,14 @@
+
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return(
-        <footer class="container-fluid bg-purple text-light d-flex justify-content-around">
-            <div class="footerBar d-flex align-items-center">
-            <span class="copyleft">&copy;</span>  2021 - EduImpulso
+        <footer className="container-fluid bg-purple text-light d-flex justify-content-around">
+            <div className="footerBar d-flex align-items-center">
+            <span className="copyleft">&copy;</span>  2021 - EduImpulso
             </div>
-            <div class="footerBar d-flex align-items-center">
-            <a class="politicaPriv"href="../politica.php">politica de privacidade</a>
+            <div className="footerBar d-flex align-items-center">
+            <Link className="politicaPriv" to="/privacity">politica de privacidade</Link>
             </div>
         </footer>
     )

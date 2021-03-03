@@ -13,7 +13,7 @@ const CardCursos = (props) =>{
             <div className="back d-flex flex-column justify-content-around">
             
                 <h1 className =" text-back text-info">{props.h1}</h1>
-                <p className ="text-card">{props.p}</p>
+                <p className ="text-card" style={{}}>{props.p}</p>
                
                 <a href={props.href} className ="btn buttonCard mx-auto" target ="_blank">Clique aqui</a>
             </div>

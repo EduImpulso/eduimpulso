@@ -44,6 +44,10 @@ const cartInteligence = (props) => {
                         <a href={props.a4} target="_blank">{props.g4}</a>
 
                     </li>
+                    <li>
+                        <a href={props.l} target="_blank">Saiba +</a>
+                    </li>
+
                 </ul>
             </div>
             <p className="linha mx-auto"></p>

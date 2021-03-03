@@ -63,6 +63,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
+                <div style={{width:"100%", height: "51px"}}></div>
             </div>
         </>
     )
