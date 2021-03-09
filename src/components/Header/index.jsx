@@ -53,12 +53,16 @@ const Header = () => {
             <button className="dropdown-item text-center border text-secondary" type="button">
             <Link className="text-secondary h6" to="/inteligencia">Tipos de Inteligências</Link>
             </button>
+
             <button className="dropdown-item text-center border text-secondary" type="button">
             <Link className="text-secondary h6" to="/inteligencia">Cursinhos Preparatórios</Link>
             </button>
             <button className="dropdown-item text-center border text-secondary" type="button">
             <Link className="text-secondary h6" to="/news">Notícias</Link>
+            
             </button>
+
+            
             <button className="dropdown-item text-center border text-secondary" type="button">
             <Link className="text-secondary h6" to="/contato">Fale Conosco</Link>
             </button>

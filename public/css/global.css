@@ -1303,7 +1303,7 @@ cursor: default;
   outline: none;
   cursor: pointer;
   padding: 10px 5px;
-  margin-right: 50px;
+  margin-right: 20px;
   font-size: 15px;
   font-weight: bold;
 
@@ -1314,14 +1314,28 @@ cursor: default;
 
 
 }
+
+
 .cardAlfabeto  {
-  background:white;
-border: 1px solid #c3b2cf;
+  border-radius: 8px;
+  border: 1px solid #c3c3c3;
+box-shadow:0 2px 7px 0 rgba(0,0,0,0.15) ;
 cursor: pointer;
-font-size: 16px;
-color:#6108a0;
+padding:15px;
+
 }
 
+.cardAlfabeto .card-title{
+  color:#6108a0;
+  font-size:28px;
+  
+  
+}
+.cardAlfabeto .card-text{
+  font-size: 20px;
+  color:#2c3e50;
+  font-weight: bold;
+}
 
 .box-cursos{
   margin: 0;
@@ -1349,7 +1363,7 @@ cursor: pointer;
 .imgCardArea{
 height: 600px;
 }
-
+/*
 .filtro  li{
 list-style: none;
 cursor: pointer;
@@ -1364,7 +1378,7 @@ font-size: x-large ;
 li .list-group-item:hover{
 color:#8220c6;
 }
-
+*/
 input[type=text]
 { border-radius:4px;
 height: 35px;
@@ -1378,4 +1392,416 @@ width: 900px;
 }*/
 .InputBusca{
 padding: 10px 5px;
+}
+
+.header-banner{
+  position: relative;
+  overflow: hidden;
+  background:#8220c6;
+}
+
+element.style{
+  background-size: cover;
+}
+
+.header-np .banner{
+  height: 280px;
+  min-height: initial;
+}
+
+.header-banner .banner{
+  text-align: center;
+  overflow: hidden;
+}
+
+.banner{
+  line-height: 0;
+}
+.header-banner::before{
+  content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right bottom,from(black),to(transparent));
+    background-image: -webkit-linear-gradient(left,#000,transparent);
+    background-image: -moz-linear-gradient(right,#000,transparent);
+    background-image: -o-linear-gradient(right,#000,transparent);
+    background-image: linear-gradient(to right,#000,rgba(0,0,0,0));
+}
+
+.header-banner .content {
+  position:absolute;
+  top:20px;
+  width:100%;
+  min-height: 200px;
+  padding: 20px;
+  color: #fff;
+
+
+}
+
+.wrap{
+  width: 94%;
+  margin: 0 auto;
+  
+}
+@media (max-width: 767px){
+  .m-all{
+      float: left;
+      width: 100%;
+      padding: 0;
+
+  }
+}
+#breadcrumbs{
+  margin: 0!important;
+  font-size: 11px;
+  text-transform: uppercase;
+  
+}
+.entry-content ul, .hentry ul, .tab-content ul {
+  margin-left: 20px;
+}
+ol, ul {
+  padding: 0;
+  list-style-type: none;
+}
+dl, menu, ol, ul {
+  margin: 1em 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+#breadcrumbs li {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.entry-content ul li, .hentry ul li, .tab-content ul li {
+  list-style-type: disc;
+}
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+ol, ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+#breadcrumbs .bread-link, #breadcrumbs .item-cat a {
+  color: #8220c6;
+}
+a:link, a:visited:link {
+  -webkit-tap-highlight-color: rgba(0,0,0,.3);
+}
+a:link, a:visited:link {
+  outline: 0;
+}
+
+a, a:visited {
+  color:#8220c6;
+  text-decoration: none;
+}
+a {
+  background: 0 0;
+}
+
+.entry-content ul li, .hentry ul li, .tab-content ul li {
+  list-style-type: disc;
+}
+
+#breadcrumbs .separator {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 0 4px 5px;
+  border-color: transparent transparent transparent #fff;
+}
+
+#breadcrumbs li {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.strong, b, strong {
+  font-weight: 700;
+}
+
+.header-np .single-title {
+  margin-top: 50px!important;
+  font-size: 30px;
+}
+.header-banner .single-title {
+  font-weight: 700;
+  margin-top:  5px;
+  margin-bottom: 20px;
+}
+
+.single-curso-tecnico.single-title, .single-curso-pos-graduacao .single-title {
+  margin-top: 20px!important;
+}
+
+.entry-title, .page-title, .single-title {
+  margin: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
+  text-rendering: optimizelegibility;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.header-np .header-border{
+  border-top: 2px solid #fff;
+}
+.col-6{
+  flex:0 0 50%;
+  max-width: 50%;
+}
+
+.header-np .header-details {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.col-6{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.m-t-5{
+  margin-top: 75px!important;
+}
+
+@media only screen and (max-width: 992px){
+.tabs {
+  margin: 15px 0 0 0;
+}
+}
+
+/*Modalidade*/
+.m-t-3 {
+  margin-top: 45px!important;
+}
+
+.section-pagina-cursos {
+  font-size: .9em;
+}
+
+
+.section-pagina-cursos h3 b {
+  color: #ad0090;
+  
+}
+/*
+.card-modalidade{
+  /*  background: rgb(169, 90, 205);
+    width: 250px;
+    height: 85%;
+    padding: 15px 0;
+    text-align: center;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+  
+}*/
+/*
+.card-modalidade:hover{
+    border-radius:50%;
+    background: burlywood;
+}
+
+.card-modalidade .fa{
+    margin-right: 20px;
+}
+
+.card-modalidade .titulos{
+  color:#8220c6;
+}
+
+.card-modalidade .subt{
+
+  color:#8220c6;
+  font-size: 16px;
+}*/
+
+/*
+.descricao-curso{
+  font-size: 18px;
+}
+*/
+
+
+.salarios{
+  text-align: center;
+  /*padding-top: 10px;*/
+  font-size: 30px;
+margin-top: 50px;
+}
+
+/* Botão*/
+
+.btns{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.efeito{
+  border:none;
+  color:#fff;
+  padding:20px;
+  margin:10px;
+  font-size:24px;
+  line-height: 24px;
+  border-radius: 10px;
+  position:relative;
+  box-sizing: border-box;
+  cursor:pointer;
+  transform: all 400ms ease;
+}
+
+.efeito1{
+  background-color:green;
+}
+.efeito2{
+  background-color:rgb(202, 111, 167);
+}
+.efeito3{
+  background-color:rgb(230, 129, 14);
+}
+
+
+.efeito1:before {
+  content: "";
+  position:absolute;
+  top:0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: all 2s ease;
+}
+
+.efeito1:hover:before{
+  width: 100%;
+}
+
+.efeito2:before {
+  content: "";
+  position:absolute;
+  top:0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: all 2s ease;
+}
+
+.efeito2:hover:before{
+  width: 100%;
+}
+
+
+.efeito3:before {
+  content: "";
+  position:absolute;
+  top:0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: all 2s ease;
+}
+
+.efeito3:hover:before{
+  width: 100%;
+}
+
+/*sobre o curso*/
+.titulo-desc{
+  text-align: center;
+  /*padding-top: 10px;*/
+  font-size: 25px;
+margin-top: 50px;
+
+}
+.onde-estudar{
+  text-align: center;
+  /*padding-top: 10px;*/
+  font-size: 25px;
+margin-top: 50
+}
+
+.sub-desc{
+  margin-left: 50px;
+  text-align: justify;
+  font-size: 18px;
+
+}
+
+.modadalidade{
+  font-size: 18px;
+}
+/*
+.col{
+  height: 800px;
+  margin-left: 15px;
+  box-shadow: -5px -10px 30px rgb(153, 0, 102), 6px 9px 15px #090;
+-webkit-box-shadow: -5px -10px 30px rgb(153, 0, 107), 6px 9px 15px #090;
+-moz-box-shadow: -5px -10px 30px rgb(153, 0, 115), 6px 9px 15px #090;
+}*/
+
+.filtro .li{
+  border-radius: 8px;
+  border: 1px solid #c3c3c3;
+box-shadow:0 2px 7px 0 rgba(0,0,0,0.15) ;
+cursor: pointer;
+padding:15px;
+
+}
+.list-group-item{
+color:#6108a0;
+font-size:20px;
 }

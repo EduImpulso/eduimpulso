@@ -11,6 +11,8 @@ import Privacity from './views/privacity';
 import Quiz from './views/quiz';
 import Curso from './views/cursinhos';
 import Carreira from './views/carreiras';
+import Descr from './views/descricao';
+
 
 const MainRoutes = () => {
 
@@ -24,7 +26,7 @@ const MainRoutes = () => {
             <Route path="/cadastro" element={<Cadastro/>}/>
             <Route path ="/cursinhos" element={<Curso/>}/>
             <Route path ="/carreiras" element ={<Carreira/>}/> 
-                 
+             <Route path ="/descricao"    element={<Descr/>} />
             {!login ? 
                 <Route path="/perfil" element={<Login/>}/> :
                 <Route path="/perfil" element={<Perfil/>}/>

@@ -75,7 +75,7 @@ const Busca = (props) =>{
 
 <>
 <div className="container-fluid">
-<div className ="InputBusca">
+<div className ="InputBusca"> 🔍
 <input type ="text" onFocus="document.body.style.background = '#8220c6'" onBlur="document.body.style.background = '#000000'" value ={busca} onChange = {(ev) => setBusca(ev.target.value)} />
 </div>
 
