@@ -1,9 +1,9 @@
 import Descricao from '../components/Descricao'
 
-const Descr = () =>{
+const DescricaoPage = () =>{
     return(
         <Descricao/>
     )
 }
 
-export default Descr;
+export default DescricaoPage;
