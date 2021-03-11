@@ -1,11 +1,12 @@
 import React from 'react';
 
 const cartInteligence = (props) => {
+
     return (
 
         <div className="container">
             <div>
-                <p className="text-center teoriaTitulo2">
+                <p className="text-center teoriaTitulo2"  data-anima="center">
                     <strong> {props.title} </strong>
                 </p>
 
@@ -15,17 +16,18 @@ const cartInteligence = (props) => {
                         alt=""
                         width="462"
                         height="270"
+                        data-anima="right"
                     >
                     </img>
                 </div>
             </div>
 
             <div className="container">
-                <p className="teoriaCorpo1">{props.txt}</p>
+                <p className="teoriaCorpo1" data-anima="left" >{props.txt}</p>
             </div>
 
             <div className="container">
-                <ul className="teoriaCorpo1">
+                <ul className="teoriaCorpo1" data-anima="center">
                     <li>
                         <strong>Hobbies indicados: </strong>{props.x1}
                     </li>
