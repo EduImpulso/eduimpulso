@@ -104,7 +104,7 @@ export const questions = [
 export const petrs = [
     {
         id: "cinestésica",
-        name: "Corporal 🤸‍♂️",
+        name: "Corporal 🤸‍♂️🤸‍♂️",
         img: "./imgs/quiz/corporal.gif",
         description: "Cursos técnicos e livres sugeridos: ",
         cursos: "Cozinha, Guia de Turismo - (EaD - On-line), Guia de Turismo, Dança, Teatro", /* inseri esta linha */
