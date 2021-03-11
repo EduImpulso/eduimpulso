@@ -1,10 +1,12 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import CardDesc from './cardDesc';
 
 
-
-
 const Descricao = () =>{
+    
+    const { course } = useParams();
+    
     return(
         <>
 
@@ -83,20 +85,6 @@ const Descricao = () =>{
 
           <br/>
           <br/><br/>
-
-          
-
-
-               
-              
-
-             
-                        
-             
-
-      
-
-
      
         </>
     )

@@ -28,6 +28,8 @@ const Contact = () => {
                 setSubject('');
                 setMessage('');
                 alert('Obrigado pelo contato! Aguarde nosso retorno')
+            } else {
+                alert('Ocorreu um erro ao enviar a mensagem!')
             }
         })
     }
@@ -44,19 +46,19 @@ const Contact = () => {
                         <div className="form-row">
                             <div className="form-group col-sm-6">
                                 <label htmlFor="inputNome">Digite seu nome</label>
-                                <input className="form-control" name="name" value={name} onChange={(e)=>{setName(e.target.value)}} name="name" id="inputNome" placeholder="Nome" />
+                                <input className="form-control" name="name" value={name} onChange={(e)=>{setName(e.target.value)}} name="name" id="inputNome" placeholder="Nome" required/>
                             </div>
                             <div className="form-group col-sm-6">
                                 <label htmlFor="inputEmail">Digite seu e-mail</label>
-                                <input className="form-control" name="name" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" id="inputEmail" placeholder="e-mail" />
+                                <input className="form-control" name="name" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" id="inputEmail" placeholder="e-mail" required/>
                             </div>
                             <div className="form-group col-sm-12">
                                 <label htmlFor="inputAssunto"> Assunto </label>
-                                <input className="form-control" name="name" value={subject} onChange={(e)=>{setSubject(e.target.value)}} name="assunto" id="inputAssunto" placeholder="Assunto" />
+                                <input className="form-control" name="name" value={subject} onChange={(e)=>{setSubject(e.target.value)}} name="assunto" id="inputAssunto" placeholder="Assunto" required/>
                             </div>
                             <div className="form-group col-sm-12">
                                 <label htmlFor="formControlTextarea"> Mensagem: </label>
-                                <textarea className="form-control" name="name" value={message} onChange={(e)=>{setMessage(e.target.value)}} name="msg" id="formControlTextatrea" rows={3} defaultValue={""} />
+                                <textarea className="form-control" name="name" value={message} onChange={(e)=>{setMessage(e.target.value)}} name="msg" id="formControlTextatrea" rows={3} defaultValue={""} required/>
                             </div>
                             <button type="submit" className="bottonContact btn col-sm-12 col-md-12 col-lg-12" style={{backgroundColor: 'rgba(0, 0, 0, 0)', border: '3px solid white', color: 'white'}}>Enviar</button>
                             {/* style={{backgroundColor: 'rgba(0, 0, 0, 0)', border: '3px solid white', color: 'white'}} */}
