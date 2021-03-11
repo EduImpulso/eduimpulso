@@ -1,32 +1,15 @@
-import React from 'react';
-import './animações.css';
+import React,{ useEffect } from 'react';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import CartInteligence from './cartInteligence';
 
 const Inteligence = () => {
 
-    const elementos = document.querySelectorAll('[data-anima]')
-    const animacaoClass = 'animacao';
-
-    function animaScroll() {
-        const topPageWindow = window.pageYOffset + ((window.innerHeight * 3) / 4);
-
-        elementos.forEach(function (elemento) {
-            if (topPageWindow > elemento.offsetTop) {
-                elemento.classList.add(animacaoClass);
-            } else {
-                elemento.classList.remove(animacaoClass);
-            }
-        })
-    }
-    if (elementos.length) {
-        window.addEventListener('scroll', function () {
-            animaScroll();
-        })
-    }
-    console.log(elementos)
-
-
+    useEffect(()=> {
+        Aos.init({duration: 1500});
+    }, [])
 
     return (
 
@@ -47,16 +30,14 @@ const Inteligence = () => {
                     <div className="embed-responsive embed-responsive-16by9">
                         <iframe className="embed-responsive-item p-4 shadow" src="https://www.youtube.com/embed/oJ85PMYqHqg" allowFullScreen></iframe>
                     </div>
-
                 </div>
 
-
-                <div className="container-fluid">
-                    <h1 className="text-center teoriaTitulo1" data-anima="center">
-                        <strong> Quais são os oito tipos de inteligência? </strong>
+                <div className="container-fluid" data-aos="fade-up">
+                    <h1 className="text-center teoriaTitulo1" data-aos="fade-up">
+                    <strong> Quais são os oito tipos de inteligência? </strong>
                     </h1>
 
-                    <p className="text-center teoriaTitulo2" data-anima="center">
+                    <p className="text-center teoriaTitulo2">
                         Conheça os oito perfis definidos pela Teoria das Múltiplas
                         Inteligências e aprenda a identificar qual é a sua!
                     </p>
@@ -234,10 +215,10 @@ const Inteligence = () => {
 
 
                 <div className="container text-justify px-5">
-                    <p data-anima="center">
+                    <p>
                         <strong>TOQUE DE MIDAS</strong>
                     </p>
-                    <p data-anima="center">
+                    <p>
                         Gardner não acredita em testes, mas alguns seguidores da Teoria das
                         Inteligências Múltiplas já tentaram sistematizá-las (e
                         transformá-las numa forma de ganhar dinheiro). O mais famoso é o
@@ -247,8 +228,8 @@ const Inteligence = () => {
                         não todas. E ainda depende da pessoa se conhecer bem (ou seja, ter
                         alta inteligência interpessoal!)
                     </p>
-                    <p data-anima="center"><strong>UMA PAUSA PARA PENSAR</strong></p>
-                    <p data-anima="center">
+                    <p><strong>UMA PAUSA PARA PENSAR</strong></p>
+                    <p>
                         Testes podem não medir com precisão as capacidades de cada um, mas
                         um pouco de autorreflexão não faz mal a ninguém.
                         <strong> Pense nas perguntas abaixo</strong> e compare com as
@@ -257,7 +238,7 @@ const Inteligence = () => {
                     </p>
 
                     <div className="d-flex text-justify">
-                        <ul data-anima="center">
+                        <ul>
                             <li>
                                 Que tipos de atividades mais atraem sua atenção? E qual é
                             <span className="textoDestaque">seu</span> nível de aptidão para elas?

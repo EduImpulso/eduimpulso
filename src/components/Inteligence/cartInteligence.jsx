@@ -6,28 +6,27 @@ const cartInteligence = (props) => {
 
         <div className="container">
             <div>
-                <p className="text-center teoriaTitulo2"  data-anima="center">
+                <p className="text-center teoriaTitulo2" data-aos="fade-down">
                     <strong> {props.title} </strong>
                 </p>
 
-                <div className="displayed">
+                <div className="displayed" data-aos="fade-right">
                     <img className="displayed img-fluid mx-auto"
                         src={props.link}
                         alt=""
                         width="462"
                         height="270"
-                        data-anima="right"
                     >
                     </img>
                 </div>
             </div>
 
-            <div className="container">
-                <p className="teoriaCorpo1" data-anima="left" >{props.txt}</p>
+            <div className="container" data-aos="fade-left">
+                <p className="teoriaCorpo1">{props.txt}</p>
             </div>
 
             <div className="container">
-                <ul className="teoriaCorpo1" data-anima="center">
+                <ul className="teoriaCorpo1" data-aos="fade-right">
                     <li>
                         <strong>Hobbies indicados: </strong>{props.x1}
                     </li>
