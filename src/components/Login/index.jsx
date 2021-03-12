@@ -10,6 +10,12 @@ const Login = () => {
 
     const [email, setEmail] = useState ('');
     const [password, setPassword] = useState ('');
+
+    const tooglePassword = () =>{
+        let input = document.getElementById('password')
+
+        input.type === 'password' ? input.type = 'text' : input.type = 'password';
+    }
     
     const Login = (e) => {
         e.preventDefault();
@@ -49,13 +55,12 @@ const Login = () => {
                 
                 
                 <div>
-
                 <label className="my-2 form-label text-light" htmlFor="password">Digite sua senha</label>
-                {/* <input className="form-control has-validation" value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password" placeholder="senha" name="password" /> */}
 
                 <div className="input-group">
-                    <input type="text" className="form-control has-validation form-control" aria-label="Dollar amount (with dot and two decimal places)" htmlFor="password"/>
-                    <span className="input-group-text">$</span>
+                    
+                    <input className="form-control has-validation" value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password" placeholder="senha" name="password" />
+                    <span className="input-group-text btn" onClick={tooglePassword}>$</span>
                 </div>
 
                 </div>
