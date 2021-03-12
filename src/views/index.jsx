@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="d-flex justify-content-center">
                     <img src="./imgs/index/cardLogin.png" className="imgCard img-fluid my-2" alt="Login" />
                 </div>
-                <h5 className="tituloCard text-center my-auto d-flex align-items-center">Faça seu login ou cadastre-se aqui. <br /> Assim vc terá acesso ao nosso quiz e outras informações! </h5>
+                <h5 className="tituloCard text-center my-auto d-flex align-items-center justify-content-center">Faça seu login ou cadastre-se aqui. <br /> Assim vc terá acesso ao nosso quiz e outras informações! </h5>
                 <div className="mb-2 d-flex justify-content-around">
                     <Link to="/login" className="btnCardMini"> Login </Link>
                     <Link to="/cadastro" className="btnCardMini"> Cadastro </Link>
@@ -29,7 +29,7 @@ const Home = () => {
                 <div className="d-flex justify-content-center">
                     <img src="./imgs/index/cardContato.png" className="imgCard img-fluid my-2" alt="Contato" />
                 </div>
-                <h5 className="tituloCard text-center my-auto d-flex align-items-center">Fale conosco pra tirar dúvidas e saber mais informações! </h5>
+                <h5 className="tituloCard text-center my-auto d-flex align-items-center justify-content-center">Fale conosco pra tirar dúvidas e saber mais informações! </h5>
                 <div className="mb-2 d-flex justify-content-around">
                     <Link to="/contato" className="btnCard"> Contato </Link>
                 </div>
@@ -38,7 +38,7 @@ const Home = () => {
                 <div className="d-flex justify-content-center">
                     <img src="./imgs/index/cardNoticias.png" className="imgCard img-fluid my-2" alt="Notícias" />
                 </div>
-                <h5 className="tituloCard my-auto d-flex align-items-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
+                <h5 className="tituloCard my-auto d-flex align-items-center justify-content-center">Sabe o que anda acontecendo? <br /> Veja as principais noticias relacionadas a educação em nosso pais e no mundo! </h5>
                 <div className="mb-2 d-flex justify-content-around">
                     <Link to="/news" className="btnCard"> Notícias </Link>
                 </div>

@@ -25,11 +25,11 @@ font-family: 'Ubuntu', sans-serif !important;
    }
 .politicaPriv{
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 .politicaPriv:hover{
     text-decoration: none;
-    color: rgb(165, 165, 165);
+    color: rgb(165, 165, 165) !important;
 }
 .form-control {
 display: block;
@@ -522,11 +522,11 @@ height: 82vh;
 font-family: 'Rubik', sans-serif;
 font-size: 12px;
 text-decoration: none;
-color: white;
+color: white !important;
 }
 .linkCadastro:hover {
   text-decoration: none;
-  color: white;
+  color: black !important;
 }
 
 
@@ -731,7 +731,12 @@ color: white;
 
 
 /* RESPONSIVIDADE */
-
+/* 
+.tituloCard{
+  height:45%;
+  text-align: center;
+  font-size: 16px;
+  } */
 
 /* MENU DESKTOP */
 
