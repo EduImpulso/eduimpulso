@@ -46,10 +46,21 @@ const Login = () => {
                 <label className="my-2 form-label text-light" htmlFor="e-mail">Digite seu e-mail</label>
                 <input className="imputForm form-control has-validation" value={email} onChange={(e)=>{setEmail(e.target.value)}} type="e-mail" id="email" aria-describedby="emailHelp" placeholder="email@email.com" name="email" />
                 </div>
+                
+                
                 <div>
+
                 <label className="my-2 form-label text-light" htmlFor="password">Digite sua senha</label>
-                <input className="form-control has-validation" value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password" placeholder="senha" name="password" />
+                {/* <input className="form-control has-validation" value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password" placeholder="senha" name="password" /> */}
+
+                <div className="input-group">
+                    <input type="text" className="form-control has-validation form-control" aria-label="Dollar amount (with dot and two decimal places)" htmlFor="password"/>
+                    <span className="input-group-text">$</span>
                 </div>
+
+                </div>
+                
+                
                 <Link className="linkCadastro form-text" to="/cadastro">Cadastre-se aqui!</Link>
                 <button className="buttonForm btn mt-3">
                     Enviar
