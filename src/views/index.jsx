@@ -10,7 +10,7 @@ const Home = () => {
             <div className="row bannerHome" id="desktop">
                 <div className="container d-flex align-items-center p-5">
                 <h1 className="p-4">
-                    corrida hj,<br /> vitória amanhã!<br /> #ralaquerola ✌✌🏿
+                    corrida hj,<br /> vitória amanhã!<br /> <h2>#ralaquerola</h2>✌✌🏿
                 </h1>
                 </div>
             </div>

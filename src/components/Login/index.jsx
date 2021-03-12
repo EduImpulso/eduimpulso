@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import loginActions from '../store/actions/login';
 
+// import eye from '../../img/eye.svg';
+
 const Login = () => {
 
     const dispatch = useDispatch();
@@ -58,9 +60,8 @@ const Login = () => {
                 <label className="my-2 form-label text-light" htmlFor="password">Digite sua senha</label>
 
                 <div className="input-group">
-                    
                     <input className="form-control has-validation" value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" id="password" placeholder="senha" name="password" />
-                    <span className="input-group-text btn" onClick={tooglePassword}>$</span>
+                    <span className="input-group-text btn" style={{background:"white",  border:"0px 5px 5px 0px"}} onClick={tooglePassword}><img className="img-fluid" style={{background:"white"}} width="25px" src="./imgs/eye.png"/></span>
                 </div>
 
                 </div>
