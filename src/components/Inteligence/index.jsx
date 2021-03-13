@@ -151,14 +151,25 @@ const Inteligence = () => {
                     quem tem essa inteligência bombando se dá bem em biologia e geografia."
                         x1="cuidar de plantas e jardins, fazer trilhas e caminhadas na natureza, passear com o cachorro."
                         x2="biologia, ecologia, geologia, medicina, medicina veterinária, meteorologia."
-                        a1="https://pt.wikipedia.org/wiki/Charles_Darwin"
-                        g1="Charles Darwin, "
+
+                        a1="https://pt.wikipedia.org/wiki/Chico_Mendes"
+                        g1="Chico Mendes, "
+
                         a2="https://pt.wikipedia.org/wiki/Alexander_von_Humbold"
                         g2="Alexander von Humboldt, "
+
                         a3="https://pt.wikipedia.org/wiki/Chico_Mendes"
                         g3="Chico Mendes, "
+
                         a4="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
                         g4="Aziz Ab’Saber."
+
+                        a5="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
+                        g5="Aziz Ab’Saber."
+
+                        a6="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
+                        g6="Aziz Ab’Saber."
+
                         l="https://br.psicologia-online.com/inteligencia-naturalista-o-que-e-exemplos-e-atividades-297.html"
                     />
 
