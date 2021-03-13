@@ -152,23 +152,23 @@ const Inteligence = () => {
                         x1="cuidar de plantas e jardins, fazer trilhas e caminhadas na natureza, passear com o cachorro."
                         x2="biologia, ecologia, geologia, medicina, medicina veterinária, meteorologia."
 
-                        a1="https://pt.wikipedia.org/wiki/Chico_Mendes"
-                        g1="Chico Mendes, "
+                        a1="https://pt.wikipedia.org/wiki/Graziela_Maciel_Barroso"
+                        g1="Graziela Maciel Barroso, "
 
-                        a2="https://pt.wikipedia.org/wiki/Alexander_von_Humbold"
-                        g2="Alexander von Humboldt, "
+                        a2="https://pt.wikipedia.org/wiki/Chico_Mendes"
+                        g2="Chico Mendes, "
 
-                        a3="https://pt.wikipedia.org/wiki/Chico_Mendes"
-                        g3="Chico Mendes, "
+                        a3="https://pt.wikipedia.org/wiki/Bertha_Lutz"
+                        g3="Bertha Lutz, "
 
-                        a4="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
-                        g4="Aziz Ab’Saber."
+                        a4="https://pt.wikipedia.org/wiki/Oswaldo_Cruz"
+                        g4="Oswaldo Cruz, "
 
-                        a5="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
-                        g5="Aziz Ab’Saber."
+                        a5="https://pt.wikipedia.org/wiki/Sonia_Dietrich"
+                        g5="Sonia Dietrich, "
 
-                        a6="https://pt.wikipedia.org/wiki/Aziz_Ab%27Saber"
-                        g6="Aziz Ab’Saber."
+                        a6="https://pt.wikipedia.org/wiki/Charles_Darwin"
+                        g6="Charles Darwin."
 
                         l="https://br.psicologia-online.com/inteligencia-naturalista-o-que-e-exemplos-e-atividades-297.html"
                     />
@@ -182,14 +182,25 @@ const Inteligence = () => {
                     artistas em geral."
                         x1="esportes, dança, mágica, teatro, mímica, malabarismo, massagem."
                         x2="coreografia, dança, artes dramáticas, artes plásticas, educação física, esportes."
-                        a1="https://pt.wikipedia.org/wiki/Lionel_Messi"
-                        g1="Lionel Messi, "
-                        a2="https://pt.wikipedia.org/wiki/Marta_(futebolista)"
-                        g2="Marta, "
-                        a3="https://pt.wikipedia.org/wiki/Meryl_Streep"
-                        g3="Meryl Streep, "
+
+                        a1="https://pt.wikipedia.org/wiki/Marta_(futebolista)"
+                        g1="Marta, "
+
+                        a2="https://pt.wikipedia.org/wiki/Michael_Jordan"
+                        g2="Michael Jordan, "
+
+                        a3="https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
+                        g3="Daiane dos Santos, "
+
                         a4="https://pt.wikipedia.org/wiki/Michael_Phelps"
-                        g4="Michael Phelps."
+                        g4="Michael Phelps, "
+
+                        a5="https://pt.wikipedia.org/wiki/Ronda_Rousey"
+                        g5="Ronda Rousey, "
+
+                        a6="https://pt.wikipedia.org/wiki/Lionel_Messi"
+                        g6="Lionel Messi."
+
                         l="https://br.psicologia-online.com/inteligencia-corporal-cinestesica-o-que-e-caracteristicas-e-como-melhora-la-221.html"
                     />
 
@@ -203,14 +214,25 @@ const Inteligence = () => {
                     tanto as grandes quanto as pequenas imagens."
                         x1="aeromodelismo, artesanato, desenho, fotografia, pintura, escultura."
                         x2="arquitetura, artes plásticas, aviação, desenho industrial, design de interiores, design gráfico, engenharia."
-                        a1="https://pt.wikipedia.org/wiki/Coco_Chanel"
-                        g1="Coco Chanel, "
+
+                        a1="https://pt.wikipedia.org/wiki/Lina_Bo_Bardi"
+                        g1="Lina Bo Bardi, "
+
                         a2="https://pt.wikipedia.org/wiki/Oscar_Niemeyer"
-                        g2="Oscar Niemeyer, "
-                        a3="https://pt.wikipedia.org/wiki/Pablo_Picasso"
-                        g3="Pablo Picasso, "
+                        g2="Oscar Niemeyer, " 
+
+                        a3="https://pt.wikipedia.org/wiki/S%C3%B4nia_Gomes"
+                        g3="Sônia Gomes, " 
+
                         a4="https://pt.wikipedia.org/wiki/Santos_Dumont"
-                        g4="Santos Dumont."
+                        g4="Santos Dumont, " 
+
+                        a5="https://pt.wikipedia.org/wiki/Ada_Rogato"
+                        g5="Ada Rogato, "
+
+                        a6="https://pt.wikipedia.org/wiki/Os_G%C3%AAmeos"
+                        g6="Os Gêmeos. " 
+
                         l="https://br.psicologia-online.com/inteligencia-espacial-visual-caracteristicas-exemplos-e-atividades-269.html"
                     />
 
@@ -225,14 +247,25 @@ const Inteligence = () => {
                     por exemplo, ou de gerenciar uma equipe."
                         x1="trabalho voluntário, esportes em grupo, conversas."
                         x2="jornalismo, marketing, política, psicologia, recursos humanos, relações públicas, teologia, vendas."
-                        a1="https://pt.wikipedia.org/wiki/Winston_Churchill"
-                        g1="Winston Churchill, "
-                        a2="https://pt.wikipedia.org/wiki/Mahatma_Gandhi"
-                        g2="Mahatma Gandhi, "
-                        a3="https://pt.wikipedia.org/wiki/Mar%C3%ADlia_Gabriela"
-                        g3="Marília Gabriela, "
+
+                        a1="https://pt.wikipedia.org/wiki/Maria_J%C3%BAlia_Coutinho"
+                        g1="Maria Júlia Coutinho, "
+
+                        a2="https://pt.wikipedia.org/wiki/Winston_Churchill"
+                        g2="Winston Churchill, "
+
+                        a3="https://pt.wikipedia.org/wiki/Madre_Teresa_de_Calcut%C3%A1"
+                        g3="Madre Teresa de Calcutá, "
+
                         a4="https://pt.wikipedia.org/wiki/Papa_Francisco"
-                        g4="Papa Francisco."
+                        g4="Papa Francisco, "
+
+                        a5="https://pt.wikipedia.org/wiki/Oprah_Winfrey"
+                        g5="Oprah Winfrey, "
+
+                        a6="https://pt.wikipedia.org/wiki/Heraldo_Pereira"
+                        g6="Heraldo Pereira."
+
                         l="https://br.psicologia-online.com/inteligencia-interpessoal-o-que-e-exemplos-e-atividades-209.html"
                     />
 
@@ -247,14 +280,25 @@ const Inteligence = () => {
                     grandes romances."
                         x1="escrever um diário, meditar, planejar seus objetivos de vida."
                         x2="filosofia, literatura, psicologia, teologia."
+
                         a1="https://pt.wikipedia.org/wiki/Ernest_Hemingway"
                         g1="Ernest Hemingway, "
+
                         a2="https://pt.wikipedia.org/wiki/Machado_de_Assis"
                         g2="Machado de Assis, "
+
                         a3="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche"
                         g3="Friedrich Nietzsche, "
+
                         a4="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
                         g4="Simone de Beauvoir."
+
+                        a5="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
+                        g5="Simone de Beauvoir."
+
+                        a6="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
+                        g6="Simone de Beauvoir."
+
                         l="https://br.psicologia-online.com/inteligencia-intrapessoal-o-que-e-exemplos-e-atividades-para-melhora-la-208.html"
                     />
 
