@@ -254,8 +254,8 @@ const Inteligence = () => {
                         a2="https://pt.wikipedia.org/wiki/Winston_Churchill"
                         g2="Winston Churchill, "
 
-                        a3="https://pt.wikipedia.org/wiki/Madre_Teresa_de_Calcut%C3%A1"
-                        g3="Madre Teresa de Calcutá, "
+                        a3="https://pt.wikipedia.org/wiki/Zilda_Arns"
+                        g3="Zilda Arns, "
 
                         a4="https://pt.wikipedia.org/wiki/Papa_Francisco"
                         g4="Papa Francisco, "
@@ -281,23 +281,23 @@ const Inteligence = () => {
                         x1="escrever um diário, meditar, planejar seus objetivos de vida."
                         x2="filosofia, literatura, psicologia, teologia."
 
-                        a1="https://pt.wikipedia.org/wiki/Ernest_Hemingway"
-                        g1="Ernest Hemingway, "
+                        a1="https://pt.wikipedia.org/wiki/Nise_da_Silveira"
+                        g1="Nise da Silveira, "
 
                         a2="https://pt.wikipedia.org/wiki/Machado_de_Assis"
                         g2="Machado de Assis, "
 
-                        a3="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche"
-                        g3="Friedrich Nietzsche, "
+                        a3="https://pt.wikipedia.org/wiki/Anna_Freud"
+                        g3="Anna Freud, "
 
-                        a4="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
-                        g4="Simone de Beauvoir."
+                        a4="https://pt.wikipedia.org/wiki/Juliano_Moreira"
+                        g4="Juliano Moreira,"
 
-                        a5="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
-                        g5="Simone de Beauvoir."
+                        a5="https://pt.wikipedia.org/wiki/Mary_Whiton_Calkins"
+                        g5="Mary Whiton Calkins, "
 
-                        a6="https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
-                        g6="Simone de Beauvoir."
+                        a6="https://pt.wikipedia.org/wiki/Howard_Gardner"
+                        g6="Howard Gardner."
 
                         l="https://br.psicologia-online.com/inteligencia-intrapessoal-o-que-e-exemplos-e-atividades-para-melhora-la-208.html"
                     />
