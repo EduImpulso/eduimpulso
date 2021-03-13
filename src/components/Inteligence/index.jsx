@@ -41,8 +41,8 @@ const Inteligence = () => {
                     </h1>
 
                     <p className="text-center teoriaTitulo2">
-                        Conheça os oito perfis da Teoria das Múltiplas
-                        Inteligências de Howard Gardner e aprenda a identificar qual é a sua!
+                        Conheça os oito perfis da "Teoria das Múltiplas
+                        Inteligências" de Howard Gardner e tente identificar qual é a sua!
                     </p>
                 </div>
                 <p className="linha mx-auto"></p>
