@@ -38,7 +38,7 @@ const Home = () => {
                 <div className="d-flex justify-content-center">
                     <img src="./imgs/index/cardNoticias.png" className="imgCard img-fluid my-2" alt="Notícias" />
                 </div>
-                <h5 className="tituloCard my-auto d-flex align-items-center justify-content-center"> Saiba o que anda rolando de melhor na educação do Brasil e do mundo! #sonoticiaboa </h5>
+                <h5 className="tituloCard my-auto d-flex align-items-center justify-content-center"> Saiba o que anda rolando de interessante na educação do Brasil e do mundo! #sonoticiaboa </h5>
                 <div className="mb-2 d-flex justify-content-around">
                     <Link to="/news" className="btnCard"> Notícias </Link>
                 </div>
