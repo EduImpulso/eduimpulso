@@ -152,8 +152,8 @@ const Inteligence = () => {
                         x1="cuidar de plantas e jardins, fazer trilhas e caminhadas na natureza, passear com o cachorro."
                         x2="biologia, ecologia, geologia, medicina, medicina veterinária, meteorologia."
 
-                        a1="https://pt.wikipedia.org/wiki/Graziela_Maciel_Barroso"
-                        g1="Graziela Maciel Barroso, "
+                        a1="https://pt.wikipedia.org/wiki/Inge_Lehmann"
+                        g1="Inge Lehmann, "
 
                         a2="https://pt.wikipedia.org/wiki/Chico_Mendes"
                         g2="Chico Mendes, "
@@ -164,8 +164,8 @@ const Inteligence = () => {
                         a4="https://pt.wikipedia.org/wiki/Oswaldo_Cruz"
                         g4="Oswaldo Cruz, "
 
-                        a5="https://pt.wikipedia.org/wiki/Sonia_Dietrich"
-                        g5="Sonia Dietrich, "
+                        a5="https://pt.wikipedia.org/wiki/Johanna_D%C3%B6bereiner"
+                        g5="Johanna Döbereiner, "
 
                         a6="https://pt.wikipedia.org/wiki/Charles_Darwin"
                         g6="Charles Darwin."
@@ -293,8 +293,8 @@ const Inteligence = () => {
                         a4="https://pt.wikipedia.org/wiki/Juliano_Moreira"
                         g4="Juliano Moreira, "
 
-                        a5="https://pt.wikipedia.org/wiki/Mary_Whiton_Calkins"
-                        g5="Mary Whiton Calkins, "
+                        a5="https://pt.wikipedia.org/wiki/Melanie_Klein"
+                        g5="Melanie Klein, "
 
                         a6="https://pt.wikipedia.org/wiki/Howard_Gardner"
                         g6="Howard Gardner."
