@@ -23,7 +23,7 @@ const Inteligence = () => {
                                  Teoria das Múltiplas Inteligências: o que é isso? 🤔
                             </strong>
                             <div className="col-12 text-center"> 
-                            <h5 className="pb-3" style={{color:"#363636"}}><br></br>Pra ficar por dentro do assunto, assista o vídeo e leia uma matéria super interessante logo abaixo!</h5>
+                            <h5 className="pb-3" style={{color:"#363636"}}><br></br>Pra ficar por dentro do assunto, assista ao vídeo e leia uma matéria super interessante logo abaixo!</h5>
                             </div>
                         </h3>
                     </div>
