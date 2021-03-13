@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className="cardContato p-1 text-white col-12 col-lg-6 rounded">
                 <div className="justify-content-center my-1 p-2">
-                    <p className="text-center">Fala tu! 💬</p>
+                    <p className="text-center">Fala tu! Fique a vontade pra nos enviar dúvidas e sugestões 💬</p>
                     <form onSubmit={SentMessage}>
                         <div className="form-row">
                             <div className="form-group col-sm-6">

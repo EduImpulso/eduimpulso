@@ -40,12 +40,12 @@ const Descricao = () =>{
         <div className="container-fluid">
              <div className ="card-salario">
         <p className ="salarios">
-            Quanto ganha um técnico em administração? 🤑
+            Qual o salário de um técnico em administração? 🤑
         </p>
         <div className="btns">
-            <button className type="button" className ="efeito efeito1">Experiente, acima de $ 1.800,00</button>
-            <button className type="button" className ="efeito efeito2">Valor médio $ 1.500,00</button>
-            <button className type="button" className ="efeito efeito3">Começando, abaixo de $ 1.300,00</button>
+            <button className type="button" className ="efeito efeito1">Experiente, acima de R$ 1.800,00</button>
+            <button className type="button" className ="efeito efeito2">Valor médio R$ 1.500,00</button>
+            <button className type="button" className ="efeito efeito3">Começando, abaixo de R$ 1.300,00</button>
 
          </div>
     </div>

@@ -40,7 +40,7 @@ const EditUser = () => {
     return (
         <div className="col-12 col-lg-5">
             <h2>Editar perfil</h2>
-            <small>*preencha todos os campos</small>
+            <small>* preencha todos os campos</small>
             <div className="col-lg-12 py-2" style={{backgroundColor: 'hsla(275, 46%, 64%, 0.562)', borderRadius: 20}}>
                 <form onSubmit={Edit}>
                 <div className="input-group my-3 col-lg-12 d-flex align-items-center">

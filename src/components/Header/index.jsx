@@ -67,7 +67,7 @@ const Header = () => {
             <Link className="text-secondary h6" to="/contato">Fale Conosco</Link>
             </button>
             <button className="dropdown-item text-center border text-secondary" type="button">
-            <Link className="text-secondary h6" to="/privacity">Politica de Privacidade</Link>
+            <Link className="text-secondary h6" to="/privacity">Política de Privacidade</Link>
             </button>
             <button className="dropdown-item text-center border text-secondary" type="button">
             <Link className="text-secondary h6" to="/cadastro">Cadastre-se</Link>
@@ -132,13 +132,13 @@ const Header = () => {
                     to="/news"
                     className="btnLinkVejaMais dropdown-item"
                   >
-                    Noticias
+                    Notícias
                   </Link>
                   <Link
                     to="/privacity"
                     className="btnLinkVejaMais dropdown-item"
                   >
-                    Politica de Privacidade
+                    Política de Privacidade
                   </Link>
                   {login && <Link
                     to="/perfil"

@@ -8,9 +8,13 @@ const Carreiras = ()=>{
     return(
 <>
 <div>
-  <div className= "container-fluid">
-      <h3 className="my-3 text-center"><strong>Cursos Técnicos 🎓</strong></h3>
-      <h5 className="pb-3" style={{color:"#363636"}}><br></br>Já sabe qual carreira seguir ou quer mais informações? Dá uma pesquisada aí embaixo!</h5>
+<div className="mt-4">
+                <div className="col-12 text-center">
+                    <h3 className="pb-3"><strong>Cursos Técnicos 🎓</strong></h3>
+                </div>
+                <div className="col-12 text-center">
+                    <h5 className="pb-3" style={{color:"#363636"}}>Já sabe qual carreira seguir ou quer mais informações? Dá uma pesquisada aí embaixo!</h5>
+                </div>
       <Tabs>
         <div label="Por área">
          <CounteudoA/>
