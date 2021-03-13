@@ -20,8 +20,11 @@ const Inteligence = () => {
                     <div className="text-center">
                         <h3 className="display-5" id="topo">
                             <strong>
-                                🧐 Teoria das Múltiplas Inteligências: o que é isso?
+                                 Teoria das Múltiplas Inteligências: o que é isso? 🤔
                             </strong>
+                            <div className="col-12 text-center"> 
+                            <h5 className="pb-3" style={{color:"#363636"}}><br></br>Pra ficar por dentro do assunto, assista o vídeo e leia uma matéria super interessante logo abaixo!</h5>
+                            </div>
                         </h3>
                     </div>
                 </div>
@@ -53,14 +56,25 @@ const Inteligence = () => {
                     é típica de quem manda bem em contas, em lógica e em estratégia."
                         x1="quebra-cabeça, xadrez, videogame, computadores, desvendar mistérios."
                         x2="ciências, computação, direito, engenharia, matemática, medicina."
-                        a1="https://pt.wikipedia.org/wiki/Albert_Einstein"
-                        g1="Albert Einstein, "
-                        a2="https://pt.wikipedia.org/wiki/Isaac_Newton"
-                        g2="Isaac Newton, "
-                        a3="https://pt.wikipedia.org/wiki/Stephen_Hawking"
-                        g3="Stephen Hawkin, "
-                        a4="https://pt.wikipedia.org/wiki/Mark_Zuckerberg"
-                        g4="Mark Zuckerberg."
+                        
+                        a1="https://pt.wikipedia.org/wiki/Sonia_Guimar%C3%A3es"
+                        g1="Sonia Guimarães, "     
+
+                        a2="https://pt.wikipedia.org/wiki/Artur_Avila"
+                        g2="Artur Avila, "   
+
+                        a3="https://pt.wikipedia.org/wiki/Albert_Einstein"
+                        g3="Albert Einstein, "
+
+                        a4="https://pt.wikipedia.org/wiki/Du%C3%ADlia_de_Mello"
+                        g4="Duília de Mello, "
+
+                        a5="https://pt.wikipedia.org/wiki/Steve_Wozniak"
+                        g5="Steve Wozniak, "
+
+                        a6="https://pt.wikipedia.org/wiki/Enedina_Alves_Marques"
+                        g6="Enedina Alves Marques."
+
                         l="https://br.psicologia-online.com/inteligencia-logico-matematica-caracteristicas-exemplos-e-atividades-222.html"
                     />
 
@@ -75,14 +89,25 @@ const Inteligence = () => {
                     provas e exercícios são por escrito."
                         x1="contar histórias, escrever textos, declamar poesias, fazer passatempos com palavras, ler, jogar RPG."
                         x2="editoração, educação, jornalismo, literatura, tradução."
-                        a1="https://pt.wikipedia.org/wiki/Cec%C3%ADlia_Meireles"
-                        g1="Cecília Meirelles, "
-                        a2="https://pt.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
-                        g2="Gabriel García Marquez, "
-                        a3="https://pt.wikipedia.org/wiki/William_Shakespeare"
-                        g3="William Shakespeare, "
-                        a4="https://pt.wikipedia.org/wiki/Tom_Wolfe"
-                        g4="Tom Wolfe."
+
+                        a1="https://pt.wikipedia.org/wiki/Carolina_de_Jesus"
+                        g1="Carolina de Jesus, "
+
+                        a2="https://pt.wikipedia.org/wiki/M%C3%A1rio_de_Andrade"
+                        g2="Mário de Andrade, "
+
+                        a3="https://pt.wikipedia.org/wiki/Cec%C3%ADlia_Meireles"
+                        g3="Cecília Meireles, "
+
+                        a4="https://pt.wikipedia.org/wiki/William_Shakespeare"
+                        g4="Shakespeare, "
+
+                        a5="https://pt.wikipedia.org/wiki/Jorge_Amado"
+                        g5="Jorge Amado, "
+
+                        a6="https://pt.wikipedia.org/wiki/Clarice_Lispector"
+                        g6="Clarice Lispector."
+
                         l="https://br.psicologia-online.com/inteligencia-linguistica-caracteristicas-e-atividades-para-melhora-la-223.html"
                     />
 
@@ -95,14 +120,25 @@ const Inteligence = () => {
                     instrumentos."
                         x1="assobiar, cantar, fazer rimas, compor, participar de um coral, ouvir música, tocar instrumentos."
                         x2="canto, composição, crítica musical, direção musical, DJ, ensino de música, engenharia de som para filmes e peças."
-                        a1="https://pt.wikipedia.org/wiki/Ludwig_van_Beethoven"
-                        g1="Ludwig van Beethoven, "
-                        a2="https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Jobim"
-                        g2="Tom Jobim, "
-                        a3="https://pt.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
-                        g3="Wolfgang Amadeus Mozart. "
-                        a4=""
-                        g4=""
+
+                        a1="https://pt.wikipedia.org/wiki/Negra_Li"
+                        g1="Negra Li, "
+
+                        a2="https://pt.wikipedia.org/wiki/Milton_Nascimento"
+                        g2="Milton Nascimento, "
+
+                        a3="https://pt.wikipedia.org/wiki/Erykah_Badu"
+                        g3="Erykah Badu, "
+
+                        a4="https://pt.wikipedia.org/wiki/Mano_Brown"
+                        g4="Mano Brown, "
+
+                        a5="https://pt.wikipedia.org/wiki/Elis_Regina"
+                        g5="Elis Regina, "
+
+                        a6="https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Jobim"
+                        g6="Tom Jobim."
+
                         l="https://br.psicologia-online.com/inteligencia-musical-o-que-e-caracteristicas-e-atividades-224.html"
                     />
 
@@ -215,23 +251,8 @@ const Inteligence = () => {
 
 
                 <div className="container text-justify px-5">
-                    <p>
-                        <strong>TOQUE DE MIDAS</strong>
-                    </p>
-                    <p>
-                        Gardner não acredita em testes, mas alguns seguidores da Teoria das
-                        Inteligências Múltiplas já tentaram sistematizá-las (e
-                        transformá-las numa forma de ganhar dinheiro). O mais famoso é o
-                        Midas, criado pelo consultor Branton Shearer, que pode ser utilizado
-                        como um <strong>teste vocacional.</strong> O próprio Gardner
-                        reconhece que ele mede, sim, habilidades em certas áreas &#8211; mas
-                        não todas. E ainda depende da pessoa se conhecer bem (ou seja, ter
-                        alta inteligência interpessoal!)
-                    </p>
                     <p><strong>UMA PAUSA PARA PENSAR</strong></p>
                     <p>
-                        Testes podem não medir com precisão as capacidades de cada um, mas
-                        um pouco de autorreflexão não faz mal a ninguém.
                         <strong> Pense nas perguntas abaixo</strong> e compare com as
                         descrições dos oito tipos de inteligência para ver qual delas tem
                         mais a ver com você:
@@ -257,7 +278,7 @@ const Inteligence = () => {
                     <h6 className="teoriaFonte">
                         <em>
                             Fonte: <br />
-                        Portal da Revista SuperInteressante, fevereiro de 2020 <br />
+                        Adaptado do Portal da Revista SuperInteressante, fevereiro de 2020 <br />
                         Textos por Julia Moióli <br />
                         Ilustrações por Bruno Miranda <br />
                         </em>
