@@ -44,9 +44,9 @@ const cartInteligence = (props) => {
 
                         <a href={props.a4} target="_blank">{props.g4}</a>
 
-                        <a href={props.a4} target="_blank">{props.g5}</a>
+                        <a href={props.a5} target="_blank">{props.g5}</a>
 
-                        <a href={props.a4} target="_blank">{props.g6}</a>
+                        <a href={props.a6} target="_blank">{props.g6}</a>
 
                     </li>
                     <li>

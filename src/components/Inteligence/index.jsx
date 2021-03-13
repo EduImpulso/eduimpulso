@@ -66,14 +66,14 @@ const Inteligence = () => {
                         a3="https://pt.wikipedia.org/wiki/Albert_Einstein"
                         g3="Albert Einstein, "
 
-                        a4="https://pt.wikipedia.org/wiki/Du%C3%ADlia_de_Mello"
-                        g4="Duília de Mello, "
+                        a4="https://pt.wikipedia.org/wiki/Mar%C3%ADlia_Chaves_Peixoto"
+                        g4="Marília Chaves Peixoto, "
 
                         a5="https://pt.wikipedia.org/wiki/Steve_Wozniak"
                         g5="Steve Wozniak, "
 
-                        a6="https://pt.wikipedia.org/wiki/Enedina_Alves_Marques"
-                        g6="Enedina Alves Marques."
+                        a6="https://pt.wikipedia.org/wiki/Mary_Jackson"
+                        g6="Mary Jackson."
 
                         l="https://br.psicologia-online.com/inteligencia-logico-matematica-caracteristicas-exemplos-e-atividades-222.html"
                     />
@@ -130,8 +130,8 @@ const Inteligence = () => {
                         a3="https://pt.wikipedia.org/wiki/Erykah_Badu"
                         g3="Erykah Badu, "
 
-                        a4="https://pt.wikipedia.org/wiki/Mano_Brown"
-                        g4="Mano Brown, "
+                        a4="https://pt.wikipedia.org/wiki/Paul_McCartney"
+                        g4="Paul McCartney, "
 
                         a5="https://pt.wikipedia.org/wiki/Elis_Regina"
                         g5="Elis Regina, "
@@ -291,7 +291,7 @@ const Inteligence = () => {
                         g3="Anna Freud, "
 
                         a4="https://pt.wikipedia.org/wiki/Juliano_Moreira"
-                        g4="Juliano Moreira,"
+                        g4="Juliano Moreira, "
 
                         a5="https://pt.wikipedia.org/wiki/Mary_Whiton_Calkins"
                         g5="Mary Whiton Calkins, "
