@@ -7,11 +7,11 @@
 
 <hr>
 
-<h2 align="center">
+<h3 align="center">
   
   Projeto em desenvolvimento no ano de 2020 -2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
  
-<h2 align="center">
+<h3 align="center">
 <br>
 
 
