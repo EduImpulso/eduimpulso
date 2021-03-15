@@ -1,24 +1,24 @@
 <br>
 
 <p align="center">
-      <img src="src/img/index.gif" width="200" height="150">
+      <img src="src/img/index.gif">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
 
 <hr>
 
-<h2 align="center">
+<h3 align="center">
   
-  Projeto em desenvolvimento no ano de 2020 -2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
+  Projeto desenvolvido entre 2020 e 2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
  
-<h2 align="center">
+<h3 align="center">
 <br>
 
 
 💻 Um pouco sobre o projeto
 
 # EduImpulso
- * O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
+O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
 
 Através de informações imparciais e um quiz como ferramenta básica de autoconhecimento, sugerimos os possíveis cursos técnicos gratuitos para o estudante iniciar sua trajetória profissional.
 
@@ -34,7 +34,7 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 <br>
 
 **:link: Clique no link abaixo para visualizar o site hospedado do usuário:**
->  [http://sos-medicamentos-user](https://eduimpulso.herokuapp.com/)
+>  [https://eduimpulso.herokuapp.com/](https://eduimpulso.herokuapp.com/)
 
 <br>
 
@@ -67,157 +67,8 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 
 <br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Para rodar este projeto em sua máquina, siga as instruções abaixo  (não esqueça de configurar o banco de dados!)**  
+<br>
 
 
 # Getting Started with Create React App

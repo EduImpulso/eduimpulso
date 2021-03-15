@@ -107,39 +107,127 @@ export const petrs = [
         name: "Corporal 🤸‍",
         img: "./imgs/quiz/corporal.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Cozinha, Guia de Turismo - (EaD - On-line), Guia de Turismo, Dança, Teatro", /* inseri esta linha */
-        points: 0,
+
+        curso_a: "Cozinha", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Guia de Turismo - (EaD - On-line)", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Guia de Turismo", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
+        curso_d: "Dança", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
+        points: 0
     },
+    
     { 
         id: "espacial",
         name: "Visual-Espacial 🕵️‍♀️",
         img: "./imgs/quiz/espacial.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Automação Industrial, Design de Interiores - Integrado ao Ensino Médio, Automação Industrial - Integrado ao Ensino Médio, Edificações, Edificações - Integrado ao Ensino Médio, Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado, Mecânica, Mecatrônica, Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+
+        curso_a: "Automação Industrial", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
+        curso_d: "Edificações", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
+        curso_e: "Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_e: "www.yahoo.com.br",
+
+        curso_f: "Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
+        url_f: "www.yahoo.com.br",
+
+        curso_g: "Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado, Mecânica", /* inseri esta linha */
+        url_g: "www.yahoo.com.br",
+
+        curso_h: "Mecatrônica", /* inseri esta linha */
+        url_h: "www.yahoo.com.br",
+
+        curso_i: "Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_i: "www.yahoo.com.br",
+
         points: 0
     },
+    
     { 
         id: "interpessoal",
         name: "Interpessoal 👨‍⚕️",
         img: "./imgs/quiz/interpessoal.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Cursos técnicos sugeridos: Nutrição e Dietética, Nutrição e Dietética - Integrado ao Ensino Médio, Recursos Humanos, Secretariado - (EaD - On-line), Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos - Novotec integrado, Secretariado", /* inseri esta linha */
+
+        curso_a: "Nutrição e Dietética", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Nutrição e Dietética - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Recursos Humanos", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
+        curso_d: "Secretariado - (EaD - On-line)", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
+        curso_e: "Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos - Novotec integrado", /* inseri esta linha */
+        url_e: "www.yahoo.com.br",
+
+        curso_f: "Secretariado", /* inseri esta linha */
+        url_f: "www.yahoo.com.br",
+
         points: 0
     },
+    
     { 
         id: "intrapessoal",
         name: "Intrapessoal 🧘‍♂️",
         img: "./imgs/quiz/intrapessoal.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Ensino Médio - Linguagens, Ciências Humanas e Sociais, Comércio - (EaD - On-line), Comércio", /* inseri esta linha */
+
+        curso_a: "Ensino Médio - Linguagens", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Ciências Humanas e Sociais", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Comércio - (EaD - On-line)", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+        
+        curso_d: "Comércio", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
         points: 0
     },
+    
     { 
         id: "linguística",
         name: "Linguística 👩‍⚖️",
         img: "./imgs/quiz/linguistica.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Ensino Médio - Linguagens, Ciências Humanas e Sociais, Comércio - (EaD - On-line), Comércio, Teatro", /* inseri esta linha */
+
+        curso_a: "Ensino Médio - Linguagens, , , , ", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Ciências Humanas e Sociais", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Comércio - (EaD - On-line)", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
+        curso_d: "Comércio", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
+        curso_e: "Teatro", /* inseri esta linha */
+        url_e: "www.yahoo.com.br",
+
         points: 0
     },
     { 
@@ -147,7 +235,106 @@ export const petrs = [
         name: "Lógico-Matemática 👩‍💻",
         img: "./imgs/quiz/logica.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Contabilidade, Desenvolvimento de Sistemas, Desenvolvimento de Sistemas - Integrado ao Ensino Médio, Desenvolvimento de Sistemas (EaD - On-line), Desenvolvimento de Sistemas Integrado ao Ensino Médio, Eletroeletrônica, Eletrônica - Integrado ao Ensino Médio, Eletrônica (com até 20% online), Eletrônica, Eletrotécnica, Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Eletrônica - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Manutenção Automotiva - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Mecatrônica - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado, Informática (Nova Matriz), Informática para Internet, Informática para Internet - Integrado ao Ensino Médio, Manutenção Automotiva, Manutenção e Suporte em Informática, Química, Química - Integrado ao Ensino Médio, Automação Industrial, Design de Interiores - Integrado ao Ensino Médio, Automação Industrial - Integrado ao Ensino Médio, Edificações, Edificações - Integrado ao Ensino Médio, Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado, Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado, Mecânica, Mecatrônica, Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+        
+        curso_a: "Contabilidade, XXXXXX Mecânica, Mecatrônica, Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Desenvolvimento de Sistemas", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Desenvolvimento de Sistemas - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
+        curso_d: "Desenvolvimento de Sistemas (EaD - On-line)", /* inseri esta linha */
+        url_d: "www.yahoo.com.br",
+
+        curso_e: "Desenvolvimento de Sistemas Integrado ao Ensino Médio", /* inseri esta linha */
+        url_e: "www.yahoo.com.br",
+
+        curso_f: "Eletroeletrônica", /* inseri esta linha */
+        url_f: "www.yahoo.com.br",
+
+        curso_g: "Eletrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_g: "www.yahoo.com.br",
+
+        curso_h: "Eletrônica (com até 20% online)", /* inseri esta linha */
+        url_h: "www.yahoo.com.br",
+
+        curso_i: "Eletrônica", /* inseri esta linha */
+        url_i: "www.yahoo.com.br",
+
+        curso_j: "Eletrotécnica", /* inseri esta linha */
+        url_j: "www.yahoo.com.br",
+
+        curso_k: "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado", /* inseri esta linha */
+        url_k: "www.yahoo.com.br",
+
+        curso_l: "Ensino Médio com Habilitação Profissional de Técnico em Eletrônica - Novotec integrado", /* inseri esta linha */
+        url_l: "www.yahoo.com.br",
+
+        curso_m: "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado", /* inseri esta linha */
+        url_m: "www.yahoo.com.br",
+
+        curso_n: "Ensino Médio com Habilitação Profissional de Técnico em Manutenção Automotiva - Novotec integrado", /* inseri esta linha */
+        url_n: "www.yahoo.com.br",
+
+        curso_o: "Ensino Médio com Habilitação Profissional de Técnico em Mecatrônica - Novotec integrado", /* inseri esta linha */
+        url_o: "www.yahoo.com.br",
+
+        curso_p: "Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado", /* inseri esta linha */
+        url_p: "www.yahoo.com.br",
+
+        curso_q: "Informática (Nova Matriz)", /* inseri esta linha */
+        url_q: "www.yahoo.com.br",
+
+        curso_r: "Informática para Internet", /* inseri esta linha */
+        url_r: "www.yahoo.com.br",
+
+        curso_s: "Informática para Internet - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_s: "www.yahoo.com.br",
+
+        curso_t: "Manutenção Automotiva", /* inseri esta linha */
+        url_t: "www.yahoo.com.br",
+
+        curso_u: "Manutenção e Suporte em Informática", /* inseri esta linha */
+        url_u: "www.yahoo.com.br",
+
+        curso_v: "Química", /* inseri esta linha */
+        url_v: "www.yahoo.com.br",
+
+        curso_w: "Química - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_w: "www.yahoo.com.br",
+
+        curso_x: "Automação Industrial", /* inseri esta linha */
+        url_x: "www.yahoo.com.br",
+
+        curso_y: "Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_y: "www.yahoo.com.br",
+
+        curso_z: "Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_z: "www.yahoo.com.br",
+
+        curso_aa: "Edificações", /* inseri esta linha */
+        url_aa: "www.yahoo.com.br",
+
+        curso_ab: "Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_ab: "www.yahoo.com.br",
+
+        curso_ac: "Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
+        url_ac: "www.yahoo.com.br",
+
+        curso_ad: "Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado", /* inseri esta linha */
+        url_ad: "www.yahoo.com.br",
+
+        curso_ae: "Mecânica", /* inseri esta linha */
+        url_ae: "www.yahoo.com.br",
+
+        curso_af: "Mecatrônica", /* inseri esta linha */
+        url_af: "www.yahoo.com.br",
+
+        curso_ag: "Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_ag: "www.yahoo.com.br",
+
         points: 0
     },
     { 
@@ -155,7 +342,13 @@ export const petrs = [
         name: "Musical 👩‍🎤",
         img: "./imgs/quiz/musical.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Regência, Canto ", /* inseri esta linha */
+
+        curso_a: "Regência", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Canto", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
         points: 0
     },
     { 
@@ -163,15 +356,26 @@ export const petrs = [
         name: "Naturalística 👩‍🌾",
         img: "./imgs/quiz/naturalistica.gif",
         description: "Cursos técnicos e livres sugeridos: ",
-        cursos: "Meio Ambiente, Meio Ambiente - Integrado ao Ensino Médio, Ensino Médio com Habilitação Profissional de Técnico em Meio Ambiente - Novotec integrado", /* inseri esta linha */
+
+        curso_a: "Meio Ambiente", /* inseri esta linha */
+        url_a: "www.google.com.br",
+
+        curso_b: "Meio Ambiente - Integrado ao Ensino Médio", /* inseri esta linha */
+        url_b: "www.yahoo.com.br",
+
+        curso_c: "Ensino Médio com Habilitação Profissional de Técnico em Meio Ambiente - Novotec integrado", /* inseri esta linha */
+        url_c: "www.yahoo.com.br",
+
         points: 0
     },
     {
         id: "nada", 
-        name: "Erro! 👀",
+        name: "Erro! ❌",
         img: "./imgs/quiz/erro.gif",
-        description: "eita, não conseguimos determinar seu tipo de inteligência predominante...😲",
-        cursos: "Clica no botão abaixo e refaz o quiz aí por favorzim!",
+        description_a: "Eita, não conseguimos determinar seu tipo de inteligência predominante...😓",
+        description_b: "Vc indicou que 'não se identifica com nenhuma frase' muitas vezes. Aí fica difícil calcular, jovem! 🤷🏽‍♀️",
+        description_c: "⌚ Refaz o quiz aí, por favorzim. Leva menos de 15 minutos!",
         points: 0
     },
 ];
+
