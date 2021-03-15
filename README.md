@@ -1,3 +1,225 @@
+<br>
+
+<p align="center">
+      <img src="/img/index.gif" width="200" height="150">
+      <h3 align="center">EduImpulso </h3>
+<p align="center">
+
+<hr>
+
+<h2 align="center">
+  
+  Projeto em desenvolvimento no ano de 2020 -2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
+ 
+<h2 align="center">
+<br>
+
+
+💻 Um pouco sobre o projeto
+
+# EduImpulso
+ * O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
+
+Através de informações imparciais e um quiz como ferramenta básica de autoconhecimento, sugerimos os possíveis cursos técnicos gratuitos para o estudante iniciar sua trajetória profissional.
+
+A plataforma também conta com outras páginas, como: detalhamento das carreiras/médias salariais, notícias inspiradoras sobre educação e sugestão de cursinhos preparatórios na região.
+
+Utilizando a metodologia ágil e tecnologias como Javascript, React, React Native, NodeJS e MySQL, o projeto foi desenvolvido em seis meses por uma squad de cinco pessoas.
+
+## :camera_flash: Apresentação Final do Projeto
+
+**Clique no link abaixo para visualizar o vídeo final do projeto:**  
+> :movie_camera: [Vídeo Final](https://youtu.be/gHPli02GnWw)
+
+<br>
+
+**:link: Clique no link abaixo para visualizar o site hospedado do usuário:**
+>  [http://sos-medicamentos-user](https://eduimpulso.herokuapp.com/)
+
+<br>
+
+ ## :hourglass_flowing_sand: Planejamento de Entregas
+
+- [x] [SPRINT 1](https://github.com/EduImpulso/eduimpulso/releases/tag/v1.0) - 08/09/2020 a 06/11/2020
+
+- [x] [SPRINT 2](https://github.com/EduImpulso/eduimpulso/releases/tag/v2.0) - 06/11/2020 a 20/01/2021
+
+- [x] [SPRINT 3](https://github.com/EduImpulso/eduimpulso/releases/tag/v.3.0) - 20/01/2021 a 19/02/2021
+
+- [x] [SPRINT 4](https://github.com/EduImpulso/eduimpulso) - 19/02/2021 a 22/03/2021
+
+- [x] Apresentação Final - 23/03/2021
+
+## :calendar: As Sprints
+
+☑️ SPRINT 1 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso/releases/tag/v1.0)): Concluído :heavy_check_mark:
+
+☑️ SPRINT 2 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso/releases/tag/v2.0)): Concluído :heavy_check_mark:
+
+☑️ SPRINT 3 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso/releases/tag/v.3.0)): Concluído :heavy_check_mark:
+
+☑️ SPRINT 4 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso)): Em andamento...
+
+<br>
+
+**Créditos pelo modelo incrível deste README.md:**  
+>  [Squad 07 (SP-01) da Recode Pro 2020](https://github.com/Squad007/Projeto_Squad07)
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
