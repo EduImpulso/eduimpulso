@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-      <img src="src/img/index.gif" width="200" height="150">
+      <img src="src/img/index.gif">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
 
