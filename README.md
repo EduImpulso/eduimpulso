@@ -2,14 +2,14 @@
 
 <p align="center">
       <img src="src/img/index.gif">
-      <h1 align="center">EduImpulso </h1>
+      <h3 align="center">EduImpulso </h3>
 <p align="center">
 
 <hr>
 
 <h3 align="center">
   
-  Projeto em desenvolvimento no ano de 2020 -2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
+  Projeto desenvolvido entre 2020 e 2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
  
 <h3 align="center">
 <br>
