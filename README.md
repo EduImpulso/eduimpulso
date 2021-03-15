@@ -2,7 +2,7 @@
 
 <p align="center">
       <img src="src/img/index.gif">
-      <h3 align="center">EduImpulso </h3>
+      <h1 align="center">EduImpulso </h1>
 <p align="center">
 
 <hr>
