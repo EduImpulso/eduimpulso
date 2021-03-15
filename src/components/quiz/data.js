@@ -109,16 +109,16 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Cozinha", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Guia de Turismo - (EaD - On-line)", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Guia de Turismo", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "Dança", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -130,31 +130,31 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Automação Industrial", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "Edificações", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_e: "Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_e: "www.yahoo.com.br",
+        url_e: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_f: "Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
-        url_f: "www.yahoo.com.br",
+        url_f: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_g: "Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado, Mecânica", /* inseri esta linha */
-        url_g: "www.yahoo.com.br",
+        url_g: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_h: "Mecatrônica", /* inseri esta linha */
-        url_h: "www.yahoo.com.br",
+        url_h: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_i: "Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_i: "www.yahoo.com.br",
+        url_i: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -166,22 +166,22 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Nutrição e Dietética", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Nutrição e Dietética - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Recursos Humanos", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "Secretariado - (EaD - On-line)", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_e: "Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos - Novotec integrado", /* inseri esta linha */
-        url_e: "www.yahoo.com.br",
+        url_e: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_f: "Secretariado", /* inseri esta linha */
-        url_f: "www.yahoo.com.br",
+        url_f: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -193,16 +193,16 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Ensino Médio - Linguagens", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Ciências Humanas e Sociais", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Comércio - (EaD - On-line)", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
         
         curso_d: "Comércio", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -214,19 +214,19 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Ensino Médio - Linguagens, , , , ", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Ciências Humanas e Sociais", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Comércio - (EaD - On-line)", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "Comércio", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_e: "Teatro", /* inseri esta linha */
-        url_e: "www.yahoo.com.br",
+        url_e: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -237,103 +237,103 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
         
         curso_a: "Contabilidade, XXXXXX Mecânica, Mecatrônica, Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Desenvolvimento de Sistemas", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Desenvolvimento de Sistemas - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "Desenvolvimento de Sistemas (EaD - On-line)", /* inseri esta linha */
-        url_d: "www.yahoo.com.br",
+        url_d: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_e: "Desenvolvimento de Sistemas Integrado ao Ensino Médio", /* inseri esta linha */
-        url_e: "www.yahoo.com.br",
+        url_e: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_f: "Eletroeletrônica", /* inseri esta linha */
-        url_f: "www.yahoo.com.br",
+        url_f: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_g: "Eletrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_g: "www.yahoo.com.br",
+        url_g: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_h: "Eletrônica (com até 20% online)", /* inseri esta linha */
-        url_h: "www.yahoo.com.br",
+        url_h: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_i: "Eletrônica", /* inseri esta linha */
-        url_i: "www.yahoo.com.br",
+        url_i: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_j: "Eletrotécnica", /* inseri esta linha */
-        url_j: "www.yahoo.com.br",
+        url_j: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_k: "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado", /* inseri esta linha */
-        url_k: "www.yahoo.com.br",
+        url_k: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_l: "Ensino Médio com Habilitação Profissional de Técnico em Eletrônica - Novotec integrado", /* inseri esta linha */
-        url_l: "www.yahoo.com.br",
+        url_l: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_m: "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado", /* inseri esta linha */
-        url_m: "www.yahoo.com.br",
+        url_m: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_n: "Ensino Médio com Habilitação Profissional de Técnico em Manutenção Automotiva - Novotec integrado", /* inseri esta linha */
-        url_n: "www.yahoo.com.br",
+        url_n: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_o: "Ensino Médio com Habilitação Profissional de Técnico em Mecatrônica - Novotec integrado", /* inseri esta linha */
-        url_o: "www.yahoo.com.br",
+        url_o: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_p: "Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado", /* inseri esta linha */
-        url_p: "www.yahoo.com.br",
+        url_p: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_q: "Informática (Nova Matriz)", /* inseri esta linha */
-        url_q: "www.yahoo.com.br",
+        url_q: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_r: "Informática para Internet", /* inseri esta linha */
-        url_r: "www.yahoo.com.br",
+        url_r: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_s: "Informática para Internet - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_s: "www.yahoo.com.br",
+        url_s: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_t: "Manutenção Automotiva", /* inseri esta linha */
-        url_t: "www.yahoo.com.br",
+        url_t: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_u: "Manutenção e Suporte em Informática", /* inseri esta linha */
-        url_u: "www.yahoo.com.br",
+        url_u: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_v: "Química", /* inseri esta linha */
-        url_v: "www.yahoo.com.br",
+        url_v: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_w: "Química - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_w: "www.yahoo.com.br",
+        url_w: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_x: "Automação Industrial", /* inseri esta linha */
-        url_x: "www.yahoo.com.br",
+        url_x: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_y: "Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_y: "www.yahoo.com.br",
+        url_y: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_z: "Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_z: "www.yahoo.com.br",
+        url_z: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_aa: "Edificações", /* inseri esta linha */
-        url_aa: "www.yahoo.com.br",
+        url_aa: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_ab: "Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_ab: "www.yahoo.com.br",
+        url_ab: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_ac: "Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
-        url_ac: "www.yahoo.com.br",
+        url_ac: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_ad: "Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado", /* inseri esta linha */
-        url_ad: "www.yahoo.com.br",
+        url_ad: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_ae: "Mecânica", /* inseri esta linha */
-        url_ae: "www.yahoo.com.br",
+        url_ae: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_af: "Mecatrônica", /* inseri esta linha */
-        url_af: "www.yahoo.com.br",
+        url_af: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_ag: "Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_ag: "www.yahoo.com.br",
+        url_ag: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -344,10 +344,10 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Regência", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Canto", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
@@ -358,13 +358,13 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "Meio Ambiente", /* inseri esta linha */
-        url_a: "www.google.com.br",
+        url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Meio Ambiente - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "www.yahoo.com.br",
+        url_b: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_c: "Ensino Médio com Habilitação Profissional de Técnico em Meio Ambiente - Novotec integrado", /* inseri esta linha */
-        url_c: "www.yahoo.com.br",
+        url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         points: 0
     },
