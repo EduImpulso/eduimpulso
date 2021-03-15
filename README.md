@@ -9,7 +9,7 @@
 
 <h3 align="center">
   
-  Projeto desenvolvido entre 2020 e 2021 pelos alunos e alunas do Squad 04 (SP-01) da Recode Pro 2020.
+  Projeto desenvolvido entre 2020 e 2021 pela Squad 04 (SPT-01) da Recode Pro 2020.
  
 <h3 align="center">
 <br>
