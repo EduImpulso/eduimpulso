@@ -61,6 +61,9 @@ font-size: 2rem;
 font-size: 1rem !important;
 letter-spacing: 1px;
 }
+.tamanhoFonteMenu:hover {
+color: #56CFE1 !important;
+}
 
 .divItensMenu {
 width: 100%;
@@ -81,8 +84,19 @@ color: black !important;
 .buttonVejaMais{
     background-color: transparent !important;
     color: white !important;
-    
+    border: none !important;
 }
+.buttonVejaMais:hover{
+    background-color: #56CFE1 !important;
+    color: black !important;
+}
+
+#openPopup{
+  outline:none;
+  border-style: none;
+}
+#openPopup:hover, #openPopup:active, #openPopup:focus { outline: none; border-style: none; }
+
 .btnLinkVejaMais{
     color: black !important;
     font-size: 18px;
@@ -427,19 +441,14 @@ border-radius: 10px;
 
 .buttonForm {
 width: 100%;
-background-color: rgba(255, 255, 255, 0) !important;
-border: 3px solid white !important;
-color: white !important;
+background-color: #4CC9F0 !important;
+color: black !important;
 }
 .buttonForm:hover{
-    background-color: #48bfe3 !important;
+    background-color: #64DFDF !important;
     color: black !important;
     }
 
-.bottonContact:hover{
-  background-color: #48bfe3 !important;
-  color: black !important;
-}
 
 /* Imput Padrão */
 
@@ -473,6 +482,9 @@ z-index: 2;
 height: 6vh;
 font-size: 10px;
 border-radius: 100px;
+}
+.menuButton:hover {
+background-color: #56CFE1 !important;
 }
 
 .link-button {
@@ -548,25 +560,26 @@ font-size: 16px;
 .btnCardMini{
 width:45%;
 border-radius: 10px;
+background-color: #9D40E0;
 text-align: center;
-border: 3px solid white;
-color: white;
+color: white !important;
 text-decoration: none !important;
 }
 .btnCardMini:hover{
-background-color:  #1fc0f1 ;
+background-color:  #a75ddb ;
 color: #212529;
+color: #5a5b5e;
 }
 .btnCard{
 width:80%;
 border-radius: 10px;
+background-color: #9D40E0;
 text-align: center;
-border: 3px solid white;
-color: white;
+color: white !important;
 text-decoration: none !important;
 }
 .btnCard:hover{
-    background-color:  #1fc0f1 ;
+    background-color:  #a75ddb ;
     color: #212529;
     }
 
@@ -697,17 +710,6 @@ transform: translate3d(0px, 0px, 0px);
 .bg-purple {
 background-color: #8220c6;
 }
-
-/* Botão Padrão */
-
-.buttonForm {
-width: 100%;
-background-color: rgba(255, 255, 255, 0);
-border: 3px solid white;
-color: white;
-font-weight: bold;
-}
-
 
 /* Imput Padrão */
 
@@ -1119,6 +1121,10 @@ margin-right: auto;
 
   }
 
+  .linkInt{
+    text-decoration: none !important;
+    color: #ADE8F4 !important;
+  }
 /* Page Teoria Multiplas Inteligencias */
 
 .teoriaTitulo1 {
@@ -1165,7 +1171,7 @@ display: block;
 margin-left: auto;
 margin-right: auto; 
 }
-.btnTopo{
+/* .btnTopo{
 border: 3px solid black !important;
 background-color: rgba(0, 0, 0, 0);
 color: black;
@@ -1174,7 +1180,7 @@ color: black;
 .btnTopo:hover{
   background-color: #48bfe3 !important;
   color: black !important;
-}
+} */
 
 /* Pagina Cursinhos */
 
@@ -1220,8 +1226,8 @@ border: none !important;
 }
 
 .front{
-background:white;
-border: 3px solid #C574FF;
+background:#4EA8DE;
+color: white;
 position: absolute;
 width: 300px;
 height: 350px;

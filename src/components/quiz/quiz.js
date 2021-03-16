@@ -261,7 +261,9 @@ function Quiz() {
   return (
     <div className="App">
        <header className="Header-quiz-mobile" id="phone">
-        <div className="Header-title-mobile"><h1 className="h1Quiz-mobile">Qual a sua inteligência predominante? <span>🤓</span></h1></div>
+        <div className="Header-title-mobile">
+          <h1 className="h1Quiz-mobile">Qual a sua inteligência predominante? <span>🤓</span></h1>
+        </div>
       </header>
       <header className="Header-quiz" id="desktop">
         <div className="Header-title"><h3 className="h1Quiz"><strong>Qual a sua inteligência predominante?</strong><span>🤓</span></h3></div>
@@ -294,39 +296,39 @@ function Quiz() {
 
             <ul>
 
-            <a href={petrUrla} target="_blank">{petrCursoa}</a><br/>
-            <a href={petrUrlb} target="_blank">{petrCursob}</a><br/>
-            <a href={petrUrlc} target="_blank">{petrCursoc}</a><br/>
-            <a href={petrUrld} target="_blank">{petrCursod}</a><br/>
-            <a href={petrUrle} target="_blank">{petrCursoe}</a><br/>
-            <a href={petrUrlf} target="_blank">{petrCursof}</a><br/>
-            <a href={petrUrlg} target="_blank">{petrCursog}</a><br/>
-            <a href={petrUrlh} target="_blank">{petrCursoh}</a><br/>
-            <a href={petrUrli} target="_blank">{petrCursoi}</a><br/>
-            <a href={petrUrlj} target="_blank">{petrCursoj}</a><br/>
-            <a href={petrUrlk} target="_blank">{petrCursok}</a><br/>
-            <a href={petrUrll} target="_blank">{petrCursol}</a><br/>
-            <a href={petrUrlm} target="_blank">{petrCursom}</a><br/>
-            <a href={petrUrln} target="_blank">{petrCurson}</a><br/>
-            <a href={petrUrlo} target="_blank">{petrCursoo}</a><br/>
-            <a href={petrUrlp} target="_blank">{petrCursop}</a><br/>
-            <a href={petrUrlq} target="_blank">{petrCursoq}</a><br/>
-            <a href={petrUrlr} target="_blank">{petrCursor}</a><br/>
-            <a href={petrUrls} target="_blank">{petrCursos}</a><br/>
-            <a href={petrUrlt} target="_blank">{petrCursot}</a><br/>
-            <a href={petrUrlu} target="_blank">{petrCursou}</a><br/>
-            <a href={petrUrlv} target="_blank">{petrCursov}</a><br/>
-            <a href={petrUrlw} target="_blank">{petrCursow}</a><br/>
-            <a href={petrUrlx} target="_blank">{petrCursox}</a><br/>
-            <a href={petrUrly} target="_blank">{petrCursoy}</a><br/>
-            <a href={petrUrlz} target="_blank">{petrCursoz}</a><br/>
-            <a href={petrUrlaa} target="_blank">{petrCursoaa}</a><br/>
-            <a href={petrUrlab} target="_blank">{petrCursoab}</a><br/>
-            <a href={petrUrlac} target="_blank">{petrCursoac}</a><br/>
-            <a href={petrUrlad} target="_blank">{petrCursoad}</a><br/>
-            <a href={petrUrlae} target="_blank">{petrCursoae}</a><br/>
-            <a href={petrUrlaf} target="_blank">{petrCursoaf}</a><br/>
-            <a href={petrUrlag} target="_blank">{petrCursoag}</a>
+            <a className="linkInt" href={petrUrla} target="_blank">{petrCursoa}</a><br/>
+            <a className="linkInt" href={petrUrlb} target="_blank">{petrCursob}</a><br/>
+            <a className="linkInt" href={petrUrlc} target="_blank">{petrCursoc}</a><br/>
+            <a className="linkInt" href={petrUrld} target="_blank">{petrCursod}</a><br/>
+            <a className="linkInt" href={petrUrle} target="_blank">{petrCursoe}</a><br/>
+            <a className="linkInt" href={petrUrlf} target="_blank">{petrCursof}</a><br/>
+            <a className="linkInt" href={petrUrlg} target="_blank">{petrCursog}</a><br/>
+            <a className="linkInt" href={petrUrlh} target="_blank">{petrCursoh}</a><br/>
+            <a className="linkInt" href={petrUrli} target="_blank">{petrCursoi}</a><br/>
+            <a className="linkInt" href={petrUrlj} target="_blank">{petrCursoj}</a><br/>
+            <a className="linkInt" href={petrUrlk} target="_blank">{petrCursok}</a><br/>
+            <a className="linkInt" href={petrUrll} target="_blank">{petrCursol}</a><br/>
+            <a className="linkInt" href={petrUrlm} target="_blank">{petrCursom}</a><br/>
+            <a className="linkInt" href={petrUrln} target="_blank">{petrCurson}</a><br/>
+            <a className="linkInt" href={petrUrlo} target="_blank">{petrCursoo}</a><br/>
+            <a className="linkInt" href={petrUrlp} target="_blank">{petrCursop}</a><br/>
+            <a className="linkInt" href={petrUrlq} target="_blank">{petrCursoq}</a><br/>
+            <a className="linkInt" href={petrUrlr} target="_blank">{petrCursor}</a><br/>
+            <a className="linkInt" href={petrUrls} target="_blank">{petrCursos}</a><br/>
+            <a className="linkInt" href={petrUrlt} target="_blank">{petrCursot}</a><br/>
+            <a className="linkInt" href={petrUrlu} target="_blank">{petrCursou}</a><br/>
+            <a className="linkInt" href={petrUrlv} target="_blank">{petrCursov}</a><br/>
+            <a className="linkInt" href={petrUrlw} target="_blank">{petrCursow}</a><br/>
+            <a className="linkInt" href={petrUrlx} target="_blank">{petrCursox}</a><br/>
+            <a className="linkInt" href={petrUrly} target="_blank">{petrCursoy}</a><br/>
+            <a className="linkInt" href={petrUrlz} target="_blank">{petrCursoz}</a><br/>
+            <a className="linkInt" href={petrUrlaa} target="_blank">{petrCursoaa}</a><br/>
+            <a className="linkInt" href={petrUrlab} target="_blank">{petrCursoab}</a><br/>
+            <a className="linkInt" href={petrUrlac} target="_blank">{petrCursoac}</a><br/>
+            <a className="linkInt" href={petrUrlad} target="_blank">{petrCursoad}</a><br/>
+            <a className="linkInt" href={petrUrlae} target="_blank">{petrCursoae}</a><br/>
+            <a className="linkInt" href={petrUrlaf} target="_blank">{petrCursoaf}</a><br/>
+            <a className="linkInt" href={petrUrlag} target="_blank">{petrCursoag}</a>
 
             </ul>
 

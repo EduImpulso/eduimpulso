@@ -3,7 +3,7 @@ import React from 'react';
 const CardCursos = (props) =>{
     return (
         <>
-        <div className="card-container">
+        <div className="card-container" data-aos="fade-down">
         <div className="card">
             
             <div>
