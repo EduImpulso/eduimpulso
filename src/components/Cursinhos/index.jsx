@@ -1,9 +1,12 @@
-import { Height } from '@material-ui/icons';
-import React from 'react';
 import CardCursos from'./cardCursos';
-
+import React,{ useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Cursos = ()=>{
+    useEffect(()=> {
+        Aos.init({duration: 1500});
+    }, [])  
     return(
         
 <>

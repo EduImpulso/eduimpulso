@@ -1,4 +1,4 @@
-import Descricao from '../components/Descricao'
+import Descricao from '../components/DescricaoCursos'
 
 const DescricaoPage = () =>{
     return(

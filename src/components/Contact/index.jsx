@@ -60,7 +60,7 @@ const Contact = () => {
                                 <label htmlFor="formControlTextarea"> Mensagem: </label>
                                 <textarea className="form-control" name="name" value={message} onChange={(e)=>{setMessage(e.target.value)}} name="msg" id="formControlTextatrea" rows={3} defaultValue={""} required/>
                             </div>
-                            <button type="submit" className="bottonContact btn col-sm-12 col-md-12 col-lg-12" style={{backgroundColor: 'rgba(0, 0, 0, 0)', border: '3px solid white', color: 'white'}}>Enviar</button>
+                            <button type="submit" className="buttonForm bottonContact btn col-sm-12 col-md-12 col-lg-12">Enviar</button>
                             {/* style={{backgroundColor: 'rgba(0, 0, 0, 0)', border: '3px solid white', color: 'white'}} */}
                         </div>
                     </form>

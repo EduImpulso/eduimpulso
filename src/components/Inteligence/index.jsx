@@ -16,14 +16,15 @@ const Inteligence = () => {
         <div className="container-fluid">
             <div className="row">
 
-                <div className="d-flex align-items-center justify-content-center py-4 col-lg-12">
+                <div className="d-flex align-items-center justify-content-center pt-4 col-lg-12">
                     <div className="text-center">
                         <h3 className="display-5" id="topo">
                             <strong>
                                  Teoria das Múltiplas Inteligências: o que é isso? 🤔
                             </strong>
                             <div className="col-12 text-center"> 
-                            <h5 className="pb-3" style={{color:"#363636"}}><br></br>Pra ficar por dentro do assunto, assista ao vídeo e leia uma matéria super interessante logo abaixo!</h5>
+                            <h5 className="pb-2" style={{color:"#363636"}}><br></br>Pra ficar por dentro do assunto, assista ao vídeo e leia uma matéria super interessante logo abaixo!</h5>
+                            <p style={{color: "#5a5b5e", fontSize: "17px"}}>Tempo de leitura estimado: 15 minutos</p>
                             </div>
                         </h3>
                     </div>
@@ -342,7 +343,7 @@ const Inteligence = () => {
 
 
                 <div className="d-flex align-items-center justify-content-center col-12 p-4">
-                    <a className="btnTopo btn col-12 col-lg-4" href="#topo">
+                    <a className="buttonForm btn col-12 col-lg-4" href="#topo">
                         Voltar ao topo
                     </a>
                 </div>

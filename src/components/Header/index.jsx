@@ -110,11 +110,19 @@ const Header = () => {
                 Múltiplas Inteligências
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="tamanhoFonteMenu nav-link text-white"
+                to="/news"
+              >
+                Notícias
+              </Link>
+            </li>
             <li className="nav-item ">
               <div className="btn-group">
                 <button
                   type="button buttonVejaMais"
-                  className="btn dropdown-toggle buttonVejaMais"
+                  className="btn dropdown-toggle buttonVejaMais shadow-none" id="openPopup"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -129,10 +137,10 @@ const Header = () => {
                     Cursinhos
                   </a>
                   <Link
-                    to="/news"
+                    to="/contato"
                     className="btnLinkVejaMais dropdown-item"
                   >
-                    Notícias
+                    Fale Conosco
                   </Link>
                   <Link
                     to="/privacity"
@@ -148,14 +156,6 @@ const Header = () => {
                   </Link>}
                 </div>
               </div>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="tamanhoFonteMenu nav-link text-white"
-                to="/contato"
-              >
-                Fale conosco
-              </Link>
             </li>
             {!login ? 
               (<li className="nav-item mx-1 d-flex align-items-center ">

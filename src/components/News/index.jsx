@@ -1,7 +1,12 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import CartNews from './cartNews';
 const News = () => {
+    useEffect(()=> {
+        Aos.init({duration: 1500});
+    }, [])  
     return (
         <>
             <div className="mt-4">
@@ -17,19 +22,25 @@ const News = () => {
             <div id="carouselExampleFade" className="desktop carousel slide carousel-fade border" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active shadow">
+                        <a href="https://razoesparaacreditar.com/garotas-trocar-pneu-autralia/" target="_blanck">
                         <img className="d-block w-100" src="./imgs/blog/escola-australiana.png" alt="Primeiro Slide" />
                         <div className="carousel-caption d-none d-md-block">
                         </div>
+                        </a>
                     </div>
                     <div className="carousel-item shadow">
+                        <a href="https://razoesparaacreditar.com/alunos-criam-replica-escola-no-minecraft/" target="_blanck">
                         <img className="d-block w-100" src="./imgs/blog/minecraft.png" alt="Segundo Slide" />
                         <div className="carousel-caption d-none d-md-block">
                         </div>
+                        </a>
                     </div>
                     <div className="carousel-item shadow">
+                        <a href="https://razoesparaacreditar.com/pianista-sistema-ensino-musica-escolas/" target="_blanck">   
                         <img className="d-block w-100" src="./imgs/blog/piano.png" alt="Terceiro Slide" />
                         <div className="carousel-caption d-none d-md-block">
                         </div>
+                        </a>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

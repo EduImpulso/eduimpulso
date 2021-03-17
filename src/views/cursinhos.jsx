@@ -1,4 +1,4 @@
-import Cursos from '../components/Cursos';
+import Cursos from '../components/Cursinhos';
 
 const Curso = () =>{
     return(
