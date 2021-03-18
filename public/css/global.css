@@ -426,6 +426,7 @@ border-radius: 5px;
 /* Backgorund-Purple (padrão) */
 
 .bg-purple {
+height: 10rem;
 background-color: #9D40E0;
 }
 
@@ -559,8 +560,12 @@ font-size: 16px;
 }
 .btnCardMini{
 width:45%;
+height: 35px;
 border-radius: 10px;
 background-color: #9D40E0;
+display: flex;
+justify-content: center;
+align-items: center;
 text-align: center;
 color: white !important;
 text-decoration: none !important;
@@ -572,6 +577,10 @@ color: #5a5b5e;
 }
 .btnCard{
 width:80%;
+height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
 border-radius: 10px;
 background-color: #9D40E0;
 text-align: center;
@@ -1124,6 +1133,10 @@ margin-right: auto;
   .linkInt{
     text-decoration: none !important;
     color: #ADE8F4 !important;
+  }
+  .linkInt:hover{
+    color: #413a5f !important;
+    border-bottom: #000000 !important;
   }
 /* Page Teoria Multiplas Inteligencias */
 
