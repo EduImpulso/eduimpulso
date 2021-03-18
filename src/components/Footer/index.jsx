@@ -8,28 +8,28 @@ const Footer = () => {
         <footer className="container-fluid bg-purple text-light d-flex flex-column justify-content-around">
 
             <div className="d-flex align-items-center justify-content-around" style={{  width:"50%", height:"70%", marginLeft:"50%"}}>
-                <a href="https://www.linkedin.com/" className="d-flex justify-content-center">
+                <a href="https://www.linkedin.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/linkedin.svg"/>
                 </a>
-                <a href="https://www.youtube.com/" className="d-flex justify-content-center">
+                <a href="https://www.youtube.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/youtube.svg"/>
                 </a>
-                <a href="https://www.facebook.com/" className="d-flex justify-content-center">
+                <a href="https://www.facebook.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/facebook.svg"/>
                 </a>
-                <a href="https://twitter.com/" className="d-flex justify-content-center">
+                <a href="https://twitter.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/twitter.svg"/>
                 </a>
-                <a href="https://instagram.com/" className="d-flex justify-content-center">
+                <a href="https://instagram.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/instagram.svg"/>
                 </a>
-                <a href="https://www.tiktok.com/pt-BR/" className="d-flex justify-content-center">
+                <a href="https://www.tiktok.com/pt-BR/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/tik-tok.svg"/>
                 </a>
-                <a href="https://www.spotify.com/br/" className="d-flex justify-content-center">
+                <a href="https://www.spotify.com/br/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/spotify.svg"/>
                 </a>
-                <a href="https://www.whatsapp.com/" className="d-flex justify-content-center">
+                <a href="https://www.whatsapp.com/" target="_blanck" className="d-flex justify-content-center">
                     <img className="img-fluid" style={{width:"40%"}} src="./imgs/icones-footer/whatsap.svg"/>
                 </a>
                 
