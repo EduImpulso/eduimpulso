@@ -1,4 +1,5 @@
-import React,{ useState} from 'react';
+import React,{ useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const cursos =[
     
@@ -67,10 +68,13 @@ const cursos =[
  
 ];
 
+
+
 const Busca = (props) =>{
     const [busca, setBusca] = useState ('');
     const cursoFiltrados = cursos
     .filter((curso) => curso.toLowerCase().startsWith(busca.toLowerCase()));
+
     return(
 
 <>
@@ -81,9 +85,9 @@ const Busca = (props) =>{
 
 <span>
 <ul className="filtro list-group list-group-flush">
-    {cursoFiltrados.map((curso)=>(
-        <li className="list-group-item" key={curso}>{curso}<br/></li>
-    ))}
+        {cursoFiltrados.map((curso, id)=>(
+            <Link to={`/carreiras/${id++}`} className="list-group-item" key={curso}>{curso}<br/></Link>
+        ))}
 </ul>
 <div style={{height:"310px"}}></div>
 </span>
