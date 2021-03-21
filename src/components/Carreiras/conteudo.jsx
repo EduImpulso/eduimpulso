@@ -28,7 +28,7 @@ const Conteudo = () =>{
         <div className="box-cursos my-5">
         <h2 ClassName="box">A</h2>
 
-        <CardCarreirasAlf h5='Administração'  p="Tipo de Curso: Técnico - Duração: 4 semestres - Modalidade: Presencial, Ead (Online)" /><br/>
+        <CardCarreirasAlf h5='Administração'  p="Tipo de Curso: Técnico - Duração: 4 semestres - Modalidade: Presencial, Ead (Online)"/><br/>
 
       <CardCarreirasAlf h5='Administração - Integrado ao Ensino Médio' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" />
       <br/>

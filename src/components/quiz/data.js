@@ -213,7 +213,7 @@ export const petrs = [
         img: "./imgs/quiz/linguistica.gif",
         description: "Cursos técnicos e livres sugeridos: ",
 
-        curso_a: "Ensino Médio - Linguagens, , , , ", /* inseri esta linha */
+        curso_a: "Ensino Médio - Linguagens", /* inseri esta linha */
         url_a: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_b: "Ciências Humanas e Sociais", /* inseri esta linha */
