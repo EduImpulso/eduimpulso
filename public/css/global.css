@@ -1703,19 +1703,16 @@ margin-top: 50px;
 
 /* Botão*/
 
-.btns{
-  text-align: center;
-  margin-top: 50px;
-
-}
-
 .efeito{
   border:none;
-  color:#fff;
-  padding:20px;
+  width: 30%;
+  height: 50px;
+  color:#fff !important;
+  text-decoration: none !important;
+  padding:5px;
   margin:10px;
-  font-size:24px;
-  line-height: 24px;
+  font-size:18px;
+  line-height:22px;
   border-radius: 10px;
   position:relative;
   box-sizing: border-box;
