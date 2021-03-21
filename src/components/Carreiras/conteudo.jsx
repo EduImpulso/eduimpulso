@@ -28,7 +28,7 @@ const Conteudo = () =>{
         <div className="box-cursos my-5">
         <h2 ClassName="box">A</h2>
 
-        <CardCarreirasAlf h5='Administração'  p="Tipo de Curso: Técnico - Duração: 4 semestres - Modalidade: Presencial, Ead (Online)" /><br/>
+        <CardCarreirasAlf h5='Administração'  p="Tipo de Curso: Técnico - Duração: 4 semestres - Modalidade: Presencial, Ead (Online)"/><br/>
 
       <CardCarreirasAlf h5='Administração - Integrado ao Ensino Médio' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" />
       <br/>
@@ -49,7 +49,7 @@ const Conteudo = () =>{
       <CardCarreirasAlf h5='Edificações' p="Tipo de Curso: Técnico Duração: 4 semestres Modalidade: Presencial" /> <br/>
       <CardCarreirasAlf h5='Edificações - Integrado ao Ensino Médio' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" /> <br/>
       <CardCarreirasAlf h5='Eletrônica - Integrado ao Ensino Médio' p="Tipo de Curso: Técnico Duração: 4 semestres Modalidade: Presencial" /> <br/>
-      <CardCarreirasAlf h5='Ensio Médio - com Habilitação Profissional em Administração ' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" /> <br/>
+      <CardCarreirasAlf h5='Ensino Médio - com Habilitação Profissional em Administração ' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" /> <br/>
       <CardCarreirasAlf h5='Ensino Médio - com Habilitação Profissional de Técnico em Informática' p="Tipo de Curso: Técnico Duração: 6 semestres Modalidade: Presencial" /> <br/>
       <CardCarreirasAlf h5='Eletroeletrônica ' p="Tipo de Curso: Técnico Duração: 4 semestres Modalidade: Presencial" /> <br/>
 

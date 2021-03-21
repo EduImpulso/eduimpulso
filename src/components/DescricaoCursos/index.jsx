@@ -1,11 +1,12 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import CardDesc from './cardDesc';
+import courses from './course';
 
 
-const Descricao = () =>{
+const Descricao = (props) =>{
     
-    const { course } = useParams();
+    const id = props.id;
+    const course = courses
     
     return(
         <>
@@ -23,13 +24,13 @@ const Descricao = () =>{
                     <li className="separator separator-home"> <span className="separator-bread"></span></li>
                     <li className="item-cat item-custom-post-type-curso-tecnico"><a className="bread-cat bread-custom-post-type-curso-tecnico" href="#">Carreiras</a>
               </li>
-              <li className="separator"> <span class="separator-bread"></span> 
+              <li className="separator"> <span className="separator-bread"></span> 
               </li>
-              <li className="item-current item-3351"><strong className="bread-current bread-3351" title="#">Administração</strong>
+              <li className="item-current item-3351"><strong className="bread-current bread-3351" title="#">{course[id].nome}</strong>
               </li>
               </ul>
 
-              <h1 className="single-title custom-post-type-title h1"> Técnico em Administração</h1>
+              <h1 className="single-title custom-post-type-title h1">{course[id].nome}</h1>
             <div className ="col-6 header-border"></div>
     
             </div>
@@ -40,12 +41,12 @@ const Descricao = () =>{
         <div className="container-fluid">
              <div className ="card-salario">
         <p className ="salarios">
-            Qual o salário de um técnico em administração? 🤑
+            Qual o salário na área? 🤑
         </p>
         <div className="btns">
-            <button className type="button" className ="efeito efeito1">Experiente, acima de R$ 1.800,00</button>
-            <button className type="button" className ="efeito efeito2">Valor médio R$ 1.500,00</button>
-            <button className type="button" className ="efeito efeito3">Começando, abaixo de R$ 1.300,00</button>
+            <button className type="button" className ="efeito efeito1">Experiente, acima de R$ {course[id].sal_exp.toFixed(3)},00</button>
+            <button className type="button" className ="efeito efeito2">Valor médio R$ {course[id].sal_med.toFixed(3)},00</button>
+            <button className type="button" className ="efeito efeito3">Começando, abaixo de R$ {course[id].sal_ini.toFixed(3)},00</button>
 
          </div>
     </div>
@@ -54,7 +55,7 @@ const Descricao = () =>{
              <div className ="container-fluid">
                 <section className="section-pagina-cursos m-t-3 wrap">
                     <div className ="title text-uppercase m-t-1 m-b-3">
-                        <h3 className="m-t-0 title-section">📑 Descrição do  <b>curso</b></h3>
+                        <h3 className="m-t-0 title-section">📑 Descrição do curso </h3>
                     </div>
                   </section>   
             </div>
@@ -64,19 +65,19 @@ const Descricao = () =>{
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <p className="titulo-desc"> &#9998; O que faz um técnico em administração?</p>
-                        <p className="sub-desc">O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.</p>
+                        <p className="titulo-desc"> &#9998; O que faz um técnico em {course[id].nome}?</p>
+                        <p className="sub-desc">{course[id].descricao}</p>
                     </div>
                     <div className="row">
                     <div className="col">
                         <p className="onde-estudar">🏢 Onde estudar?</p>
-                        <p className="modalidade">Santo André - São Bernado</p>
+                        <p className="modalidade">{course[id].cidade}</p>
 
-                        <p className="onde-estudar"> 🏡 Modalidade</p>
-                        <p className="modadalidade">Presencial, Ead</p>
+                        <p className="onde-estudar"> 🏡 Período</p>
+                        <p className="modadalidade">{course[id].periodo}</p>
 
-                        <p className="onde-estudar"> ⏳  Duração </p>
-                        <p className="modadalidade"> 4 Semestres</p>
+                        <p className="onde-estudar"> ⏳ Duração </p>
+                        <p className="modadalidade"> {course[id].duracao_sem} Semestres</p>
                     </div>
                 </div>
             </div>

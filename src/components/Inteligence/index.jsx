@@ -249,8 +249,8 @@ const Inteligence = () => {
                         x1="trabalho voluntário, esportes em grupo, conversas."
                         x2="jornalismo, marketing, política, psicologia, recursos humanos, relações públicas, teologia, vendas."
 
-                        a1="https://pt.wikipedia.org/wiki/Maria_J%C3%BAlia_Coutinho"
-                        g1="Maria Júlia Coutinho, "
+                        a1="https://pt.wikipedia.org/wiki/Madam_C._J._Walker"
+                        g1="Madam C. J. Walker, "
 
                         a2="https://pt.wikipedia.org/wiki/Winston_Churchill"
                         g2="Winston Churchill, "
