@@ -69,7 +69,7 @@ const Register = () => {
                     <input className="form-control has-validation" value={email} onChange={(e) =>setEmail(e.target.value)} type="e-mail" id="email" placeholder="Digite seu e-mail" name="email" />
                 </div>
                 <div className="form-group">
-                    <label className="my-2 form-label" htmlFor="password1" style={{color: 'white'}}>Digite uma senha</label>
+                    <label className="my-2 form-label" htmlFor="password1" style={{color: 'white'}}>Digite uma senha com no mínimo 6 caracteres</label>
                     <input className="form-control has-validation" value={password1} onChange={(e) =>setPassword1(e.target.value)} type="password" id="password1" placeholder="Digite uma senha" name="password1" />
                 </div>
                 <div className="form-group">

@@ -24,7 +24,7 @@ const Home = () => {
 
 
             <div className="my-4 d-flex justify-content-center" style={{ width: "100%" }} data-aos="fade-up">
-                <img className="img-fluid" style={{ width: "60%" }} src="./imgs/index/Como-funciona_R0.png" />
+                <img className="img-fluid" style={{ width: "60%" }} src="./imgs/index/Como funciona_R0.png" />
             </div>
 
 
