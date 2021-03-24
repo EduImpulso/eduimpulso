@@ -19,10 +19,10 @@ const Carreiras = ()=>{
         <div label="Por área">
          <CounteudoA/>
         </div>
-        <div label="Por Busca">
+        <div label="Por Busca de Curso">
        <Busca />
         </div>
-        <div label="Por ordem alfabética">
+        <div label="Por Busca de Cidade">
        <Conteudo/>
       
         </div>

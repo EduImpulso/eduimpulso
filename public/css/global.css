@@ -1826,3 +1826,37 @@ padding:15px;
 color:#6108a0;
 font-size:20px;
 }
+
+/*Por Cidade*/
+.courses{
+  list-style: none;
+  border-radius: 8px;
+  border:1px solid #c3c3c3;
+  box-shadow: 0 2px 7px rgba(0,0,0,0.15);
+  padding: 10px;
+  
+}
+
+
+.course-ondeestudar{
+  font-size: 28px;
+  color:#212529;
+  font-weight: 700;
+}
+
+.course-semestres{
+  font-size: 20px;
+  color:#212529;
+  font-weight: 700;
+}
+.titulo-courses{
+  font-size: 28px;
+  text-align: center;
+}
+
+.course-title{
+  font-size: 28px;
+  color:#6108a0 ;
+}
+ 
+ 
