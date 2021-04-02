@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-      <img src = "src/img/recode.jpeg" height="90" /><br>
+      <img src = "src/img/recode.jpeg" height="45" /><br><br>
       <img src="src/img/index.gif" height="500">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
