@@ -20,7 +20,7 @@
 </p>
 
 <h2 align="center">
-  Projeto desenvolvido entre 2020 e 2021 pela Squad 04 (SPT-01) da Recode Pro.
+  Projeto desenvolvido entre 2020/2021 pela Squad 04 (SPT-01) da Recode Pro.
 <h2 align="center">
 <br>
 
