@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-      <h1 align="center"> <img src = "src/img/recode.jpeg" height="90" /></h1>
+      <img src = "src/img/recode.jpeg" height="90">
       <img src="src/img/index.gif" height="500">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
