@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-      <img src="src/img/index.gif">
+      <img src="src/img/index.gif" height="500">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
 
@@ -113,10 +113,10 @@ _Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requ
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
 |**Flavio Gomes**|Scrum Master Desenvolvedor|[@LinkedIn](https://www.linkedin.com/in/flaviogomesbr/)|[@GitHub](https://github.com/flaviogomesbr)|<img src = "src/img/flavio.jpeg" width="50" height="50"/>|
-|**Gustavo Castanho**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/gustavo-castanho-duarte-578127160/)|[@GitHub](https://github.com/orgs/EduImpulso/people/duartecgustavo)|<img src = "src/img/gustavo.jpeg" width="50" height="50"/>|
-|**Luzia Almeida**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/luzia-almeida-902586208/)|[@GitHub](https://github.com/orgs/EduImpulso/people/LuAlmeida88)|<img src = "src/img/luzia.jpeg" width="50" height="50"/>|
-|**Nathally Souza**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/nathsouza/)|[@GitHub](https://github.com/orgs/EduImpulso/people/nathyts)|<img src = "src/img/nathally.jpeg" width="50" height="50"/>|
-|**Wilson Luiz**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/wilson-luiz-ab7b9b90/)|[@GitHub](https://github.com/orgs/EduImpulso/people/wilsonluiz1991)|<img src = "src/img/wilson.jpeg" width="50" height="50"/>|
+|**Gustavo Castanho**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/gustavo-castanho-duarte-578127160/)|[@GitHub](https://github.com/duartecgustavo)|<img src = "src/img/gustavo.jpeg" width="50" height="50"/>|
+|**Luzia Almeida**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/luzia-almeida-902586208/)|[@GitHub](https://github.com/LuAlmeida88)|<img src = "src/img/luzia.jpeg" width="50" height="50"/>|
+|**Nathally Souza**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/nathsouza/)|[@GitHub](https://github.com/nathyts)|<img src = "src/img/nathally.jpeg" width="50" height="50"/>|
+|**Wilson Luiz**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/wilson-luiz-ab7b9b90/)|[@GitHub](https://github.com/wilsonluiz1991)|<img src = "src/img/wilson.jpeg" width="50" height="50"/>|
 
  <br>
 
