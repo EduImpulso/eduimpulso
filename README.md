@@ -62,7 +62,7 @@ Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requi
 
 - [x] [SPRINT 4](https://github.com/EduImpulso/eduimpulso) - 19/02/2021 a 22/03/2021
 
-- [x] Apresentação Final - 23/03/2021
+- [x] Apresentação Final - 06/04/2021
 
 
 
