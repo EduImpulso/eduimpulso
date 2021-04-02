@@ -44,11 +44,11 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 
 
 **:link: Clique no link abaixo para visualizar o site hospedado:**
->  [http://eduimpulso-user](https://eduimpulso.herokuapp.com/)
+>  [http://eduimpulso](https://eduimpulso.herokuapp.com/)
 
 <br>
 
-_Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requisição de algumas funcionalidades podem ter maior tempo de resposta, todavia as principais funcionalidades, estão disponíveis para verificação.
+Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requisição de algumas funcionalidades podem ter maior tempo de resposta, todavia as principais funcionalidades, estão disponíveis para verificação.
 
 
  ## :hourglass_flowing_sand: Planejamento de Entregas
