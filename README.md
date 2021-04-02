@@ -1,6 +1,7 @@
 <br>
 
 <p align="center">
+      <h1 align="center"> <img src = "src/img/recode.jpeg" height="90" /></h1>
       <img src="src/img/index.gif" height="500">
       <h3 align="center">EduImpulso </h3>
 <p align="center">
@@ -124,9 +125,6 @@ Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requi
 >  [Squad 07 (SP-01) da Recode Pro 2020](https://github.com/Squad007/Projeto_Squad07)
 
 <br>
-
-
- <h1 align="center"> <img src = "src/img/recode.jpeg" height="90" /></h1>
 
 **Para rodar este projeto em sua máquina, siga as instruções abaixo  (não esqueça de configurar o banco de dados!)**  
 <br>
