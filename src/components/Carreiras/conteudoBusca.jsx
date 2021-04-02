@@ -1,42 +1,47 @@
-import React,{ useState } from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
-import courses from '../DescricaoCursos/course';
+import course from '../DescricaoCursos/course';
 
-const Busca = (props) =>{
 
-    let cursos = []
 
-    courses.map((curso) => {
-       cursos.push(curso.nome)
-    })
 
-    console.log(cursos)
 
-    const [busca, setBusca] = useState ('');
-    const cursoFiltrados = cursos
-    .filter((curso) => curso.toLowerCase().startsWith(busca.toLowerCase()));
+const Busca = () =>{
+   
 
+const [searchTerm, setSearchTerm] = useState('')
     return(
+        <>
+        <div className="container-fluid">
+        <h1 className="titulo-courses my-5">
+            Lista de Cursos 
+        </h1>
+       🔍 <input className=" my-5" type="text" placeholder ="Search...." onChange ={(event) =>{ setSearchTerm(event.target.value);}}/>  
+        
+            {course.filter((item) =>{
+                if (searchTerm == ""){
+                    return item
+                }else if (item.nome.toLowerCase().includes(searchTerm.toLocaleLowerCase())){
+                    return item
+                }
+            }).map((item, id) =>(
 
-<>
-<div className="container-fluid">
-<div className ="InputBusca"> 🔍
-<input type ="text" onFocus="document.body.style.background = '#8220c6'" onBlur="document.body.style.background = '#000000'" value ={busca} onChange = {(ev) => setBusca(ev.target.value)} />
-</div>
-
-<span>
-<ul className="filtro list-group list-group-flush">
-        {cursoFiltrados.map((curso, id)=>(
-            <Link to={`/carreiras/${id++}`} className="list-group-item" key={curso}>{curso}<br/></Link>
+                <div className="courses">
+                 <Link to={`/carreiras/${id++}`} className ="courses1" key={item.id}>
+                
+                <p className="course-title"> {item.nome}</p> 
+                
+                 <p className="course-semestres">Duração: {item.duracao_sem} Semestres - 
+               Período: {item.periodo}</p>
+            </Link>
+            </div>
         ))}
-</ul>
-<div style={{height:"310px"}}></div>
-</span>
-</div><br/>
+    <div style={{height:"310px"}}></div>
+    </div>
 </>
 
         
-    )
-};
+    );
+}
 
 export default Busca;

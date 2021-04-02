@@ -7,18 +7,24 @@
 
 <hr>
 
-<h3 align="center">
-  
+<p align="center">
+  <a href ="#rocket-o-projeto"> Projeto </a>  • 
+  <a href ="#dart-proposta"> Proposta </a>  • 
+  <a href ="#hourglass_flowing_sand-planejamento-de-entregas"> Planejamento </a>  • 
+  <a href ="#calendar-as-sprints"> Sprints </a>  • 
+  <a href ="#computer-tecnologias-utilizadas"> Tecnologias </a>  • 
+  <a href ="#bulb-metodologia-utilizada"> Metodologia </a>  • 
+  <a href ="#bar_chart-backlog-do-projeto"> Backlog </a>  •
+  <a href ="#mortar_board-equipe"> Equipe </a> 
+</p>
+
+<h1 align="center">
   Projeto desenvolvido entre 2020 e 2021 pela Squad 04 (SPT-01) da Recode Pro 2020.
- 
-<h3 align="center">
+<h1 align="center">
 <br>
 
-
-💻 Um pouco sobre o projeto
-
-# EduImpulso
-O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
+## :rocket: O Projeto
+ * O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
 
 Através de informações imparciais e um quiz como ferramenta básica de autoconhecimento, sugerimos os possíveis cursos técnicos gratuitos para o estudante iniciar sua trajetória profissional.
 
@@ -26,17 +32,24 @@ A plataforma também conta com outras páginas, como: detalhamento das carreiras
 
 Utilizando a metodologia ágil e tecnologias como Javascript, React, React Native, NodeJS e MySQL, o projeto foi desenvolvido em seis meses por uma squad de cinco pessoas.
 
+## :dart: Proposta
+ **Desenvolver uma plataforma de orientação de carreira com foco em cursos técnicos.**
+
 ## :camera_flash: Apresentação Final do Projeto
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
-> :movie_camera: [Vídeo Final](https://youtu.be/gHPli02GnWw)
+> :movie_camera: [Vídeo Final](https://www.youtube.com/watch?list=TLGGmfNxiyAhywAwMjA0MjAyMQ&v=hhMFyqG5S48&feature=emb_logo)
 
 <br>
 
-**:link: Clique no link abaixo para visualizar o site hospedado do usuário:**
->  [https://eduimpulso.herokuapp.com/](https://eduimpulso.herokuapp.com/)
+
+**:link: Clique no link abaixo para visualizar o site hospedado:**
+>  [http://eduimpulso-user](https://eduimpulso.herokuapp.com/)
 
 <br>
+
+_Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requisição de algumas funcionalidades podem ter maior tempo de resposta, todavia as principais funcionalidades, estão disponíveis para verificação.
+
 
  ## :hourglass_flowing_sand: Planejamento de Entregas
 
@@ -50,6 +63,8 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 
 - [x] Apresentação Final - 23/03/2021
 
+
+
 ## :calendar: As Sprints
 
 ☑️ SPRINT 1 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso/releases/tag/v1.0)): Concluído :heavy_check_mark:
@@ -58,18 +73,63 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 
 ☑️ SPRINT 3 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso/releases/tag/v.3.0)): Concluído :heavy_check_mark:
 
-☑️ SPRINT 4 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso)): Em andamento...
+☑️ SPRINT 4 ([Link da Pasta](https://github.com/EduImpulso/eduimpulso)): Concluído :heavy_check_mark:
 
 <br>
+
+## :bulb: Metodologia Utilizada
+
+* **Metodologia Ágil:** Framework [Scrum](https://www.desenvolvimentoagil.com.br/scrum/)
+
+<br>
+
+## :computer: Tecnologias Utilizadas
+
+<p align="center">
+      <img src="src/img/tecnologias.jpeg" >
+      
+<p align="center">
+
+* **Banco de Dados:** MySQL
+* **Back-end:** JavaScript, PHP e Node
+* **Front-end:** HTML, CSS, Bootstrap e ReactJS
+* **Mobile:** React Native
+* **Ferramentas:** Visual Studio Code, Trello, Excel e Figma
+
+<br>
+
+## :bar_chart: Backlog do Projeto
+
+<br>
+
+<p align="center">
+      <img src= "src/img/trello.png" >
+<p align="center">
+</p>
+<br>
+
+## :mortar_board: Equipe 
+
+|Nome|Função|Linkedin|GitHub|Avatar|
+| -------- |-------- |-------- |-------- |-------- |
+|**Flavio Gomes**|Scrum Master Desenvolvedor|[@LinkedIn](https://www.linkedin.com/in/flaviogomesbr/)|[@GitHub](https://github.com/flaviogomesbr)|<img src = "src/img/flavio.jpeg" width="50" height="50"/>|
+|**Gustavo Castanho**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/gustavo-castanho-duarte-578127160/)|[@GitHub](https://github.com/orgs/EduImpulso/people/duartecgustavo)|<img src = "src/img/gustavo.jpeg" width="50" height="50"/>|
+|**Luzia Almeida**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/luzia-almeida-902586208/)|[@GitHub](https://github.com/orgs/EduImpulso/people/LuAlmeida88)|<img src = "src/img/luzia.jpeg" width="50" height="50"/>|
+|**Nathally Souza**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/nathsouza/)|[@GitHub](https://github.com/orgs/EduImpulso/people/nathyts)|<img src = "src/img/nathally.jpeg" width="50" height="50"/>|
+|**Wilson Luiz**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/wilson-luiz-ab7b9b90/)|[@GitHub](https://github.com/orgs/EduImpulso/people/wilsonluiz1991)|<img src = "src/img/wilson.jpeg" width="50" height="50"/>|
+
+ <br>
 
 **Créditos pelo modelo incrível deste README.md:**  
 >  [Squad 07 (SP-01) da Recode Pro 2020](https://github.com/Squad007/Projeto_Squad07)
 
 <br>
 
+
+ <h1 align="center"> <img src = "src/img/recode.jpeg" height="90" /></h1>
+
 **Para rodar este projeto em sua máquina, siga as instruções abaixo  (não esqueça de configurar o banco de dados!)**  
 <br>
-
 
 # Getting Started with Create React App
 
