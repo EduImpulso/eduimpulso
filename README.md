@@ -24,7 +24,7 @@
 <br>
 
 ## :rocket: O Projeto
- * O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
+O objetivo da plataforma EduImpulso é ajudar pessoas a encontrarem carreiras compatíveis com sua personalidade e talentos.
 
 Através de informações imparciais e um quiz como ferramenta básica de autoconhecimento, sugerimos os possíveis cursos técnicos gratuitos para o estudante iniciar sua trajetória profissional.
 
