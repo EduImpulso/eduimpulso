@@ -19,9 +19,9 @@
   <a href ="#mortar_board-equipe"> Equipe </a> 
 </p>
 
-<h1 align="center">
+<h2 align="center">
   Projeto desenvolvido entre 2020 e 2021 pela Squad 04 (SPT-01) da Recode Pro 2020.
-<h1 align="center">
+<h2 align="center">
 <br>
 
 ## :rocket: O Projeto
