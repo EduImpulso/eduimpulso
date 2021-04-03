@@ -49,7 +49,7 @@ Utilizando a metodologia ágil e tecnologias como Javascript, React, React Nativ
 
 <br>
 
-Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requisição de algumas funcionalidades podem ter maior tempo de resposta, todavia as principais funcionalidades, estão disponíveis para verificação.
+Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requisição de algumas funcionalidades podem ter maior tempo de resposta. Entretanto, as principais funcionalidades estão disponíveis para verificação.
 
 
  ## :hourglass_flowing_sand: Planejamento de Entregas
@@ -91,11 +91,13 @@ Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requi
       
 <p align="center">
 
+* **Front-end:** HTML, CSS, ReactJS e Bootstrap
+* **Back-end:** PHP, JavaScript e NodeJS
 * **Banco de Dados:** MySQL
-* **Back-end:** JavaScript, PHP e Node
-* **Front-end:** HTML, CSS, Bootstrap e ReactJS
+* **Hospedagem:** Heroku e AWS
+* **Versionamento:** Git e Github
 * **Mobile:** React Native
-* **Ferramentas:** Visual Studio Code, Trello, Excel e Figma
+* **Principais Ferramentas:** Visual Studio Code, Trello, Excel, Figma e Discord
 
 <br>
 
