@@ -16,11 +16,11 @@ const Carreiras = ()=>{
                     <h5 className="pb-3" style={{color:"#363636"}}>Já sabe qual carreira seguir ou quer mais informações? Dá uma pesquisada aí embaixo!</h5>
                 </div>
       <Tabs>
-        <div label="Por Busca de Cidade">
-         <Conteudo/>
-        </div>
         <div label="Por Busca de Curso">
-       <Busca />
+         <Busca/>
+        </div>
+        <div label="Por Busca de Cidade">
+       <Conteudo />
         </div>
         <div label="Por área">
        <ConteudoA/>
