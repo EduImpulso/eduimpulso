@@ -338,10 +338,10 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Regência", /* carreiras/123 */
-        url_a: "https://eduimpulso.herokuapp.com/carreiras/123",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras",
 
         curso_b: "• Canto", /* carreiras/125 */
-        url_b: "https://eduimpulso.herokuapp.com/carreiras/125",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras",
 
         points: 0
     },
