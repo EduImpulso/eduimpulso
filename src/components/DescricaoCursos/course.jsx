@@ -10,7 +10,9 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.411,
       "sal_med": 3.400,
-      "sal_exp": 4.651
+      "sal_exp": 4.651,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-automacao-industrial/0",
+
     },
     {
       "id_curso": 1,
@@ -23,7 +25,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.411,
       "sal_med": 3.400,
-      "sal_exp": 4.651
+      "sal_exp": 4.651,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-automacao-industrial/0",
     },
     {
       "id_curso": 2,
@@ -36,7 +39,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.336,
       "sal_med": 1.616,
-      "sal_exp": 1.955
+      "sal_exp": 1.955,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/auxiliar-de-cozinha/0",
     },
     {
       "id_curso": 3,
@@ -49,7 +53,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.692,
       "sal_med": 2.574,
-      "sal_exp": 3.504
+      "sal_exp": 3.504,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/designer-de-interiores/0",
     },
     {
       "id_curso": 4,
@@ -62,7 +67,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.800,
       "sal_med": 2.200,
-      "sal_exp": 3.400
+      "sal_exp": 3.400,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-edificacoes-projetista/0",
     },
     {
       "id_curso": 5,
@@ -75,7 +81,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.950,
       "sal_med": 2.609,
-      "sal_exp": 3.452
+      "sal_exp": 3.452,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-edificacoes-projetista/0",
     },
     {
       "id_curso": 6,
@@ -88,7 +95,9 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.950,
       "sal_med": 2.609,
-      "sal_exp": 3.452
+      "sal_exp": 3.452,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
+
     },
     {
       "id_curso": 7,
@@ -101,7 +110,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.024,
       "sal_med": 2.632,
-      "sal_exp": 3.511
+      "sal_exp": 3.511,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 8,
@@ -114,7 +124,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.024,
       "sal_med": 2.632,
-      "sal_exp": 3.511
+      "sal_exp": 3.511,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 9,
@@ -127,7 +138,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.323,
       "sal_med": 3.019,
-      "sal_exp": 4.215
+      "sal_exp": 4.215,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-mecanico/0",
     },
     {
       "id_curso": 10,
@@ -140,7 +152,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.063,
       "sal_med": 2.877,
-      "sal_exp": 4.013
+      "sal_exp": 4.013,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 11,
@@ -153,7 +166,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.063,
       "sal_med": 2.877,
-      "sal_exp": 4.013
+      "sal_exp": 4.013,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 12,
@@ -166,7 +180,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.006,
       "sal_med": 2.709,
-      "sal_exp": 3.550
+      "sal_exp": 3.550,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-meio-ambiente/0",
     },
     {
       "id_curso": 13,
@@ -179,7 +194,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 2.006,
       "sal_med": 2.709,
-      "sal_exp": 3.550
+      "sal_exp": 3.550,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-meio-ambiente/0",
     },
     {
       "id_curso": 14,
@@ -192,7 +208,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.502,
       "sal_med": 1.703,
-      "sal_exp": 2.026
+      "sal_exp": 2.026,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-nutricao-e-dietetica/1",
     },
     {
       "id_curso": 15,
@@ -205,7 +222,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.502,
       "sal_med": 1.703,
-      "sal_exp": 2.026
+      "sal_exp": 2.026,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-nutricao-e-dietetica/1",
     },
     {
       "id_curso": 16,
@@ -218,7 +236,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.502,
       "sal_med": 1.703,
-      "sal_exp": 2.026
+      "sal_exp": 2.026,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-nutricao-e-dietetica/1",
     },
     {
       "id_curso": 17,
@@ -231,7 +250,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.805,
       "sal_med": 2.345,
-      "sal_exp": 3.048
+      "sal_exp": 3.048,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 18,
@@ -244,7 +264,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.805,
       "sal_med": 2.345,
-      "sal_exp": 3.048
+      "sal_exp": 3.048,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 19,
@@ -257,7 +278,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 20,
@@ -270,7 +292,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.815,
       "sal_med": 2.496,
-      "sal_exp": 3.374
+      "sal_exp": 3.374,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-contabilidade/1",
     },
     {
       "id_curso": 21,
@@ -283,7 +306,8 @@ const course = [
       "cidade": "Santo André",
       "sal_ini": 1.783,
       "sal_med": 2.954,
-      "sal_exp": 4.322
+      "sal_exp": 4.322,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-de-recursos-humanos/0",
     },
     {
       "id_curso": 22,
@@ -296,7 +320,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 23,
@@ -309,7 +334,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 24,
@@ -322,7 +348,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 25,
@@ -335,7 +362,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 2.221,
       "sal_med": 3.113,
-      "sal_exp": 4.754
+      "sal_exp": 4.754,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 26,
@@ -348,7 +376,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 2.221,
       "sal_med": 3.113,
-      "sal_exp": 4.754
+      "sal_exp": 4.754,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 27,
@@ -361,7 +390,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/assistente-de-projetos-sociais/0",
     },
     {
       "id_curso": 28,
@@ -374,7 +404,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 29,
@@ -387,7 +418,8 @@ const course = [
       "cidade": "Diadema",
       "sal_ini": 1.808,
       "sal_med": 2.369,
-      "sal_exp": 3.208
+      "sal_exp": 3.208,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-logistica/1",
     },
     {
       "id_curso": 30,
@@ -400,7 +432,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 31,
@@ -413,7 +446,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 2.221,
       "sal_med": 3.113,
-      "sal_exp": 4.754
+      "sal_exp": 4.754,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 32,
@@ -426,7 +460,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 2.221,
       "sal_med": 3.113,
-      "sal_exp": 4.754
+      "sal_exp": 4.754,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 33,
@@ -439,7 +474,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 34,
@@ -452,7 +488,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 35,
@@ -465,7 +502,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 36,
@@ -478,7 +516,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/analista-de-projetos/0",
     },
     {
       "id_curso": 37,
@@ -491,7 +530,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/guia-de-turismo/0",
     },
     {
       "id_curso": 38,
@@ -504,7 +544,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/suporte-tecnico-em-informatica/0",
     },
     {
       "id_curso": 39,
@@ -517,7 +558,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-de-recursos-humanos/0",
     },
     {
       "id_curso": 40,
@@ -530,7 +572,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-secretariado/0",
     },
     {
       "id_curso": 41,
@@ -543,7 +586,8 @@ const course = [
       "cidade": "Rio Grande da Serra",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/corretor-imobiliario/0",
     },
     {
       "id_curso": 42,
@@ -556,7 +600,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 43,
@@ -569,7 +614,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-juridico/0",
     },
     {
       "id_curso": 44,
@@ -582,7 +628,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 45,
@@ -595,7 +642,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-automacao-industrial/0",
     },
     {
       "id_curso": 46,
@@ -608,7 +656,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-comercial/0",
     },
     {
       "id_curso": 47,
@@ -621,7 +670,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 48,
@@ -634,7 +684,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 2.024,
       "sal_med": 2.632,
-      "sal_exp": 3.511
+      "sal_exp": 3.511,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 49,
@@ -647,7 +698,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/eletrotecnico/0",
     },
     {
       "id_curso": 50,
@@ -660,7 +712,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 51,
@@ -673,7 +726,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 52,
@@ -686,7 +740,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 53,
@@ -699,7 +754,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 54,
@@ -712,7 +768,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 55,
@@ -725,7 +782,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 56,
@@ -738,7 +796,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/mecanico-automotivo/0",
     },
     {
       "id_curso": 57,
@@ -751,7 +810,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 58,
@@ -764,7 +824,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/analista-de-projetos/0",
     },
     {
       "id_curso": 59,
@@ -777,7 +838,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/guia-de-turismo/0",
     },
     {
       "id_curso": 60,
@@ -790,7 +852,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/mecanico-automotivo/0",
     },
     {
       "id_curso": 61,
@@ -803,7 +866,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-mecanico/0",
     },
     {
       "id_curso": 62,
@@ -816,7 +880,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 63,
@@ -829,7 +894,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 64,
@@ -842,7 +908,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-secretariado/0",
     },
     {
       "id_curso": 65,
@@ -855,7 +922,8 @@ const course = [
       "cidade": "São Caetano do Sul",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/corretor-imobiliario/0",
     },
     {
       "id_curso": 66,
@@ -868,7 +936,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 67,
@@ -881,7 +950,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.815,
       "sal_med": 2.496,
-      "sal_exp": 3.374
+      "sal_exp": 3.374,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-contabilidade/1",
     },
     {
       "id_curso": 68,
@@ -894,7 +964,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 69,
@@ -907,7 +978,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 70,
@@ -920,7 +992,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 71,
@@ -933,7 +1006,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 72,
@@ -946,7 +1020,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-de-recursos-humanos/0",
     },
     {
       "id_curso": 73,
@@ -959,7 +1034,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-logistica/1",
     },
     {
       "id_curso": 74,
@@ -972,7 +1048,8 @@ const course = [
       "cidade": "Ribeirão Pires",
       "sal_ini": 1.805,
       "sal_med": 2.345,
-      "sal_exp": 3.048
+      "sal_exp": 3.048,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 75,
@@ -985,7 +1062,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 76,
@@ -998,7 +1076,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-logistica/1",
     },
     {
       "id_curso": 77,
@@ -1011,7 +1090,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 78,
@@ -1024,7 +1104,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 79,
@@ -1037,7 +1118,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-comercial/0",
     },
     {
       "id_curso": 80,
@@ -1050,7 +1132,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 81,
@@ -1063,7 +1146,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 82,
@@ -1076,7 +1160,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 83,
@@ -1089,7 +1174,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 84,
@@ -1102,7 +1188,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-de-farmacia/0",
     },
     {
       "id_curso": 85,
@@ -1115,7 +1202,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/analista-de-projetos/0",
     },
     {
       "id_curso": 86,
@@ -1128,7 +1216,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/guia-de-turismo/0",
     },
     {
       "id_curso": 87,
@@ -1141,7 +1230,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 88,
@@ -1154,7 +1244,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-secretariado/0",
     },
     {
       "id_curso": 89,
@@ -1167,7 +1258,8 @@ const course = [
       "cidade": "Mauá",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/corretor-imobiliario/0",
     },
     {
       "id_curso": 90,
@@ -1180,7 +1272,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 91,
@@ -1193,7 +1286,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-de-recursos-humanos/0",
     },
     {
       "id_curso": 92,
@@ -1206,7 +1300,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 93,
@@ -1219,7 +1314,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.000,
       "sal_med": 1.500,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-logistica/1",
     },
     {
       "id_curso": 94,
@@ -1232,7 +1328,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 95,
@@ -1245,7 +1342,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 96,
@@ -1258,7 +1356,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.325,
       "sal_med": 1.870,
-      "sal_exp": 2.736
+      "sal_exp": 2.736,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-administracao/0",
     },
     {
       "id_curso": 97,
@@ -1271,7 +1370,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.411,
       "sal_med": 3.400,
-      "sal_exp": 4.651
+      "sal_exp": 4.651,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-automacao-industrial/0",
     },
     {
       "id_curso": 98,
@@ -1284,7 +1384,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.200,
       "sal_med": 2.900,
-      "sal_exp": 4.100
+      "sal_exp": 4.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-comercial/0",
     },
     {
       "id_curso": 99,
@@ -1297,7 +1398,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.800,
       "sal_med": 2.500,
-      "sal_exp": 3.400
+      "sal_exp": 3.400,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-contabilidade/1",
     },
     {
       "id_curso": 100,
@@ -1310,7 +1412,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.200,
       "sal_med": 3.100,
-      "sal_exp": 4.800
+      "sal_exp": 4.800,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 101,
@@ -1323,7 +1426,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.200,
       "sal_med": 3.100,
-      "sal_exp": 4.800
+      "sal_exp": 4.800,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/desenvolvedor-de-sistemas/0",
     },
     {
       "id_curso": 102,
@@ -1336,7 +1440,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.500,
       "sal_med": 2.500,
-      "sal_exp": 4.100
+      "sal_exp": 4.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/eletricista-de-manutencao-eletroeletronica/0",
     },
     {
       "id_curso": 103,
@@ -1349,7 +1454,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.900,
       "sal_med": 2.500,
-      "sal_exp": 3.400
+      "sal_exp": 3.400,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 104,
@@ -1362,7 +1468,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.900,
       "sal_med": 2.300,
-      "sal_exp": 3.300
+      "sal_exp": 3.300,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/assistente-de-projetos-sociais/0",
     },
     {
       "id_curso": 105,
@@ -1375,7 +1482,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.400,
       "sal_med": 3.400,
-      "sal_exp": 4.700
+      "sal_exp": 4.700,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-automacao-industrial/0",
     },
     {
       "id_curso": 106,
@@ -1388,7 +1496,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.900,
       "sal_med": 2.500,
-      "sal_exp": 3.400
+      "sal_exp": 3.400,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-eletronica/0",
     },
     {
       "id_curso": 107,
@@ -1401,7 +1510,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.300,
       "sal_med": 3.100,
-      "sal_exp": 4.100
+      "sal_exp": 4.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-mecanico/0",
     },
     {
       "id_curso": 108,
@@ -1414,7 +1524,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.000,
       "sal_med": 2.700,
-      "sal_exp": 3.600
+      "sal_exp": 3.600,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-meio-ambiente/0",
     },
     {
       "id_curso": 109,
@@ -1427,7 +1538,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 3.000,
       "sal_med": 4.100,
-      "sal_exp": 5.700
+      "sal_exp": 5.700,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/analista-de-projetos/0",
     },
     {
       "id_curso": 110,
@@ -1440,7 +1552,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.500,
       "sal_med": 2.100,
-      "sal_exp": 3.200
+      "sal_exp": 3.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/guia-de-turismo/0",
     },
     {
       "id_curso": 111,
@@ -1453,7 +1566,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.300,
       "sal_med": 1.700,
-      "sal_exp": 2.200
+      "sal_exp": 2.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 112,
@@ -1466,7 +1580,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.300,
       "sal_med": 1.700,
-      "sal_exp": 2.200
+      "sal_exp": 2.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-informatica/0",
     },
     {
       "id_curso": 113,
@@ -1479,7 +1594,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.800,
       "sal_med": 2.400,
-      "sal_exp": 3.200
+      "sal_exp": 3.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-logistica/1",
     },
     {
       "id_curso": 114,
@@ -1492,7 +1608,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.100,
       "sal_med": 2.900,
-      "sal_exp": 4.000
+      "sal_exp": 4.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 115,
@@ -1505,7 +1622,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 2.100,
       "sal_med": 2.900,
-      "sal_exp": 4.000
+      "sal_exp": 4.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-mecatronica",
     },
     {
       "id_curso": 116,
@@ -1518,7 +1636,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.800,
       "sal_med": 2.300,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 117,
@@ -1531,7 +1650,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.800,
       "sal_med": 2.300,
-      "sal_exp": 3.000
+      "sal_exp": 3.000,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-quimica/0",
     },
     {
       "id_curso": 118,
@@ -1544,7 +1664,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.500,
       "sal_med": 1.900,
-      "sal_exp": 2.100
+      "sal_exp": 2.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-secretariado/0",
     },
     {
       "id_curso": 119,
@@ -1557,7 +1678,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.500,
       "sal_med": 1.900,
-      "sal_exp": 2.100
+      "sal_exp": 2.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/tecnico-em-secretariado/0",
     },
     {
       "id_curso": 120,
@@ -1570,7 +1692,8 @@ const course = [
       "cidade": "São Bernardo do Campo",
       "sal_ini": 1.700,
       "sal_med": 2.600,
-      "sal_exp": 4.100
+      "sal_exp": 4.100,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/corretor-imobiliario/0",
     },
     {
       "id_curso": 121,
@@ -1584,6 +1707,7 @@ const course = [
       "sal_ini": 700,
       "sal_med": 1.100,
       "sal_exp": 1.800,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/professora-de-danca/0",
     },
     {
       "id_curso": 122,
@@ -1597,6 +1721,7 @@ const course = [
       "sal_ini": 700,
       "sal_med": 1.100,
       "sal_exp": 1.800,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/professora-de-danca/0",
     },
     {
       "id_curso": 123,
@@ -1610,6 +1735,7 @@ const course = [
       "sal_ini": 1.500,
       "sal_med": 2.300,
       "sal_exp": 3.500,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/professor-regente/0",
     },
     {
       "id_curso": 124,
@@ -1623,6 +1749,7 @@ const course = [
       "sal_ini": 1.100,
       "sal_med": 1.600,
       "sal_exp": 2.700,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/professor-de-musica/0",
     },
     {
       "id_curso": 125,
@@ -1636,6 +1763,7 @@ const course = [
       "sal_ini": 1.100,
       "sal_med": 1.600,
       "sal_exp": 2.700,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/professor-de-musica/0",
     },
     {
       "id_curso": 126,
@@ -1649,6 +1777,7 @@ const course = [
       "sal_ini": 1.200,
       "sal_med": 1.900,
       "sal_exp": 3.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/atriz/0",
     },
     {
       "id_curso": 127,
@@ -1662,6 +1791,7 @@ const course = [
       "sal_ini": 1.200,
       "sal_med": 1.900,
       "sal_exp": 3.200,
+      "media_salarial": "https://www.vagas.com.br/mapa-de-carreiras/cargos/atriz/0",
     },  
   ]
 

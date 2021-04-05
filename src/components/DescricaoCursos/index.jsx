@@ -44,9 +44,9 @@ const Descricao = (props) =>{
                 </p>
                 <div className="continer-fluid">
                     <div className="row mt-4 d-flex align-items-center justify-content-center">
-                        <a href="https://www.google.com.br" target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito1">Experiente, acima de R$ {course[id].sal_exp.toFixed(3)},00</a>
-                        <a href="https://www.google.com.br" target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito2">Valor médio R$ {course[id].sal_med.toFixed(3)},00</a>
-                        <a href="https://www.google.com.br" target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito3">Iniciando, abaixo de R$ {course[id].sal_ini.toFixed(3)},00</a>
+                        <a href={course[id].media_salarial} target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito1">Experiente, acima de R$ {course[id].sal_exp.toFixed(3)},00</a>
+                        <a href={course[id].media_salarial} target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito2">Valor médio R$ {course[id].sal_med.toFixed(3)},00</a>
+                        <a href={course[id].media_salarial} target="_blank" className="efeito d-flex align-items-center justify-content-center col-11 col-lg-3 efeito3">Iniciando, abaixo de R$ {course[id].sal_ini.toFixed(3)},00</a>
                     </div>
                 </div>
 
