@@ -1,7 +1,7 @@
 import React from 'react';
 import Tabs from "./Tabs";
 import Conteudo from "./conteudo";
-import CounteudoA from "./conteudoArea";
+import ConteudoA from "./conteudoArea";
 import Busca from "./conteudoBusca";
 
 const Carreiras = ()=>{
@@ -16,14 +16,14 @@ const Carreiras = ()=>{
                     <h5 className="pb-3" style={{color:"#363636"}}>Já sabe qual carreira seguir ou quer mais informações? Dá uma pesquisada aí embaixo!</h5>
                 </div>
       <Tabs>
-        <div label="Por área">
-         <CounteudoA/>
+        <div label="Por Busca de Cidade">
+         <Conteudo/>
         </div>
         <div label="Por Busca de Curso">
        <Busca />
         </div>
-        <div label="Por Busca de Cidade">
-       <Conteudo/>
+        <div label="Por área">
+       <ConteudoA/>
       
         </div>
       </Tabs>
