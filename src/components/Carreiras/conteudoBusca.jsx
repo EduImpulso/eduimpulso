@@ -16,7 +16,7 @@ const [searchTerm, setSearchTerm] = useState('')
         <h1 className="titulo-courses my-5">
             Lista de Cursos 
         </h1>
-       🔍 <input className=" my-5" type="text" placeholder ="Search...." onChange ={(event) =>{ setSearchTerm(event.target.value);}}/>  
+       🔍 <input className=" my-5" type="text" placeholder ="Digite o curso" onChange ={(event) =>{ setSearchTerm(event.target.value);}}/>  
         
             {course.filter((item) =>{
                 if (searchTerm == ""){

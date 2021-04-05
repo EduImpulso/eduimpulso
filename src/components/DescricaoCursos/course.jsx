@@ -1,6 +1,6 @@
 const course = [
     {
-      "id_curso": 1,
+      "id_curso": 0,
       "nome": "Automação Industrial",
       "descricao": "O TÉCNICO EM AUTOMAÇÃO INDUSTRIAL é o profissional que realiza integração de sistemas de automação composto por redes industriais, instrumentação, sistemas robotizados, automatização hidráulica e pneumática, sistemas de controle eletromecânicos e sistemas embarcados. Emprega programas de computação para supervisão e controle da produção integrado às redes industriais. Realiza manutenção nos elementos utilizados para automação, medição e controle. Projeta, propõe, planeja e executa instalação dos equipamentos utilizados nos sistemas de automação. Realiza manutenção em sistemas de automação industrial. Realiza medições, testes e calibrações de equipamentos industriais elétricos e eletrônicos. Executa procedimentos de controle de qualidade, segurança e gestão.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -13,7 +13,7 @@ const course = [
       "sal_exp": 4.651
     },
     {
-      "id_curso": 2,
+      "id_curso": 1,
       "nome": "Automação Industrial - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Automação Industrial, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Automação Industrial, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM AUTOMAÇÃO INDUSTRIAL é o profissional que projeta, instala, programa, integra e realiza manutenção em sistemas aplicados à automação e controle de processos industriais; analisa especificações de componentes e equipamentos que compõem sistemas automatizados; coordena equipes de trabalho e avalia a qualidade dos dispositivos e sistemas automatizados. Programa, opera e mantém os sistemas automatizados, respeitando normas técnicas de segurança.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -26,7 +26,7 @@ const course = [
       "sal_exp": 4.651
     },
     {
-      "id_curso": 3,
+      "id_curso": 2,
       "nome": "Cozinha",
       "descricao": "O TÉCNICO EM COZINHA é o profissional que planeja, organiza e executa o trabalho na cozinha. Atua na finalização do mise en place dos serviços, produção de pratos e finalização das preparações, observando os métodos de cocção e cortes adequados a cada tipo de insumo. Colabora na elaboração e organização de pratos do cardápio. Elabora banco de dados, relatórios de trabalho e fichas técnicas para todas as preparações a serem executadas. Opera e mantém em bom estado os utensílios, equipamentos e maquinário de cozinha. Armazena os gêneros alimentícios, controla estoque, consumo e custos.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -39,7 +39,7 @@ const course = [
       "sal_exp": 1.955
     },
     {
-      "id_curso": 4,
+      "id_curso": 3,
       "nome": "Design de Interiores - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Design de Interiores, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Design de Interiores, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESIGN DE INTERIORES é o profissional que participa na elaboração e na execução de projetos de interiores de espaços residenciais, comerciais, vitrines e exposições, visando à estética, à melhoria dos aspectos funcionais, ergonômicos e visuais dos ambientes, para atender às necessidades de conforto, segurança e bem-estar dos usuários. Desenvolve esboços, perspectivas e desenhos, de acordo com as normas técnicas. Planeja e organiza o espaço, identificando elementos básicos para a concepção do projeto. Representa os elementos de projeto no espaço bidimensional e tridimensional, aplicando métodos de representação gráfica.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -52,7 +52,7 @@ const course = [
       "sal_exp": 3.504
     },
     {
-      "id_curso": 5,
+      "id_curso": 4,
       "nome": "Edificações",
       "descricao": "O TÉCNICO EM EDIFICAÇÕES é o profissional que desenvolve e executa projetos de edificações conforme normas técnicas de segurança, de acordo com legislação específica, conforme limites regulamentares e normativos ambientais. Planeja a execução, elabora orçamento e memorial descritivo de obras. Supervisiona a execução de diferentes etapas do processo construtivo. Presta assistência técnica no estudo e desenvolvimento de projetos, pesquisas e controle tecnológico de materiais na área da Construção Civil. Orienta e coordena a execução de serviços de manutenção de equipamentos e de instalações em edificações. Orienta na assistência técnica para compra, venda e utilização de produtos e equipamentos especializados.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -65,7 +65,7 @@ const course = [
       "sal_exp": 3.400
     },
     {
-      "id_curso": 6,
+      "id_curso": 5,
       "nome": "Edificações - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Edificações, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Edificações, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM EDIFICAÇÕES é o profissional que desenvolve e executa projetos de edificações conforme normas técnicas de segurança, de acordo com legislação específica, conforme limites regulamentares e normativa ambiental. Planeja a execução, elabora orçamento e memorial descritivo de obras. Supervisiona a execução de diferentes etapas do processo construtivo. Presta assistência técnica no estudo e desenvolvimento de projetos, pesquisas e controle tecnológico de materiais na área da Construção Civil. Orienta e coordena a execução de serviços de manutenção de equipamentos e de instalações em edificações. Orienta na assistência técnica para compra, venda e utilização de produtos e equipamentos especializados.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -78,7 +78,7 @@ const course = [
       "sal_exp": 3.452
     },
     {
-      "id_curso": 7,
+      "id_curso": 6,
       "nome": "Eletrônica",
       "descricao": "O TÉCNICO EM ELETRÔNICA é o profissional que realiza o desenvolvimento de projetos de sistemas eletrônicos embarcados aplicando tecnologia de circuitos microprocessados e microcontrolados, bem como semicondutores de potência e componentes microeletrônicos. Implementa interfaces de automação com comandos eletromecânicos ou controladores lógicos programáveis instalados em sistemas de controle de processos. Executa e supervisiona trabalhos de instalação e reparo de equipamentos, sistemas eletrônicos inclusive de transmissão e recepção de sinais. Realiza testes de calibração em equipamentos eletrônicos com o uso de aparelhos eletrônicos de medição. Aplica técnicas e métodos de controle de erros e defeitos na linha de produção. Participa na identificação e atuação das causas geradoras de defeito a fim de manter a qualidade dos produtos e serviços. Aplica normas técnicas e de segurança do trabalho e meio ambiente em conformidade com os padrões nacionais e internacionais.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -91,7 +91,7 @@ const course = [
       "sal_exp": 3.452
     },
     {
-      "id_curso": 8,
+      "id_curso": 7,
       "nome": "Eletrônica",
       "descricao": "O TÉCNICO EM ELETRÔNICA é o profissional que realiza o desenvolvimento de projetos de sistemas eletrônicos embarcados aplicando tecnologia de circuitos microprocessados e microcontrolados, bem como semicondutores de potência e componentes microeletrônicos. Implementa interfaces de automação com comandos eletromecânicos ou controladores lógicos programáveis instalados em sistemas de controle de processos. Executa e supervisiona trabalhos de instalação e reparo de equipamentos, sistemas eletrônicos inclusive de transmissão e recepção de sinais. Realiza testes de calibração em equipamentos eletrônicos com o uso de aparelhos eletrônicos de medição. Aplica técnicas e métodos de controle de erros e defeitos na linha de produção. Participa na identificação e atuação das causas geradoras de defeito a fim de manter a qualidade dos produtos e serviços. Aplica normas técnicas e de segurança do trabalho e meio ambiente em conformidade com os padrões nacionais e internacionais.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -104,7 +104,7 @@ const course = [
       "sal_exp": 3.511
     },
     {
-      "id_curso": 9,
+      "id_curso": 8,
       "nome": "Eletrônica - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Eletrônica, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Eletrônica, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ELETRÔNICA é o profissional que participa do desenvolvimento de projetos eletrônicos. Executa a instalação e a manutenção de equipamentos e sistemas eletrônicos. Realiza medições e testes com equipamentos eletrônicos. Executa procedimentos de controle de qualidade e gestão da produção de equipamentos eletrônicos.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -117,7 +117,7 @@ const course = [
       "sal_exp": 3.511
     },
     {
-      "id_curso": 10,
+      "id_curso": 9,
       "nome": "Mecânica",
       "descricao": "O TÉCNICO EM MECÂNICA é o profissional que elabora projetos mecânicos e sistemas automatizados. Planeja, aplica e controla procedimentos de instalação e de manutenção mecânica de máquinas e equipamentos. Desenvolve e controla processos de fabricação e montagem de conjuntos mecânicos. Aplica técnicas de medição e ensaios. Especifica materiais para construção mecânica. Elabora documentação, realiza compras e vendas técnicas e cumpre normas e procedimentos de segurança no trabalho e de preservação ambiental.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -130,7 +130,7 @@ const course = [
       "sal_exp": 4.215
     },
     {
-      "id_curso": 11,
+      "id_curso": 10,
       "nome": "Mecatrônica",
       "descricao": "O TÉCNICO EM MECATRÔNICA é o profissional que atua no projeto, na execução e na instalação de máquinas e equipamentos automatizados e sistemas robotizados. Realiza manutenção, medições e testes dessas máquinas, equipamentos e sistemas, conforme especificações técnicas. Opera equipamentos, utiliza softwares específicos e linguagens de programação adequadas. Organiza local de trabalho. Coordena, equipes e oferece treinamento operacional. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com as normas técnicas e higiene, segurança, qualidade e proteção ao meio ambiente. Programa e opera estas máquinas observando as normas de segurança.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -143,7 +143,7 @@ const course = [
       "sal_exp": 4.013
     },
     {
-      "id_curso": 12,
+      "id_curso": 11,
       "nome": "Mecatrônica - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Mecatrônica, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Mecatrônica, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM MECATRÔNICA é o profissional que atua no projeto, na execução e na instalação de máquinas e equipamentos automatizados e sistemas robotizados. Realiza manutenção, medições e testes dessas máquinas, equipamentos e sistemas, conforme especificações técnicas. Opera equipamentos, utiliza softwares específicos e linguagens de programação adequadas. Organiza local de trabalho. Coordena, equipes e oferece treinamento operacional. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com as normas técnicas e higiene, segurança, qualidade e proteção ao meio ambiente. Programa e opera estas máquinas observando as normas de segurança.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -156,7 +156,7 @@ const course = [
       "sal_exp": 4.013
     },
     {
-      "id_curso": 13,
+      "id_curso": 12,
       "nome": "Meio Ambiente",
       "descricao": "O TÉCNICO EM MEIO AMBIENTE é o profissional que coleta, armazena e interpreta informações, dados e documentações ambientais. Colabora na elaboração de laudos, relatórios e estudos ambientais. Auxilia na elaboração, acompanhamento e execução de sistemas de gestão ambiental. Atua na organização de programas de educação ambiental, de conservação e preservação de recursos naturais, de redução, reuso e reciclagem. Identifica as intervenções ambientais, analisa suas consequências e operacionaliza a execução de ações para preservação, conservação, otimização, minimização e remediação dos seus efeitos.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -169,7 +169,7 @@ const course = [
       "sal_exp": 3.550
     },
     {
-      "id_curso": 14,
+      "id_curso": 13,
       "nome": "Meio Ambiente - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Meio Ambiente, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Meio Ambiente, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM MEIO AMBIENTE é o profissional que coleta, armazena e interpreta informações, dados e documentações ambientais. Colabora na elaboração de laudos, relatórios e estudos ambientais. Auxilia na elaboração, no acompanhamento e na execução de sistemas de gestão ambiental. Atua na organização de programas de educação ambiental, de conservação e de preservação de recursos naturais, de redução, reuso e reciclagem. Detecta as intervenções ambientais, auxilia na análise de suas consequências e operacionaliza a execução de ações para preservação, conservação, otimização, minimização e remediação dos seus efeitos. Procura meios de viabilizar soluções ambientais aos interesses e demandas mercadológicos, identificando oportunidades de negócios empreendedores.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -182,7 +182,7 @@ const course = [
       "sal_exp": 3.550
     },
     {
-      "id_curso": 15,
+      "id_curso": 14,
       "nome": "Nutrição e Dietética",
       "descricao": "O TÉCNICO EM NUTRIÇÃO E DIETÉTICA é o profissional que acompanha e orienta as atividades de controle de qualidade, higiênico-sanitárias e segurança no trabalho, em todo o processo de produção de refeições e alimentos. Acompanha e orienta os procedimentos culinários de preparo de refeições e alimentos. Coordena a execução das atividades de posicionamento, transporte e distribuição de refeições. Pode estruturar e gerenciar serviços de atendimento ao consumidor de indústrias de alimentos e ministrar cursos. Define padrões de procedimentos, elabora Manual de Boas Práticas em Unidades de Alimentação e Nutrição (UAN) e implanta sistemas de qualidade. Realiza, também, a pesagem de pacientes e aplica outras técnicas de mensuração de dados corporais para subsidiar a avaliação nutricional; avalia as dietas de rotina com a prescrição dietética indicada pelo nutricionista. Participa de programas de educação alimentar.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -195,7 +195,7 @@ const course = [
       "sal_exp": 2.026
     },
     {
-      "id_curso": 16,
+      "id_curso": 15,
       "nome": "Nutrição e Dietética",
       "descricao": "O TÉCNICO EM NUTRIÇÃO E DIETÉTICA é o profissional que acompanha e orienta as atividades de controle de qualidade, higiênico-sanitárias e segurança no trabalho, em todo o processo de produção de refeições e alimentos. Acompanha e orienta os procedimentos culinários de preparo de refeições e alimentos. Coordena a execução das atividades de posicionamento, transporte e distribuição de refeições. Pode estruturar e gerenciar serviços de atendimento ao consumidor de indústrias de alimentos e ministrar cursos. Define padrões de procedimentos, elabora Manual de Boas Práticas em Unidades de Alimentação e Nutrição (UAN) e implanta sistemas de qualidade. Realiza, também, a pesagem de pacientes e aplica outras técnicas de mensuração de dados corporais para subsidiar a avaliação nutricional; avalia as dietas de rotina com a prescrição dietética indicada pelo nutricionista. Participa de programas de educação alimentar.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -208,7 +208,7 @@ const course = [
       "sal_exp": 2.026
     },
     {
-      "id_curso": 17,
+      "id_curso": 16,
       "nome": "Nutrição e Dietética - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Nutrição e Dietética, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Nutrição e Dietética, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM NUTRIÇÃO E DIETÉTICA é o profissional que acompanha e orienta as atividades de controle de qualidade, higiênico-sanitárias e segurança no trabalho, em todo o processo de produção de refeições e alimentos. Acompanha e orienta os procedimentos culinários de preparo de refeições e alimentos. Coordena a execução das atividades de posicionamento, transporte e distribuição de refeições. Pode estruturar e gerenciar serviços de atendimento ao consumidor de indústrias de alimentos e ministrar cursos. Define padrões de procedimentos, elabora Manual de Boas Práticas em Unidades de Alimentação e Nutrição e implanta sistemas de qualidade. Realiza, também, a pesagem de pacientes e aplica outras técnicas de mensuração de dados corporais para subsidiar a avaliação nutricional; avalia as dietas de rotina com a prescrição dietética indicada pelo nutricionista. Participa de programas de educação alimentar.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -221,7 +221,7 @@ const course = [
       "sal_exp": 2.026
     },
     {
-      "id_curso": 18,
+      "id_curso": 17,
       "nome": "Química",
       "descricao": "O TÉCNICO EM QUÍMICA é o profissional que atua na operação, controle e monitoramento de processos industriais. Realiza amostragem, análises químicas, físico-químicas e microbiológicas. Avalia atividades do setor químico, nos limites de sua atuação. Controla a qualidade de matérias-primas, insumos e produtos finalizados. Desenvolve produtos e processos aplicando técnicas de segurança laboratorial. Compra e estoca matérias-primas, insumos e produtos em geral do setor químico.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -234,7 +234,7 @@ const course = [
       "sal_exp": 3.048
     },
     {
-      "id_curso": 19,
+      "id_curso": 18,
       "nome": "Química - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Química, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Química, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM QUÍMICA é o profissional que atua no planejamento, na coordenação, na operação e controle dos processos industriais e produtivos. Planeja e coordena os processos laboratoriais. Realiza amostragens, análises químicas, físico-químicas e microbiológicas. Realiza vendas e assistência técnica de equipamentos e produtos químicos. Participa do desenvolvimento de produtos e validação de métodos. Atua com responsabilidade ambiental e em conformidade com as normas técnicas, de qualidade e de boas práticas de manufatura e de segurança.",
       "name": "Santo André: Etec Júlio de Mesquita - Extensão EE Prof. Adamastor de Carvalho",
@@ -247,7 +247,7 @@ const course = [
       "sal_exp": 3.048
     },
     {
-      "id_curso": 20,
+      "id_curso": 19,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira",
@@ -260,7 +260,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 21,
+      "id_curso": 20,
       "nome": "Contabilidade",
       "descricao": "O TÉCNICO EM CONTABILIDADE é o profissional que desempenha tarefas relativas à contabilidade e à administração das organizações. Analisa a documentação contábil e elabora planos de contas. Organiza, controla e arquiva documentos relativos à atividade contábil/ administrativa e controla as movimentações. Constitui e regulariza empresas, identifica documentos e informações, atende à fiscalização e procede a consultoria empresarial. Executa a contabilidade geral, operacionaliza a contabilidade de custos e efetua contabilidade gerencial. Administra o departamento de pessoal e realiza controle patrimonial.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira",
@@ -273,7 +273,7 @@ const course = [
       "sal_exp": 3.374
     },
     {
-      "id_curso": 22,
+      "id_curso": 21,
       "nome": "Recursos Humanos",
       "descricao": "O TÉCNICO EM RECURSOS HUMANOS é o profissional que detém aptidão para intermediar as relações interpessoais e éticas de uma organização. É habilitado para trabalhar na execução das rotinas administrativas de pessoal com base na Legislação Trabalhista e Previdenciária. Auxilia no controle e avaliação de subsistemas de gerenciamento e contribui para a implementação das estratégias organizacionais. Compromete-se com o desenvolvimento humano, administra pessoal, promove ações de treinamento, identifica e sugere plano de benefícios. Descreve e classifica postos de trabalho, aplica questionários e processa informações acerca dos trabalhadores. Atua nos processos de recrutamento, seleção e integração, assessora as relações de trabalho e sistemas de avaliação de desempenho. Presta serviços de comunicação oral e escrita, liderança, motivação, formação de equipes e desenvolvimento de pessoal com empenho no crescimento simultâneo, individual e do grupo. Realiza ações empreendedoras e em processos de orientação sobre a importância da segurança no trabalho e da saúde ocupacional. Propõe relações positivas propícias para o clima organizacional e responsabilidade social aos diversos públicos.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira",
@@ -286,7 +286,7 @@ const course = [
       "sal_exp": 4.322
     },
     {
-      "id_curso": 23,
+      "id_curso": 22,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -299,7 +299,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 24,
+      "id_curso": 23,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -312,7 +312,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 25,
+      "id_curso": 24,
       "nome": "Administração - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que adota postura ética na execução da rotina administrativa, na elaboração do planejamento da produção e materiais, recursos humanos, financeiros e mercadológicos. Realiza atividades de controle e auxilia nos processos de direção, utilizando ferramentas da informática. Fomenta ideias e práticas empreendedoras. Desempenha suas atividades observando as normas de segurança, saúde e higiene do trabalho, bem como as de preservação ambiental.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -325,7 +325,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 26,
+      "id_curso": 25,
       "nome": "Desenvolvimento de Sistemas",
       "descricao": "O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -338,7 +338,7 @@ const course = [
       "sal_exp": 4.754
     },
     {
-      "id_curso": 27,
+      "id_curso": 26,
       "nome": "Desenvolvimento de Sistemas",
       "descricao": "O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -351,7 +351,7 @@ const course = [
       "sal_exp": 4.754
     },
     {
-      "id_curso": 28,
+      "id_curso": 27,
       "nome": "Ensino Médio - Linguagens, Ciências Humanas e Sociais",
       "descricao": "O aluno egresso do Ensino Médio deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades para a solução de problemas do mundo real, mobilizando linguagens, raciocínio lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos, artísticos e culturais, no contexto da sociedade contemporânea, além de competências pessoais como capacidade de trabalhar de modo autônomo e também colaborativo, respeitando valores e atitudes éticas e ambientais. Poderá ser capaz de argumentar com base em fatos e fontes diversas, cuidar de sua saúde física e emocional e agir com flexibilidade nos campos de atuação social. O foco deste itinerário formativo será a competência na linguagem escrita e na linguagem oral, o desenvolvimento de capacidades intelectuais e expressivas e o interesse em aprender a língua materna e idiomas estrangeiros, preferencialmente o inglês, bem como estudar o homem do ponto de vista social, cultural e histórico. Especificamente em relação ao Itinerário Formativo de Linguagens, Ciências Humanas e Sociais, o aluno poderá prosseguir estudos em nível superior preferencialmente nas áreas/Curso de: Administração, Arquitetura e Humanismo, Artes, Audiovisual, Ciências da Informação e Comunicação, Ciências Humanas e Sociais, Comércio Exterior, Comunicações, Design, Direito, Economia, Eventos, Filosofia, Fotografia, Geografia, História, Letras, Marketing, Moda, Multimídia, Pedagogia, Produção Cultural, Psicologia, Publicidade, Secretariado, Sociologia, Turismo e Hospitalidade, entre outros.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -364,7 +364,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 29,
+      "id_curso": 28,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -377,7 +377,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 30,
+      "id_curso": 29,
       "nome": "Logística",
       "descricao": "O TÉCNICO EM LOGÍSTICA é o profissional que colabora na gestão dos processos de planejamento, operação e controle de programação nas áreas de produção de bens e serviços, de compras, de armazenagem, de estoques, de movimentação e de expedição. Viabiliza o transporte e a distribuição de materiais e produtos, coordena a manutenção de máquinas e de equipamentos e executa as funções, utilizando tecnologia de informação. Identifica metodologias, sistemas, procedimentos, equipamentos e estabelece critérios para seleção e utilização adequada. Elabora tabelas, interpreta gráficos e mapeia o custeio das áreas produtivas envolvidas. Implementa os procedimentos de controle de custos, qualidade, segurança e higiene do trabalho no sistema logístico. Atua em equipe, segundo princípios éticos e cidadãos.",
       "name": "Rio Grande da Serra: Etec de Rio Grande da Serra",
@@ -390,7 +390,7 @@ const course = [
       "sal_exp": 3.208
     },
     {
-      "id_curso": 31,
+      "id_curso": 30,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -403,7 +403,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 32,
+      "id_curso": 31,
       "nome": "Desenvolvimento de Sistemas",
       "descricao": "O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -416,7 +416,7 @@ const course = [
       "sal_exp": 4.754
     },
     {
-      "id_curso": 33,
+      "id_curso": 32,
       "nome": "Desenvolvimento de Sistemas - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento de Sistemas, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -429,9 +429,22 @@ const course = [
       "sal_exp": 4.754
     },
     {
-      "id_curso": 34,
+      "id_curso": 33,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
+      "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
+      "periodo": "Manhã",
+      "duracao_sem": 6,
+      "cep": "09450-000",
+      "cidade": "São Caetano do Sul",
+      "sal_ini": 1.000,
+      "sal_med": 1.500,
+      "sal_exp": 3.000
+    },
+    {
+      "id_curso": 34,
+      "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
+      "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
       "periodo": "Manhã",
       "duracao_sem": 6,
@@ -446,19 +459,6 @@ const course = [
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
-      "periodo": "Manhã",
-      "duracao_sem": 6,
-      "cep": "09450-000",
-      "cidade": "São Caetano do Sul",
-      "sal_ini": 1.000,
-      "sal_med": 1.500,
-      "sal_exp": 3.000
-    },
-    {
-      "id_curso": 36,
-      "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
-      "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos.",
-      "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
       "periodo": "Tarde",
       "duracao_sem": 6,
       "cep": "09450-000",
@@ -468,7 +468,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 37,
+      "id_curso": 36,
       "nome": "Gestão de Projetos - Especialização (EaD - On-line)",
       "descricao": "O curso de CURSO DE ESPECIALIZAÇÃO PROFISSIONAL DE NÍVEL MÉDIO TÉCNICA EM GESTÃO DE PROJETOS tem como objetivo capacitar o egresso para agir na concepção, na metodologia e na execução de projetos nas mais diversas áreas de atuação, de modo a possibilitar a compreensão do papel e o processo de gerenciamento de projetos dentro das organizações.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -481,7 +481,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 38,
+      "id_curso": 37,
       "nome": "Guia de Turismo - (EaD - On-line)",
       "descricao": "O TÉCNICO EM GUIA DE TURISMO orienta, assiste e conduz pessoas ou grupos durante traslados, passeios, visitas, viagens, com ética profissional e respeito ao ambiente, à cultura e à legislação. Informa sobre aspectos socioculturais, históricos, ambientais, geográficos e outros interesses do turista. Apresenta ao visitante opções de roteiros e itinerários turísticos disponíveis e, quando for o caso, concebe-o considerando as expectativas ou necessidades do visitante, tanto no âmbito regional e/ ou nacional. Utiliza instrumentos de comunicação, localização, técnicas de condução, de interpretação ambiental e cultural.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -494,7 +494,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 39,
+      "id_curso": 38,
       "nome": "Manutenção e Suporte em Informática",
       "descricao": "O TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA é o profissional que realiza manutenção preventiva e corretiva de equipamentos, identificando os componentes de um computador e suas funcionalidades. Instala e configura equipamentos e softwares de rede. Avalia a necessidade de substituição ou mesmo atualização de equipamentos e softwares. Instala e configura programas utilitários, aplicativos e sistemas operacionais. Realiza procedimentos de backup (leia-se \"becape\") e recuperação de dados.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -507,7 +507,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 40,
+      "id_curso": 39,
       "nome": "Recursos Humanos",
       "descricao": "O TÉCNICO EM RECURSOS HUMANOS é o profissional que detém aptidão para intermediar as relações interpessoais e éticas de uma organização. É habilitado para trabalhar na execução das rotinas administrativas de pessoal com base na Legislação Trabalhista e Previdenciária. Auxilia no controle e avaliação de subsistemas de gerenciamento e contribui para a implementação das estratégias organizacionais. Compromete-se com o desenvolvimento humano, administra pessoal, promove ações de treinamento, identifica e sugere plano de benefícios. Descreve e classifica postos de trabalho, aplica questionários e processa informações acerca dos trabalhadores. Atua nos processos de recrutamento, seleção e integração, assessora as relações de trabalho e sistemas de avaliação de desempenho. Presta serviços de comunicação oral e escrita, liderança, motivação, formação de equipes e desenvolvimento de pessoal com empenho no crescimento simultâneo, individual e do grupo. Realiza ações empreendedoras e em processos de orientação sobre a importância da segurança no trabalho e da saúde ocupacional. Propõe relações positivas propícias para o clima organizacional e responsabilidade social aos diversos públicos.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -520,7 +520,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 41,
+      "id_curso": 40,
       "nome": "Secretariado - (EaD - On-line)",
       "descricao": "O TÉCNICO EM SECRETARIADO é o profissional que auxilia os executivos no desempenho de suas funções, gerenciando informações, auxiliando na execução de suas tarefas administrativas e em reuniões. Coordena equipes e atividades; controla documentos e correspondências. Faz atendimento ao cliente, negociações com fornecedores, administra relacionamentos e conflitos internos e externos. Atua na gestão de processos, na confecção de produtos e estruturação de portifólios, na elaboração de apresentações,na estruturação de relatórios administrativos, na composição de planilhas orçamentárias e demais serviços específicos da empresa em que trabalha.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -533,7 +533,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 42,
+      "id_curso": 41,
       "nome": "Transações Imobiliárias - (EaD - On-line)",
       "descricao": "O TÉCNICO EM TRANSAÇÕES IMOBILIÁRIAS é o profissional habilitado para intermediar a compra, a venda, a locação e a permuta. Atua na administração de bens imóveis, solicita e orienta quanto à documentação necessária para cadastramento, transferência, inscrição e registro junto aos órgãos competentes. Apresenta os imóveis aos clientes potenciais e orienta investimentos no mercado imobiliário. Realiza pesquisa de mercado, bem como a captação de imóveis elaborando estratégias de demonstração e comercialização. Identifica e aplica os parâmetros de uso e ocupação do solo para lotes urbanos e áreas rurais. Assessora os síndicos na administração de condomínios. Atua como avaliador de imóveis urbanos e rurais. Emite parecer técnico de avaliação mercadológica e comercial sobre o bem a ser comercializado. Lê e interpreta projetos arquitetônicos e mapas. Estuda qualitativamente e quantitativamente as potencialidades das edificações e entorno. Acompanha a movimentação do mercado para antever tendências que afetam o empreendimento. Presta assessoria aos clientes após a transação imobiliária.",
       "name": "São Caetano: Etec Jorge Street - Extensão EE Maria Trujilo Torloni",
@@ -546,7 +546,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 43,
+      "id_curso": 42,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "São Caetano: Etec Jorge Street",
@@ -559,7 +559,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 44,
+      "id_curso": 43,
       "nome": "Serviços Jurídicos",
       "descricao": "O TÉCNICO EM SERVIÇOS JURÍDICOS é o profissional que atua diretamente na rotina de escritórios de advocacia e demais organizações que dispõem de setor ou departamento jurídico, dando suporte e apoio técnico-administrativo ao profissional do direito. É responsável pelo acompanhamento, gerenciamento e arquivo de processos de natureza jurídica. Presta atendimento receptivo ao público.",
       "name": "São Caetano: Etec Jorge Street",
@@ -572,7 +572,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 45,
+      "id_curso": 44,
       "nome": "Administração - (EaD - On-line)",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que controla a rotina administrativa das empresas. Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e recolocação. Atua na área de compras, auxilia no setor contábil e assessora a área de vendas. Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -585,7 +585,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 46,
+      "id_curso": 45,
       "nome": "Automação Industrial - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Automação Industrial, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Automação Industrial, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM AUTOMAÇÃO INDUSTRIAL é o profissional que projeta, instala, programa, integra e realiza manutenção em sistemas aplicados à automação e controle de processos industriais; analisa especificações de componentes e equipamentos que compõem sistemas automatizados; coordena equipes de trabalho e avalia a qualidade dos dispositivos e sistemas automatizados. Programa, opera e mantém os sistemas automatizados, respeitando normas técnicas de segurança.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -598,7 +598,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 47,
+      "id_curso": 46,
       "nome": "Comércio - (EaD - On-line)",
       "descricao": "O TÉCNICO EM COMÉRCIO é o profissional que aplica métodos de comercialização de bens e serviços, visando à competitividade no mercado e atendendo as diretrizes organizacionais. Comunica previsões e demandas aos fornecedores. Efetua controle quantitativo e qualitativo de produtos e procede a sua armazenagem no estabelecimento comercial. Operacionaliza planos de marketing e comunicação, logística, recursos humanos e comercialização.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -611,7 +611,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 48,
+      "id_curso": 47,
       "nome": "Desenvolvimento de Sistemas (EaD - On-line)",
       "descricao": "O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -624,7 +624,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 49,
+      "id_curso": 48,
       "nome": "Eletrônica (com até 20% online)",
       "descricao": "O TÉCNICO EM ELETRÔNICA é o profissional que realiza o desenvolvimento de projetos de sistemas eletrônicos embarcados aplicando tecnologia de circuitos microprocessados e microcontrolados, bem como semicondutores de potência e componentes microeletrônicos. Implementa interfaces de automação com comandos eletromecânicos ou controladores lógicos programáveis instalados em sistemas de controle de processos. Executa e supervisiona trabalhos de instalação e reparo de equipamentos, sistemas eletrônicos inclusive de transmissão e recepção de sinais. Realiza testes de calibração em equipamentos eletrônicos com o uso de aparelhos eletrônicos de medição. Aplica técnicas e métodos de controle de erros e defeitos na linha de produção. Participa na identificação e atuação das causas geradoras de defeito a fim de manter a qualidade dos produtos e serviços. Aplica normas técnicas e de segurança do trabalho e meio ambiente em conformidade com os padrões nacionais e internacionais. O curso conta com até 20% da carga horária com atividades não presenciais, nos termos do Art. 26, parágrafo único, da Resolução CNE/CEB nº 6, de 20 de setembro de 2012.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -637,7 +637,7 @@ const course = [
       "sal_exp": 3.511
     },
     {
-      "id_curso": 50,
+      "id_curso": 49,
       "nome": "Eletrotécnica",
       "descricao": "O TÉCNICO EM ELETROTÉCNICA é o profissional que instala, opera e mantém elementos de geração, transmissão e distribuição de energia elétrica. Participa na elaboração e no desenvolvimento de projetos de instalações elétricas e de infraestrutura para sistemas de telecomunicações em edificações. Atua no planejamento e execução da instalação e manutenção de equipamentos e instalações elétricas. Aplica medidas para o uso eficiente da energia elétrica e de fontes energéticas alternativas. Participa no projeto e instala sistemas de acionamentos elétricos. Executa a instalação e manutenção de iluminação e sinalização de segurança.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -650,7 +650,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 51,
+      "id_curso": 50,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -663,11 +663,24 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 52,
+      "id_curso": 51,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
       "periodo": "Tarde",
+      "duracao_sem": 6,
+      "cep": "09581-420",
+      "cidade": "Ribeirão Pires",
+      "sal_ini": 1.000,
+      "sal_med": 1.500,
+      "sal_exp": 3.000
+    },
+    {
+      "id_curso": 52,
+      "nome": "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado",
+      "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
+      "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
+      "periodo": "Manhã",
       "duracao_sem": 6,
       "cep": "09581-420",
       "cidade": "Ribeirão Pires",
@@ -680,19 +693,6 @@ const course = [
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
-      "periodo": "Manhã",
-      "duracao_sem": 6,
-      "cep": "09581-420",
-      "cidade": "Ribeirão Pires",
-      "sal_ini": 1.000,
-      "sal_med": 1.500,
-      "sal_exp": 3.000
-    },
-    {
-      "id_curso": 54,
-      "nome": "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado",
-      "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
-      "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
       "periodo": "Tarde",
       "duracao_sem": 6,
       "cep": "09581-420",
@@ -702,7 +702,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 55,
+      "id_curso": 54,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Eletrônica - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Eletrônica, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Eletrônica, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ELETRÔNICA é o profissional que participa do desenvolvimento de projetos eletrônicos. Executa a instalação e a manutenção de equipamentos e sistemas eletrônicos. Realiza medições e testes com equipamentos eletrônicos. Executa procedimentos de controle de qualidade e gestão da produção de equipamentos eletrônicos.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -715,7 +715,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 56,
+      "id_curso": 55,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -728,7 +728,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 57,
+      "id_curso": 56,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Manutenção Automotiva - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Manutenção Automotiva, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Manutenção Automotiva, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM MANUTENÇÃO AUTOMOTIVA é o profissional que realiza diagnósticos, elabora e executa planos de manutenção (preventiva e corretiva) e instalações de equipamentos, dispositivos e acessórios em veículos automotivos. Avalia e busca melhorias quanto à emissão de gases poluentes e às condições gerais de funcionamento e segurança do veículo. Coordena e realiza os diversos tipos de manutenção mecânica e eletroeletrônicos em veículos automotivos e manipula instrumentos de testes e diagnósticos. Controla o registro, seguro e documentação de veículos automotivos. Interpreta desenhos técnicos. Aplica técnicas de medição e ensaios. Analisa ruídos e inspeciona segurança veicular. Realizam ensaios e testes e montam componentes na fabricação e manutenção veicular automobilística, de acordo com normas de qualidade e de segurança do trabalho. Prestam assessoria a equipes internas e externas.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -741,7 +741,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 58,
+      "id_curso": 57,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Mecatrônica - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Mecatrônica, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Mecatrônica, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM MECATRÔNICA é o profissional que atua no projeto, montagem e instalação de máquinas e equipamentos automatizados e sistemas robotizados. Realiza medições, programação e opera sistemas mecatrônicos, conforme especificações técnicas. Utiliza softwares específicos e linguagens de programação. Pode coordenar equipes e treinamento operacional, nos limites de suas atribuições. Atua na melhoria dos sistemas convencionais de produção. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com as normas técnicas e de higiene, segurança, qualidade e proteção ao meio ambiente. Integra equipamentos mecânicos e eletrônicos e executa procedimentos de controle da qualidade e gestão.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -754,7 +754,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 59,
+      "id_curso": 58,
       "nome": "Gestão de Projetos - Especialização (EaD - On-line)",
       "descricao": "O curso de CURSO DE ESPECIALIZAÇÃO PROFISSIONAL DE NÍVEL MÉDIO TÉCNICA EM GESTÃO DE PROJETOS tem como objetivo capacitar o egresso para agir na concepção, na metodologia e na execução de projetos nas mais diversas áreas de atuação, de modo a possibilitar a compreensão do papel e o processo de gerenciamento de projetos dentro das organizações.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -767,7 +767,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 60,
+      "id_curso": 59,
       "nome": "Guia de Turismo - (EaD - On-line)",
       "descricao": "O TÉCNICO EM GUIA DE TURISMO orienta, assiste e conduz pessoas ou grupos durante traslados, passeios, visitas, viagens, com ética profissional e respeito ao ambiente, à cultura e à legislação. Informa sobre aspectos socioculturais, históricos, ambientais, geográficos e outros interesses do turista. Apresenta ao visitante opções de roteiros e itinerários turísticos disponíveis e, quando for o caso, concebe-o considerando as expectativas ou necessidades do visitante, tanto no âmbito regional e/ ou nacional. Utiliza instrumentos de comunicação, localização, técnicas de condução, de interpretação ambiental e cultural.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -780,7 +780,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 61,
+      "id_curso": 60,
       "nome": "Manutenção Automotiva",
       "descricao": "O TÉCNICO EM MANUTENÇÃO AUTOMOTIVA é o profissional que realiza diagnóstico, manutenção e instalação de equipamentos, dispositivos e acessórios em veículos. Avalia e busca melhorias quanto à emissão de gases poluentes e às condições gerais de funcionamento e segurança do veículo. Coordena equipe de mecânicos para os diversos tipos de automóveis, realiza reparos mecânicos e eletroeletrônicos, manipula instrumentos de testes e diagnósticos. Elabora planos de logísticas de manutenção preventiva e corretiva. Aplica e utiliza ferramentas na execução de serviços. Analisa ruídos e inspeciona segurança veicular.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -793,7 +793,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 62,
+      "id_curso": 61,
       "nome": "Mecânica",
       "descricao": "O TÉCNICO EM MECÂNICA é o profissional que elabora projetos mecânicos e sistemas automatizados. Planeja, aplica e controla procedimentos de instalação e de manutenção mecânica de máquinas e equipamentos. Desenvolve e controla processos de fabricação e montagem de conjuntos mecânicos. Aplica técnicas de medição e ensaios. Especifica materiais para construção mecânica. Elabora documentação, realiza compras e vendas técnicas e cumpre normas e procedimentos de segurança no trabalho e de preservação ambiental.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -806,7 +806,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 63,
+      "id_curso": 62,
       "nome": "Mecatrônica",
       "descricao": "O TÉCNICO EM MECATRÔNICA é o profissional que atua no projeto, na execução e na instalação de máquinas e equipamentos automatizados e sistemas robotizados. Realiza manutenção, medições e testes dessas máquinas, equipamentos e sistemas, conforme especificações técnicas. Opera equipamentos, utiliza softwares específicos e linguagens de programação adequadas. Organiza local de trabalho. Coordena, equipes e oferece treinamento operacional. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com as normas técnicas e higiene, segurança, qualidade e proteção ao meio ambiente. Programa e opera estas máquinas observando as normas de segurança.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -819,7 +819,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 64,
+      "id_curso": 63,
       "nome": "Mecatrônica - Integrado ao Ensino Médio",
       "descricao": "Nesta modalidade de ensino, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Mecatrônica, numa jornada de até 40 aulas semanais (até 8 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Mecatrônica, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM MECATRÔNICA é o profissional que atua no projeto, na execução e na instalação de máquinas e equipamentos automatizados e sistemas robotizados. Realiza manutenção, medições e testes dessas máquinas, equipamentos e sistemas, conforme especificações técnicas. Opera equipamentos, utiliza softwares específicos e linguagens de programação adequadas. Organiza local de trabalho. Coordena, equipes e oferece treinamento operacional. Realiza manutenções preditiva, preventiva e corretiva, em conformidade com as normas técnicas e higiene, segurança, qualidade e proteção ao meio ambiente. Programa e opera estas máquinas observando as normas de segurança.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -832,7 +832,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 65,
+      "id_curso": 64,
       "nome": "Secretariado - (EaD - On-line)",
       "descricao": "O TÉCNICO EM SECRETARIADO é o profissional que auxilia os executivos no desempenho de suas funções, gerenciando informações, auxiliando na execução de suas tarefas administrativas e em reuniões. Coordena equipes e atividades; controla documentos e correspondências. Faz atendimento ao cliente, negociações com fornecedores, administra relacionamentos e conflitos internos e externos. Atua na gestão de processos, na confecção de produtos e estruturação de portifólios, na elaboração de apresentações,na estruturação de relatórios administrativos, na composição de planilhas orçamentárias e demais serviços específicos da empresa em que trabalha.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -845,7 +845,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 66,
+      "id_curso": 65,
       "nome": "Transações Imobiliárias - (EaD - On-line)",
       "descricao": "O TÉCNICO EM TRANSAÇÕES IMOBILIÁRIAS é o profissional habilitado para intermediar a compra, a venda, a locação e a permuta. Atua na administração de bens imóveis, solicita e orienta quanto à documentação necessária para cadastramento, transferência, inscrição e registro junto aos órgãos competentes. Apresenta os imóveis aos clientes potenciais e orienta investimentos no mercado imobiliário. Realiza pesquisa de mercado, bem como a captação de imóveis elaborando estratégias de demonstração e comercialização. Identifica e aplica os parâmetros de uso e ocupação do solo para lotes urbanos e áreas rurais. Assessora os síndicos na administração de condomínios. Atua como avaliador de imóveis urbanos e rurais. Emite parecer técnico de avaliação mercadológica e comercial sobre o bem a ser comercializado. Lê e interpreta projetos arquitetônicos e mapas. Estuda qualitativamente e quantitativamente as potencialidades das edificações e entorno. Acompanha a movimentação do mercado para antever tendências que afetam o empreendimento. Presta assessoria aos clientes após a transação imobiliária.",
       "name": "Ribeirão Pires: Etec Profª Maria Cristina Medeiros",
@@ -858,7 +858,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 67,
+      "id_curso": 66,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -871,7 +871,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 68,
+      "id_curso": 67,
       "nome": "Contabilidade",
       "descricao": "O TÉCNICO EM CONTABILIDADE é o profissional que desempenha tarefas relativas à contabilidade e à administração das organizações. Analisa a documentação contábil e elabora planos de contas. Organiza, controla e arquiva documentos relativos à atividade contábil/ administrativa e controla as movimentações. Constitui e regulariza empresas, identifica documentos e informações, atende à fiscalização e procede a consultoria empresarial. Executa a contabilidade geral, operacionaliza a contabilidade de custos e efetua contabilidade gerencial. Administra o departamento de pessoal e realiza controle patrimonial.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -884,7 +884,7 @@ const course = [
       "sal_exp": 3.374
     },
     {
-      "id_curso": 69,
+      "id_curso": 68,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -897,7 +897,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 70,
+      "id_curso": 69,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -910,7 +910,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 71,
+      "id_curso": 70,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Informática Para Internet, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Informática Para Internet, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM INFORMÁTICA PARA INTERNET é o profissional que desenvolve e realiza manutenção em websites e portais na Internet e Intranet. Utiliza ferramentas de desenvolvimento de projetos para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -923,7 +923,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 72,
+      "id_curso": 71,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Química, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Química, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM QUÍMICA é o profissional que atua na operação, controle e monitoramento de processos industriais. Realiza amostragem, análises químicas, físico-químicas e microbiológicas. Avalia atividades do setor químico, nos limites de sua atuação. Controla a qualidade de matérias-primas, insumos e produtos finalizados. Desenvolve produtos e processos aplicando técnicas de segurança laboratorial. Compra e estoca matérias-primas, insumos e produtos em geral do setor químico.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -936,7 +936,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 73,
+      "id_curso": 72,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Recursos Humanos, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Recursos Humanos, com validade nacional, de acordo com o perfil profissional a seguir: É o profissional que executa rotinas administrativas de pessoal com base na Legislação Trabalhista e Previdenciária. Auxilia no controle e avaliação de subsistemas de gerenciamento e contribui para a implementação das estratégias organizacionais. Administra pessoal, promove ações de treinamento, identifica e sugere plano de benefícios. Descreve e classifica postos de trabalho, aplica questionários e processa informações acerca dos trabalhadores. Atua nos processos de recrutamento, seleção e integração, assessora as relações de trabalho e sistemas de avaliação de desempenho. Presta serviços de comunicação oral e escrita, liderança, motivação, formação de equipes e desenvolvimento de pessoal com empenho no crescimento simultâneo, individual e do grupo de forma ética. Realiza ações empreendedoras e em processos de orientação sobre a importância da segurança no trabalho e da saúde ocupacional.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -949,7 +949,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 74,
+      "id_curso": 73,
       "nome": "Logística",
       "descricao": "O TÉCNICO EM LOGÍSTICA é o profissional que colabora na gestão dos processos de planejamento, operação e controle de programação nas áreas de produção de bens e serviços, de compras, de armazenagem, de estoques, de movimentação e de expedição. Viabiliza o transporte e a distribuição de materiais e produtos, coordena a manutenção de máquinas e de equipamentos e executa as funções, utilizando tecnologia de informação. Identifica metodologias, sistemas, procedimentos, equipamentos e estabelece critérios para seleção e utilização adequada. Elabora tabelas, interpreta gráficos e mapeia o custeio das áreas produtivas envolvidas. Implementa os procedimentos de controle de custos, qualidade, segurança e higiene do trabalho no sistema logístico. Atua em equipe, segundo princípios éticos e cidadãos.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -962,7 +962,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 75,
+      "id_curso": 74,
       "nome": "Química",
       "descricao": "O TÉCNICO EM QUÍMICA é o profissional que atua na operação, controle e monitoramento de processos industriais. Realiza amostragem, análises químicas, físico-químicas e microbiológicas. Avalia atividades do setor químico, nos limites de sua atuação. Controla a qualidade de matérias-primas, insumos e produtos finalizados. Desenvolve produtos e processos aplicando técnicas de segurança laboratorial. Compra e estoca matérias-primas, insumos e produtos em geral do setor químico.",
       "name": "Etec de Mauá - Extensão EE João Paulo II",
@@ -975,7 +975,7 @@ const course = [
       "sal_exp": 3.048
     },
     {
-      "id_curso": 76,
+      "id_curso": 75,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Etec de Mauá",
@@ -988,7 +988,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 77,
+      "id_curso": 76,
       "nome": "Logística",
       "descricao": "O TÉCNICO EM LOGÍSTICA é o profissional que colabora na gestão dos processos de planejamento, operação e controle de programação nas áreas de produção de bens e serviços, de compras, de armazenagem, de estoques, de movimentação e de expedição. Viabiliza o transporte e a distribuição de materiais e produtos, coordena a manutenção de máquinas e de equipamentos e executa as funções, utilizando tecnologia de informação. Identifica metodologias, sistemas, procedimentos, equipamentos e estabelece critérios para seleção e utilização adequada. Elabora tabelas, interpreta gráficos e mapeia o custeio das áreas produtivas envolvidas. Implementa os procedimentos de controle de custos, qualidade, segurança e higiene do trabalho no sistema logístico. Atua em equipe, segundo princípios éticos e cidadãos.",
       "name": "Etec de Mauá",
@@ -1001,7 +1001,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 78,
+      "id_curso": 77,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1014,7 +1014,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 79,
+      "id_curso": 78,
       "nome": "Administração - (EaD - On-line)",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que controla a rotina administrativa das empresas. Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e recolocação. Atua na área de compras, auxilia no setor contábil e assessora a área de vendas. Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1027,7 +1027,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 80,
+      "id_curso": 79,
       "nome": "Comércio - (EaD - On-line)",
       "descricao": "O TÉCNICO EM COMÉRCIO é o profissional que aplica métodos de comercialização de bens e serviços, visando à competitividade no mercado e atendendo as diretrizes organizacionais. Comunica previsões e demandas aos fornecedores. Efetua controle quantitativo e qualitativo de produtos e procede a sua armazenagem no estabelecimento comercial. Operacionaliza planos de marketing e comunicação, logística, recursos humanos e comercialização.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1040,7 +1040,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 81,
+      "id_curso": 80,
       "nome": "Desenvolvimento de Sistemas (EaD - On-line)",
       "descricao": "O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1053,7 +1053,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 82,
+      "id_curso": 81,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Administração - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Administração, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Administração, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade, presta atendimento a clientes, e elabora fluxo de caixa. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1066,7 +1066,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 83,
+      "id_curso": 82,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1079,7 +1079,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 84,
+      "id_curso": 83,
       "nome": "Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado",
       "descricao": "Nesta modalidade de ensino, baseada na Lei nº 13.415/17, o aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Química, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Química, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM QUÍMICA é o profissional que atua na operação, controle e monitoramento de processos industriais. Realiza amostragem, análises químicas, físico-químicas e microbiológicas. Avalia atividades do setor químico, nos limites de sua atuação. Controla a qualidade de matérias-primas, insumos e produtos finalizados. Desenvolve produtos e processos aplicando técnicas de segurança laboratorial. Compra e estoca matérias-primas, insumos e produtos em geral do setor químico.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1092,7 +1092,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 85,
+      "id_curso": 84,
       "nome": "Farmácia",
       "descricao": "O TÉCNICO EM FARMÁCIA é o profissional que realiza operações farmacotécnicas em pequena e larga escala, identificando e classificando os diferentes tipos de produtos e de formas farmacêuticas, sua composição e técnica de preparação. Auxilia na manipulação das diversas formas farmacêuticas alopáticas, fitoterápicas e homeopáticas, assim como de cosméticos, realiza documentação e registro de atividades e procedimentos, sob a supervisão do farmacêutico. Executa as rotinas de compra, armazenamento e dispensação de produtos, manutenção e logística de estoque, além de controle de qualidade de matérias-primas farmacêuticas, produtos em processo e acabados. Auxilia no atendimento ao cliente frente às prescrições médicas dos medicamentos e identifica as diversas vias de administração. Utiliza técnicas de atendimento ao cliente, orientando-o sobre o uso correto e a conservação dos medicamentos.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1105,7 +1105,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 86,
+      "id_curso": 85,
       "nome": "Gestão de Projetos - Especialização (EaD - On-line)",
       "descricao": "O curso de CURSO DE ESPECIALIZAÇÃO PROFISSIONAL DE NÍVEL MÉDIO TÉCNICA EM GESTÃO DE PROJETOS tem como objetivo capacitar o egresso para agir na concepção, na metodologia e na execução de projetos nas mais diversas áreas de atuação, de modo a possibilitar a compreensão do papel e o processo de gerenciamento de projetos dentro das organizações.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1118,7 +1118,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 87,
+      "id_curso": 86,
       "nome": "Guia de Turismo - (EaD - On-line)",
       "descricao": "O TÉCNICO EM GUIA DE TURISMO orienta, assiste e conduz pessoas ou grupos durante traslados, passeios, visitas, viagens, com ética profissional e respeito ao ambiente, à cultura e à legislação. Informa sobre aspectos socioculturais, históricos, ambientais, geográficos e outros interesses do turista. Apresenta ao visitante opções de roteiros e itinerários turísticos disponíveis e, quando for o caso, concebe-o considerando as expectativas ou necessidades do visitante, tanto no âmbito regional e/ ou nacional. Utiliza instrumentos de comunicação, localização, técnicas de condução, de interpretação ambiental e cultural.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1131,7 +1131,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 88,
+      "id_curso": 87,
       "nome": "Informática (Nova Matriz)",
       "descricao": "É o profissional que instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral. Instala e configura redes de computadores locais de pequeno porte. Seleciona e opera aplicações em nuvem. Presta suporte local ou remoto a usuários de diferentes níveis técnicos e para diversas tecnologias.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1144,7 +1144,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 89,
+      "id_curso": 88,
       "nome": "Secretariado - (EaD - On-line)",
       "descricao": "O TÉCNICO EM SECRETARIADO é o profissional que auxilia os executivos no desempenho de suas funções, gerenciando informações, auxiliando na execução de suas tarefas administrativas e em reuniões. Coordena equipes e atividades; controla documentos e correspondências. Faz atendimento ao cliente, negociações com fornecedores, administra relacionamentos e conflitos internos e externos. Atua na gestão de processos, na confecção de produtos e estruturação de portifólios, na elaboração de apresentações,na estruturação de relatórios administrativos, na composição de planilhas orçamentárias e demais serviços específicos da empresa em que trabalha.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1157,7 +1157,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 90,
+      "id_curso": 89,
       "nome": "Transações Imobiliárias - (EaD - On-line)",
       "descricao": "O TÉCNICO EM TRANSAÇÕES IMOBILIÁRIAS é o profissional habilitado para intermediar a compra, a venda, a locação e a permuta. Atua na administração de bens imóveis, solicita e orienta quanto à documentação necessária para cadastramento, transferência, inscrição e registro junto aos órgãos competentes. Apresenta os imóveis aos clientes potenciais e orienta investimentos no mercado imobiliário. Realiza pesquisa de mercado, bem como a captação de imóveis elaborando estratégias de demonstração e comercialização. Identifica e aplica os parâmetros de uso e ocupação do solo para lotes urbanos e áreas rurais. Assessora os síndicos na administração de condomínios. Atua como avaliador de imóveis urbanos e rurais. Emite parecer técnico de avaliação mercadológica e comercial sobre o bem a ser comercializado. Lê e interpreta projetos arquitetônicos e mapas. Estuda qualitativamente e quantitativamente as potencialidades das edificações e entorno. Acompanha a movimentação do mercado para antever tendências que afetam o empreendimento. Presta assessoria aos clientes após a transação imobiliária.",
       "name": "Diadema: Etec Juscelino Kubitschek de Oliveira - Extensão EE Senador Robert Kennedy - Vila Lúcia - São Bernardo do Campo",
@@ -1170,7 +1170,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 91,
+      "id_curso": 90,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "São Bernardo: Etec Lauro Gomes - Extensão EE Prof. Carlos Pezzolo",
@@ -1183,7 +1183,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 92,
+      "id_curso": 91,
       "nome": "Recursos Humanos",
       "descricao": "O TÉCNICO EM RECURSOS HUMANOS é o profissional que detém aptidão para intermediar as relações interpessoais e éticas de uma organização. É habilitado para trabalhar na execução das rotinas administrativas de pessoal com base na Legislação Trabalhista e Previdenciária. Auxilia no controle e avaliação de subsistemas de gerenciamento e contribui para a implementação das estratégias organizacionais. Compromete-se com o desenvolvimento humano, administra pessoal, promove ações de treinamento, identifica e sugere plano de benefícios. Descreve e classifica postos de trabalho, aplica questionários e processa informações acerca dos trabalhadores. Atua nos processos de recrutamento, seleção e integração, assessora as relações de trabalho e sistemas de avaliação de desempenho. Presta serviços de comunicação oral e escrita, liderança, motivação, formação de equipes e desenvolvimento de pessoal com empenho no crescimento simultâneo, individual e do grupo. Realiza ações empreendedoras e em processos de orientação sobre a importância da segurança no trabalho e da saúde ocupacional. Propõe relações positivas propícias para o clima organizacional e responsabilidade social aos diversos públicos.",
       "name": "São Bernardo: Etec Lauro Gomes - Extensão EE Prof. Carlos Pezzolo",
@@ -1196,7 +1196,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 93,
+      "id_curso": 92,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "São Bernardo: Etec Lauro Gomes - Extensão EE Prof. Carlos Pezzolo",
@@ -1209,7 +1209,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 94,
+      "id_curso": 93,
       "nome": "Logística",
       "descricao": "O TÉCNICO EM LOGÍSTICA é o profissional que colabora na gestão dos processos de planejamento, operação e controle de programação nas áreas de produção de bens e serviços, de compras, de armazenagem, de estoques, de movimentação e de expedição. Viabiliza o transporte e a distribuição de materiais e produtos, coordena a manutenção de máquinas e de equipamentos e executa as funções, utilizando tecnologia de informação. Identifica metodologias, sistemas, procedimentos, equipamentos e estabelece critérios para seleção e utilização adequada. Elabora tabelas, interpreta gráficos e mapeia o custeio das áreas produtivas envolvidas. Implementa os procedimentos de controle de custos, qualidade, segurança e higiene do trabalho no sistema logístico. Atua em equipe, segundo princípios éticos e cidadãos.",
       "name": "São Bernardo: Etec Lauro Gomes - Extensão EE Profª Cynira Pires dos Santos",
@@ -1222,7 +1222,7 @@ const course = [
       "sal_exp": 3.000
     },
     {
-      "id_curso": 95,
+      "id_curso": 94,
       "nome": "Administração",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que participa da gestão dos recursos mercadológicos, humanos, financeiros, materiais e produtivos. Executa as rotinas administrativas, controla materiais, acompanha níveis de eficiência e produtividade e presta atendimento a clientes. Trabalha em equipe, otimiza recursos, propõe inovações e adota postura ética na condução das relações e atividades.",
       "name": "São Bernardo: Etec Lauro Gomes",
@@ -1235,7 +1235,7 @@ const course = [
       "sal_exp": 2.736
     },
     {
-      "id_curso": 96,
+      "id_curso": 95,
       "nome": "Administração - (EaD - On-line)",
       "descricao": "O TÉCNICO EM ADMINISTRAÇÃO é o profissional que controla a rotina administrativa das empresas. Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e recolocação. Atua na área de compras, auxilia no setor contábil e assessora a área de vendas. Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira.",
       "name": "São Bernardo: Etec Lauro Gomes",
@@ -1246,7 +1246,99 @@ const course = [
       "sal_ini": 1.325,
       "sal_med": 1.870,
       "sal_exp": 2.736
-    }
+    },
+    {
+      "id_curso": 96,
+      "nome": "Dança",
+      "descricao": "O TÉCNICO EM DANÇA é o profissional que desenvolve atividades ligadas à criação e à execução de dança, atuando como bailarino, dançarino, diretor ou assistente de palco. Domina os diferentes gêneros e estilos de dança. Emprega técnicas de dança e recursos de improvisação, em espaços cênicos, como formas de expressão corporal. Atua como instrutor ou arte educador em espaços não formais.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Noite",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 700,
+      "sal_med": 1.100,
+      "sal_exp": 1.800,
+    },
+    {
+      "id_curso": 97,
+      "nome": "Dança",
+      "descricao": "O TÉCNICO EM DANÇA é o profissional que desenvolve atividades ligadas à criação e à execução de dança, atuando como bailarino, dançarino, diretor ou assistente de palco. Domina os diferentes gêneros e estilos de dança. Emprega técnicas de dança e recursos de improvisação, em espaços cênicos, como formas de expressão corporal. Atua como instrutor ou arte educador em espaços não formais.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Tarde",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 700,
+      "sal_med": 1.100,
+      "sal_exp": 1.800,
+    },
+    {
+      "id_curso": 98,
+      "nome": "Regência",
+      "descricao": "O TÉCNICO EM REGÊNCIA é o profissional que atua na monitoração de trabalhos de montagem de peças instrumentais, vocais e voco-instrumentais; colabora na organização documental e estrutural de grupos musicais; coordena ensaios e apresentações musicais; aplica técnicas de regência na condução de atividades de grupos musicais em diversos momentos e eventos da área profissional.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Noite",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 1.500,
+      "sal_med": 2.300,
+      "sal_exp": 3.500,
+    },
+    {
+      "id_curso": 99,
+      "nome": "Canto",
+      "descricao": "O TÉCNICO EM CANTO é o profissional que interpreta obras musicais de repertórios diversos, com sua voz, podendo ou não acompanhar-se de instrumento. Desenvolve atividades de performance vocal ao vivo e em estúdios de gravação - recitais, musicais, espetáculos teatrais, shows, eventos. Colabora musicalmente em projetos culturais e atividades de ensino de música e artes cênicas. Trabalha com diferentes gêneros e estilos musicais. Colabora na elaboração de textos técnicos, projetos e editais de acordo com os fundamentos, a terminologia da área profissional e do empreendedorismo.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Noite",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 1.100,
+      "sal_med": 1.600,
+      "sal_exp": 2.700,
+    },
+    {
+      "id_curso": 100,
+      "nome": "Canto",
+      "descricao": "O TÉCNICO EM CANTO é o profissional que interpreta obras musicais de repertórios diversos, com sua voz, podendo ou não acompanhar-se de instrumento. Desenvolve atividades de performance vocal ao vivo e em estúdios de gravação - recitais, musicais, espetáculos teatrais, shows, eventos. Colabora musicalmente em projetos culturais e atividades de ensino de música e artes cênicas. Trabalha com diferentes gêneros e estilos musicais. Colabora na elaboração de textos técnicos, projetos e editais de acordo com os fundamentos, a terminologia da área profissional e do empreendedorismo.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Tarde",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 1.100,
+      "sal_med": 1.600,
+      "sal_exp": 2.700,
+    },
+    {
+      "id_curso": 101,
+      "nome": "Teatro",
+      "descricao": "O TÉCNICO EM TEATRO é o profissional que realiza e apoia atividades ligadas à criação em teatro, podendo atuar como ator, radioator, dublador, bonequeiro, contrarregra, assistente de palco, assistente de produção e arte-educador em espaços não formais. Emprega métodos, técnicas e recursos de improvisação, atuação, preparação vocal e corporal em espaços culturais.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Tarde",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 1.200,
+      "sal_med": 1.900,
+      "sal_exp": 3.200,
+    },
+    {
+      "id_curso": 102,
+      "nome": "Teatro",
+      "descricao": "O TÉCNICO EM TEATRO é o profissional que realiza e apoia atividades ligadas à criação em teatro, podendo atuar como ator, radioator, dublador, bonequeiro, contrarregra, assistente de palco, assistente de produção e arte-educador em espaços não formais. Emprega métodos, técnicas e recursos de improvisação, atuação, preparação vocal e corporal em espaços culturais.",
+      "name": "São Paulo: Etec de Artes",
+      "periodo": "Noite",
+      "duracao_sem": 4,
+      "cep": "02030-100",
+      "cidade": "São Paulo",
+      "sal_ini": 1.200,
+      "sal_med": 1.900,
+      "sal_exp": 3.200,
+    },
+    
   ]
 
 export default course;

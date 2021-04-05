@@ -118,7 +118,7 @@ export const petrs = [
         url_c: "https://eduimpulso.herokuapp.com/descricao",
 
         curso_d: "• Dança", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/96",
 
         points: 0
     },
@@ -344,10 +344,10 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Regência", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/98",
 
         curso_b: "• Canto", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/99",
 
         points: 0
     },

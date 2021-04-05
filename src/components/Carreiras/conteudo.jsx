@@ -13,7 +13,7 @@ const Conteudo = () =>{
         <h1 className="titulo-courses my-5">
             Lista de Cursos por Cidade
         </h1>
-       🔍 <input className="busca my-5" type="text" placeholder ="Search...." onChange ={(event) =>{ setSearchTerm(event.target.value);}}/>  
+       🔍 <input className="busca my-5" type="text" placeholder ="Digite a cidade" onChange ={(event) =>{ setSearchTerm(event.target.value);}}/>  
         
             {course.filter((item) =>{
                 if (searchTerm == ""){
