@@ -1662,8 +1662,7 @@ const course = [
       "sal_ini": 1.200,
       "sal_med": 1.900,
       "sal_exp": 3.200,
-    },
-    
+    },  
   ]
 
 export default course;

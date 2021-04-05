@@ -109,16 +109,16 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Cozinha", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/2",
 
         curso_b: "• Guia de Turismo - (EaD - On-line)", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/37",
 
         curso_c: "• Guia de Turismo", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/110",
 
         curso_d: "• Dança", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/carreiras/96",
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/122",
 
         points: 0
     },
@@ -130,31 +130,31 @@ export const petrs = [
         description: "•Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Automação Industrial", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/0",
 
         curso_b: "• Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/3",
 
         curso_c: "• Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/1",
 
         curso_d: "• Edificações", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/4",
 
         curso_e: "• Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_e: "https://eduimpulso.herokuapp.com/descricao",
+        url_e: "https://eduimpulso.herokuapp.com/carreiras/5",
 
         curso_f: "• Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
-        url_f: "https://eduimpulso.herokuapp.com/descricao",
+        url_f: "https://eduimpulso.herokuapp.com/carreiras/105",
 
         curso_g: "• Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado, Mecânica", /* inseri esta linha */
-        url_g: "https://eduimpulso.herokuapp.com/descricao",
+        url_g: "https://eduimpulso.herokuapp.com/carreiras/107",
 
         curso_h: "• Mecatrônica", /* inseri esta linha */
-        url_h: "https://eduimpulso.herokuapp.com/descricao",
+        url_h: "https://eduimpulso.herokuapp.com/carreiras/10",
 
         curso_i: "• Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_i: "https://eduimpulso.herokuapp.com/descricao",
+        url_i: "https://eduimpulso.herokuapp.com/carreiras/11",
 
         points: 0
     },
@@ -166,22 +166,22 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Nutrição e Dietética", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/14",
 
         curso_b: "• Nutrição e Dietética - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/16",
 
         curso_c: "• Recursos Humanos", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/21",
 
         curso_d: "• Secretariado - (EaD - On-line)", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/40",
 
         curso_e: "• Ensino Médio com Habilitação Profissional de Técnico em Recursos Humanos - Novotec integrado", /* inseri esta linha */
-        url_e: "https://eduimpulso.herokuapp.com/descricao",
+        url_e: "https://eduimpulso.herokuapp.com/carreiras/72",
 
         curso_f: "• Secretariado", /* inseri esta linha */
-        url_f: "https://eduimpulso.herokuapp.com/descricao",
+        url_f: "https://eduimpulso.herokuapp.com/carreiras/118",
 
         points: 0
     },
@@ -192,17 +192,14 @@ export const petrs = [
         img: "./imgs/quiz/intrapessoal.gif",
         description: "Cursos técnicos e livres sugeridos: ",
 
-        curso_a: "• Ensino Médio - Linguagens", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        curso_a: "• Ensino Médio - Linguagens, Ciências Humanas e Sociais", /* inseri esta linha */
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/27",
 
-        curso_b: "• Ciências Humanas e Sociais", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
-
-        curso_c: "• Comércio - (EaD - On-line)", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        curso_b: "• Comércio - (EaD - On-line)", /* inseri esta linha */
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/46",
         
-        curso_d: "• Comércio", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
+        curso_c: "• Comércio", /* inseri esta linha */
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/98",
 
         points: 0
     },
@@ -213,20 +210,17 @@ export const petrs = [
         img: "./imgs/quiz/linguistica.gif",
         description: "Cursos técnicos e livres sugeridos: ",
 
-        curso_a: "• Ensino Médio - Linguagens", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        curso_a: "• Ensino Médio - Linguagens, Ciências Humanas e Sociais", /* inseri esta linha */
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/27",
 
-        curso_b: "• Ciências Humanas e Sociais", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        curso_b: "• Comércio - (EaD - On-line)", /* inseri esta linha */
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/46",
 
-        curso_c: "• Comércio - (EaD - On-line)", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        curso_c: "• Comércio", /* inseri esta linha */
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/98",
 
-        curso_d: "• Comércio", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
-
-        curso_e: "• Teatro", /* inseri esta linha */
-        url_e: "https://eduimpulso.herokuapp.com/descricao",
+        curso_d: "• Teatro", /* inseri esta linha */
+        url_e: "https://eduimpulso.herokuapp.com/carreiras/126",
 
         points: 0
     },
@@ -237,103 +231,103 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
         
         curso_a: "• Contabilidade", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/20",
 
         curso_b: "• Desenvolvimento de Sistemas", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/25",
 
         curso_c: "• Desenvolvimento de Sistemas - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/32",
 
         curso_d: "• Desenvolvimento de Sistemas (EaD - On-line)", /* inseri esta linha */
-        url_d: "https://eduimpulso.herokuapp.com/descricao",
+        url_d: "https://eduimpulso.herokuapp.com/carreiras/47",
 
         curso_e: "• Desenvolvimento de Sistemas Integrado ao Ensino Médio", /* inseri esta linha */
-        url_e: "https://eduimpulso.herokuapp.com/descricao",
+        url_e: "https://eduimpulso.herokuapp.com/carreiras/32",
 
         curso_f: "• Eletroeletrônica", /* inseri esta linha */
-        url_f: "https://eduimpulso.herokuapp.com/descricao",
+        url_f: "https://eduimpulso.herokuapp.com/carreiras/102",
 
         curso_g: "• Eletrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_g: "https://eduimpulso.herokuapp.com/descricao",
+        url_g: "https://eduimpulso.herokuapp.com/carreiras/8",
 
         curso_h: "• Eletrônica (com até 20% online)", /* inseri esta linha */
-        url_h: "https://eduimpulso.herokuapp.com/descricao",
+        url_h: "https://eduimpulso.herokuapp.com/carreiras/48",
 
         curso_i: "• Eletrônica", /* inseri esta linha */
-        url_i: "https://eduimpulso.herokuapp.com/descricao",
+        url_i: "https://eduimpulso.herokuapp.com/carreiras/6",
 
         curso_j: "• Eletrotécnica", /* inseri esta linha */
-        url_j: "https://eduimpulso.herokuapp.com/descricao",
+        url_j: "https://eduimpulso.herokuapp.com/carreiras/49",
 
         curso_k: "• Ensino Médio com Habilitação Profissional de Técnico em Desenvolvimento de Sistemas - Novotec integrado", /* inseri esta linha */
-        url_k: "https://eduimpulso.herokuapp.com/descricao",
+        url_k: "https://eduimpulso.herokuapp.com/carreiras/52",
 
         curso_l: "• Ensino Médio com Habilitação Profissional de Técnico em Eletrônica - Novotec integrado", /* inseri esta linha */
-        url_l: "https://eduimpulso.herokuapp.com/descricao",
+        url_l: "https://eduimpulso.herokuapp.com/carreiras/54",
 
         curso_m: "• Ensino Médio com Habilitação Profissional de Técnico em Informática Para Internet - Novotec integrado", /* inseri esta linha */
-        url_m: "https://eduimpulso.herokuapp.com/descricao",
+        url_m: "https://eduimpulso.herokuapp.com/carreiras/34",
 
         curso_n: "• Ensino Médio com Habilitação Profissional de Técnico em Manutenção Automotiva - Novotec integrado", /* inseri esta linha */
-        url_n: "https://eduimpulso.herokuapp.com/descricao",
+        url_n: "https://eduimpulso.herokuapp.com/carreiras/56",
 
         curso_o: "• Ensino Médio com Habilitação Profissional de Técnico em Mecatrônica - Novotec integrado", /* inseri esta linha */
-        url_o: "https://eduimpulso.herokuapp.com/descricao",
+        url_o: "https://eduimpulso.herokuapp.com/carreiras/107",
 
         curso_p: "• Ensino Médio com Habilitação Profissional de Técnico em Química - Novotec integrado", /* inseri esta linha */
-        url_p: "https://eduimpulso.herokuapp.com/descricao",
+        url_p: "https://eduimpulso.herokuapp.com/carreiras/71",
 
         curso_q: "• Informática (Nova Matriz)", /* inseri esta linha */
-        url_q: "https://eduimpulso.herokuapp.com/descricao",
+        url_q: "https://eduimpulso.herokuapp.com/carreiras/87",
 
         curso_r: "• Informática para Internet", /* inseri esta linha */
-        url_r: "https://eduimpulso.herokuapp.com/descricao",
+        url_r: "https://eduimpulso.herokuapp.com/carreiras/111",
 
         curso_s: "• Informática para Internet - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_s: "https://eduimpulso.herokuapp.com/descricao",
+        url_s: "https://eduimpulso.herokuapp.com/carreiras/112",
 
         curso_t: "• Manutenção Automotiva", /* inseri esta linha */
-        url_t: "https://eduimpulso.herokuapp.com/descricao",
+        url_t: "https://eduimpulso.herokuapp.com/carreiras/60",
 
         curso_u: "• Manutenção e Suporte em Informática", /* inseri esta linha */
-        url_u: "https://eduimpulso.herokuapp.com/descricao",
+        url_u: "https://eduimpulso.herokuapp.com/carreiras/38",
 
         curso_v: "• Química", /* inseri esta linha */
-        url_v: "https://eduimpulso.herokuapp.com/descricao",
+        url_v: "https://eduimpulso.herokuapp.com/carreiras/17",
 
         curso_w: "• Química - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_w: "https://eduimpulso.herokuapp.com/descricao",
+        url_w: "https://eduimpulso.herokuapp.com/carreiras/117",
 
         curso_x: "• Automação Industrial", /* inseri esta linha */
-        url_x: "https://eduimpulso.herokuapp.com/descricao",
+        url_x: "https://eduimpulso.herokuapp.com/carreiras/0",
 
         curso_y: "• Design de Interiores - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_y: "https://eduimpulso.herokuapp.com/descricao",
+        url_y: "https://eduimpulso.herokuapp.com/carreiras/3",
 
         curso_z: "• Automação Industrial - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_z: "https://eduimpulso.herokuapp.com/descricao",
+        url_z: "https://eduimpulso.herokuapp.com/carreiras/1",
 
         curso_aa: "• Edificações", /* inseri esta linha */
-        url_aa: "https://eduimpulso.herokuapp.com/descricao",
+        url_aa: "https://eduimpulso.herokuapp.com/carreiras/4",
 
         curso_ab: "• Edificações - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_ab: "https://eduimpulso.herokuapp.com/descricao",
+        url_ab: "https://eduimpulso.herokuapp.com/carreiras/5",
 
         curso_ac: "• Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial - Novotec integrado", /* inseri esta linha */
-        url_ac: "https://eduimpulso.herokuapp.com/descricao",
+        url_ac: "https://eduimpulso.herokuapp.com/carreiras/105",
 
         curso_ad: "• Ensino Médio com Habilitação Profissional de Técnico em Mecânica - Novotec integrado", /* inseri esta linha */
-        url_ad: "https://eduimpulso.herokuapp.com/descricao",
+        url_ad: "https://eduimpulso.herokuapp.com/carreiras/107",
 
         curso_ae: "• Mecânica", /* inseri esta linha */
-        url_ae: "https://eduimpulso.herokuapp.com/descricao",
+        url_ae: "https://eduimpulso.herokuapp.com/carreiras/9",
 
         curso_af: "• Mecatrônica", /* inseri esta linha */
-        url_af: "https://eduimpulso.herokuapp.com/descricao",
+        url_af: "https://eduimpulso.herokuapp.com/carreiras/10",
 
         curso_ag: "• Mecatrônica - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_ag: "https://eduimpulso.herokuapp.com/descricao",
+        url_ag: "https://eduimpulso.herokuapp.com/carreiras/11",
 
         points: 0
     },
@@ -344,10 +338,10 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Regência", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/carreiras/98",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/123",
 
         curso_b: "• Canto", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/carreiras/99",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/125",
 
         points: 0
     },
@@ -358,13 +352,13 @@ export const petrs = [
         description: "Cursos técnicos e livres sugeridos: ",
 
         curso_a: "• Meio Ambiente", /* inseri esta linha */
-        url_a: "https://eduimpulso.herokuapp.com/descricao",
+        url_a: "https://eduimpulso.herokuapp.com/carreiras/12",
 
         curso_b: "• Meio Ambiente - Integrado ao Ensino Médio", /* inseri esta linha */
-        url_b: "https://eduimpulso.herokuapp.com/descricao",
+        url_b: "https://eduimpulso.herokuapp.com/carreiras/13",
 
         curso_c: "• Ensino Médio com Habilitação Profissional de Técnico em Meio Ambiente - Novotec integrado", /* inseri esta linha */
-        url_c: "https://eduimpulso.herokuapp.com/descricao",
+        url_c: "https://eduimpulso.herokuapp.com/carreiras/108",
 
         points: 0
     },
