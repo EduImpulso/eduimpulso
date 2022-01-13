@@ -115,7 +115,7 @@ Nota 1:  Devido a hospedagem ser viabilizada de forma gratuita, o tempo de requi
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
-|**Flavio Gomes**|Scrum Master Desenvolvedor|[@LinkedIn](https://www.linkedin.com/in/flaviogomesbr/)|[@GitHub](https://github.com/flaviogomesbr)|<img src = "src/img/flavio.jpeg" width="50" height="50"/>|
+|**Flavio Gomes**|Scrum Master, Product Owner e Desenvolvedor|[@LinkedIn](https://www.linkedin.com/in/flaviogomesbr/)|[@GitHub](https://github.com/flaviogomesbr)|<img src = "src/img/flavio.jpeg" width="50" height="50"/>|
 |**Gustavo Castanho**|Desenvolvedor| [@LinkedIn](https://www.linkedin.com/in/gustavo-castanho-duarte-578127160/)|[@GitHub](https://github.com/duartecgustavo)|<img src = "src/img/gustavo.jpeg" width="50" height="50"/>|
 |**Luzia Almeida**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/luzia-almeida-902586208/)|[@GitHub](https://github.com/LuAlmeida88)|<img src = "src/img/luzia.jpeg" width="50" height="50"/>|
 |**Nathally Souza**|Desenvolvedora| [@LinkedIn](https://www.linkedin.com/in/nathsouza/)|[@GitHub](https://github.com/nathyts)|<img src = "src/img/nathally.jpeg" width="50" height="50"/>|
