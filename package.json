@@ -2,7 +2,7 @@
   "name": "eduimpulso",
   "version": "3.0.0",
   "engines": {
-    "node": "15.x"
+    "node": "18.x"
   },
   "private": true,
   "dependencies": {
